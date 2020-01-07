@@ -1007,11 +1007,11 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>Lilu</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
+        <tag>Lilu</tag>
         <tag>Plugins</tag>
         <tag>常见问题</tag>
         <tag>Clover</tag>
@@ -1213,8 +1213,8 @@
         <tag>Sierra</tag>
         <tag>10.12.6</tag>
         <tag>镜像</tag>
-        <tag>dmg</tag>
         <tag>安装</tag>
+        <tag>dmg</tag>
       </tags>
   </entry>
   <entry>
