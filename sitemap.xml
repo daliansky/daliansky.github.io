@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
+    
+    <lastmod>2020-01-18T02:02:15.464Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.daliansky.net/Mojave-Hardware-Support-List.html</loc>
+    
+    <lastmod>2020-01-15T07:26:25.027Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html</loc>
     
-    <lastmod>2020-01-09T00:19:11.570Z</lastmod>
+    <lastmod>2020-01-13T05:12:32.612Z</lastmod>
     
   </url>
   
@@ -408,13 +422,6 @@
   </url>
   
   <url>
-    <loc>https://blog.daliansky.net/Mojave-Hardware-Support-List.html</loc>
-    
-    <lastmod>2019-12-30T07:57:58.161Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.daliansky.net/Mac-frequently-used-to-the-command---continuous-update.html</loc>
     
     <lastmod>2019-12-30T07:57:58.161Z</lastmod>
@@ -488,13 +495,6 @@
     <loc>https://blog.daliansky.net/Mac-Sierra-and-High-Sierra-Installer-App-Download.html</loc>
     
     <lastmod>2019-12-30T07:57:58.160Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
-    
-    <lastmod>2019-12-30T07:57:58.159Z</lastmod>
     
   </url>
   
