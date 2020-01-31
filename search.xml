@@ -721,8 +721,8 @@
       </categories>
       <tags>
         <tag>AppleALC</tag>
-        <tag>AppleHDA</tag>
         <tag>声卡仿冒</tag>
+        <tag>AppleHDA</tag>
       </tags>
   </entry>
   <entry>
@@ -958,8 +958,8 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>Lilu</tag>
         <tag>CPUFriend</tag>
+        <tag>Lilu</tag>
         <tag>Plugins</tag>
         <tag>CPU变频</tag>
         <tag>插件</tag>
@@ -991,9 +991,9 @@
         <category>教程</category>
       </categories>
       <tags>
+        <tag>Lilu</tag>
         <tag>AppleALC</tag>
         <tag>Codec</tag>
-        <tag>Lilu</tag>
       </tags>
   </entry>
   <entry>
@@ -1025,11 +1025,11 @@
       </categories>
       <tags>
         <tag>Lilu</tag>
+        <tag>Plugins</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
-        <tag>Plugins</tag>
         <tag>常见问题</tag>
         <tag>Clover</tag>
         <tag>platform-id</tag>
