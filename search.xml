@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[联想小新PRO 13 2019兼macOS Catalina安装教程]]></title>
     <url>%2FLenovo-Xiaoxin-PRO-13-2019-and-macOS-Catalina-Installation-Tutorial.html</url>
-    <content type="text"><![CDATA[联想小新PRO 13 2019兼macOS Catalina安装教程写作/安装流程：1.下载镜像；2.刻盘；3.安装；4.替换/完善EFI； 电脑配置规格详细信息电脑型号联想小新 PRO 13 2019 IML 笔记本电脑操作系统macOS Catalina 10.15.x / macOS Mojave 10.14处理器Intel® Core™ i7-10710U CPU @ 1.10GHz(6C12T)Intel® Core™ i5-10210U CPU @ 1.60GHz(4C8T)内存16 GB 2666 MHz DDR4硬盘三星PM981a：SAMSUNG MZVLB512HBJQ-000L2忆联AH530INTEL 760PHynix PC601显卡Intel UHD Graphics 620 8086:9BCA(Comet Lake)(显卡仿冒：注入platform-id:0x3ea50004)显示器2.5K QHD 16:10 2560x1600 (13.3 英寸)声卡ALC257 (layout-id:99)网卡INTEL AX201 建议更换为 DW1820A 制作macOS Catalina安装盘 准备工具U盘至少16G系统镜像下载：点击前往balenaEtcher 制作安装镜像镜像制作：下载balenaEtcher，打开镜像，选择U盘，点击Flash即可 替换EFI安装过程中不要先替换EFI，等安装全部结果后再执行替换EFI的操作小新PRO 13 2019 i7-10710U版本请先替换EFI再安装，EFI下载地址：https://github.com/daliansky/XiaoXinPro-13-2019-hackintosh 小新BIOS设置开机按F2或者Fn+F2键进入BIOS设置先查看 Information：Secure Boot 是否为 Disabled;如果 Secure Boot 是 Enabled，选择左边到 Security： 设置 Secure Boot 为 Disabled;Fn+F10 保存设置 安装系统开机，按F12选择U盘引导，光标移动到EFI USB Device选择CLOVER分区启动：进入CLOVER Bootloader主界面在Clover主界面按字母o进入选项，光标移动到configs回车，选择config_Install按两次ESC键返回到Clover主界面，在卷标Boot macOS Install from Install macOS Catalina直接回车，开始引导macOS，这期间会显示安装日志，也就是常见的-V 啰嗦模式，如果很不幸卡住了，请拍照发到群里寻求帮助，也可以移步：macOS Catalina 10.15安装中常见的问题及解决方法 ；不会操作CLOVER的请事先补课：Clover使用教程很多的机友都是会在这个地方翻车。出现问题请进群反馈，请提供翻车照片及机器配置图。不提供任何信息直接发问就是耍流氓这个过程需要1-2分钟,耐心等待，进入安装程序,出现语言选择界面选择简体中文，点击继续出现安装界面选择磁盘工具，点击继续`进入磁盘工具，点击窗口左上角，选择显示所有设备在磁盘工具里面所做的操作涉及到你的数据安全，请认真仔细确认后再操作，否则由此造成的一切后果本站概不承担。选择APPLE SSD macOS-0 SSD Media本例中为虚拟机中的磁盘名称，请根据你的设备选择相应的磁盘点击抹掉， 假设您的磁盘是空的或者数据是已经备份过的,别怪我没提醒你!!!在弹出的窗口中输入：名称：Macintosh HD；格式：APFS；方案：GUID分区图，在点击抹掉按钮之前，请再次确认你的磁盘已经提前做了数据备份点击抹除，然后等待操作结束点击完成，通过菜单选择退出磁盘工具或者按窗口左上角红色按钮离开磁盘工具返回到安装界面选择安装macOS，点击继续弹出安装maOS Catalina界面，点击继续点击同意阅读许可协议的条款，点击 同意选择将要安装的磁盘卷标Macintosh HD，点击安装它会把USB安装盘上的安装文件预复制到要安装的系统分区里，这个过程通常会持续1-2分钟重启后继续安装，在安装期间，通常会自动重启2-3遍之所以有重启的动作是因为从macOS 10.13.x开始，苹果公司将默认的HFS磁盘分区强行换成APFS分区，它会在第二次重启之后做 HFS ▸ APFS 转换的动作，转换成功后，继续安装过程。系统重启后，CLOVER引导界面会多出几个卷标，请选择Boot macOS Install form Macintosh HD卷标继续安装 在系统安装过程中，请总是选择Boot macOS Install form Macintosh HD卷标继续安装，安装完成后，卷标名称将变更为：Boot macOS form Macintosh HD第二阶段的安装会有两种界面,一种是不进安装界面直接安装,另一种是先进入安装界面直接安装,需要注意的是,无论是哪一种界面下,安装的过程中全程是禁用鼠标和键盘的,需要你做的只是耐心等待它安装完成 设置向导选择国家：中国设置键盘你可以添加自己熟悉的输入法，然后点击继续，出现数据与隐私，阅读后点击继续选择不传输任何信息，点击继续点击稍后设置出现您确定要中法使用Apple ID来登录吗？，点击跳过出现条款与条件，点击同意出现我已经阅读并同意&quot;macOS软件许可协议&quot;，点击同意出现创建电脑用户的窗口,输入用户名和密码,点击继续 创建电脑用户系统会创建初始用户，接着进行快捷设置出现分析界面，取消勾选与App开发共享崩溃与使用数据，点击继续出现屏幕使用时间，点击稍后设置，点击继续出现Siri设置界面，点击继续弹出界面，让你选择外观，您可以根据个人的喜好选择浅色主题或者深色主题，点击继续根据个人喜好选择外观，点击继续出现正在设置您的Mac,请稍候完成设置向导设置向导完成，根据选择主题的不同，分别进入不同的界面 进入桌面出现桌面后,整个的安装向导就完成了。 安装后的系统设置系统安装后,你可以先喝杯咖啡兴奋会儿,马上还有更艰巨的任务在等着你呢先打开终端，输入几行命令：12sudo spctl --master-disablesudo kextcache -i / # 小新PRO请务必执行重建缓存的动作 教你将U盘上的EFI复制到磁盘的EFI分区,脱离USB运行[macOS篇]新的系统安装成功后，EFI还位于U盘里，总不能一直挂着U盘使用系统吧。这个时候如果你想将U盘里的EFI复制到磁盘的EFI分区里，却苦于找不到看不见EFI分区，这个时候是该让diskutil登场了。diskutil命令的基本用法： 查看磁盘分区表1diskutil list/dev/disk0(internal, physical):#:TYPENAMESIZEIDENTIFIER0:GUID_partition_scheme256 GBdisk01:EFIEFI200 MBdisk0s12:Apple_HFSMAC128 GBdisk0s23:Microsoft Basic DataWIN10127.7 GBdisk0s3/dev/disk1(internal, physical):#:TYPENAMESIZEIDENTIFIER0:GUID_partition_scheme16 GBdisk11:EFIEFI200 MBdisk1s12:Apple_HFSInstall macOS Sierra15.8 GBdisk1s2 挂载磁盘EFI分区1sudo diskutil mount disk0s1 挂载U盘EFI分区1sudo diskutil mount disk1s1打开Finder，注意后面有个.1open .左侧会显示挂载了两个EFI分区，将U盘EFI目录全部复制到磁盘的EFI分区即可。 合并EFI分区这里有一点需要注意:如果之前安装过Windows系统的话,会存在EFI的目录,只是EFI的目录下面只有BOOT和Microsoft这两个目录,如果希望添加macOS的Clover引导的话,可以将USB的EFI分区里面的EFI目录下面的CLOVER复制到磁盘里的EFI目录下,也就是执行的是**合并**的操作,让EFI同时支持WINDOWS和macOS的引导.千万不要全部复制,否则有可能造成EFI无法启动Windows. 复制EFI分区如果磁盘上的EFI分区里为空的,可以直接将USB的EFI分区下面的EFI目录直接复制到磁盘上的EFI分区里. 教你将U盘上的EFI复制到磁盘的EFI分区,脱离USB运行[Windows篇] 挂载EFI分区Windows操作系统下面,打开cmd窗口,输入命令:1234567diskpartlist disk # 磁盘列表select disk n # 选择EFI分区所在的磁盘，n为磁盘号list partition # 磁盘分区列表select partition n # 选择EFI分区，n为EFI分区号set id="ebd0a0a2-b9e5-4433-87c0-68b6b72699c7" # 设置为EFI分区assign letter=X # x为EFI分区盘符您可以重复输入命令同时挂载USB的EFI分区和磁盘的EFI分区打开资源管理器，会出现一个盘符为X的磁盘，格式化为fat32格式,将USB的EFI分区下面的EFI目录复制到安装磁盘的EFI分区下 合并EFI分区这里有一点需要注意:如果之前安装过Windows系统的话,会存在EFI的目录,只是EFI的目录下面只有BOOT和Microsoft这两个目录,如果希望添加macOS的Clover引导的话,可以将USB的EFI分区里面的EFI目录下面的CLOVER复制到磁盘里的EFI目录下,也就是执行的是合并 的操作,让EFI同时支持WINDOWS和macOS的引导.千万不要全部复制,否则有可能造成EFI无法启动Windows. 复制EFI分区如果磁盘上的EFI分区里为空的,可以直接将USB的EFI分区下面的EFI目录直接复制到磁盘上的EFI分区里. 添加UEFI引导选项使用工具:BOOTICE 操作过程:打开BOOTICE软件,选择物理磁盘,选择欲操作的目标磁盘,点击分区管理,弹出分区管理的窗口,点击分配盘符,为ESP分区分配一个盘符,点击确定选择UEFI,点击修改启动序列,点击添加按钮,菜单标题填写:CLOVER,选择启动文件,在打开的窗口里选择ESP分区下的目录\EFI\CLOVER\CLOVERX64.EFI,点击保存当前启动项设置 完善驱动声卡：型号为ALC257，注入ID：99，使用AppleALC仿冒，顺利加载；目前Mic工作不正常，后期会跟踪处理；网卡：INTEL的网卡截止到目前还是无解，更换为DW1820A；显卡：Intel UHD Graphics 620，Comet Lake平台目前还没有驱动程序，使用Coffee Lake仿冒驱动，Platform-id为：0x3ea50004，添加DVMT补丁；采用Devices-Properties方法注入；核显外接DP/HDMI显示器工作正常；WIFI/蓝牙工作正常；隔空投送/空中接力工作正常；睡眠唤醒工作正常；电池信息正常；触摸板：使用 VoodooI2C 驱动，多手势全功能正常工作；显示器亮度调节正常；亮度调节快捷键：F11 和 F12USB端口已定制；摄像头、无线网卡已内建，避免睡眠问题； 系统截图 小新PRO 13 2019 IML EFI下载/更新链接：https://github.com/daliansky/XiaoXinPro-13-2019-hackintosh 特别鸣谢:@宪武 为联想系统机型制作了全套的hotpatch]]></content>
+    <content type="text"><![CDATA[联想小新PRO 13 2019兼macOS Catalina安装教程写作/安装流程：1.下载镜像；2.刻盘；3.安装；4.替换/完善EFI； 电脑配置规格详细信息电脑型号联想小新 PRO 13 2019 IML 笔记本电脑操作系统macOS Catalina 10.15.x / macOS Mojave 10.14处理器Intel® Core™ i7-10710U CPU @ 1.10GHz(6C12T)Intel® Core™ i5-10210U CPU @ 1.60GHz(4C8T)内存16 GB 2666 MHz DDR4硬盘三星PM981a：SAMSUNG MZVLB512HBJQ-000L2忆联AH530INTEL 760PHynix PC601显卡Intel UHD Graphics 620 8086:9BCA(Comet Lake)(显卡仿冒：注入platform-id:0x3ea50004)显示器2.5K QHD 16:10 2560x1600 (13.3 英寸)声卡ALC257 (layout-id:99)网卡INTEL AX201 建议更换为 DW1820A 制作macOS Catalina安装盘 准备工具U盘至少16G系统镜像下载：点击前往balenaEtcher 制作安装镜像镜像制作：下载balenaEtcher，打开镜像，选择U盘，点击Flash即可 替换EFI安装过程中不要先替换EFI，等安装全部结果后再执行替换EFI的操作小新PRO 13 2019 i7-10710U版本请先替换EFI再安装，EFI下载地址：https://github.com/daliansky/XiaoXinPro-13-2019-hackintosh 小新BIOS设置开机按F2或者Fn+F2键进入BIOS设置先查看 Information：Secure Boot 是否为 Disabled;如果 Secure Boot 是 Enabled，选择左边到 Security： 设置 Secure Boot 为 Disabled;Fn+F10 保存设置 安装系统开机，按F12选择U盘引导，光标移动到EFI USB Device选择CLOVER分区启动：进入CLOVER Bootloader主界面在Clover主界面按字母o进入选项，光标移动到configs回车，选择config_Install按两次ESC键返回到Clover主界面，在卷标Boot macOS Install from Install macOS Catalina直接回车，开始引导macOS，这期间会显示安装日志，也就是常见的-V 啰嗦模式，如果很不幸卡住了，请拍照发到群里寻求帮助，也可以移步：macOS Catalina 10.15安装中常见的问题及解决方法 ；不会操作CLOVER的请事先补课：Clover使用教程很多的机友都是会在这个地方翻车。出现问题请进群反馈，请提供翻车照片及机器配置图。不提供任何信息直接发问就是耍流氓这个过程需要1-2分钟,耐心等待，进入安装程序,出现语言选择界面选择简体中文，点击继续出现安装界面选择磁盘工具，点击继续进入磁盘工具，点击窗口左上角，选择显示所有设备在磁盘工具里面所做的操作涉及到你的数据安全，请认真仔细确认后再操作，否则由此造成的一切后果本站概不承担。选择APPLE SSD macOS-0 SSD Media本例中为虚拟机中的磁盘名称，请根据你的设备选择相应的磁盘点击抹掉，假设您的磁盘是空的或者数据是已经备份过的,别怪我没提醒你!!!在弹出的窗口中输入：名称：Macintosh HD；格式：APFS；方案：GUID分区图，在点击抹掉按钮之前，请再次确认你的磁盘已经提前做了数据备份点击抹除，然后等待操作结束点击完成，通过菜单选择退出磁盘工具或者按窗口左上角红色按钮离开磁盘工具返回到安装界面选择安装macOS，点击继续弹出安装maOS Catalina界面，点击继续点击同意阅读许可协议的条款，点击 同意选择将要安装的磁盘卷标Macintosh HD，点击安装它会把USB安装盘上的安装文件预复制到要安装的系统分区里，这个过程通常会持续1-2分钟重启后继续安装，在安装期间，通常会自动重启2-3遍之所以有重启的动作是因为从macOS 10.13.x开始，苹果公司将默认的HFS磁盘分区强行换成APFS分区，它会在第二次重启之后做 HFS ▸ APFS 转换的动作，转换成功后，继续安装过程。系统重启后，CLOVER引导界面会多出几个卷标，请选择Boot macOS Install form Macintosh HD卷标继续安装 在系统安装过程中，请总是选择Boot macOS Install form Macintosh HD卷标继续安装，安装完成后，卷标名称将变更为：Boot macOS form Macintosh HD第二阶段的安装会有两种界面,一种是不进安装界面直接安装,另一种是先进入安装界面直接安装,需要注意的是,无论是哪一种界面下,安装的过程中全程是禁用鼠标和键盘的,需要你做的只是耐心等待它安装完成 设置向导选择国家：中国设置键盘你可以添加自己熟悉的输入法，然后点击继续，出现数据与隐私，阅读后点击继续选择不传输任何信息，点击继续点击稍后设置出现您确定要中法使用Apple ID来登录吗？，点击跳过出现条款与条件，点击同意出现我已经阅读并同意&quot;macOS软件许可协议&quot;，点击同意出现创建电脑用户的窗口,输入用户名和密码,点击继续 创建电脑用户系统会创建初始用户，接着进行快捷设置出现分析界面，取消勾选与App开发共享崩溃与使用数据，点击继续出现屏幕使用时间，点击稍后设置，点击继续出现Siri设置界面，点击继续弹出界面，让你选择外观，您可以根据个人的喜好选择浅色主题或者深色主题，点击继续根据个人喜好选择外观，点击继续出现正在设置您的Mac,请稍候完成设置向导设置向导完成，根据选择主题的不同，分别进入不同的界面 进入桌面出现桌面后,整个的安装向导就完成了。 安装后的系统设置系统安装后,你可以先喝杯咖啡兴奋会儿,马上还有更艰巨的任务在等着你呢先打开终端，输入几行命令：12sudo spctl --master-disablesudo kextcache -i / # 小新PRO请务必执行重建缓存的动作 教你将U盘上的EFI复制到磁盘的EFI分区,脱离USB运行[macOS篇]新的系统安装成功后，EFI还位于U盘里，总不能一直挂着U盘使用系统吧。这个时候如果你想将U盘里的EFI复制到磁盘的EFI分区里，却苦于找不到看不见EFI分区，这个时候是该让diskutil登场了。diskutil命令的基本用法： 查看磁盘分区表1diskutil list/dev/disk0(internal, physical):#:TYPENAMESIZEIDENTIFIER0:GUID_partition_scheme256 GBdisk01:EFIEFI200 MBdisk0s12:Apple_HFSMAC128 GBdisk0s23:Microsoft Basic DataWIN10127.7 GBdisk0s3/dev/disk1(internal, physical):#:TYPENAMESIZEIDENTIFIER0:GUID_partition_scheme16 GBdisk11:EFIEFI200 MBdisk1s12:Apple_HFSInstall macOS Sierra15.8 GBdisk1s2 挂载磁盘EFI分区1sudo diskutil mount disk0s1 挂载U盘EFI分区1sudo diskutil mount disk1s1打开Finder，注意后面有个.1open .左侧会显示挂载了两个EFI分区，将U盘EFI目录全部复制到磁盘的EFI分区即可。 合并EFI分区这里有一点需要注意:如果之前安装过Windows系统的话,会存在EFI的目录,只是EFI的目录下面只有BOOT和Microsoft这两个目录,如果希望添加macOS的Clover引导的话,可以将USB的EFI分区里面的EFI目录下面的CLOVER复制到磁盘里的EFI目录下,也就是执行的是**合并**的操作,让EFI同时支持WINDOWS和macOS的引导.千万不要全部复制,否则有可能造成EFI无法启动Windows. 复制EFI分区如果磁盘上的EFI分区里为空的,可以直接将USB的EFI分区下面的EFI目录直接复制到磁盘上的EFI分区里. 教你将U盘上的EFI复制到磁盘的EFI分区,脱离USB运行[Windows篇] 挂载EFI分区Windows操作系统下面,打开cmd窗口,输入命令:1234567diskpartlist disk # 磁盘列表select disk n # 选择EFI分区所在的磁盘，n为磁盘号list partition # 磁盘分区列表select partition n # 选择EFI分区，n为EFI分区号set id="ebd0a0a2-b9e5-4433-87c0-68b6b72699c7" # 设置为EFI分区assign letter=X # x为EFI分区盘符您可以重复输入命令同时挂载USB的EFI分区和磁盘的EFI分区打开资源管理器，会出现一个盘符为X的磁盘，格式化为fat32格式,将USB的EFI分区下面的EFI目录复制到安装磁盘的EFI分区下 合并EFI分区这里有一点需要注意:如果之前安装过Windows系统的话,会存在EFI的目录,只是EFI的目录下面只有BOOT和Microsoft这两个目录,如果希望添加macOS的Clover引导的话,可以将USB的EFI分区里面的EFI目录下面的CLOVER复制到磁盘里的EFI目录下,也就是执行的是合并 的操作,让EFI同时支持WINDOWS和macOS的引导.千万不要全部复制,否则有可能造成EFI无法启动Windows. 复制EFI分区如果磁盘上的EFI分区里为空的,可以直接将USB的EFI分区下面的EFI目录直接复制到磁盘上的EFI分区里. 添加UEFI引导选项使用工具:BOOTICE 操作过程:打开BOOTICE软件,选择物理磁盘,选择欲操作的目标磁盘,点击分区管理,弹出分区管理的窗口,点击分配盘符,为ESP分区分配一个盘符,点击确定选择UEFI,点击修改启动序列,点击添加按钮,菜单标题填写:CLOVER,选择启动文件,在打开的窗口里选择ESP分区下的目录\EFI\CLOVER\CLOVERX64.EFI,点击保存当前启动项设置 完善驱动声卡：型号为ALC257，注入ID：99，使用AppleALC仿冒，顺利加载；目前Mic工作不正常，后期会跟踪处理；网卡：INTEL的网卡截止到目前还是无解，更换为DW1820A；显卡：Intel UHD Graphics 620，Comet Lake平台目前还没有驱动程序，使用Coffee Lake仿冒驱动，Platform-id为：0x3ea50004，添加DVMT补丁；采用Devices-Properties方法注入；核显外接DP/HDMI显示器工作正常；WIFI/蓝牙工作正常；隔空投送/空中接力工作正常；睡眠唤醒工作正常；电池信息正常；触摸板：使用 VoodooI2C 驱动，多手势全功能正常工作；显示器亮度调节正常；亮度调节快捷键：F11 和 F12USB端口已定制；摄像头、无线网卡已内建，避免睡眠问题； 系统截图 小新PRO 13 2019 IML EFI下载/更新链接：https://github.com/daliansky/XiaoXinPro-13-2019-hackintosh 特别鸣谢:@宪武 为联想系统机型制作了全套的hotpatch]]></content>
       <categories>
         <category>教程</category>
       </categories>
@@ -324,9 +324,9 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>黑屏</tag>
         <tag>UHD 630</tag>
         <tag>CoffeeLake</tag>
+        <tag>黑屏</tag>
         <tag>亮屏</tag>
         <tag>亮度调整</tag>
       </tags>
@@ -356,12 +356,12 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>USB</tag>
         <tag>教程</tag>
         <tag>FB</tag>
         <tag>patcher</tag>
         <tag>framebuffer</tag>
         <tag>帧缓冲</tag>
+        <tag>USB</tag>
         <tag>audio</tag>
         <tag>VRAM</tag>
       </tags>
@@ -720,8 +720,8 @@
       </categories>
       <tags>
         <tag>EDID</tag>
-        <tag>花屏</tag>
         <tag>黑屏</tag>
+        <tag>花屏</tag>
         <tag>HIDPI</tag>
         <tag>睡眠唤醒</tag>
         <tag>内屏黑屏</tag>
@@ -737,8 +737,8 @@
       </categories>
       <tags>
         <tag>AppleALC</tag>
-        <tag>AppleHDA</tag>
         <tag>声卡仿冒</tag>
+        <tag>AppleHDA</tag>
       </tags>
   </entry>
   <entry>
@@ -746,8 +746,8 @@
     <url>%2FClover-Patched-Desktop-AppleHDA-Realtek-ALC-Audio.html</url>
     <content type="text"><![CDATA[教程 使用 CloverALC 给 AppleHDA 打补丁， 适用于台式机原生支持 AppleHDA使用 Clover 为Realtek ALC芯片打补丁，这种方法可以启用macOS AppleHDA 板载音频，无论是否带有HDMI和DP音频。 该脚本添加了编解码器特定的布局和平台文件，并将二进制补丁和引脚配置数据注入到本地安装的 AppleHDA.kext 。版本: audio_cloverALC-1x0简单: .command命令, 请看 C.安装Bash: .sh命令, 请看 D. 终端更新列表9-26-17支持10.13, 支持ALC269/ALC283支持PikeralphaALC弃用的12-14-15audio_pikeralpha-110 (Clover版本的Piker Aplha AppleHDA8Series.sh)11-8-15Skylake/100系统更新，加入ALC1150/Audio ID: 37-19-15ALC283更新6-15-1510.11 - El Capitan Realtek ALC AppleHDA.kext 初始支持A. 需求macOS/Clover_v2696及以后版本10.13/High Sierra, 关闭 SIP, 挂载 EFI10.12/Sierra, 关闭 SIP, 挂载 EFI10.11/El Capitan, 设置 boot flag: rootless=010.10/Yosemite, 设置 boot flag: kext-dev-mode=110.9/Mavericks10.8/Mountain Lionon原生的、未修改的 AppleHDA.kextNeed native?支持Realtek板载的音频编解码器Unknown codec?B. Realtek ALCxxx (验证过的编解码器和音频ID)支持的编解码器 (* 不支持 audio_pikeralpha-110)88588788888989289811501220支持的音频ID音频ID: 1支持 885, 887, 888, 889, 892, 898, 1150, 1220Realtek ALC audio (默认, 1/2/3/5/6 主板音频端口)音频ID: 2支持 887, 888, 889, 892, 898, 1150, 1220Realtek ALC/5.1声道 (3主板音频端口，2进/1出变成3出)音频ID: 3支持 887, 888, 889, 892, 898, 1150带有Realtek ALC音频的HD3000 / HD4000 HDMI音频C. 安装通过 Clover 为 AppleHDA 打补丁下载 audio_cloverALC-1x0.command双击: audio_cloverALC-1x0.commandPassword:Confirm Codec ALCxxx: (885, 887, 888, 889, 892, 898, 1150, 1220 only)Clover/Legacy: answer y to Confirm Clover Legacy Install (y/n)Clover Audio ID Injection (y/n):Use Audio ID: x (y/n):Optional: Terminal/Terminal Saved Output重启电脑验证ALC板载音频系统偏好设置/声音/输出/选择音频设备D. 终端通过 Clover 为 AppleHDA 打补丁下载 audio_cloverALC-1x0.sh打开终端1./audio_cloverALC-1x0....sh其它步骤同 C.E. 更多的信息DetailsOnboard Audio SolutionsRequirements - Supported/UnsupportedNotesGuidesToolsProblem ReportingTerminal Saved OutputClover/EFIClover/LegacyCreditTHe KiNG, bcc9, RevoGirl, PikeRAlpha, SJ_UnderWater, RehabMan, TimeWalker75a, lisai9093, abxitetoleda https://github.com/toleda/audio_cloverALC 关于打赏您的支持就是我更新的动力！如果不希望看到博主停更的话，请点击下方的 打赏 支持一下，有钱的捧个钱场，没钱的捧个人场，谢谢大家！]]></content>
       <tags>
-        <tag>Clover</tag>
         <tag>AppleHDA</tag>
+        <tag>Clover</tag>
       </tags>
   </entry>
   <entry>
@@ -915,9 +915,9 @@
         <tag>EDID</tag>
         <tag>安装</tag>
         <tag>常见问题</tag>
+        <tag>黑屏</tag>
         <tag>屏蔽独显</tag>
         <tag>花屏</tag>
-        <tag>黑屏</tag>
       </tags>
   </entry>
   <entry>
@@ -1246,8 +1246,8 @@
         <tag>Sierra</tag>
         <tag>10.12.6</tag>
         <tag>镜像</tag>
-        <tag>安装</tag>
         <tag>dmg</tag>
+        <tag>安装</tag>
       </tags>
   </entry>
   <entry>
