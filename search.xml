@@ -705,10 +705,10 @@
       </categories>
       <tags>
         <tag>USB</tag>
+        <tag>diskutil</tag>
         <tag>Ubuntu</tag>
         <tag>Linux</tag>
         <tag>dd</tag>
-        <tag>diskutil</tag>
       </tags>
   </entry>
   <entry>
@@ -1212,9 +1212,9 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>diskutil</tag>
         <tag>shell</tag>
         <tag>spctl</tag>
+        <tag>diskutil</tag>
         <tag>trimforce</tag>
         <tag>ioreg</tag>
         <tag>EDID</tag>
