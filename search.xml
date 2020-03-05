@@ -832,8 +832,8 @@
       </categories>
       <tags>
         <tag>EFI</tag>
-        <tag>Clover</tag>
         <tag>UEFI</tag>
+        <tag>Clover</tag>
         <tag>引导</tag>
       </tags>
   </entry>
@@ -974,8 +974,8 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>Lilu</tag>
         <tag>CPUFriend</tag>
+        <tag>Lilu</tag>
         <tag>Plugins</tag>
         <tag>CPU变频</tag>
         <tag>插件</tag>
@@ -1007,9 +1007,9 @@
         <category>教程</category>
       </categories>
       <tags>
+        <tag>Lilu</tag>
         <tag>AppleALC</tag>
         <tag>Codec</tag>
-        <tag>Lilu</tag>
       </tags>
   </entry>
   <entry>
@@ -1040,12 +1040,12 @@
         <category>教程</category>
       </categories>
       <tags>
+        <tag>Lilu</tag>
+        <tag>Plugins</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
-        <tag>Lilu</tag>
-        <tag>Plugins</tag>
         <tag>常见问题</tag>
         <tag>Clover</tag>
         <tag>platform-id</tag>
