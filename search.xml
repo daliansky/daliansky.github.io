@@ -832,8 +832,8 @@
       </categories>
       <tags>
         <tag>EFI</tag>
-        <tag>UEFI</tag>
         <tag>Clover</tag>
+        <tag>UEFI</tag>
         <tag>引导</tag>
       </tags>
   </entry>
@@ -1040,11 +1040,11 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>Lilu</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
+        <tag>Lilu</tag>
         <tag>Plugins</tag>
         <tag>常见问题</tag>
         <tag>Clover</tag>
