@@ -660,8 +660,8 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>接口</tag>
         <tag>platform-id</tag>
+        <tag>接口</tag>
         <tag>显存</tag>
         <tag>显示器</tag>
       </tags>
@@ -705,10 +705,10 @@
       </categories>
       <tags>
         <tag>USB</tag>
-        <tag>diskutil</tag>
         <tag>Ubuntu</tag>
         <tag>Linux</tag>
         <tag>dd</tag>
+        <tag>diskutil</tag>
       </tags>
   </entry>
   <entry>
@@ -737,8 +737,8 @@
       </categories>
       <tags>
         <tag>AppleALC</tag>
-        <tag>声卡仿冒</tag>
         <tag>AppleHDA</tag>
+        <tag>声卡仿冒</tag>
       </tags>
   </entry>
   <entry>
@@ -1212,9 +1212,9 @@
         <category>教程</category>
       </categories>
       <tags>
+        <tag>diskutil</tag>
         <tag>shell</tag>
         <tag>spctl</tag>
-        <tag>diskutil</tag>
         <tag>trimforce</tag>
         <tag>ioreg</tag>
         <tag>EDID</tag>
