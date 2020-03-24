@@ -356,12 +356,12 @@
         <category>教程</category>
       </categories>
       <tags>
+        <tag>USB</tag>
         <tag>教程</tag>
         <tag>FB</tag>
         <tag>patcher</tag>
         <tag>framebuffer</tag>
         <tag>帧缓冲</tag>
-        <tag>USB</tag>
         <tag>audio</tag>
         <tag>VRAM</tag>
       </tags>
@@ -974,8 +974,8 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>Lilu</tag>
         <tag>CPUFriend</tag>
+        <tag>Lilu</tag>
         <tag>Plugins</tag>
         <tag>CPU变频</tag>
         <tag>插件</tag>
@@ -1007,9 +1007,9 @@
         <category>教程</category>
       </categories>
       <tags>
+        <tag>Lilu</tag>
         <tag>AppleALC</tag>
         <tag>Codec</tag>
-        <tag>Lilu</tag>
       </tags>
   </entry>
   <entry>
@@ -1041,11 +1041,11 @@
       </categories>
       <tags>
         <tag>Lilu</tag>
+        <tag>Plugins</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
-        <tag>Plugins</tag>
         <tag>常见问题</tag>
         <tag>Clover</tag>
         <tag>platform-id</tag>
@@ -1063,10 +1063,10 @@
       </categories>
       <tags>
         <tag>AppleALC</tag>
-        <tag>CC</tag>
-        <tag>CodecCommander</tag>
         <tag>codec</tag>
         <tag>hda-verb</tag>
+        <tag>CodecCommander</tag>
+        <tag>CC</tag>
         <tag>ALCPlugFix</tag>
       </tags>
   </entry>
@@ -1200,8 +1200,8 @@
       </categories>
       <tags>
         <tag>AppleALC</tag>
-        <tag>CC</tag>
         <tag>CodecCommander</tag>
+        <tag>CC</tag>
       </tags>
   </entry>
   <entry>
