@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html</loc>
+    
+    <lastmod>2020-03-24T06:17:04.578Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html</loc>
     
     <lastmod>2020-03-18T07:37:26.917Z</lastmod>
@@ -362,13 +369,6 @@
     <loc>https://blog.daliansky.net/Fresh-installing-macOS-High-Sierra(10.13)-on-AMD-Ryzen-Hackintosh-Guide.html</loc>
     
     <lastmod>2019-12-30T07:57:58.164Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html</loc>
-    
-    <lastmod>2019-12-30T07:57:58.163Z</lastmod>
     
   </url>
   
