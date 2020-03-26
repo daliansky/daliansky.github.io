@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[【黑果小兵】macOS Catalina 10.15.4 19E266 正式版 with Clover 5106原版镜像[双EFI版][UEFI and MBR]]]></title>
-    <url>%2FmacOS-Catalina-10.15.4-19E266-Release-version-with-Clover-5106-original-image-Double-EFI-Version-UEFI-and-MBR.html</url>
-    <content type="text"><![CDATA[【黑果小兵】macOS Catalina 10.15.4 19E266 正式版 with Clover 5106原版镜像[双EFI版][UEFI and MBR] macOS Catalina正式版Mac 上你喜爱的一切，都因 macOS Catalina 而变得更精彩。你可以享用两款全新媒体 app；用新的查找 app 定位遗失的 Mac；而你常用的 iPad app 现在也有了 Mac 版。你甚至可以将 iPad 当作第二个显示屏，扩展桌面空间。现在，无论做什么，你将拥有远超以往的体验 新内容版本记录: 2020年3月25日版本: 10.15.4 19E266macOS Catalina 10.15.4引入了iCloud Drive文件夹共享，屏幕时间通信限制，Apple Music时间同步的歌词视图等。此更新还提高了Mac的稳定性，可靠性和安全性。 Finder•从Finder共享iCloud Drive文件夹•进行控制，以仅将访问权限限制为您明确邀请的人员，或者将访问权限授予具有文件夹链接的任何人•有权选择谁可以进行更改和上传文件以及谁只能查看和下载文件 Screen Time•沟通限制，用于控制您的孩子在一整天和停机期间可以与谁进行沟通和联系•为孩子播放音乐视频的控制 Music•Apple Music的时间同步歌词视图，包括通过单击歌词视图中的一行来跳到歌曲中您喜欢的部分的功能 Safari•选择将Chrome密码导入到iCloud钥匙串中，以便在Safari和所有设备中轻松自动填充密码•用于复制选项卡和关闭当前选项卡右侧的所有选项卡的控件•兼容计算机上对Netflix内容的HDR播放支持 带有Apple Arcade的App Store•通用购买支持可在iPhone，iPod touch，iPad，Mac和Apple TV上单个购买参与应用程序•最近玩过的Arcade游戏出现在Arcade选项卡中，因此您可以继续在iPhone，iPod touch，iPad，Mac和Apple TV上玩 Pro Display XDR•您可以通过从多个色域，白点，亮度和转印功能选项中进行选择，来定制适合特定工作流程需求的参考模式 辅助功能•头部指针首选项，用于根据头部的精确移动在屏幕上移动光标 此更新还包括错误修复和其他改进。•高动态范围输出到兼容HDR10的第三方显示器和与DisplayPort或HDMI连接的电视•Outlook.com帐户的OAuth身份验证支持可提高安全性•在辅助设备上升级到iCloud提醒时支持CalDav迁移•解决了在启用“暗模式”时在应用之间复制的文本可能不可见的问题•修复了Safari中验证码图块可能无法正确显示的问题•解决了提醒可能会发送已完成提醒的通知的问题•解决了从睡眠状态唤醒后LG UltraFine 5K显示屏的屏幕亮度问题 镜像靓点：抗击新型冠状病毒，人人居家，狂虐黑苹果Clover默认配置文件config.plist原则上支持各种机型引导安装；新增config_CometLake_10710u配置文件，适用于十代U的机型安装新增CFL/KBL/SKL DVMT补丁更新CLOVER到v2.5k r5106新增PE引导分区，同时支持CLOVER / PE双引导新增MBR引导，支持旧主板旧机型的安装驱动更新更新Lilu v1.4.3更新AppleALC v1.4.8更新WhatEverGreen v1.3.8，根本上解决黑屏问题更新USBInjectAll v0.7.4 增加新的USB主控去除USB端口限制，减少禁行发生的几率；增加Lilu崩溃的日志信息显示；本镜像采用官方原版app制作，集成Clover r5098，支持UEFI启动安装;apfs.efi同时去除日志显示；其它的驱动位于 drivers/off；300系列主板请于UEFI目录中移除AptioMemoryFix-64.efi添加OsxAptioFix2Drv-free2000.efi该驱动位于/EFI/CLOVER/drivers/off目录下 或者 Slide值获取及计算Clover集成了本人修改的全新主题，不喜欢的可以于安装系统后自行替换；所有配置文件中默认添加Lilu崩溃日志的输出信息,详见：macOS Catalina 10.15安装中常见的问题及解决方法;更新WhateverGreen到v1.3.8(3月22日编译，根治安装/更新中的黑屏现象)，原生支持UHD620/UHD630等八代核显，不需要注入platform-id， 同时它也支持NVIDIA和AMD的显卡，以及整合了Shiki和CoreDisplayFixup的驱动，现在是All In One了；核显驱动更多的教程请参考：Hackintool(原Intel FB-Patcher)使用教程及插入姿势 / 黑苹果必备：Intel核显platform ID整理及smbios速查表 / Coffee Lake帧缓冲区补丁及UHD630 Coffee Lake ig-platform-id数据整理 教程：利用Hackintool打开第8代核显HDMI输出的正确姿势其它机型的配置文件统一保存到config-Other目录下，请自行复制相应机型配置文件；其它配置文件包括：HD520/530/540，HD550/P530,HD5000/5100/5200/5300/5500/6000,HD4200/4400/4600；所有config配置文件都可通过Clover引导界面-Options-configs进行选择；不会操作的请移步：Clover使用教程 macOS安装教程 Mojave硬件支持列表HD3000驱动方法请移步这里 安装教程简单版安装过程（简易版）：详细的安装教程请移步：macOS安装教程下载镜像：黑果小兵的部落阁校验md5值：macOS：打开终端，输入命令：12# md5 macOS\ Catalina\ 10.15.4\(19E266\)\ Installer\ for\ Clover\ 5106\ and\ WEPE\ Support\ UEFI\ and\ MBR.dmgMD5 (macOS Catalina 10.15.4(19E266) Installer for Clover 5106 and WEPE Support UEFI and MBR.dmg) = d0f8cd3c3185307c843e72b9cb617364Windows下：请使用winmd5，将下载的安装镜像拖进winmd5窗口，核验md5值（截图略）镜像制作：下载etcher，打开镜像，选择U盘，点击Flash即可。Windows10需要以管理员权限运行安装macOS：安装过程中不要先替换EFI，等安装全部结果后再执行替换EFI的操作安装过程中出现问题请参考：clover使用教程 以及 macOS Mojave 10.15安装中常见的问题及解决方法安装后所需要执行的动作：合并和替换EFI 不借助任何工具将CLOVER引导添加进UEFI的正确姿势驱动：显卡、声卡、USB定制：Hackintool(原Intel FB-Patcher)使用教程及插入姿势 / 黑苹果必备：Intel核显platform ID整理及smbios速查表 / Coffee Lake帧缓冲区补丁及UHD630 Coffee Lake ig-platform-id数据整理 教程：利用Hackintool打开第8代核显HDMI输出的正确姿势声卡仿冒：使用AppleALC声卡仿冒驱动AppleHDA的正确姿势无线网卡：DW1820A/BCM94350ZAE/BCM94356ZEPA50DX插入的正确姿势 Broadcom BCM94352z/DW1560驱动新姿势新方法本镜像集成的EFI如果无法安装，请根据自己的机型寻找相应的EFI进行替换，请参考：远景：黑苹果长期维护机型资料整理(2019年3月1日更新) 或者 本站：黑苹果长期维护机型整理清单 ，如果你有自己机型的EFI也可以提交到这里支持Realtek8111/8100系列有线网卡，支持Intel板载有线网卡；其它的网卡驱动位于kexts/Other/其它驱动本镜像已经过本人安装测试，若您在使用中遇到问题，可通过爬楼自行解决。本人才疏学浅，所学知识都来自于远景社区，感谢远景各位大咖一直以来对 黑果小兵 的大力支持，由于人员众多，恕不一一列名致谢！挂载EFI分区Windows操作系统下面,以系统管理员身份打开cmd窗口,输入命令:123456789c:\&gt;diskpartlist disk # 磁盘列表select disk n # 选择EFI分区所在的磁盘，n为磁盘号list partition # 磁盘分区列表select partition n # 选择EFI分区，n为EFI分区号set id="ebd0a0a2-b9e5-4433-87c0-68b6b72699c7" # 设置为基本数据分区assign letter=X # x为EFI分区盘符exit # 退出diskpartnotepad # 打开记事本程序，点击文件-&gt;打开，即可访问EFI分区您可以重复输入命令同时挂载USB的EFI分区和磁盘的EFI分区另一种方法：直接 使用应用程序diskgenius挂载EFI分区进行操作本镜像发布站点：远景论坛 / 黑果小兵的部落阁 截图：结合了台式机和笔记本的截屏，仅供参考 特别感谢@宪武 提供的hotpatch的全套方法：适用于CLOVER 的 P-little ；适用于 OpenCore 的 OC-little 10.15.4 19E266 双EFI分区版下载链接迅雷离线下载：[[请点击下载](https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/macOS Catalina 10.15.4(19E266) Installer for Clover 5106 and WEPE Support UEFI and MBR.dmg)] 感谢@难忘情怀提供下载资源http下载链接:请点击下载 感谢@难忘情怀提供下载资源百毒云下载链接: 请于微信公众号【黑果小兵的部落阁】回复：10.15.4 获取下载链接1MD5 (macOS Catalina 10.15.4(19E266) Installer for Clover 5106 and WEPE Support UEFI and MBR.dmg) = d0f8cd3c3185307c843e72b9cb617364]]></content>
+    <title><![CDATA[【黑果小兵】macOS Catalina 10.15.4 19E266 正式版 with Clover 5107原版镜像[双EFI版][UEFI and MBR]]]></title>
+    <url>%2FmacOS-Catalina-10.15.4-19E266-Release-version-with-Clover-5107-original-image-Double-EFI-Version-UEFI-and-MBR.html</url>
+    <content type="text"><![CDATA[【黑果小兵】macOS Catalina 10.15.4 19E266 正式版 with Clover 5107原版镜像[双EFI版][UEFI and MBR] macOS Catalina正式版Mac 上你喜爱的一切，都因 macOS Catalina 而变得更精彩。你可以享用两款全新媒体 app；用新的查找 app 定位遗失的 Mac；而你常用的 iPad app 现在也有了 Mac 版。你甚至可以将 iPad 当作第二个显示屏，扩展桌面空间。现在，无论做什么，你将拥有远超以往的体验 新内容版本记录: 2020年3月25日版本: 10.15.4 19E266macOS Catalina 10.15.4引入了iCloud Drive文件夹共享，屏幕时间通信限制，Apple Music时间同步的歌词视图等。此更新还提高了Mac的稳定性，可靠性和安全性。 Finder•从Finder共享iCloud Drive文件夹•进行控制，以仅将访问权限限制为您明确邀请的人员，或者将访问权限授予具有文件夹链接的任何人•有权选择谁可以进行更改和上传文件以及谁只能查看和下载文件 Screen Time•沟通限制，用于控制您的孩子在一整天和停机期间可以与谁进行沟通和联系•为孩子播放音乐视频的控制 Music•Apple Music的时间同步歌词视图，包括通过单击歌词视图中的一行来跳到歌曲中您喜欢的部分的功能 Safari•选择将Chrome密码导入到iCloud钥匙串中，以便在Safari和所有设备中轻松自动填充密码•用于复制选项卡和关闭当前选项卡右侧的所有选项卡的控件•兼容计算机上对Netflix内容的HDR播放支持 带有Apple Arcade的App Store•通用购买支持可在iPhone，iPod touch，iPad，Mac和Apple TV上单个购买参与应用程序•最近玩过的Arcade游戏出现在Arcade选项卡中，因此您可以继续在iPhone，iPod touch，iPad，Mac和Apple TV上玩 Pro Display XDR•您可以通过从多个色域，白点，亮度和转印功能选项中进行选择，来定制适合特定工作流程需求的参考模式 辅助功能•头部指针首选项，用于根据头部的精确移动在屏幕上移动光标 此更新还包括错误修复和其他改进。•高动态范围输出到兼容HDR10的第三方显示器和与DisplayPort或HDMI连接的电视•Outlook.com帐户的OAuth身份验证支持可提高安全性•在辅助设备上升级到iCloud提醒时支持CalDav迁移•解决了在启用“暗模式”时在应用之间复制的文本可能不可见的问题•修复了Safari中验证码图块可能无法正确显示的问题•解决了提醒可能会发送已完成提醒的通知的问题•解决了从睡眠状态唤醒后LG UltraFine 5K显示屏的屏幕亮度问题 镜像靓点：抗击新型冠状病毒，人人居家，狂虐黑苹果Clover默认配置文件config.plist原则上支持各种机型引导安装；新增CFL/KBL/SKL DVMT补丁更新CLOVER到v2.5k r5107新增PE引导分区，同时支持CLOVER / PE双引导新增MBR引导，支持旧主板旧机型的安装驱动更新更新Lilu v1.4.3更新AppleALC v1.4.8更新WhatEverGreen v1.3.8，根本上解决黑屏问题更新USBInjectAll v0.7.4 增加新的USB主控去除USB端口限制，减少禁行发生的几率；增加Lilu崩溃的日志信息显示；本镜像采用官方原版app制作，集成Clover r5098，支持UEFI启动安装;apfs.efi同时去除日志显示；其它的驱动位于 drivers/off；300系列主板请于UEFI目录中移除AptioMemoryFix-64.efi添加OsxAptioFix2Drv-free2000.efi该驱动位于/EFI/CLOVER/drivers/off目录下 或者 Slide值获取及计算Clover集成了本人修改的全新主题，不喜欢的可以于安装系统后自行替换；所有配置文件中默认添加Lilu崩溃日志的输出信息,详见：macOS Catalina 10.15安装中常见的问题及解决方法;更新WhateverGreen到v1.3.8(3月22日编译，根治安装/更新中的黑屏现象)，原生支持UHD620/UHD630等八代核显，不需要注入platform-id， 同时它也支持NVIDIA和AMD的显卡，以及整合了Shiki和CoreDisplayFixup的驱动，现在是All In One了；核显驱动更多的教程请参考：Hackintool(原Intel FB-Patcher)使用教程及插入姿势 / 黑苹果必备：Intel核显platform ID整理及smbios速查表 / Coffee Lake帧缓冲区补丁及UHD630 Coffee Lake ig-platform-id数据整理 教程：利用Hackintool打开第8代核显HDMI输出的正确姿势其它机型的配置文件统一保存到config-Other目录下，请自行复制相应机型配置文件；其它配置文件包括：HD520/530/540，HD550/P530,HD5000/5100/5200/5300/5500/6000,HD4200/4400/4600；所有config配置文件都可通过Clover引导界面-Options-configs进行选择；不会操作的请移步：Clover使用教程 macOS安装教程 Mojave硬件支持列表HD3000驱动方法请移步这里 安装教程简单版安装过程（简易版）：详细的安装教程请移步：macOS安装教程下载镜像：黑果小兵的部落阁校验md5值：macOS：打开终端，输入命令：12# md5 macOS\ Catalina\ 10.15.4\(19E266\)\ Installer\ for\ Clover\ 5107\ and\ WEPE\ Support\ UEFI\ and\ MBR.dmgMD5 (macOS Catalina 10.15.4(19E266) Installer for Clover 5107 and WEPE Support UEFI and MBR.dmg) = e6e6e925827ee32c7e9933484cc3bb55Windows下：请使用winmd5，将下载的安装镜像拖进winmd5窗口，核验md5值（截图略）镜像制作：下载etcher，打开镜像，选择U盘，点击Flash即可。Windows10需要以管理员权限运行安装macOS：安装过程中不要先替换EFI，等安装全部结果后再执行替换EFI的操作安装过程中出现问题请参考：clover使用教程 以及 macOS Mojave 10.15安装中常见的问题及解决方法安装后所需要执行的动作：合并和替换EFI 不借助任何工具将CLOVER引导添加进UEFI的正确姿势驱动：显卡、声卡、USB定制：Hackintool(原Intel FB-Patcher)使用教程及插入姿势 / 黑苹果必备：Intel核显platform ID整理及smbios速查表 / Coffee Lake帧缓冲区补丁及UHD630 Coffee Lake ig-platform-id数据整理 教程：利用Hackintool打开第8代核显HDMI输出的正确姿势声卡仿冒：使用AppleALC声卡仿冒驱动AppleHDA的正确姿势无线网卡：DW1820A/BCM94350ZAE/BCM94356ZEPA50DX插入的正确姿势 Broadcom BCM94352z/DW1560驱动新姿势新方法本镜像集成的EFI如果无法安装，请根据自己的机型寻找相应的EFI进行替换，请参考：远景：黑苹果长期维护机型资料整理(2019年3月1日更新) 或者 本站：黑苹果长期维护机型整理清单 ，如果你有自己机型的EFI也可以提交到这里支持Realtek8111/8100系列有线网卡，支持Intel板载有线网卡；其它的网卡驱动位于kexts/Other/其它驱动本镜像已经过本人安装测试，若您在使用中遇到问题，可通过爬楼自行解决。本人才疏学浅，所学知识都来自于远景社区，感谢远景各位大咖一直以来对 黑果小兵 的大力支持，由于人员众多，恕不一一列名致谢！挂载EFI分区Windows操作系统下面,以系统管理员身份打开cmd窗口,输入命令:123456789c:\&gt;diskpartlist disk # 磁盘列表select disk n # 选择EFI分区所在的磁盘，n为磁盘号list partition # 磁盘分区列表select partition n # 选择EFI分区，n为EFI分区号set id="ebd0a0a2-b9e5-4433-87c0-68b6b72699c7" # 设置为基本数据分区assign letter=X # x为EFI分区盘符exit # 退出diskpartnotepad # 打开记事本程序，点击文件-&gt;打开，即可访问EFI分区您可以重复输入命令同时挂载USB的EFI分区和磁盘的EFI分区另一种方法：直接 使用应用程序diskgenius挂载EFI分区进行操作本镜像发布站点：远景论坛 / 黑果小兵的部落阁 截图：结合了台式机和笔记本的截屏，仅供参考 特别感谢@宪武 提供的hotpatch的全套方法：适用于CLOVER 的 P-little ；适用于 OpenCore 的 OC-little 10.15.4 19E266 双EFI分区版下载链接迅雷离线下载：[请点击下载] 感谢@难忘情怀提供下载资源 尚未同步http下载链接:请点击下载 感谢@难忘情怀提供下载资源 尚未同步百毒云下载链接: https://pan.baidu.com/s/1qIzT1DRt84SU9TT-UBgJfw 提取码: 2f9i无限云盘：https://yun.mxin.ltd/#/s/1vyuY 分享密码请于微信公众号【黑果小兵的部落阁】回复：10.15.4 获取1MD5 (macOS Catalina 10.15.4(19E266) Installer for Clover 5107 and WEPE Support UEFI and MBR.dmg) = e6e6e925827ee32c7e9933484cc3bb55]]></content>
       <categories>
         <category>下载</category>
         <category>镜像</category>
@@ -677,8 +677,8 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>platform-id</tag>
         <tag>接口</tag>
+        <tag>platform-id</tag>
         <tag>显存</tag>
         <tag>显示器</tag>
       </tags>
@@ -722,10 +722,10 @@
       </categories>
       <tags>
         <tag>USB</tag>
+        <tag>diskutil</tag>
         <tag>Ubuntu</tag>
         <tag>Linux</tag>
         <tag>dd</tag>
-        <tag>diskutil</tag>
       </tags>
   </entry>
   <entry>
@@ -991,8 +991,8 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>CPUFriend</tag>
         <tag>Lilu</tag>
+        <tag>CPUFriend</tag>
         <tag>Plugins</tag>
         <tag>CPU变频</tag>
         <tag>插件</tag>
@@ -1024,9 +1024,9 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>Lilu</tag>
         <tag>AppleALC</tag>
         <tag>Codec</tag>
+        <tag>Lilu</tag>
       </tags>
   </entry>
   <entry>
@@ -1057,11 +1057,11 @@
         <category>教程</category>
       </categories>
       <tags>
+        <tag>Lilu</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
-        <tag>Lilu</tag>
         <tag>Plugins</tag>
         <tag>常见问题</tag>
         <tag>Clover</tag>
@@ -1229,9 +1229,9 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>diskutil</tag>
         <tag>shell</tag>
         <tag>spctl</tag>
+        <tag>diskutil</tag>
         <tag>trimforce</tag>
         <tag>ioreg</tag>
         <tag>EDID</tag>
@@ -1263,8 +1263,8 @@
         <tag>Sierra</tag>
         <tag>10.12.6</tag>
         <tag>镜像</tag>
-        <tag>安装</tag>
         <tag>dmg</tag>
+        <tag>安装</tag>
       </tags>
   </entry>
   <entry>
