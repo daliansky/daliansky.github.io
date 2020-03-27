@@ -3,15 +3,15 @@
   <entry>
     <title><![CDATA[【黑果小兵】macOS Catalina 10.15.4 19E266 正式版 with Clover 5107原版镜像[双EFI版][UEFI and MBR]]]></title>
     <url>%2FmacOS-Catalina-10.15.4-19E266-Release-version-with-Clover-5107-original-image-Double-EFI-Version-UEFI-and-MBR.html</url>
-    <content type="text"><![CDATA[【黑果小兵】macOS Catalina 10.15.4 19E266 正式版 with Clover 5107原版镜像[双EFI版][UEFI and MBR] macOS Catalina正式版Mac 上你喜爱的一切，都因 macOS Catalina 而变得更精彩。你可以享用两款全新媒体 app；用新的查找 app 定位遗失的 Mac；而你常用的 iPad app 现在也有了 Mac 版。你甚至可以将 iPad 当作第二个显示屏，扩展桌面空间。现在，无论做什么，你将拥有远超以往的体验 新内容版本记录: 2020年3月25日版本: 10.15.4 19E266macOS Catalina 10.15.4引入了iCloud Drive文件夹共享，屏幕时间通信限制，Apple Music时间同步的歌词视图等。此更新还提高了Mac的稳定性，可靠性和安全性。 Finder•从Finder共享iCloud Drive文件夹•进行控制，以仅将访问权限限制为您明确邀请的人员，或者将访问权限授予具有文件夹链接的任何人•有权选择谁可以进行更改和上传文件以及谁只能查看和下载文件 Screen Time•沟通限制，用于控制您的孩子在一整天和停机期间可以与谁进行沟通和联系•为孩子播放音乐视频的控制 Music•Apple Music的时间同步歌词视图，包括通过单击歌词视图中的一行来跳到歌曲中您喜欢的部分的功能 Safari•选择将Chrome密码导入到iCloud钥匙串中，以便在Safari和所有设备中轻松自动填充密码•用于复制选项卡和关闭当前选项卡右侧的所有选项卡的控件•兼容计算机上对Netflix内容的HDR播放支持 带有Apple Arcade的App Store•通用购买支持可在iPhone，iPod touch，iPad，Mac和Apple TV上单个购买参与应用程序•最近玩过的Arcade游戏出现在Arcade选项卡中，因此您可以继续在iPhone，iPod touch，iPad，Mac和Apple TV上玩 Pro Display XDR•您可以通过从多个色域，白点，亮度和转印功能选项中进行选择，来定制适合特定工作流程需求的参考模式 辅助功能•头部指针首选项，用于根据头部的精确移动在屏幕上移动光标 此更新还包括错误修复和其他改进。•高动态范围输出到兼容HDR10的第三方显示器和与DisplayPort或HDMI连接的电视•Outlook.com帐户的OAuth身份验证支持可提高安全性•在辅助设备上升级到iCloud提醒时支持CalDav迁移•解决了在启用“暗模式”时在应用之间复制的文本可能不可见的问题•修复了Safari中验证码图块可能无法正确显示的问题•解决了提醒可能会发送已完成提醒的通知的问题•解决了从睡眠状态唤醒后LG UltraFine 5K显示屏的屏幕亮度问题 镜像靓点：抗击新型冠状病毒，人人居家，狂虐黑苹果Clover默认配置文件config.plist原则上支持各种机型引导安装；新增CFL/KBL/SKL DVMT补丁更新CLOVER到v2.5k r5107新增PE引导分区，同时支持CLOVER / PE双引导新增MBR引导，支持旧主板旧机型的安装驱动更新更新Lilu v1.4.3更新AppleALC v1.4.8更新WhatEverGreen v1.3.8，根本上解决黑屏问题更新USBInjectAll v0.7.4 增加新的USB主控去除USB端口限制，减少禁行发生的几率；增加Lilu崩溃的日志信息显示；本镜像采用官方原版app制作，集成Clover r5098，支持UEFI启动安装;apfs.efi同时去除日志显示；其它的驱动位于 drivers/off；300系列主板请于UEFI目录中移除AptioMemoryFix-64.efi添加OsxAptioFix2Drv-free2000.efi该驱动位于/EFI/CLOVER/drivers/off目录下 或者 Slide值获取及计算Clover集成了本人修改的全新主题，不喜欢的可以于安装系统后自行替换；所有配置文件中默认添加Lilu崩溃日志的输出信息,详见：macOS Catalina 10.15安装中常见的问题及解决方法;更新WhateverGreen到v1.3.8(3月22日编译，根治安装/更新中的黑屏现象)，原生支持UHD620/UHD630等八代核显，不需要注入platform-id， 同时它也支持NVIDIA和AMD的显卡，以及整合了Shiki和CoreDisplayFixup的驱动，现在是All In One了；核显驱动更多的教程请参考：Hackintool(原Intel FB-Patcher)使用教程及插入姿势 / 黑苹果必备：Intel核显platform ID整理及smbios速查表 / Coffee Lake帧缓冲区补丁及UHD630 Coffee Lake ig-platform-id数据整理 教程：利用Hackintool打开第8代核显HDMI输出的正确姿势其它机型的配置文件统一保存到config-Other目录下，请自行复制相应机型配置文件；其它配置文件包括：HD520/530/540，HD550/P530,HD5000/5100/5200/5300/5500/6000,HD4200/4400/4600；所有config配置文件都可通过Clover引导界面-Options-configs进行选择；不会操作的请移步：Clover使用教程 macOS安装教程 Mojave硬件支持列表HD3000驱动方法请移步这里 安装教程简单版安装过程（简易版）：详细的安装教程请移步：macOS安装教程下载镜像：黑果小兵的部落阁校验md5值：macOS：打开终端，输入命令：12# md5 macOS\ Catalina\ 10.15.4\(19E266\)\ Installer\ for\ Clover\ 5107\ and\ WEPE\ Support\ UEFI\ and\ MBR.dmgMD5 (macOS Catalina 10.15.4(19E266) Installer for Clover 5107 and WEPE Support UEFI and MBR.dmg) = e6e6e925827ee32c7e9933484cc3bb55Windows下：请使用winmd5，将下载的安装镜像拖进winmd5窗口，核验md5值（截图略）镜像制作：下载etcher，打开镜像，选择U盘，点击Flash即可。Windows10需要以管理员权限运行安装macOS：安装过程中不要先替换EFI，等安装全部结果后再执行替换EFI的操作安装过程中出现问题请参考：clover使用教程 以及 macOS Mojave 10.15安装中常见的问题及解决方法安装后所需要执行的动作：合并和替换EFI 不借助任何工具将CLOVER引导添加进UEFI的正确姿势驱动：显卡、声卡、USB定制：Hackintool(原Intel FB-Patcher)使用教程及插入姿势 / 黑苹果必备：Intel核显platform ID整理及smbios速查表 / Coffee Lake帧缓冲区补丁及UHD630 Coffee Lake ig-platform-id数据整理 教程：利用Hackintool打开第8代核显HDMI输出的正确姿势声卡仿冒：使用AppleALC声卡仿冒驱动AppleHDA的正确姿势无线网卡：DW1820A/BCM94350ZAE/BCM94356ZEPA50DX插入的正确姿势 Broadcom BCM94352z/DW1560驱动新姿势新方法本镜像集成的EFI如果无法安装，请根据自己的机型寻找相应的EFI进行替换，请参考：远景：黑苹果长期维护机型资料整理(2019年3月1日更新) 或者 本站：黑苹果长期维护机型整理清单 ，如果你有自己机型的EFI也可以提交到这里支持Realtek8111/8100系列有线网卡，支持Intel板载有线网卡；其它的网卡驱动位于kexts/Other/其它驱动本镜像已经过本人安装测试，若您在使用中遇到问题，可通过爬楼自行解决。本人才疏学浅，所学知识都来自于远景社区，感谢远景各位大咖一直以来对 黑果小兵 的大力支持，由于人员众多，恕不一一列名致谢！挂载EFI分区Windows操作系统下面,以系统管理员身份打开cmd窗口,输入命令:123456789c:\&gt;diskpartlist disk # 磁盘列表select disk n # 选择EFI分区所在的磁盘，n为磁盘号list partition # 磁盘分区列表select partition n # 选择EFI分区，n为EFI分区号set id="ebd0a0a2-b9e5-4433-87c0-68b6b72699c7" # 设置为基本数据分区assign letter=X # x为EFI分区盘符exit # 退出diskpartnotepad # 打开记事本程序，点击文件-&gt;打开，即可访问EFI分区您可以重复输入命令同时挂载USB的EFI分区和磁盘的EFI分区另一种方法：直接 使用应用程序diskgenius挂载EFI分区进行操作本镜像发布站点：远景论坛 / 黑果小兵的部落阁 截图：结合了台式机和笔记本的截屏，仅供参考 特别感谢@宪武 提供的hotpatch的全套方法：适用于CLOVER 的 P-little ；适用于 OpenCore 的 OC-little 10.15.4 19E266 双EFI分区版下载链接迅雷离线下载：[请点击下载] 感谢@难忘情怀提供下载资源 尚未同步http下载链接:请点击下载 感谢@难忘情怀提供下载资源 尚未同步百毒云下载链接: https://pan.baidu.com/s/1qIzT1DRt84SU9TT-UBgJfw 提取码: 2f9i无限云盘：https://yun.mxin.ltd/#/s/1vyuY 分享密码请于微信公众号【黑果小兵的部落阁】回复：10.15.4 获取1MD5 (macOS Catalina 10.15.4(19E266) Installer for Clover 5107 and WEPE Support UEFI and MBR.dmg) = e6e6e925827ee32c7e9933484cc3bb55]]></content>
+    <content type="text"><![CDATA[【黑果小兵】macOS Catalina 10.15.4 19E266 正式版 with Clover 5107原版镜像[双EFI版][UEFI and MBR] macOS Catalina正式版Mac 上你喜爱的一切，都因 macOS Catalina 而变得更精彩。你可以享用两款全新媒体 app；用新的查找 app 定位遗失的 Mac；而你常用的 iPad app 现在也有了 Mac 版。你甚至可以将 iPad 当作第二个显示屏，扩展桌面空间。现在，无论做什么，你将拥有远超以往的体验 新内容版本记录: 2020年3月25日版本: 10.15.4 19E266macOS Catalina 10.15.4引入了iCloud Drive文件夹共享，屏幕时间通信限制，Apple Music时间同步的歌词视图等。此更新还提高了Mac的稳定性，可靠性和安全性。 Finder•从Finder共享iCloud Drive文件夹•进行控制，以仅将访问权限限制为您明确邀请的人员，或者将访问权限授予具有文件夹链接的任何人•有权选择谁可以进行更改和上传文件以及谁只能查看和下载文件 Screen Time•沟通限制，用于控制您的孩子在一整天和停机期间可以与谁进行沟通和联系•为孩子播放音乐视频的控制 Music•Apple Music的时间同步歌词视图，包括通过单击歌词视图中的一行来跳到歌曲中您喜欢的部分的功能 Safari•选择将Chrome密码导入到iCloud钥匙串中，以便在Safari和所有设备中轻松自动填充密码•用于复制选项卡和关闭当前选项卡右侧的所有选项卡的控件•兼容计算机上对Netflix内容的HDR播放支持 带有Apple Arcade的App Store•通用购买支持可在iPhone，iPod touch，iPad，Mac和Apple TV上单个购买参与应用程序•最近玩过的Arcade游戏出现在Arcade选项卡中，因此您可以继续在iPhone，iPod touch，iPad，Mac和Apple TV上玩 Pro Display XDR•您可以通过从多个色域，白点，亮度和转印功能选项中进行选择，来定制适合特定工作流程需求的参考模式 辅助功能•头部指针首选项，用于根据头部的精确移动在屏幕上移动光标 此更新还包括错误修复和其他改进。•高动态范围输出到兼容HDR10的第三方显示器和与DisplayPort或HDMI连接的电视•Outlook.com帐户的OAuth身份验证支持可提高安全性•在辅助设备上升级到iCloud提醒时支持CalDav迁移•解决了在启用“暗模式”时在应用之间复制的文本可能不可见的问题•修复了Safari中验证码图块可能无法正确显示的问题•解决了提醒可能会发送已完成提醒的通知的问题•解决了从睡眠状态唤醒后LG UltraFine 5K显示屏的屏幕亮度问题 镜像靓点：抗击新型冠状病毒，人人居家，狂虐黑苹果Clover默认配置文件config.plist原则上支持各种机型引导安装；新增CFL/KBL/SKL DVMT补丁更新CLOVER到v2.5k r5107新增PE引导分区，同时支持CLOVER / PE双引导新增MBR引导，支持旧主板旧机型的安装驱动更新更新Lilu v1.4.3更新AppleALC v1.4.8更新WhatEverGreen v1.3.8，根本上解决黑屏问题更新USBInjectAll v0.7.4 增加新的USB主控去除USB端口限制，减少禁行发生的几率；增加Lilu崩溃的日志信息显示；本镜像采用官方原版app制作，集成Clover r5098，支持UEFI启动安装;apfs.efi同时去除日志显示；其它的驱动位于 drivers/off；300系列主板请于UEFI目录中移除AptioMemoryFix-64.efi添加OsxAptioFix2Drv-free2000.efi该驱动位于/EFI/CLOVER/drivers/off目录下 或者 Slide值获取及计算Clover集成了本人修改的全新主题，不喜欢的可以于安装系统后自行替换；所有配置文件中默认添加Lilu崩溃日志的输出信息,详见：macOS Catalina 10.15安装中常见的问题及解决方法;更新WhateverGreen到v1.3.8(3月22日编译，根治安装/更新中的黑屏现象)，原生支持UHD620/UHD630等八代核显，不需要注入platform-id， 同时它也支持NVIDIA和AMD的显卡，以及整合了Shiki和CoreDisplayFixup的驱动，现在是All In One了；核显驱动更多的教程请参考：Hackintool(原Intel FB-Patcher)使用教程及插入姿势 / 黑苹果必备：Intel核显platform ID整理及smbios速查表 / Coffee Lake帧缓冲区补丁及UHD630 Coffee Lake ig-platform-id数据整理 教程：利用Hackintool打开第8代核显HDMI输出的正确姿势其它机型的配置文件统一保存到config-Other目录下，请自行复制相应机型配置文件；其它配置文件包括：HD520/530/540，HD550/P530,HD5000/5100/5200/5300/5500/6000,HD4200/4400/4600；所有config配置文件都可通过Clover引导界面-Options-configs进行选择；不会操作的请移步：Clover使用教程 macOS安装教程 Mojave硬件支持列表HD3000驱动方法请移步这里 安装教程简单版安装过程（简易版）：详细的安装教程请移步：macOS安装教程下载镜像：黑果小兵的部落阁校验md5值：macOS：打开终端，输入命令：12# md5 macOS\ Catalina\ 10.15.4\(19E266\)\ Installer\ for\ Clover\ 5107\ and\ WEPE\ Support\ UEFI\ and\ MBR.dmgMD5 (macOS Catalina 10.15.4(19E266) Installer for Clover 5107 and WEPE Support UEFI and MBR.dmg) = e6e6e925827ee32c7e9933484cc3bb55Windows下：请使用winmd5，将下载的安装镜像拖进winmd5窗口，核验md5值（截图略）镜像制作：下载etcher，打开镜像，选择U盘，点击Flash即可。Windows10需要以管理员权限运行安装macOS：安装过程中不要先替换EFI，等安装全部结果后再执行替换EFI的操作安装过程中出现问题请参考：clover使用教程 以及 macOS Mojave 10.15安装中常见的问题及解决方法安装后所需要执行的动作：合并和替换EFI 不借助任何工具将CLOVER引导添加进UEFI的正确姿势驱动：显卡、声卡、USB定制：Hackintool(原Intel FB-Patcher)使用教程及插入姿势 / 黑苹果必备：Intel核显platform ID整理及smbios速查表 / Coffee Lake帧缓冲区补丁及UHD630 Coffee Lake ig-platform-id数据整理 教程：利用Hackintool打开第8代核显HDMI输出的正确姿势声卡仿冒：使用AppleALC声卡仿冒驱动AppleHDA的正确姿势无线网卡：DW1820A/BCM94350ZAE/BCM94356ZEPA50DX插入的正确姿势 Broadcom BCM94352z/DW1560驱动新姿势新方法本镜像集成的EFI如果无法安装，请根据自己的机型寻找相应的EFI进行替换，请参考：远景：黑苹果长期维护机型资料整理(2019年3月1日更新) 或者 本站：黑苹果长期维护机型整理清单 ，如果你有自己机型的EFI也可以提交到这里支持Realtek8111/8100系列有线网卡，支持Intel板载有线网卡；其它的网卡驱动位于kexts/Other/其它驱动本镜像已经过本人安装测试，若您在使用中遇到问题，可通过爬楼自行解决。本人才疏学浅，所学知识都来自于远景社区，感谢远景各位大咖一直以来对 黑果小兵 的大力支持，由于人员众多，恕不一一列名致谢！挂载EFI分区Windows操作系统下面,以系统管理员身份打开cmd窗口,输入命令:123456789c:\&gt;diskpartlist disk # 磁盘列表select disk n # 选择EFI分区所在的磁盘，n为磁盘号list partition # 磁盘分区列表select partition n # 选择EFI分区，n为EFI分区号set id="ebd0a0a2-b9e5-4433-87c0-68b6b72699c7" # 设置为基本数据分区assign letter=X # x为EFI分区盘符exit # 退出diskpartnotepad # 打开记事本程序，点击文件-&gt;打开，即可访问EFI分区您可以重复输入命令同时挂载USB的EFI分区和磁盘的EFI分区另一种方法：直接 使用应用程序diskgenius挂载EFI分区进行操作本镜像发布站点：远景论坛 / 黑果小兵的部落阁 截图：结合了台式机和笔记本的截屏，仅供参考 特别感谢@宪武 提供的hotpatch的全套方法：适用于CLOVER 的 P-little ；适用于 OpenCore 的 OC-little 10.15.4 19E266 双EFI分区版下载链接迅雷离线下载：[请点击下载] 感谢@难忘情怀提供下载资源http下载链接:请点击下载 感谢@难忘情怀提供下载资源其它下载密码请于微信公众号【黑果小兵的部落阁】回复：10.15.4 获取百毒云下载链接: https://pan.baidu.com/s/1qIzT1DRt84SU9TT-UBgJfw无限云盘：https://yun.mxin.ltd/#/s/1vyuY1MD5 (macOS Catalina 10.15.4(19E266) Installer for Clover 5107 and WEPE Support UEFI and MBR.dmg) = e6e6e925827ee32c7e9933484cc3bb55]]></content>
       <categories>
         <category>下载</category>
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.4</tag>
         <tag>1.9e+267</tag>
@@ -42,9 +42,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.3</tag>
         <tag>19D76</tag>
@@ -59,9 +59,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.2</tag>
         <tag>19C57</tag>
@@ -76,9 +76,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.1</tag>
         <tag>19B88</tag>
@@ -93,10 +93,10 @@
         <category>镜像</category>
       </categories>
       <tags>
+        <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>Catalina</tag>
         <tag>10.15</tag>
-        <tag>下载</tag>
-        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>19A583</tag>
       </tags>
@@ -123,9 +123,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Mojave</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Mojave</tag>
         <tag>dmg</tag>
         <tag>10.14.6</tag>
         <tag>18G84</tag>
@@ -155,9 +155,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Mojave</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Mojave</tag>
         <tag>dmg</tag>
         <tag>10.14.5</tag>
         <tag>18F132</tag>
@@ -172,9 +172,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Mojave</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Mojave</tag>
         <tag>dmg</tag>
         <tag>10.14.4</tag>
         <tag>1.8e+227</tag>
@@ -218,9 +218,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Mojave</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Mojave</tag>
         <tag>dmg</tag>
         <tag>10.14.3</tag>
         <tag>18D42</tag>
@@ -291,9 +291,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Mojave</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Mojave</tag>
         <tag>dmg</tag>
         <tag>10.14.2</tag>
         <tag>18C54</tag>
@@ -325,9 +325,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Mojave</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Mojave</tag>
         <tag>dmg</tag>
         <tag>10.14.1</tag>
         <tag>18B75</tag>
@@ -357,10 +357,10 @@
         <category>镜像</category>
       </categories>
       <tags>
+        <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
-        <tag>下载</tag>
-        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>18A391</tag>
       </tags>
@@ -405,26 +405,12 @@
         <category>镜像</category>
       </categories>
       <tags>
+        <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
-        <tag>下载</tag>
-        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>17A389</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[macOS Catalina 10.15安装中常见的问题及解决方法]]></title>
-    <url>%2FCommon-problems-and-solutions-in-macOS-Catalina-10.15-installation.html</url>
-    <content type="text"><![CDATA[随着macOS Catalina(卡塔利娜) 10.15发行正式版本的临近，各种安装常见问题也需要同步更新，本篇文章就是针对10.15的常见问题的汇总，我会持续不间断更新，敬请期待 关于Clover Bootloader的版本想要正确地安装macOS Catalina 10.15.4，它要求你的Clover Bootloader版本不低于v5.0 r5107。Clover Bootloader最新版本下载 安装/更新黑屏问题boot args添加引导参数：agdpmod=pikera更新WhateverGreen到v1.3.4，下载链接 关于数字音频中断，导致内核崩溃的解决方案KernelToPatch中添加：Find: 636F6D2E 6170706C 65005F5F 6B65726E 656C5F5F 00Replace: 6E6F742E 6170706C 65005F5F 6B65726E 656C5F5F 00详见：https://github.com/acidanthera/bugtracker/issues/513#issuecomment-542838126 Mac软件应用程序打开出现意外退出、崩溃解决怎么办？去年7月12日苹果在悄悄升级系统后导致部分软件签名失效，很多软件用不了。打开后提示意外退出，还有的软件会提示崩溃。导致此次TNT部分签名失效的事件起因北京时间7月11日早间消息，据美国科技媒体Engadget报道，视频会议软件开发商Zoom此前发布紧急补丁，修复Mac摄像头漏洞。而苹果也在悄悄升级macOS，剔除隐藏的网络服务器。此前Zoom被曝出漏洞。当用户安装Zoom视频会议应用时，隐藏服务器会悄悄植入用户的Mac设备，让摄像头有被黑客劫持的风险。Zoom已经发布补丁，因此苹果并不是必须更新系统，不过升级之后更安全，即使用户使用旧版Zoom也能避开攻击。Zoom还与苹果合作测试修复补丁。补丁不会影响正常功能，只是启动App时需要获得用户的许可。 Mac应用程序崩溃解决办法 安装 Apple Command Line Tools如果已经安装过，请直接跳到下一节打开终端，输入命令：1xcode-select --install弹出窗口点击 安装，弹出窗口点击 同意 继续，等待安装完成 修复签名方法：终端里继续输入：12sudo codesign --force --deep --sign - /Applications/CleanMyMac\ X.app # 注意应用程序路径和 --sign 中间还有个 - /Applications/CleanMyMac X.app: replacing existing signature # 替换现有签名 收工 注意事项在HFS +上安装macOS Catalina时，通过系统偏好设置自动更新系统的功能会消失。解决方案：使用脚本下载10.15Beta更新包，原帖：https://github.com/Gengik84/MacOS_Updater1curl -O https://raw.githubusercontent.com/Gengik84/MacOS_Updater/master/MacOS_Updater &amp;&amp; chmod +x ./MacOS_Updater &amp;&amp; sh ./MacOS_Updater从第三方来源安装程序：1sudo spctl --master-disable关闭Thunderbolt更新：1sudo softwareupdate --ignore ThunderboltFirmwareUpdate1.2为第三方SSD启用TRIM1sudo trimforce enable 取消4位数密码限制12pwpolicy -clearaccountpoliciespasswd 10.15 Beta5无法更新/安装的解决方法123Comment: change EC0 to ECFind: 4543305FReplace: 45435F5F另一种格式：1234567891011121314&lt;dict&gt; &lt;key&gt;Comment&lt;/key&gt; &lt;string&gt;change EC0 to EC&lt;/string&gt; &lt;key&gt;Disabled&lt;/key&gt; &lt;false/&gt; &lt;key&gt;Find&lt;/key&gt; &lt;data&gt; RUMwXw== &lt;/data&gt; &lt;key&gt;Replace&lt;/key&gt; &lt;data&gt; RUNfXw== &lt;/data&gt;&lt;/dict&gt; 安装卡在最后2分钟的解决方法断开网络使用OsxAptioFixDrv-64.efi或者OsxAptioFixDrv3-64.efi替换AptioMemoryFix.efi，每次只可以用一个驱动抹盘直接选择APFS格式，减少HFS+转换成APFS的过程 z390主板安装卡在apfs_module_start的解决方法请于Acpi - DSDT - Patches中添加：123Comment: Fix AsRock Z390 BIOS DSDT Device(RTC) bugFind: A00A9353 54415301Replace: A00A910A FF0BFFFF 找不到安装器资源的解决方法断网删除drivers64UEFI目录下的EmuVariableUefi-64.efi修改机型为最近三年，比如MacBootPro13,1 MacBookPro14,1 iMac17,1 等等如果是双硬盘，拔掉那个不安装的，待安装完后再插回去检查镜像的md5值 关于HD3000平台macOS Catalina 10.15已经不支持Sandy Bridge平台的安装使用，解决方法有两个：在引导标志(boot args)添加-no_compat_check跳过兼容性检查修改SMBIOS为：MacBookAir5,1 Kaby Lake UHD 620显卡特别说明部分基于类似AAPL GfxYTile的注入参数在macOS Catalina 10.15中会失效，它要求将Clover Bootloader版本至少更新到r4587或以上，Clover Bootloader最新版本下载 关于声卡注入的IDApple已从macOS Catalina 10.15上的AppleHDA.kext中删除了大量的Layouts，因此很多人需要修改/修补当前的AppleHDA.kext / AudioInjector才能使音频恢复到工作状态。Apple在macOS Catalina上删除的布局ID为：Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 42,43,44,45,46,47,48,49,50等要查看已删除的布局的完整列表以及可用于替换已删除的布局的列表，下面是一张可以使用并可在macOS Catalina 10.15上使用的可用布局的图片：好消息是vit9696通过更新他的AppleALC解决了影响去除布局的问题。AppleALC最新版本的下载：https://github.com/acidanthera/AppleALC/releases minStolenSize新补丁，用于Broadwell, Skylake 以及Kabylake, Coffeelake3-24-2020 更新Coffee Lake1234567891011Comment: DVMT for AppleIntelCFLGraphicsFramebuffer (Credits DalianSky) for 10.15.xName: AppleIntelCFLGraphicsFramebufferFind: 0F82A703 0000Replace: 0F820000 0000MatchOS: 10.15,10.15.1,10.15.2,10.15.3 Comment: DVMT for AppleIntelCFLGraphicsFramebuffer (Credits DalianSky) for 10.15.4Name: AppleIntelCFLGraphicsFramebufferFind: 0F828F03 0000Replace: 0F820000 0000MatchOS: 10.15.4Kaby Lake12345Comment: DVMT for AppleIntelKBLGraphicsFramebuffer (Credits DalianSky) for 10.15.xName: AppleIntelKBLGraphicsFramebufferFind: 0F82A703 0000Replace: 0F820000 0000MatchOS: 10.15.xSky Lake1234Comment: DVMT for AppleIntelSKLGraphicsFramebuffer (Credits DalianSky) for 10.15.xName: com.apple.driver.AppleIntelSKLGraphicsFramebufferFind: 0F828F03 0000Replace: 0F820000 0000Broadwell1234Comment: Disable minStolenSize less or equal fStolenMemorySize assertion, 10.14 Credits (Sniki)Name: com.apple.driver.AppleIntelBDWGraphicsFramebufferFind: 764048FF 05Replace: EB4048FF 05 10.15.x解除USB端口限制补丁 [6-5-2019更新]经和PMHeart求证后，精简成2条补丁123456789Comment: USB port limit patch #1 10.15.x modify by DalianSky(credit ydeng)Name: com.apple.iokit.IOUSBHostFamilyFind: 83FB0F0FReplace: 83FB3F0FComment: USB Port limit patch #2 10.15.x modify by DalianSkyName: com.apple.driver.usb.AppleUSBXHCIFind: 83F90F0FReplace: 83F93F0F Intel HD3000显卡驱动由于macOS Catalina 10.15中已经将AppleIntelHD3000Graphics.kext等相关驱动移除，一个折衷的解决方案是复制一份macOS Sierra 10.12.x的驱动到/System/Library/Extensions，重建缓存后重启即可享用。详见https://www.tonymacx86.com/threads/success-lenovo-b570e.255129/page-2#post-1770059 找回丢失的DW1560/Brcm94352Z驱动Mojave系统下的蓝牙会失效，截止到目前的解决方法是：将文件BrcmFirmwareData.kext和BrcmPatchRAM2.kext复制到/Library/Extensions目录下。联想版请使用BrcmFirmwareRepo.kext当然，在重启前，还要重建一下系统的缓存，命令为：1sudo kextcache -i /如果嫌输入命令麻烦，也可以使用应用Kext Utility重建缓存。重启你的系统，检查WIFI/蓝牙是否工作正常。 关于10.15高通无线失效无法驱动的问题的解决方案[来自套路]升级到Mojave的大家应该都看到了，14的驱动删掉了好多，最惹人注意的就是A卡的一堆、hd3000的几个、N卡的几个加上高通的无线网卡驱动，用了很久也琢磨了好久后，终于找到了解决高通无线挂的解决方案，下面是方法：由于14系统内删除了Airport40的驱动，而ath9k插件又正是对其起的作用，因此前提条件是我们需要将13的这个kext拿来用，后面我会给出附件，ath9k插件的作者很久没有维护了，目前为止，作者源码只支持到10.13，因此需要我们手动修改源码使其能够支持到10.15，这里不做过多介绍，有兴趣的可以在下面评论，我会尽量解答，这里只把需要的附件做简要说明，大家也就不用再去clone源码修改编译了，附件主要包括3个，第一个是AtherosAirport40驱动，是我从13.6beta4中提取出来的，大家直接将其安装到/Library/Extensions/即可，然后就是我基于作者源码修改后的ath9k插件和最新的lilu（也是最新源码修改的），将这两个插件放到CLOVER，最后，为了保险起见，在config加上两个boot参数，分别是-lilubetaall 和 -ath9565，当然这是9565的参数，其余参数参见ath9k的说明文档，下面有链接，然后重建缓存、修复权限重启就可以了。详见：http://bbs.pcbeta.com/viewthread-1790406-1-1.html 感谢套路athlonreg APFS转换解决方法Apple已经删除了我们必须避免APFS转换的选项，常规的方法已经无法避免安装过程中自动将分区转换为APFS格式，包括在硬盘上安装以及SSD上面安装。以下是一些目前已知的替代品：1.使用Carbon Copy Cloner（CCC）应用程序格式驱动器备份到HFS + J并恢复备份。2.使用此应用程序将APFS分区转换为HFS + J：https：//www.paragon-software.com/home/apfs-hfs-converter/3.使用USB转SATA电缆从外部卸下HDD / SSD并安装macOS（似乎避免了APFS转换）。4.修补安装程序，由你来找到这个方法。 安装中出现的IOConsoleUsers: time(0) 0-&gt;0, lin 0, llk 1, IOConsoleUsers: gIOScreenLockState 3, hs 0, bs 0, nov 0, sm 0x0错误的临时解决方法群里最常见的安装过程中出现的一个错误是：12IOConsoleUsers: time(0) 0-&gt;0, lin 0, llk 1,IOConsoleUsers: gIOScreenLockState 3, hs 0, bs 0, nov 0, sm 0x0原因是系统无法识别出你的显卡驱动，临时的解决方法是：取消勾选Inject Intel或者将platform-id修改为0x12345678两种方法二选一，不知道如何操作的请移步Clover使用教程安装完成后再通过Clover Configurator设置正确的FakeID和ig-plaform-id驱动你的显卡。 去掉Lilu的输出信息,还原10.13/10.14 内核崩溃(kernel pance)的真相原文出处：https://applelife.ru/threads/ustanovka-macos-high-sierra-10-13-na-intel-pc.2210706/page-358#post-686953**方法1：**使用文本编辑器，在KernelToPatch段落添加内容：1234567891011121314151617181920&lt;key&gt;KernelToPatch&lt;/key&gt;&lt;array&gt; &lt;dict&gt; &lt;key&gt;Comment&lt;/key&gt; &lt;string&gt;Disable panic kext logging on Release kernel&lt;/string&gt; &lt;key&gt;Disabled&lt;/key&gt; &lt;false/&gt; &lt;key&gt;Find&lt;/key&gt; &lt;data&gt; AIoChMB0 &lt;/data&gt; &lt;key&gt;MatchOS&lt;/key&gt; &lt;string&gt;10.14.4,10.14.5&lt;/string&gt; &lt;key&gt;Replace&lt;/key&gt; &lt;data&gt; AIoChMDr &lt;/data&gt; &lt;/dict&gt; &lt;/dict&gt;&lt;/array&gt;**方法2：**使用Clover Configurator打开config.plist - Kernel and Kext Patches - kernelToPatch，新添加：1234Comment: Disable panic kext logging on 10.15.4 Release kernelFind: 008a0284c074Replace: 008a0284c0ebMatchOS: 10.14.4,10.14.5 其它的内核补丁备用，请自行食用：123456789101112131415161718192021222324252627282930313233XCPM patches 10.15_cpuid_set_infoFind: 72 3c d0 77 50 0f b6 c0Repl: xx 3c d0 77 50 0f b6 c0_xcpm_bootstrapFind: 8D 43 C4 3C 22 77 22Repl: 8D 43 xx 3C 22 77 22_xcpm_SMT_scope_msrs #1Find: BE060000005DE908000000Repl: BE060000005DC390909090_xcpm_SMT_scope_msrs #2Find: 31 D2 E8 3E FD FF FFRepl: 31 D2 90 90 90 90 90_xcpm_core_scope_msrsFind: 31 D2 E8 51 FD FF FFRepl: 31 D2 90 90 90 90 90_xcpm_pkg_scope_msrsFind: 31 D2 E8 74 FD FF FFRepl: 31 D2 90 90 90 90 90disable all msrs aboveFind: BE 06 00 00 00 5D E9 08 00 00 00 0F 1F 84 00 00 00 00 00 55Repl: BE 06 00 00 00 5D E9 08 00 00 00 0F 1F 84 00 00 00 00 00 C3Performance patch (credit to @vit9696)Find: C1E3084863D389D048C1EA20Repl: C1E308B800FF000031D29090引用链接：https://www.insanelymac.com/forum/topic/339035-pre-release-macos-catalina/?page=2&amp;tab=comments#comment-2676147 Block injected kexts 禁用无效的、未知的驱动程序当你面对这么一堆驱动的时候，如何让它们有条不紊地正常工作呢？万一出现问题的时候又如何让这些驱动在Clover引导的时候禁用它们呢？这个时候 Block injected kexts 就派上用场了。新版的 Clover Bootloader 已经将 Block injected kexts 放到了 macOS 系统分区的图标下面了。操作方法：开机进入clover引导界面，要引导的分区卷标上按 空格 即可进入光标移动到 Block injected kexts 回车进入选择当前系统加载的驱动程序目录勾选禁用的驱动程序按 ESC 退出该子菜单 选择-v时出现Attempting system restart...MACH Reboot的解决方法在安装High Sierra启动过程中，选择-v跑时会出现1Attempting system restart...MACH Reboot而不用-v图跑直接显示苹果标志时则不会出现。 解决方法在config.plist配置文件DropTables下添加以下代码：12345678910111213141516&lt;key&gt;ACPI&lt;/key&gt;&lt;key&gt;DropTables&lt;/key&gt;&lt;array&gt; &lt;dict&gt; &lt;key&gt;Signature&lt;/key&gt; &lt;string&gt;MATS&lt;/string&gt; &lt;/dict&gt; &lt;dict&gt; &lt;key&gt;Signature&lt;/key&gt; &lt;string&gt;DMAR&lt;/string&gt; &lt;/dict&gt; &lt;dict&gt; &lt;key&gt;Signature&lt;/key&gt; &lt;string&gt;BGRT&lt;/string&gt; &lt;/dict&gt;&lt;/array&gt; 抹盘时提示&quot;MediaKit报告设备上的空间不足以执行请求的操作&quot;的原因及解决方法群里遇到最多的问题就是抹盘时提示&quot;MediaKit报告设备上的空间不足以执行请求的操作&quot;,一直想就此写个解决方法 原因出现该提示最根本的原因就是你之前的磁盘分区中ESP分区的尺寸小于200MB 解决方法Windows下使用diskgenius删除掉MSR分区,将多出来的分区合并到ESP,正好凑成200MB,以满足安装macOS的基本需求.macOS下可以直接使用磁盘工具进行抹盘,它会自动生成一个200MB的EFI分区,当然前提条件是你需要先备份好磁盘里的数据,否则会造成全盘数据的丢失,请谨慎操作. 关于macOS Catalina 10.15下修改显存以及帧缓存、显示接口请移步另一篇教程：Coffee Lake帧缓冲区补丁及UHD630 Coffee Lake ig-platform-id数据整理 教你将U盘上的EFI复制到磁盘的EFI分区,脱离USB运行[macOS篇]新的系统安装成功后，EFI还位于U盘里，总不能一直挂着U盘使用系统吧。这个时候如果你想将U盘里的EFI复制到磁盘的EFI分区里，却苦于找不到看不见EFI分区，这个时候是该让diskutil登场了。diskutil命令的基本用法： 查看磁盘分区表1diskutil list/dev/disk0(internal, physical):#:TYPENAMESIZEIDENTIFIER0:GUID_partition_scheme256 GBdisk01:EFIEFI200 MBdisk0s12:Apple_HFSMAC128 GBdisk0s23:Microsoft Basic DataWIN10127.7 GBdisk0s3/dev/disk1(internal, physical):#:TYPENAMESIZEIDENTIFIER0:GUID_partition_scheme16 GBdisk11:EFIEFI200 MBdisk1s12:Apple_HFSInstall macOS Sierra15.8 GBdisk1s2 挂载磁盘EFI分区1sudo diskutil mount disk0s1 挂载U盘EFI分区1sudo diskutil mount disk1s1打开Finder，注意后面有个.1open .左侧会显示挂载了两个EFI分区，将U盘EFI目录全部复制到磁盘的EFI分区即可。 合并EFI分区这里有一点需要注意:如果之前安装过Windows系统的话,会存在EFI的目录,只是EFI的目录下面只有BOOT和Microsoft这两个目录,如果希望添加macOS的Clover引导的话,可以将USB的EFI分区里面的EFI目录下面的CLOVER复制到磁盘里的EFI目录下,也就是执行的是**合并**的操作,让EFI同时支持WINDOWS和macOS的引导.千万不要全部复制,否则有可能造成EFI无法启动Windows. 复制EFI分区如果磁盘上的EFI分区里为空的,可以直接将USB的EFI分区下面的EFI目录直接复制到磁盘上的EFI分区里. 教你将U盘上的EFI复制到磁盘的EFI分区,脱离USB运行[Windows篇] 挂载EFI分区Windows操作系统下面,打开cmd窗口,输入命令:1234567diskpartlist disk # 磁盘列表select disk n # 选择EFI分区所在的磁盘，n为磁盘号list partition # 磁盘分区列表select partition n # 选择EFI分区，n为EFI分区号set id="ebd0a0a2-b9e5-4433-87c0-68b6b72699c7" # 设置为EFI分区assign letter=X # x为EFI分区盘符您可以重复输入命令同时挂载USB的EFI分区和磁盘的EFI分区打开资源管理器，会出现一个盘符为X的磁盘，格式化为fat32格式,将USB的EFI分区下面的EFI目录复制到安装磁盘的EFI分区下 合并EFI分区这里有一点需要注意:如果之前安装过Windows系统的话,会存在EFI的目录,只是EFI的目录下面只有BOOT和Microsoft这两个目录,如果希望添加macOS的Clover引导的话,可以将USB的EFI分区里面的EFI目录下面的CLOVER复制到磁盘里的EFI目录下,也就是执行的是**合并**的操作,让EFI同时支持WINDOWS和macOS的引导.千万不要全部复制,否则有可能造成EFI无法启动Windows. 复制EFI分区如果磁盘上的EFI分区里为空的,可以直接将USB的EFI分区下面的EFI目录直接复制到磁盘上的EFI分区里. 添加UEFI引导选项使用工具:BOOTICE 操作过程:打开BOOTICE软件,选择物理磁盘,选择欲操作的目标磁盘,点击分区管理,弹出分区管理的窗口,点击分配盘符,为ESP分区分配一个盘符,点击确定选择UEFI,点击修改启动序列,点击添加按钮,菜单标题填写:CLOVER,选择启动文件,在打开的窗口里选择ESP分区下的目录\EFI\CLOVER\CLOVERX64.EFI,点击保存当前启动项设置 重建缓存的命令打开终端，输入命令：1sudo kextcache -i / 关于打赏您的支持就是我更新的动力！如果不希望看到博主停更的话，请点击下方的 打赏 支持一下，有钱的捧个钱场，没钱的捧个人场，谢谢大家！]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>Catalina</tag>
-        <tag>10.15</tag>
-        <tag>安装</tag>
-        <tag>常见问题</tag>
       </tags>
   </entry>
   <entry>
@@ -437,6 +423,20 @@
       <tags>
         <tag>Mojave</tag>
         <tag>10.14</tag>
+        <tag>安装</tag>
+        <tag>常见问题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[macOS Catalina 10.15安装中常见的问题及解决方法]]></title>
+    <url>%2FCommon-problems-and-solutions-in-macOS-Catalina-10.15-installation.html</url>
+    <content type="text"><![CDATA[随着macOS Catalina(卡塔利娜) 10.15发行正式版本的临近，各种安装常见问题也需要同步更新，本篇文章就是针对10.15的常见问题的汇总，我会持续不间断更新，敬请期待 关于Clover Bootloader的版本想要正确地安装macOS Catalina 10.15.4，它要求你的Clover Bootloader版本不低于v5.0 r5107。Clover Bootloader最新版本下载 安装/更新黑屏问题boot args添加引导参数：agdpmod=pikera更新WhateverGreen到v1.3.4，下载链接 关于数字音频中断，导致内核崩溃的解决方案KernelToPatch中添加：Find: 636F6D2E 6170706C 65005F5F 6B65726E 656C5F5F 00Replace: 6E6F742E 6170706C 65005F5F 6B65726E 656C5F5F 00详见：https://github.com/acidanthera/bugtracker/issues/513#issuecomment-542838126 Mac软件应用程序打开出现意外退出、崩溃解决怎么办？去年7月12日苹果在悄悄升级系统后导致部分软件签名失效，很多软件用不了。打开后提示意外退出，还有的软件会提示崩溃。导致此次TNT部分签名失效的事件起因北京时间7月11日早间消息，据美国科技媒体Engadget报道，视频会议软件开发商Zoom此前发布紧急补丁，修复Mac摄像头漏洞。而苹果也在悄悄升级macOS，剔除隐藏的网络服务器。此前Zoom被曝出漏洞。当用户安装Zoom视频会议应用时，隐藏服务器会悄悄植入用户的Mac设备，让摄像头有被黑客劫持的风险。Zoom已经发布补丁，因此苹果并不是必须更新系统，不过升级之后更安全，即使用户使用旧版Zoom也能避开攻击。Zoom还与苹果合作测试修复补丁。补丁不会影响正常功能，只是启动App时需要获得用户的许可。 Mac应用程序崩溃解决办法 安装 Apple Command Line Tools如果已经安装过，请直接跳到下一节打开终端，输入命令：1xcode-select --install弹出窗口点击 安装，弹出窗口点击 同意 继续，等待安装完成 修复签名方法：终端里继续输入：12sudo codesign --force --deep --sign - /Applications/CleanMyMac\ X.app # 注意应用程序路径和 --sign 中间还有个 - /Applications/CleanMyMac X.app: replacing existing signature # 替换现有签名 收工 注意事项在HFS +上安装macOS Catalina时，通过系统偏好设置自动更新系统的功能会消失。解决方案：使用脚本下载10.15Beta更新包，原帖：https://github.com/Gengik84/MacOS_Updater1curl -O https://raw.githubusercontent.com/Gengik84/MacOS_Updater/master/MacOS_Updater &amp;&amp; chmod +x ./MacOS_Updater &amp;&amp; sh ./MacOS_Updater从第三方来源安装程序：1sudo spctl --master-disable关闭Thunderbolt更新：1sudo softwareupdate --ignore ThunderboltFirmwareUpdate1.2为第三方SSD启用TRIM1sudo trimforce enable 取消4位数密码限制12pwpolicy -clearaccountpoliciespasswd 10.15 Beta5无法更新/安装的解决方法123Comment: change EC0 to ECFind: 4543305FReplace: 45435F5F另一种格式：1234567891011121314&lt;dict&gt; &lt;key&gt;Comment&lt;/key&gt; &lt;string&gt;change EC0 to EC&lt;/string&gt; &lt;key&gt;Disabled&lt;/key&gt; &lt;false/&gt; &lt;key&gt;Find&lt;/key&gt; &lt;data&gt; RUMwXw== &lt;/data&gt; &lt;key&gt;Replace&lt;/key&gt; &lt;data&gt; RUNfXw== &lt;/data&gt;&lt;/dict&gt; 安装卡在最后2分钟的解决方法断开网络使用OsxAptioFixDrv-64.efi或者OsxAptioFixDrv3-64.efi替换AptioMemoryFix.efi，每次只可以用一个驱动抹盘直接选择APFS格式，减少HFS+转换成APFS的过程 z390主板安装卡在apfs_module_start的解决方法请于Acpi - DSDT - Patches中添加：123Comment: Fix AsRock Z390 BIOS DSDT Device(RTC) bugFind: A00A9353 54415301Replace: A00A910A FF0BFFFF 找不到安装器资源的解决方法断网删除drivers64UEFI目录下的EmuVariableUefi-64.efi修改机型为最近三年，比如MacBootPro13,1 MacBookPro14,1 iMac17,1 等等如果是双硬盘，拔掉那个不安装的，待安装完后再插回去检查镜像的md5值 关于HD3000平台macOS Catalina 10.15已经不支持Sandy Bridge平台的安装使用，解决方法有两个：在引导标志(boot args)添加-no_compat_check跳过兼容性检查修改SMBIOS为：MacBookAir5,1 Kaby Lake UHD 620显卡特别说明部分基于类似AAPL GfxYTile的注入参数在macOS Catalina 10.15中会失效，它要求将Clover Bootloader版本至少更新到r4587或以上，Clover Bootloader最新版本下载 关于声卡注入的IDApple已从macOS Catalina 10.15上的AppleHDA.kext中删除了大量的Layouts，因此很多人需要修改/修补当前的AppleHDA.kext / AudioInjector才能使音频恢复到工作状态。Apple在macOS Catalina上删除的布局ID为：Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 42,43,44,45,46,47,48,49,50等要查看已删除的布局的完整列表以及可用于替换已删除的布局的列表，下面是一张可以使用并可在macOS Catalina 10.15上使用的可用布局的图片：好消息是vit9696通过更新他的AppleALC解决了影响去除布局的问题。AppleALC最新版本的下载：https://github.com/acidanthera/AppleALC/releases minStolenSize新补丁，用于Broadwell, Skylake 以及Kabylake, Coffeelake3-24-2020 更新Coffee Lake1234567891011Comment: DVMT for AppleIntelCFLGraphicsFramebuffer (Credits DalianSky) for 10.15.xName: AppleIntelCFLGraphicsFramebufferFind: 0F82A703 0000Replace: 0F820000 0000MatchOS: 10.15,10.15.1,10.15.2,10.15.3 Comment: DVMT for AppleIntelCFLGraphicsFramebuffer (Credits DalianSky) for 10.15.4Name: AppleIntelCFLGraphicsFramebufferFind: 0F828F03 0000Replace: 0F820000 0000MatchOS: 10.15.4Kaby Lake12345Comment: DVMT for AppleIntelKBLGraphicsFramebuffer (Credits DalianSky) for 10.15.xName: AppleIntelKBLGraphicsFramebufferFind: 0F82A703 0000Replace: 0F820000 0000MatchOS: 10.15.xSky Lake1234Comment: DVMT for AppleIntelSKLGraphicsFramebuffer (Credits DalianSky) for 10.15.xName: com.apple.driver.AppleIntelSKLGraphicsFramebufferFind: 0F828F03 0000Replace: 0F820000 0000Broadwell1234Comment: Disable minStolenSize less or equal fStolenMemorySize assertion, 10.14 Credits (Sniki)Name: com.apple.driver.AppleIntelBDWGraphicsFramebufferFind: 764048FF 05Replace: EB4048FF 05 10.15.x解除USB端口限制补丁 [6-5-2019更新]经和PMHeart求证后，精简成2条补丁123456789Comment: USB port limit patch #1 10.15.x modify by DalianSky(credit ydeng)Name: com.apple.iokit.IOUSBHostFamilyFind: 83FB0F0FReplace: 83FB3F0FComment: USB Port limit patch #2 10.15.x modify by DalianSkyName: com.apple.driver.usb.AppleUSBXHCIFind: 83F90F0FReplace: 83F93F0F Intel HD3000显卡驱动由于macOS Catalina 10.15中已经将AppleIntelHD3000Graphics.kext等相关驱动移除，一个折衷的解决方案是复制一份macOS Sierra 10.12.x的驱动到/System/Library/Extensions，重建缓存后重启即可享用。详见https://www.tonymacx86.com/threads/success-lenovo-b570e.255129/page-2#post-1770059 找回丢失的DW1560/Brcm94352Z驱动Mojave系统下的蓝牙会失效，截止到目前的解决方法是：将文件BrcmFirmwareData.kext和BrcmPatchRAM2.kext复制到/Library/Extensions目录下。联想版请使用BrcmFirmwareRepo.kext当然，在重启前，还要重建一下系统的缓存，命令为：1sudo kextcache -i /如果嫌输入命令麻烦，也可以使用应用Kext Utility重建缓存。重启你的系统，检查WIFI/蓝牙是否工作正常。 关于10.15高通无线失效无法驱动的问题的解决方案[来自套路]升级到Mojave的大家应该都看到了，14的驱动删掉了好多，最惹人注意的就是A卡的一堆、hd3000的几个、N卡的几个加上高通的无线网卡驱动，用了很久也琢磨了好久后，终于找到了解决高通无线挂的解决方案，下面是方法：由于14系统内删除了Airport40的驱动，而ath9k插件又正是对其起的作用，因此前提条件是我们需要将13的这个kext拿来用，后面我会给出附件，ath9k插件的作者很久没有维护了，目前为止，作者源码只支持到10.13，因此需要我们手动修改源码使其能够支持到10.15，这里不做过多介绍，有兴趣的可以在下面评论，我会尽量解答，这里只把需要的附件做简要说明，大家也就不用再去clone源码修改编译了，附件主要包括3个，第一个是AtherosAirport40驱动，是我从13.6beta4中提取出来的，大家直接将其安装到/Library/Extensions/即可，然后就是我基于作者源码修改后的ath9k插件和最新的lilu（也是最新源码修改的），将这两个插件放到CLOVER，最后，为了保险起见，在config加上两个boot参数，分别是-lilubetaall 和 -ath9565，当然这是9565的参数，其余参数参见ath9k的说明文档，下面有链接，然后重建缓存、修复权限重启就可以了。详见：http://bbs.pcbeta.com/viewthread-1790406-1-1.html 感谢套路athlonreg APFS转换解决方法Apple已经删除了我们必须避免APFS转换的选项，常规的方法已经无法避免安装过程中自动将分区转换为APFS格式，包括在硬盘上安装以及SSD上面安装。以下是一些目前已知的替代品：1.使用Carbon Copy Cloner（CCC）应用程序格式驱动器备份到HFS + J并恢复备份。2.使用此应用程序将APFS分区转换为HFS + J：https：//www.paragon-software.com/home/apfs-hfs-converter/3.使用USB转SATA电缆从外部卸下HDD / SSD并安装macOS（似乎避免了APFS转换）。4.修补安装程序，由你来找到这个方法。 安装中出现的IOConsoleUsers: time(0) 0-&gt;0, lin 0, llk 1, IOConsoleUsers: gIOScreenLockState 3, hs 0, bs 0, nov 0, sm 0x0错误的临时解决方法群里最常见的安装过程中出现的一个错误是：12IOConsoleUsers: time(0) 0-&gt;0, lin 0, llk 1,IOConsoleUsers: gIOScreenLockState 3, hs 0, bs 0, nov 0, sm 0x0原因是系统无法识别出你的显卡驱动，临时的解决方法是：取消勾选Inject Intel或者将platform-id修改为0x12345678两种方法二选一，不知道如何操作的请移步Clover使用教程安装完成后再通过Clover Configurator设置正确的FakeID和ig-plaform-id驱动你的显卡。 去掉Lilu的输出信息,还原10.13/10.14 内核崩溃(kernel pance)的真相原文出处：https://applelife.ru/threads/ustanovka-macos-high-sierra-10-13-na-intel-pc.2210706/page-358#post-686953**方法1：**使用文本编辑器，在KernelToPatch段落添加内容：1234567891011121314151617181920&lt;key&gt;KernelToPatch&lt;/key&gt;&lt;array&gt; &lt;dict&gt; &lt;key&gt;Comment&lt;/key&gt; &lt;string&gt;Disable panic kext logging on Release kernel&lt;/string&gt; &lt;key&gt;Disabled&lt;/key&gt; &lt;false/&gt; &lt;key&gt;Find&lt;/key&gt; &lt;data&gt; AIoChMB0 &lt;/data&gt; &lt;key&gt;MatchOS&lt;/key&gt; &lt;string&gt;10.14.4,10.14.5&lt;/string&gt; &lt;key&gt;Replace&lt;/key&gt; &lt;data&gt; AIoChMDr &lt;/data&gt; &lt;/dict&gt; &lt;/dict&gt;&lt;/array&gt;**方法2：**使用Clover Configurator打开config.plist - Kernel and Kext Patches - kernelToPatch，新添加：1234Comment: Disable panic kext logging on 10.15.4 Release kernelFind: 008a0284c074Replace: 008a0284c0ebMatchOS: 10.14.4,10.14.5 其它的内核补丁备用，请自行食用：123456789101112131415161718192021222324252627282930313233XCPM patches 10.15_cpuid_set_infoFind: 72 3c d0 77 50 0f b6 c0Repl: xx 3c d0 77 50 0f b6 c0_xcpm_bootstrapFind: 8D 43 C4 3C 22 77 22Repl: 8D 43 xx 3C 22 77 22_xcpm_SMT_scope_msrs #1Find: BE060000005DE908000000Repl: BE060000005DC390909090_xcpm_SMT_scope_msrs #2Find: 31 D2 E8 3E FD FF FFRepl: 31 D2 90 90 90 90 90_xcpm_core_scope_msrsFind: 31 D2 E8 51 FD FF FFRepl: 31 D2 90 90 90 90 90_xcpm_pkg_scope_msrsFind: 31 D2 E8 74 FD FF FFRepl: 31 D2 90 90 90 90 90disable all msrs aboveFind: BE 06 00 00 00 5D E9 08 00 00 00 0F 1F 84 00 00 00 00 00 55Repl: BE 06 00 00 00 5D E9 08 00 00 00 0F 1F 84 00 00 00 00 00 C3Performance patch (credit to @vit9696)Find: C1E3084863D389D048C1EA20Repl: C1E308B800FF000031D29090引用链接：https://www.insanelymac.com/forum/topic/339035-pre-release-macos-catalina/?page=2&amp;tab=comments#comment-2676147 Block injected kexts 禁用无效的、未知的驱动程序当你面对这么一堆驱动的时候，如何让它们有条不紊地正常工作呢？万一出现问题的时候又如何让这些驱动在Clover引导的时候禁用它们呢？这个时候 Block injected kexts 就派上用场了。新版的 Clover Bootloader 已经将 Block injected kexts 放到了 macOS 系统分区的图标下面了。操作方法：开机进入clover引导界面，要引导的分区卷标上按 空格 即可进入光标移动到 Block injected kexts 回车进入选择当前系统加载的驱动程序目录勾选禁用的驱动程序按 ESC 退出该子菜单 选择-v时出现Attempting system restart...MACH Reboot的解决方法在安装High Sierra启动过程中，选择-v跑时会出现1Attempting system restart...MACH Reboot而不用-v图跑直接显示苹果标志时则不会出现。 解决方法在config.plist配置文件DropTables下添加以下代码：12345678910111213141516&lt;key&gt;ACPI&lt;/key&gt;&lt;key&gt;DropTables&lt;/key&gt;&lt;array&gt; &lt;dict&gt; &lt;key&gt;Signature&lt;/key&gt; &lt;string&gt;MATS&lt;/string&gt; &lt;/dict&gt; &lt;dict&gt; &lt;key&gt;Signature&lt;/key&gt; &lt;string&gt;DMAR&lt;/string&gt; &lt;/dict&gt; &lt;dict&gt; &lt;key&gt;Signature&lt;/key&gt; &lt;string&gt;BGRT&lt;/string&gt; &lt;/dict&gt;&lt;/array&gt; 抹盘时提示&quot;MediaKit报告设备上的空间不足以执行请求的操作&quot;的原因及解决方法群里遇到最多的问题就是抹盘时提示&quot;MediaKit报告设备上的空间不足以执行请求的操作&quot;,一直想就此写个解决方法 原因出现该提示最根本的原因就是你之前的磁盘分区中ESP分区的尺寸小于200MB 解决方法Windows下使用diskgenius删除掉MSR分区,将多出来的分区合并到ESP,正好凑成200MB,以满足安装macOS的基本需求.macOS下可以直接使用磁盘工具进行抹盘,它会自动生成一个200MB的EFI分区,当然前提条件是你需要先备份好磁盘里的数据,否则会造成全盘数据的丢失,请谨慎操作. 关于macOS Catalina 10.15下修改显存以及帧缓存、显示接口请移步另一篇教程：Coffee Lake帧缓冲区补丁及UHD630 Coffee Lake ig-platform-id数据整理 教你将U盘上的EFI复制到磁盘的EFI分区,脱离USB运行[macOS篇]新的系统安装成功后，EFI还位于U盘里，总不能一直挂着U盘使用系统吧。这个时候如果你想将U盘里的EFI复制到磁盘的EFI分区里，却苦于找不到看不见EFI分区，这个时候是该让diskutil登场了。diskutil命令的基本用法： 查看磁盘分区表1diskutil list/dev/disk0(internal, physical):#:TYPENAMESIZEIDENTIFIER0:GUID_partition_scheme256 GBdisk01:EFIEFI200 MBdisk0s12:Apple_HFSMAC128 GBdisk0s23:Microsoft Basic DataWIN10127.7 GBdisk0s3/dev/disk1(internal, physical):#:TYPENAMESIZEIDENTIFIER0:GUID_partition_scheme16 GBdisk11:EFIEFI200 MBdisk1s12:Apple_HFSInstall macOS Sierra15.8 GBdisk1s2 挂载磁盘EFI分区1sudo diskutil mount disk0s1 挂载U盘EFI分区1sudo diskutil mount disk1s1打开Finder，注意后面有个.1open .左侧会显示挂载了两个EFI分区，将U盘EFI目录全部复制到磁盘的EFI分区即可。 合并EFI分区这里有一点需要注意:如果之前安装过Windows系统的话,会存在EFI的目录,只是EFI的目录下面只有BOOT和Microsoft这两个目录,如果希望添加macOS的Clover引导的话,可以将USB的EFI分区里面的EFI目录下面的CLOVER复制到磁盘里的EFI目录下,也就是执行的是**合并**的操作,让EFI同时支持WINDOWS和macOS的引导.千万不要全部复制,否则有可能造成EFI无法启动Windows. 复制EFI分区如果磁盘上的EFI分区里为空的,可以直接将USB的EFI分区下面的EFI目录直接复制到磁盘上的EFI分区里. 教你将U盘上的EFI复制到磁盘的EFI分区,脱离USB运行[Windows篇] 挂载EFI分区Windows操作系统下面,打开cmd窗口,输入命令:1234567diskpartlist disk # 磁盘列表select disk n # 选择EFI分区所在的磁盘，n为磁盘号list partition # 磁盘分区列表select partition n # 选择EFI分区，n为EFI分区号set id="ebd0a0a2-b9e5-4433-87c0-68b6b72699c7" # 设置为EFI分区assign letter=X # x为EFI分区盘符您可以重复输入命令同时挂载USB的EFI分区和磁盘的EFI分区打开资源管理器，会出现一个盘符为X的磁盘，格式化为fat32格式,将USB的EFI分区下面的EFI目录复制到安装磁盘的EFI分区下 合并EFI分区这里有一点需要注意:如果之前安装过Windows系统的话,会存在EFI的目录,只是EFI的目录下面只有BOOT和Microsoft这两个目录,如果希望添加macOS的Clover引导的话,可以将USB的EFI分区里面的EFI目录下面的CLOVER复制到磁盘里的EFI目录下,也就是执行的是**合并**的操作,让EFI同时支持WINDOWS和macOS的引导.千万不要全部复制,否则有可能造成EFI无法启动Windows. 复制EFI分区如果磁盘上的EFI分区里为空的,可以直接将USB的EFI分区下面的EFI目录直接复制到磁盘上的EFI分区里. 添加UEFI引导选项使用工具:BOOTICE 操作过程:打开BOOTICE软件,选择物理磁盘,选择欲操作的目标磁盘,点击分区管理,弹出分区管理的窗口,点击分配盘符,为ESP分区分配一个盘符,点击确定选择UEFI,点击修改启动序列,点击添加按钮,菜单标题填写:CLOVER,选择启动文件,在打开的窗口里选择ESP分区下的目录\EFI\CLOVER\CLOVERX64.EFI,点击保存当前启动项设置 重建缓存的命令打开终端，输入命令：1sudo kextcache -i / 关于打赏您的支持就是我更新的动力！如果不希望看到博主停更的话，请点击下方的 打赏 支持一下，有钱的捧个钱场，没钱的捧个人场，谢谢大家！]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>Catalina</tag>
+        <tag>10.15</tag>
         <tag>安装</tag>
         <tag>常见问题</tag>
       </tags>
@@ -467,8 +467,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.6</tag>
         <tag>17G2112</tag>
@@ -484,8 +484,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.6</tag>
         <tag>17G65</tag>
@@ -501,8 +501,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.5</tag>
         <tag>17F77</tag>
@@ -572,8 +572,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.4</tag>
         <tag>1.7e+200</tag>
@@ -603,8 +603,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.2</tag>
         <tag>17C88</tag>
@@ -662,8 +662,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.2</tag>
         <tag>17C88</tag>
@@ -677,8 +677,8 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>接口</tag>
         <tag>platform-id</tag>
+        <tag>接口</tag>
         <tag>显存</tag>
         <tag>显示器</tag>
       </tags>
@@ -777,8 +777,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.1</tag>
         <tag>17B48</tag>
@@ -862,9 +862,9 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>EFI</tag>
         <tag>gpt</tag>
         <tag>MacOS</tag>
+        <tag>EFI</tag>
         <tag>Fix</tag>
         <tag>修复</tag>
       </tags>
@@ -896,8 +896,8 @@
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>17A405</tag>
       </tags>
@@ -948,8 +948,8 @@
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
       </tags>
   </entry>
@@ -976,8 +976,8 @@
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>GM</tag>
         <tag>17A362a</tag>
@@ -1098,8 +1098,8 @@
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>DB9</tag>
         <tag>17A360a</tag>
         <tag>dmg</tag>
@@ -1113,13 +1113,13 @@
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
+        <tag>下载</tag>
         <tag>10.12.6</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
         <tag>Catalina</tag>
         <tag>10.15</tag>
         <tag>Download</tag>
-        <tag>下载</tag>
       </tags>
   </entry>
   <entry>
@@ -1144,10 +1144,10 @@
         <category>教程</category>
       </categories>
       <tags>
+        <tag>EFI</tag>
         <tag>diskpart</tag>
         <tag>Windows</tag>
         <tag>分区</tag>
-        <tag>EFI</tag>
         <tag>ESP</tag>
       </tags>
   </entry>
@@ -1161,8 +1161,8 @@
       </categories>
       <tags>
         <tag>10.13</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>DB8</tag>
         <tag>17A358a</tag>
       </tags>
@@ -1190,9 +1190,9 @@
       </categories>
       <tags>
         <tag>10.13</tag>
-        <tag>下载</tag>
         <tag>DB7</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
       </tags>
   </entry>
   <entry>
@@ -1261,8 +1261,8 @@
       </categories>
       <tags>
         <tag>Sierra</tag>
-        <tag>10.12.6</tag>
         <tag>镜像</tag>
+        <tag>10.12.6</tag>
         <tag>安装</tag>
         <tag>dmg</tag>
       </tags>
@@ -1291,8 +1291,8 @@
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>17A344b</tag>
       </tags>
