@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
+    
+    <lastmod>2020-03-30T01:27:57.126Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.daliansky.net/Intel-core-display-platformID-finishing.html</loc>
+    
+    <lastmod>2020-03-27T22:14:41.973Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.daliansky.net/macOS-Catalina-10.15.4-19E266-Release-version-with-Clover-5107-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
     
     <lastmod>2020-03-27T21:25:18.519Z</lastmod>
@@ -26,13 +40,6 @@
     <loc>https://blog.daliansky.net/macOS-Catalina-10.15.3-19D76-Release-version-with-Clover-5103-original-image-Double-EFI-Version.html</loc>
     
     <lastmod>2020-03-25T02:01:54.569Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
-    
-    <lastmod>2020-03-08T02:07:07.063Z</lastmod>
     
   </url>
   
@@ -474,13 +481,6 @@
     <loc>https://blog.daliansky.net/Under-Windows-using-DISKPART-to-create-EFI-points.html</loc>
     
     <lastmod>2019-12-30T07:57:58.161Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/Intel-core-display-platformID-finishing.html</loc>
-    
-    <lastmod>2019-12-30T07:57:58.160Z</lastmod>
     
   </url>
   
