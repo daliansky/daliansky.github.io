@@ -204,8 +204,8 @@
       </categories>
       <tags>
         <tag>教程</tag>
-        <tag>核显</tag>
         <tag>HDMI</tag>
+        <tag>核显</tag>
         <tag>Hackintool</tag>
       </tags>
   </entry>
@@ -1057,11 +1057,11 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>Lilu</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
+        <tag>Lilu</tag>
         <tag>Plugins</tag>
         <tag>常见问题</tag>
         <tag>Clover</tag>
