@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.4-19E266-Release-version-with-Clover-5107-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
+    <lastmod>2020-04-03</lastmod>
+  </url>  <url>
+    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.3-19D76-Release-version-with-Clover-5103-original-image-Double-EFI-Version.html</loc>
+    <lastmod>2020-04-03</lastmod>
+  </url>  <url>
     <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
     <lastmod>2020-03-30</lastmod>
   </url>  <url>
     <loc>https://blog.daliansky.net/Intel-core-display-platformID-finishing.html</loc>
-    <lastmod>2020-03-27</lastmod>
-  </url>  <url>
-    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.4-19E266-Release-version-with-Clover-5107-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
     <lastmod>2020-03-27</lastmod>
   </url>  <url>
     <loc>https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html</loc>
@@ -15,9 +18,6 @@
   </url>  <url>
     <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html</loc>
     <lastmod>2020-03-26</lastmod>
-  </url>  <url>
-    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.3-19D76-Release-version-with-Clover-5103-original-image-Double-EFI-Version.html</loc>
-    <lastmod>2020-03-25</lastmod>
   </url>  <url>
     <loc>https://blog.daliansky.net/Lenovo-Xiaoxin-PRO-13-2019-and-macOS-Catalina-Installation-Tutorial.html</loc>
     <lastmod>2020-03-04</lastmod>
@@ -52,9 +52,6 @@
     <loc>https://blog.daliansky.net/Add-the-CLOVER-boot-to-the-correct-posture-of-the-UEFI-Boot-Option-Menu.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
-    <loc>https://blog.daliansky.net/XiaoMiPro-notebook-Installation-10.13-readily-remember-and-share-EFI.html</loc>
-    <lastmod>2019-12-30</lastmod>
-  </url>  <url>
     <loc>https://blog.daliansky.net/HP-HP-ENVY-Laptop-13-ad1xx-Notebook-PC-Mac-OS-Note-and-EFI-Share.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
@@ -62,6 +59,9 @@
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
     <loc>https://blog.daliansky.net/Updated-Frequently-Asked-Questions-in-Sierra-or-high-sierra.html</loc>
+    <lastmod>2019-12-30</lastmod>
+  </url>  <url>
+    <loc>https://blog.daliansky.net/XiaoMiPro-notebook-Installation-10.13-readily-remember-and-share-EFI.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
     <loc>https://blog.daliansky.net/Guide-High-Sierra-prohibits-APFS-conversion-when-installing-or-upgrading.html</loc>
@@ -88,9 +88,6 @@
     <loc>https://blog.daliansky.net/macOS-Mojave-10.14.4-18E226-official-version-with-Clover-4903-original-image.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
-    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.5-18F132-official-version-with-Clover-4928-original-image.html</loc>
-    <lastmod>2019-12-30</lastmod>
-  </url>  <url>
     <loc>https://blog.daliansky.net/macOS-Mojave-10.14.6-18G87-Release-version-with-Clover-5033-original-image.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
@@ -101,6 +98,9 @@
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
     <loc>https://blog.daliansky.net/Add-CLOVER-boot-to-UEFI-without-any-tools.html</loc>
+    <lastmod>2019-12-30</lastmod>
+  </url>  <url>
+    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.5-18F132-official-version-with-Clover-4928-original-image.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
     <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.6-17G65-Release-Version-with-Clover-4596-original-mirror.html</loc>
@@ -115,10 +115,10 @@
     <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13-official-version-update-17A405-with-Clover-4238-original-mirror.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
-    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.1-18B75-official-version-with-Clover-4726-original-image.html</loc>
+    <loc>https://blog.daliansky.net/macOS-Mojave-10.14-18A389-Release-with-Clover-4670-original-mirror.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
-    <loc>https://blog.daliansky.net/macOS-Mojave-10.14-18A389-Release-with-Clover-4670-original-mirror.html</loc>
+    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.1-18B75-official-version-with-Clover-4726-original-image.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
     <loc>https://blog.daliansky.net/macOS-Mojave-10.14-18A391-official-version-with-Clover-4674-original-image.html</loc>
@@ -151,10 +151,10 @@
     <loc>https://blog.daliansky.net/CoffeeLake-UHD-630-black-screen-direct-bright-screen-and-correct-adjustment-of-brightness-adjustment.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
-    <loc>https://blog.daliansky.net/macOS-Catalina-10.15-19A583-Release-version-with-Clover-5093-original-image-Double-EFI-Version.html</loc>
+    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.1-19B88-Release-version-with-Clover-5098-original-image-Double-EFI-Version.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
-    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.1-19B88-Release-version-with-Clover-5098-original-image-Double-EFI-Version.html</loc>
+    <loc>https://blog.daliansky.net/macOS-Catalina-10.15-19A583-Release-version-with-Clover-5093-original-image-Double-EFI-Version.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
     <loc>https://blog.daliansky.net/macOS-10.13-installation-of-common-problems-and-solutions.html</loc>
@@ -163,10 +163,10 @@
     <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Mojave-10.14-installation.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
-    <loc>https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html</loc>
+    <loc>https://blog.daliansky.net/Self-use-next-theme-custom-reference-format-table.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
-    <loc>https://blog.daliansky.net/Self-use-next-theme-custom-reference-format-table.html</loc>
+    <loc>https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
     <loc>https://blog.daliansky.net/Webmin-Mysql-module-warns-of-the-lack-of-DBI-and-DBD-mysql-processing.html</loc>
@@ -217,10 +217,10 @@
     <loc>https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
-    <loc>https://blog.daliansky.net/Broadcom-WiFi-BlueTooth-BCM94352z-DW1560-the%20correct-drive-posture.html</loc>
+    <loc>https://blog.daliansky.net/CPUFriend-Installation-and-Usage.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
-    <loc>https://blog.daliansky.net/CPUFriend-Installation-and-Usage.html</loc>
+    <loc>https://blog.daliansky.net/Broadcom-WiFi-BlueTooth-BCM94352z-DW1560-the%20correct-drive-posture.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
     <loc>https://blog.daliansky.net/Existing-Lilu-Plugins.html</loc>
