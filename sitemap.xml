@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
+    
+    <lastmod>2020-04-08T01:51:20.239Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.daliansky.net/macOS-Catalina-10.15.4-19E266-Release-version-with-Clover-5107-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
     
     <lastmod>2020-04-03T06:19:56.376Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://blog.daliansky.net/macOS-Catalina-10.15.3-19D76-Release-version-with-Clover-5103-original-image-Double-EFI-Version.html</loc>
     
     <lastmod>2020-04-03T05:58:03.338Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
-    
-    <lastmod>2020-03-30T01:27:57.126Z</lastmod>
     
   </url>
   
