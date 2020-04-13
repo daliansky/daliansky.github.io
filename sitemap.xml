@@ -2,16 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.daliansky.net/clover-user-manual.html</loc>
+    
+    <lastmod>2020-04-13T03:20:04.986Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html</loc>
+    
+    <lastmod>2020-04-13T03:19:29.257Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.daliansky.net/Mojave-Hardware-Support-List.html</loc>
+    
+    <lastmod>2020-04-13T03:17:36.663Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.daliansky.net/macOS-Catalina-10.15.4-19E266-Release-version-with-Clover-5107-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
     
-    <lastmod>2020-04-12T04:06:41.329Z</lastmod>
+    <lastmod>2020-04-13T03:17:19.452Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.daliansky.net/Lenovo-Xiaoxin-PRO-13-2019-and-macOS-Catalina-Installation-Tutorial.html</loc>
+    
+    <lastmod>2020-04-13T03:16:51.302Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html</loc>
+    
+    <lastmod>2020-04-13T03:16:28.150Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
     
-    <lastmod>2020-04-08T07:19:57.617Z</lastmod>
+    <lastmod>2020-04-13T03:16:03.072Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html</loc>
+    
+    <lastmod>2020-04-13T03:15:28.992Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.daliansky.net/Intel-core-display-platformID-finishing.html</loc>
+    
+    <lastmod>2020-04-13T03:15:15.578Z</lastmod>
     
   </url>
   
@@ -19,34 +68,6 @@
     <loc>https://blog.daliansky.net/macOS-Catalina-10.15.3-19D76-Release-version-with-Clover-5103-original-image-Double-EFI-Version.html</loc>
     
     <lastmod>2020-04-03T05:58:03.338Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/Intel-core-display-platformID-finishing.html</loc>
-    
-    <lastmod>2020-03-27T22:14:41.973Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html</loc>
-    
-    <lastmod>2020-03-27T07:45:38.098Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html</loc>
-    
-    <lastmod>2020-03-26T01:13:19.867Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/Lenovo-Xiaoxin-PRO-13-2019-and-macOS-Catalina-Installation-Tutorial.html</loc>
-    
-    <lastmod>2020-03-04T06:54:50.953Z</lastmod>
     
   </url>
   
@@ -61,13 +82,6 @@
     <loc>https://blog.daliansky.net/macOS-Catalina-10.15.2-19C57-Release-version-with-Clover-5100-original-image-Double-EFI-Version.html</loc>
     
     <lastmod>2020-01-29T15:07:35.271Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/Mojave-Hardware-Support-List.html</loc>
-    
-    <lastmod>2020-01-15T07:26:25.027Z</lastmod>
     
   </url>
   
@@ -415,13 +429,6 @@
   </url>
   
   <url>
-    <loc>https://blog.daliansky.net/clover-user-manual.html</loc>
-    
-    <lastmod>2019-12-30T07:57:58.162Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.daliansky.net/Webmin-Mysql-module-warns-of-the-lack-of-DBI-and-DBD-mysql-processing.html</loc>
     
     <lastmod>2019-12-30T07:57:58.162Z</lastmod>
@@ -516,13 +523,6 @@
     <loc>https://blog.daliansky.net/Mac-Sierra-and-High-Sierra-Installer-App-Download.html</loc>
     
     <lastmod>2019-12-30T07:57:58.160Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html</loc>
-    
-    <lastmod>2019-12-30T07:57:58.159Z</lastmod>
     
   </url>
   
