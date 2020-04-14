@@ -1,3 +1,4 @@
+https://blog.daliansky.net/From-Clover-To-OpenCore.html
 https://blog.daliansky.net/macOS-Catalina-10.15.4-19E266-Release-version-with-Clover-5107-original-image-Double-EFI-Version-UEFI-and-MBR.html
 https://blog.daliansky.net/Lenovo-Xiaoxin-PRO-13-2019-and-macOS-Catalina-Installation-Tutorial.html
 https://blog.daliansky.net/macOS-Catalina-10.15.3-19D76-Release-version-with-Clover-5103-original-image-Double-EFI-Version.html
@@ -17,4 +18,3 @@ https://blog.daliansky.net/Intel-FB-Patcher-USB-Custom-Video.html
 https://blog.daliansky.net/Lenovo-Xiaoxin-Air-13-macOS-Mojave-installation-tutorial.html
 https://blog.daliansky.net/Mojave-Hardware-Support-List.html
 https://blog.daliansky.net/macOS-Mojave-10.14.2-18C54-official-version-with-Clover-4792-original-image.html
-https://blog.daliansky.net/Scan-code-support-QQ-group-upgrade.html
