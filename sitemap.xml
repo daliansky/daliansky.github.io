@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.4-19E266-Release-version-with-Clover-5107-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
+    
+    <lastmod>2020-04-15T12:52:24.951Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.daliansky.net/From-Clover-To-OpenCore.html</loc>
     
     <lastmod>2020-04-14T02:59:25.305Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>https://blog.daliansky.net/Mojave-Hardware-Support-List.html</loc>
     
     <lastmod>2020-04-13T03:17:36.663Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.4-19E266-Release-version-with-Clover-5107-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
-    
-    <lastmod>2020-04-13T03:17:19.452Z</lastmod>
     
   </url>
   
