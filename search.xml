@@ -8349,39 +8349,17 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
 </ul>
 <h2 id="参考及引用"><a class="markdownIt-Anchor" href="#参考及引用"></a> 参考及引用：</h2>
 <ul>
-<li>
-<p><a href="https://wikidevi.com/wiki/Dell" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell</a></p>
-</li>
-<li>
-<p><a href="https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></p>
-</li>
-<li>
-<p><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></p>
-</li>
-<li>
-<p><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></p>
-</li>
-<li>
-<p><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></p>
-</li>
-<li>
-<p><a href="https://blog.xjn819.com/" target="_blank" rel="noopener">xjn819</a>： <a href="https://blog.xjn819.com/?p=543" target="_blank" rel="noopener">使用OpenCore引导黑苹果</a> <a href="https://blog.xjn819.com/?p=317" target="_blank" rel="noopener">300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）</a></p>
-</li>
-<li>
-<p><a href="https://www.insanelymac.com/" target="_blank" rel="noopener">insanelymac.com</a></p>
-</li>
-<li>
-<p><a href="https://www.tonymacx86.com/" target="_blank" rel="noopener">tonymacx86.com</a></p>
-</li>
-<li>
-<p><a href="http://bbs.pcbeta.com" target="_blank" rel="noopener">远景论坛</a></p>
-</li>
-<li>
-<p><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></p>
-</li>
-<li>
-<p><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></p>
-</li>
+<li><a href="https://wikidevi.com/wiki/Dell" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell</a></li>
+<li><a href="https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></li>
+<li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></li>
+<li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></li>
+<li><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></li>
+<li><a href="https://blog.xjn819.com/" target="_blank" rel="noopener">xjn819</a>： <a href="https://blog.xjn819.com/?p=543" target="_blank" rel="noopener">使用OpenCore引导黑苹果</a> <a href="https://blog.xjn819.com/?p=317" target="_blank" rel="noopener">300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）</a></li>
+<li><a href="https://www.insanelymac.com/" target="_blank" rel="noopener">insanelymac.com</a></li>
+<li><a href="https://www.tonymacx86.com/" target="_blank" rel="noopener">tonymacx86.com</a></li>
+<li><a href="http://bbs.pcbeta.com" target="_blank" rel="noopener">远景论坛</a></li>
+<li><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></li>
+<li><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></li>
 </ul>
 <style type="text/css">
     .fancybox {
@@ -14977,9 +14955,9 @@ a3 a2 a1 a0=0001（二进制）=1（十进制）<br>
         <category>教程</category>
       </categories>
       <tags>
+        <tag>diskutil</tag>
         <tag>shell</tag>
         <tag>spctl</tag>
-        <tag>diskutil</tag>
         <tag>trimforce</tag>
         <tag>ioreg</tag>
         <tag>EDID</tag>
@@ -18364,9 +18342,9 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <category>教程</category>
       </categories>
       <tags>
-        <tag>framebuffer</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
+        <tag>framebuffer</tag>
         <tag>10.13.6</tag>
         <tag>17G2112</tag>
         <tag>patch</tag>
@@ -20236,10 +20214,10 @@ And 的第三个参数，是把前两个数的计算结果，写入到第三个�
       </categories>
       <tags>
         <tag>USB</tag>
-        <tag>diskutil</tag>
         <tag>Ubuntu</tag>
         <tag>Linux</tag>
         <tag>dd</tag>
+        <tag>diskutil</tag>
       </tags>
   </entry>
   <entry>
