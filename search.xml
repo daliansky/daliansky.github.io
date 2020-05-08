@@ -717,7 +717,7 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
     <content><![CDATA[<h1 id="黑果小兵微信首发macos-catalina-10154-19e2269-正式版-clover-5116原版镜像重构版"><a class="markdownIt-Anchor" href="#黑果小兵微信首发macos-catalina-10154-19e2269-正式版-clover-5116原版镜像重构版"></a> 【黑果小兵】【微信首发】macOS Catalina 10.15.4 19E2269 正式版 Clover 5116原版镜像重构版</h1>
 <blockquote>
 <p>写在前面</p>
-<p>最近发现有很多机型在安装的过程中翻车频繁。正所谓<code>不破不立</code>，经过复杂的内心斗争后决定重构安装用的<code>CLOVER</code> ，经常几天紧张的测试，现将该镜像重新发布。</p>
+<p>最近发现有很多机型在安装的过程中翻车频繁。正所谓<code>不破不立</code>，经过复杂的内心斗争后决定重构安装用的<code>CLOVER</code> ，经过几天紧张的测试，现将该镜像重新发布。</p>
 </blockquote>
 <p><img src="/images/loading.gif" data-original="http://7.daliansky.net/CDImage/CDIMAGE.png" alt="CDIMAGE"></p>
 <h2 id="特点"><a class="markdownIt-Anchor" href="#特点"></a> 特点：</h2>
@@ -14977,9 +14977,9 @@ a3 a2 a1 a0=0001（二进制）=1（十进制）<br>
         <category>教程</category>
       </categories>
       <tags>
-        <tag>diskutil</tag>
         <tag>shell</tag>
         <tag>spctl</tag>
+        <tag>diskutil</tag>
         <tag>trimforce</tag>
         <tag>ioreg</tag>
         <tag>EDID</tag>
@@ -20236,10 +20236,10 @@ And 的第三个参数，是把前两个数的计算结果，写入到第三个�
       </categories>
       <tags>
         <tag>USB</tag>
+        <tag>diskutil</tag>
         <tag>Ubuntu</tag>
         <tag>Linux</tag>
         <tag>dd</tag>
-        <tag>diskutil</tag>
       </tags>
   </entry>
   <entry>
@@ -20994,8 +20994,8 @@ Clover默认config.plist为620/630/640/650；<br>
         <category>教程</category>
       </categories>
       <tags>
-        <tag>CPUFriend</tag>
         <tag>Lilu</tag>
+        <tag>CPUFriend</tag>
         <tag>Plugins</tag>
         <tag>CPU变频</tag>
         <tag>插件</tag>
@@ -21903,9 +21903,9 @@ Clover默认config.plist为620/630/640/650；<br>
         <category>教程</category>
       </categories>
       <tags>
-        <tag>Lilu</tag>
         <tag>AppleALC</tag>
         <tag>Codec</tag>
+        <tag>Lilu</tag>
       </tags>
   </entry>
   <entry>
@@ -22140,11 +22140,11 @@ HDMI连接到0204，所以我修补该端口的HDMI（启用HDMI音频）。<br>
         <category>教程</category>
       </categories>
       <tags>
+        <tag>Lilu</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
-        <tag>Lilu</tag>
         <tag>Plugins</tag>
         <tag>Clover</tag>
         <tag>常见问题</tag>
