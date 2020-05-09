@@ -237,13 +237,9 @@
 <p>http下载链接:<a href="https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/" target="_blank" rel="noopener">请点击下载</a> 感谢<code>@难忘情怀</code>提供下载资源</p>
 <p>天翼云盘：<a href="https://cloud.189.cn/t/7r2Y3ire6vMz" target="_blank" rel="noopener">https://cloud.189.cn/t/7r2Y3ire6vMz</a></p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">MD5 (macOS Catalina 10.15.4(19E287) Installer <span class="keyword">for</span> Clover 5109 and WEPE Support UEFI and MBR.dmg) = c84ebeeb84c074729c11afca91c6f952</span><br></pre></td></tr></table></figure>
-<h2 id="10154-19e287-clover-v5114-efi三分区特别版下载链接"><a class="markdownIt-Anchor" href="#10154-19e287-clover-v5114-efi三分区特别版下载链接"></a> <strong>10.15.4  <code>19E287</code> CLOVER <code>v5114</code>  <code>EFI</code>三分区特别版下载链接</strong></h2>
-<div class="note info"><p>请通过微信公众号【<code>黑果小兵的部落阁</code>】下载</p><p>访问码请通过微信公众号【<code>黑果小兵的部落阁</code>】获取</p></div>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">MD5 (macOS Catalina 10.15.4(19E287) Installer <span class="keyword">for</span> Clover 5114 and OC and WEPE Support UEFI and MBR.dmg) = 8fd06ca0597247dc75bb3beb7c79d9b8	<span class="comment"># 16GB及以上U盘</span></span><br><span class="line">MD5 (macOS Catalina 10.15.4(19E287) Installer <span class="keyword">for</span> Clover 5114 and OC and WEPE Support UEFI and MBR 32GB.dmg) = 1e4b4be269beedb72700c335feca6c59	<span class="comment"># 32GB及以上U盘</span></span><br></pre></td></tr></table></figure>
 <h2 id="10154-19e266-双efi分区版下载链接"><a class="markdownIt-Anchor" href="#10154-19e266-双efi分区版下载链接"></a> <strong>10.15.4  <code>19E266</code>  <code>双EFI</code>分区版下载链接</strong></h2>
 <p>迅雷离线下载：[<a href="https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/macOS%20Catalina%2010.15.4%2819E266%29%20Installer%20for%20Clover%205107%20and%20WEPE%20Support%20UEFI%20and%20MBR.dmg" target="_blank" rel="noopener">请点击下载</a>] 感谢<code>@难忘情怀</code>提供下载资源</p>
 <p>http下载链接:<a href="https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/" target="_blank" rel="noopener">请点击下载</a> 感谢<code>@难忘情怀</code>提供下载资源</p>
-<div class="note info"><p>其它下载方式请于微信公众号【<code>黑果小兵的部落阁</code>】回复：<code>10.15.4</code> 获取</p><ul><li>百毒云盘:  <a href="https://pan.baidu.com/s/1qIzT1DRt84SU9TT-UBgJfw" target="_blank" rel="noopener">https://pan.baidu.com/s/1qIzT1DRt84SU9TT-UBgJfw</a></li><li>无限云盘：<a href="https://yun.mxin.ltd/#/s/%E2%80%A6" target="_blank" rel="noopener">https://yun.mxin.ltd/#/s/…</a>  极速下载</li><li>天翼云盘：<a href="https://cloud.189.cn/t/%E2%80%A6" target="_blank" rel="noopener">https://cloud.189.cn/t/…</a> 极速下载</li></ul></div>
 <figure class="highlight angelscript"><table><tr><td class="code"><pre><span class="line">MD5 (macOS Catalina <span class="number">10.15</span><span class="number">.4</span>(<span class="number">19E266</span>) Installer <span class="keyword">for</span> Clover <span class="number">5107</span> <span class="keyword">and</span> WEPE Support UEFI <span class="keyword">and</span> MBR.dmg) = e6e6e925827ee32c7e9933484cc3bb55</span><br></pre></td></tr></table></figure>
 <h2 id="感谢名单"><a class="markdownIt-Anchor" href="#感谢名单"></a> 感谢名单</h2>
 <ul>
@@ -20012,8 +20008,8 @@ And 的第三个参数，是把前两个数的计算结果，写入到第三个�
         <category>教程</category>
       </categories>
       <tags>
-        <tag>platform-id</tag>
         <tag>接口</tag>
+        <tag>platform-id</tag>
         <tag>显存</tag>
         <tag>显示器</tag>
       </tags>
