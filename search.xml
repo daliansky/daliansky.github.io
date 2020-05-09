@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>【黑果小兵】macOS Catalina 10.15.4 19E287 正式版 with Clover 5112原版镜像[双EFI版][UEFI and MBR]</title>
+    <title>【黑果小兵】macOS Catalina 10.15.4 19E2269 正式版 with Clover 5116原版镜像[双EFI版][UEFI and MBR]</title>
     <url>/macOS-Catalina-10.15.4-19E266-Release-version-with-Clover-5107-original-image-Double-EFI-Version-UEFI-and-MBR.html</url>
     <content><![CDATA[<h1 id="黑果小兵macos-catalina-10154-19e2269-正式版-with-clover-5116原版镜像双efi版-uefi-and-mbr"><a class="markdownIt-Anchor" href="#黑果小兵macos-catalina-10154-19e2269-正式版-with-clover-5116原版镜像双efi版-uefi-and-mbr"></a> 【黑果小兵】macOS Catalina 10.15.4 19E2269 正式版 with Clover 5116原版镜像[双EFI版] [UEFI and MBR]</h1>
 <h1 id="1054补充更新19e2269已发布"><a class="markdownIt-Anchor" href="#1054补充更新19e2269已发布"></a> 10.5.4补充更新（19E2269）已发布！</h1>
@@ -221,7 +221,7 @@
 <li>适用于<code>CLOVER</code> 的 <a href="https://github.com/daliansky/P-little" target="_blank" rel="noopener">P-little</a> ；</li>
 <li>适用于 <code>OpenCore</code> 的 <a href="https://github.com/daliansky/OC-little" target="_blank" rel="noopener">OC-little</a></li>
 </ul>
-<h2 id="10154-19e2269-clover-v5116-efi三分区特别版下载链接"><a class="markdownIt-Anchor" href="#10154-19e2269-clover-v5116-efi三分区特别版下载链接"></a> <strong>10.15.4  <code>19E2269</code> CLOVER <code>v5116</code>  <code>EFI</code>三分区特别版下载链接</strong></h2>
+<h2 id="10154-19e2269-clover-v5116-efi三分区特别版下载链接"><a class="markdownIt-Anchor" href="#10154-19e2269-clover-v5116-efi三分区特别版下载链接"></a> <strong>10.15.4  <code>19E2269</code> CLOVER <code>v5116</code>  <code>EFI</code>三分区特别版<a href="https://blog.daliansky.net/WeChat_First-macOS-Catalina-10.15.4-19E2269-official-version-Clover-5116-original-image-reconstruction-version.html">下载链接</a></strong></h2>
 <div class="note info"><p>请通过微信公众号【<code>黑果小兵的部落阁</code>】下载</p><p>访问码请通过微信公众号【<code>黑果小兵的部落阁</code>】获取</p></div>
 <p>16GB及以上U盘请下载：<code>macOS Catalina 10.15.4(19E2269) Installer for Clover 5116 and OC and WEPE Support UEFI and MBR.dmg</code></p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># md5 macOS\ Catalina\ 10.15.4\(19E2269\)\ Installer\ for\ Clover\ 5116\ and\ OC\ and\ WEPE\ Support\ UEFI\ and\ MBR.dmg</span></span><br><span class="line">MD5 (macOS Catalina 10.15.4(19E2269) Installer <span class="keyword">for</span> Clover 5116 and OC and WEPE Support UEFI and MBR.dmg) = 6bfbb29939936dd33195cc886f7daa35</span><br></pre></td></tr></table></figure>
@@ -8800,8 +8800,8 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <category>教程</category>
       </categories>
       <tags>
-        <tag>教程</tag>
         <tag>核显</tag>
+        <tag>教程</tag>
         <tag>HDMI</tag>
         <tag>Hackintool</tag>
       </tags>
@@ -9881,12 +9881,12 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <category>教程</category>
       </categories>
       <tags>
-        <tag>USB</tag>
         <tag>教程</tag>
         <tag>FB</tag>
         <tag>patcher</tag>
         <tag>framebuffer</tag>
         <tag>帧缓冲</tag>
+        <tag>USB</tag>
         <tag>audio</tag>
         <tag>VRAM</tag>
       </tags>
@@ -20008,8 +20008,8 @@ And 的第三个参数，是把前两个数的计算结果，写入到第三个�
         <category>教程</category>
       </categories>
       <tags>
-        <tag>接口</tag>
         <tag>platform-id</tag>
+        <tag>接口</tag>
         <tag>显存</tag>
         <tag>显示器</tag>
       </tags>
@@ -21202,10 +21202,10 @@ Clover默认config.plist为620/630/640/650；<br>
       </categories>
       <tags>
         <tag>Lilu</tag>
-        <tag>CPUFriend</tag>
         <tag>Plugins</tag>
-        <tag>CPU变频</tag>
         <tag>插件</tag>
+        <tag>CPUFriend</tag>
+        <tag>CPU变频</tag>
       </tags>
   </entry>
   <entry>
