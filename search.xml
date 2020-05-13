@@ -253,8 +253,10 @@
 <li><a href="https://github.com/chris1111" target="_blank" rel="noopener">chris1111</a>维护的项目：<a href="https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V15" target="_blank" rel="noopener">VoodooHDA</a> <a href="https://github.com/chris1111/Wireless-USB-Adapter-Clover" target="_blank" rel="noopener">Wireless USB Adapter Clover</a></li>
 <li><a href="https://github.com/zxystd" target="_blank" rel="noopener">zxystd</a>开发的<a href="https://github.com/zxystd/itlwm" target="_blank" rel="noopener">itlwm</a> <a href="https://github.com/zxystd/IntelBluetoothFirmware" target="_blank" rel="noopener">IntelBluetoothFirmware</a></li>
 <li><a href="https://github.com/lihaoyun6" target="_blank" rel="noopener">lihaoyun6</a>提供的工具：<a href="https://github.com/lihaoyun6/CPU-S" target="_blank" rel="noopener">CPU-S</a> <a href="https://github.com/lihaoyun6/macOS-Displays-icon" target="_blank" rel="noopener">macOS-Displays-icon</a> <a href="https://github.com/lihaoyun6/SidecarPatcher" target="_blank" rel="noopener">SidecarPatcher</a></li>
+<li><a href="https://github.com/SukkaW" target="_blank" rel="noopener">sukka</a>更新维护的<a href="https://blog.skk.moe/post/from-clover-to-opencore/" target="_blank" rel="noopener">从 Clover 到 OpenCore —— Clover 迁移 OpenCore 指南</a></li>
 <li><a href="https://github.com/xzhih" target="_blank" rel="noopener">xzhih</a>提供的工具：<a href="https://github.com/xzhih/one-key-hidpi" target="_blank" rel="noopener">one-key-hidpi</a></li>
 <li><a href="https://github.com/williambj1" target="_blank" rel="noopener">Bat.bat</a>更新维护的<a href="https://blog.daliansky.net/OpenCore-BootLoader.html">精解OpenCore</a></li>
+<li><a href="https://github.com/shuiyunxc" target="_blank" rel="noopener">shuiyunxc</a> 更新维护的<a href="https://shuiyunxc.gitee.io/2020/04/06/Faults/index/" target="_blank" rel="noopener">OpenCore配置错误、故障与解决办法</a></li>
 <li><a href="https://github.com/athlonreg" target="_blank" rel="noopener">athlonreg</a>更新维护的<a href="https://blog.cloudops.ml/ocbook/" target="_blank" rel="noopener">OpenCore 0.5+ 部件补丁</a> <a href="https://github.com/athlonreg/Common-patches-for-hackintosh" target="_blank" rel="noopener">Common-patches-for-hackintosh</a></li>
 <li><a href="github.com">github.com</a></li>
 <li><a href="gitee.io">码云 gitee.io</a></li>
@@ -262,39 +264,17 @@
 </ul>
 <h2 id="参考及引用"><a class="markdownIt-Anchor" href="#参考及引用"></a> 参考及引用：</h2>
 <ul>
-<li>
-<p><a href="https://wikidevi.com/wiki/Dell" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell</a></p>
-</li>
-<li>
-<p><a href="https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></p>
-</li>
-<li>
-<p><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></p>
-</li>
-<li>
-<p><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></p>
-</li>
-<li>
-<p><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></p>
-</li>
-<li>
-<p><a href="https://blog.xjn819.com/" target="_blank" rel="noopener">xjn819</a>： <a href="https://blog.xjn819.com/?p=543" target="_blank" rel="noopener">使用OpenCore引导黑苹果</a> <a href="https://blog.xjn819.com/?p=317" target="_blank" rel="noopener">300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）</a></p>
-</li>
-<li>
-<p><a href="https://www.insanelymac.com/" target="_blank" rel="noopener">insanelymac.com</a></p>
-</li>
-<li>
-<p><a href="https://www.tonymacx86.com/" target="_blank" rel="noopener">tonymacx86.com</a></p>
-</li>
-<li>
-<p><a href="http://bbs.pcbeta.com" target="_blank" rel="noopener">远景论坛</a></p>
-</li>
-<li>
-<p><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></p>
-</li>
-<li>
-<p><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></p>
-</li>
+<li><a href="https://deviwiki.com/wiki/Dell" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell</a></li>
+<li><a href="https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></li>
+<li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></li>
+<li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></li>
+<li><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></li>
+<li><a href="https://blog.xjn819.com/" target="_blank" rel="noopener">xjn819</a>： <a href="https://blog.xjn819.com/?p=543" target="_blank" rel="noopener">使用OpenCore引导黑苹果</a> <a href="https://blog.xjn819.com/?p=317" target="_blank" rel="noopener">300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）</a></li>
+<li><a href="https://www.insanelymac.com/" target="_blank" rel="noopener">insanelymac.com</a></li>
+<li><a href="https://www.tonymacx86.com/" target="_blank" rel="noopener">tonymacx86.com</a></li>
+<li><a href="http://bbs.pcbeta.com" target="_blank" rel="noopener">远景论坛</a></li>
+<li><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></li>
+<li><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></li>
 </ul>
 ]]></content>
       <categories>
@@ -302,13 +282,14 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.4</tag>
         <tag>1.9e+267</tag>
         <tag>1.9e+288</tag>
+        <tag>Infinity</tag>
       </tags>
   </entry>
   <entry>
@@ -317,6 +298,15 @@
     <content><![CDATA[<blockquote>
 <p>随着macOS Catalina(<strong>卡塔利娜</strong>) 10.15发行正式版本的临近，各种安装常见问题也需要同步更新，本篇文章就是针对10.15的常见问题的汇总，我会持续不间断更新，敬请期待</p>
 </blockquote>
+<h2 id="安装提示安装macos-应用程序副本已损坏不能用来安装macos的解决方法"><a class="markdownIt-Anchor" href="#安装提示安装macos-应用程序副本已损坏不能用来安装macos的解决方法"></a> 安装提示<code>安装macOS 应用程序副本已损坏，不能用来安装macOS</code>的解决方法</h2>
+<blockquote>
+<p>该错误会经常出现于旧版中，根源是苹果的安装镜像中的证书过期导致的。解决方法如下：</p>
+</blockquote>
+<ul>
+<li><code>实用工具-终端</code>，输入命令：<code>date 0201010116</code>，回车后关闭<code>终端</code>，可继续安装进程；</li>
+<li>安装过程中全程断开网络</li>
+<li>另一种方法：<code>BIOS</code>中修正系统时间，误差不要多于5秒，应该能解决该提示信息【<code>黑果小兵亲测有效</code>】</li>
+</ul>
 <h2 id="关于clover-bootloader的版本"><a class="markdownIt-Anchor" href="#关于clover-bootloader的版本"></a> 关于<code>Clover Bootloader</code>的版本</h2>
 <p>想要正确地安装<code>macOS Catalina 10.15.4</code>，它要求你的<code>Clover Bootloader</code>版本不低于<code>v5.0 r5107</code>。<a href="https://github.com/Dids/clover-builder/releases" target="_blank" rel="noopener">Clover Bootloader最新版本下载</a></p>
 <h2 id="安装更新黑屏问题"><a class="markdownIt-Anchor" href="#安装更新黑屏问题"></a> 安装/更新黑屏问题</h2>
@@ -644,9 +634,6 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
 <h2 id="重建缓存的命令"><a class="markdownIt-Anchor" href="#重建缓存的命令"></a> 重建缓存的命令</h2>
 <p>打开终端，输入命令：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo kextcache -i /</span><br></pre></td></tr></table></figure>
-<h2 id="关于打赏"><a class="markdownIt-Anchor" href="#关于打赏"></a> 关于打赏</h2>
-<p>您的支持就是我更新的动力！<br>
-如果不希望看到博主停更的话，请点击下方的 <code>打赏</code> 支持一下，有钱的捧个钱场，没钱的捧个人场，谢谢大家！</p>
 <h2 id="感谢名单"><a class="markdownIt-Anchor" href="#感谢名单"></a> 感谢名单</h2>
 <ul>
 <li><a href="https://www.apple.com/" target="_blank" rel="noopener">Apple</a> 的 macOS</li>
@@ -658,8 +645,10 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
 <li><a href="https://github.com/chris1111" target="_blank" rel="noopener">chris1111</a>维护的项目：<a href="https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V15" target="_blank" rel="noopener">VoodooHDA</a> <a href="https://github.com/chris1111/Wireless-USB-Adapter-Clover" target="_blank" rel="noopener">Wireless USB Adapter Clover</a></li>
 <li><a href="https://github.com/zxystd" target="_blank" rel="noopener">zxystd</a>开发的<a href="https://github.com/zxystd/itlwm" target="_blank" rel="noopener">itlwm</a> <a href="https://github.com/zxystd/IntelBluetoothFirmware" target="_blank" rel="noopener">IntelBluetoothFirmware</a></li>
 <li><a href="https://github.com/lihaoyun6" target="_blank" rel="noopener">lihaoyun6</a>提供的工具：<a href="https://github.com/lihaoyun6/CPU-S" target="_blank" rel="noopener">CPU-S</a> <a href="https://github.com/lihaoyun6/macOS-Displays-icon" target="_blank" rel="noopener">macOS-Displays-icon</a> <a href="https://github.com/lihaoyun6/SidecarPatcher" target="_blank" rel="noopener">SidecarPatcher</a></li>
+<li><a href="https://github.com/SukkaW" target="_blank" rel="noopener">sukka</a>更新维护的<a href="https://blog.skk.moe/post/from-clover-to-opencore/" target="_blank" rel="noopener">从 Clover 到 OpenCore —— Clover 迁移 OpenCore 指南</a></li>
 <li><a href="https://github.com/xzhih" target="_blank" rel="noopener">xzhih</a>提供的工具：<a href="https://github.com/xzhih/one-key-hidpi" target="_blank" rel="noopener">one-key-hidpi</a></li>
 <li><a href="https://github.com/williambj1" target="_blank" rel="noopener">Bat.bat</a>更新维护的<a href="https://blog.daliansky.net/OpenCore-BootLoader.html">精解OpenCore</a></li>
+<li><a href="https://github.com/shuiyunxc" target="_blank" rel="noopener">shuiyunxc</a> 更新维护的<a href="https://shuiyunxc.gitee.io/2020/04/06/Faults/index/" target="_blank" rel="noopener">OpenCore配置错误、故障与解决办法</a></li>
 <li><a href="https://github.com/athlonreg" target="_blank" rel="noopener">athlonreg</a>更新维护的<a href="https://blog.cloudops.ml/ocbook/" target="_blank" rel="noopener">OpenCore 0.5+ 部件补丁</a> <a href="https://github.com/athlonreg/Common-patches-for-hackintosh" target="_blank" rel="noopener">Common-patches-for-hackintosh</a></li>
 <li><a href="github.com">github.com</a></li>
 <li><a href="gitee.io">码云 gitee.io</a></li>
@@ -667,40 +656,21 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
 </ul>
 <h2 id="参考及引用"><a class="markdownIt-Anchor" href="#参考及引用"></a> 参考及引用：</h2>
 <ul>
-<li>
-<p><a href="https://wikidevi.com/wiki/Dell" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell</a></p>
-</li>
-<li>
-<p><a href="https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></p>
-</li>
-<li>
-<p><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></p>
-</li>
-<li>
-<p><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></p>
-</li>
-<li>
-<p><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></p>
-</li>
-<li>
-<p><a href="https://blog.xjn819.com/" target="_blank" rel="noopener">xjn819</a>： <a href="https://blog.xjn819.com/?p=543" target="_blank" rel="noopener">使用OpenCore引导黑苹果</a> <a href="https://blog.xjn819.com/?p=317" target="_blank" rel="noopener">300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）</a></p>
-</li>
-<li>
-<p><a href="https://www.insanelymac.com/" target="_blank" rel="noopener">insanelymac.com</a></p>
-</li>
-<li>
-<p><a href="https://www.tonymacx86.com/" target="_blank" rel="noopener">tonymacx86.com</a></p>
-</li>
-<li>
-<p><a href="http://bbs.pcbeta.com" target="_blank" rel="noopener">远景论坛</a></p>
-</li>
-<li>
-<p><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></p>
-</li>
-<li>
-<p><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></p>
-</li>
+<li><a href="https://deviwiki.com/wiki/Dell" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell</a></li>
+<li><a href="https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></li>
+<li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></li>
+<li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></li>
+<li><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></li>
+<li><a href="https://blog.xjn819.com/" target="_blank" rel="noopener">xjn819</a>： <a href="https://blog.xjn819.com/?p=543" target="_blank" rel="noopener">使用OpenCore引导黑苹果</a> <a href="https://blog.xjn819.com/?p=317" target="_blank" rel="noopener">300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）</a></li>
+<li><a href="https://www.insanelymac.com/" target="_blank" rel="noopener">insanelymac.com</a></li>
+<li><a href="https://www.tonymacx86.com/" target="_blank" rel="noopener">tonymacx86.com</a></li>
+<li><a href="http://bbs.pcbeta.com" target="_blank" rel="noopener">远景论坛</a></li>
+<li><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></li>
+<li><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></li>
 </ul>
+<h2 id="关于打赏"><a class="markdownIt-Anchor" href="#关于打赏"></a> 关于打赏</h2>
+<p>您的支持就是我更新的动力！<br>
+如果不希望看到博主停更的话，请点击下方的 <code>打赏</code> 支持一下，有钱的捧个钱场，没钱的捧个人场，谢谢大家！</p>
 ]]></content>
       <categories>
         <category>教程</category>
@@ -871,8 +841,10 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
 <li><a href="https://github.com/chris1111" target="_blank" rel="noopener">chris1111</a>维护的项目：<a href="https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V15" target="_blank" rel="noopener">VoodooHDA</a> <a href="https://github.com/chris1111/Wireless-USB-Adapter-Clover" target="_blank" rel="noopener">Wireless USB Adapter Clover</a></li>
 <li><a href="https://github.com/zxystd" target="_blank" rel="noopener">zxystd</a>开发的<a href="https://github.com/zxystd/itlwm" target="_blank" rel="noopener">itlwm</a> <a href="https://github.com/zxystd/IntelBluetoothFirmware" target="_blank" rel="noopener">IntelBluetoothFirmware</a></li>
 <li><a href="https://github.com/lihaoyun6" target="_blank" rel="noopener">lihaoyun6</a>提供的工具：<a href="https://github.com/lihaoyun6/CPU-S" target="_blank" rel="noopener">CPU-S</a> <a href="https://github.com/lihaoyun6/macOS-Displays-icon" target="_blank" rel="noopener">macOS-Displays-icon</a> <a href="https://github.com/lihaoyun6/SidecarPatcher" target="_blank" rel="noopener">SidecarPatcher</a></li>
+<li><a href="https://github.com/SukkaW" target="_blank" rel="noopener">sukka</a>更新维护的<a href="https://blog.skk.moe/post/from-clover-to-opencore/" target="_blank" rel="noopener">从 Clover 到 OpenCore —— Clover 迁移 OpenCore 指南</a></li>
 <li><a href="https://github.com/xzhih" target="_blank" rel="noopener">xzhih</a>提供的工具：<a href="https://github.com/xzhih/one-key-hidpi" target="_blank" rel="noopener">one-key-hidpi</a></li>
 <li><a href="https://github.com/williambj1" target="_blank" rel="noopener">Bat.bat</a>更新维护的<a href="https://blog.daliansky.net/OpenCore-BootLoader.html">精解OpenCore</a></li>
+<li><a href="https://github.com/shuiyunxc" target="_blank" rel="noopener">shuiyunxc</a> 更新维护的<a href="https://shuiyunxc.gitee.io/2020/04/06/Faults/index/" target="_blank" rel="noopener">OpenCore配置错误、故障与解决办法</a></li>
 <li><a href="https://github.com/athlonreg" target="_blank" rel="noopener">athlonreg</a>更新维护的<a href="https://blog.cloudops.ml/ocbook/" target="_blank" rel="noopener">OpenCore 0.5+ 部件补丁</a> <a href="https://github.com/athlonreg/Common-patches-for-hackintosh" target="_blank" rel="noopener">Common-patches-for-hackintosh</a></li>
 <li><a href="github.com">github.com</a></li>
 <li><a href="gitee.io">码云 gitee.io</a></li>
@@ -880,8 +852,8 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
 </ul>
 <h2 id="参考及引用"><a class="markdownIt-Anchor" href="#参考及引用"></a> 参考及引用：</h2>
 <ul>
-<li><a href="https://wikidevi.com/wiki/Dell" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell</a></li>
-<li><a href="https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></li>
+<li><a href="https://deviwiki.com/wiki/Dell" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell</a></li>
+<li><a href="https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></li>
 <li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></li>
 <li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></li>
 <li><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></li>
@@ -898,9 +870,9 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.4</tag>
         <tag>Infinity</tag>
@@ -1332,8 +1304,10 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
 <li><a href="https://github.com/chris1111" target="_blank" rel="noopener">chris1111</a>维护的项目：<a href="https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V15" target="_blank" rel="noopener">VoodooHDA</a> <a href="https://github.com/chris1111/Wireless-USB-Adapter-Clover" target="_blank" rel="noopener">Wireless USB Adapter Clover</a></li>
 <li><a href="https://github.com/zxystd" target="_blank" rel="noopener">zxystd</a>开发的<a href="https://github.com/zxystd/itlwm" target="_blank" rel="noopener">itlwm</a> <a href="https://github.com/zxystd/IntelBluetoothFirmware" target="_blank" rel="noopener">IntelBluetoothFirmware</a></li>
 <li><a href="https://github.com/lihaoyun6" target="_blank" rel="noopener">lihaoyun6</a>提供的工具：<a href="https://github.com/lihaoyun6/CPU-S" target="_blank" rel="noopener">CPU-S</a> <a href="https://github.com/lihaoyun6/macOS-Displays-icon" target="_blank" rel="noopener">macOS-Displays-icon</a> <a href="https://github.com/lihaoyun6/SidecarPatcher" target="_blank" rel="noopener">SidecarPatcher</a></li>
+<li><a href="https://github.com/SukkaW" target="_blank" rel="noopener">sukka</a>更新维护的<a href="https://blog.skk.moe/post/from-clover-to-opencore/" target="_blank" rel="noopener">从 Clover 到 OpenCore —— Clover 迁移 OpenCore 指南</a></li>
 <li><a href="https://github.com/xzhih" target="_blank" rel="noopener">xzhih</a>提供的工具：<a href="https://github.com/xzhih/one-key-hidpi" target="_blank" rel="noopener">one-key-hidpi</a></li>
 <li><a href="https://github.com/williambj1" target="_blank" rel="noopener">Bat.bat</a>更新维护的<a href="https://blog.daliansky.net/OpenCore-BootLoader.html">精解OpenCore</a></li>
+<li><a href="https://github.com/shuiyunxc" target="_blank" rel="noopener">shuiyunxc</a> 更新维护的<a href="https://shuiyunxc.gitee.io/2020/04/06/Faults/index/" target="_blank" rel="noopener">OpenCore配置错误、故障与解决办法</a></li>
 <li><a href="https://github.com/athlonreg" target="_blank" rel="noopener">athlonreg</a>更新维护的<a href="https://blog.cloudops.ml/ocbook/" target="_blank" rel="noopener">OpenCore 0.5+ 部件补丁</a> <a href="https://github.com/athlonreg/Common-patches-for-hackintosh" target="_blank" rel="noopener">Common-patches-for-hackintosh</a></li>
 <li><a href="github.com">github.com</a></li>
 <li><a href="gitee.io">码云 gitee.io</a></li>
@@ -1341,39 +1315,17 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
 </ul>
 <h2 id="参考及引用"><a class="markdownIt-Anchor" href="#参考及引用"></a> 参考及引用：</h2>
 <ul>
-<li>
-<p><a href="https://wikidevi.com/wiki/Dell" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell</a></p>
-</li>
-<li>
-<p><a href="https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></p>
-</li>
-<li>
-<p><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></p>
-</li>
-<li>
-<p><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></p>
-</li>
-<li>
-<p><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></p>
-</li>
-<li>
-<p><a href="https://blog.xjn819.com/" target="_blank" rel="noopener">xjn819</a>： <a href="https://blog.xjn819.com/?p=543" target="_blank" rel="noopener">使用OpenCore引导黑苹果</a> <a href="https://blog.xjn819.com/?p=317" target="_blank" rel="noopener">300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）</a></p>
-</li>
-<li>
-<p><a href="https://www.insanelymac.com/" target="_blank" rel="noopener">insanelymac.com</a></p>
-</li>
-<li>
-<p><a href="https://www.tonymacx86.com/" target="_blank" rel="noopener">tonymacx86.com</a></p>
-</li>
-<li>
-<p><a href="http://bbs.pcbeta.com" target="_blank" rel="noopener">远景论坛</a></p>
-</li>
-<li>
-<p><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></p>
-</li>
-<li>
-<p><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></p>
-</li>
+<li><a href="https://deviwiki.com/wiki/Dell" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell</a></li>
+<li><a href="https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></li>
+<li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></li>
+<li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></li>
+<li><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></li>
+<li><a href="https://blog.xjn819.com/" target="_blank" rel="noopener">xjn819</a>： <a href="https://blog.xjn819.com/?p=543" target="_blank" rel="noopener">使用OpenCore引导黑苹果</a> <a href="https://blog.xjn819.com/?p=317" target="_blank" rel="noopener">300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）</a></li>
+<li><a href="https://www.insanelymac.com/" target="_blank" rel="noopener">insanelymac.com</a></li>
+<li><a href="https://www.tonymacx86.com/" target="_blank" rel="noopener">tonymacx86.com</a></li>
+<li><a href="http://bbs.pcbeta.com" target="_blank" rel="noopener">远景论坛</a></li>
+<li><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></li>
+<li><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></li>
 </ul>
 ]]></content>
       <categories>
@@ -1719,8 +1671,10 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
 <li><a href="https://github.com/chris1111" target="_blank" rel="noopener">chris1111</a>维护的项目：<a href="https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V15" target="_blank" rel="noopener">VoodooHDA</a> <a href="https://github.com/chris1111/Wireless-USB-Adapter-Clover" target="_blank" rel="noopener">Wireless USB Adapter Clover</a></li>
 <li><a href="https://github.com/zxystd" target="_blank" rel="noopener">zxystd</a>开发的<a href="https://github.com/zxystd/itlwm" target="_blank" rel="noopener">itlwm</a> <a href="https://github.com/zxystd/IntelBluetoothFirmware" target="_blank" rel="noopener">IntelBluetoothFirmware</a></li>
 <li><a href="https://github.com/lihaoyun6" target="_blank" rel="noopener">lihaoyun6</a>提供的工具：<a href="https://github.com/lihaoyun6/CPU-S" target="_blank" rel="noopener">CPU-S</a> <a href="https://github.com/lihaoyun6/macOS-Displays-icon" target="_blank" rel="noopener">macOS-Displays-icon</a> <a href="https://github.com/lihaoyun6/SidecarPatcher" target="_blank" rel="noopener">SidecarPatcher</a></li>
+<li><a href="https://github.com/SukkaW" target="_blank" rel="noopener">sukka</a>更新维护的<a href="https://blog.skk.moe/post/from-clover-to-opencore/" target="_blank" rel="noopener">从 Clover 到 OpenCore —— Clover 迁移 OpenCore 指南</a></li>
 <li><a href="https://github.com/xzhih" target="_blank" rel="noopener">xzhih</a>提供的工具：<a href="https://github.com/xzhih/one-key-hidpi" target="_blank" rel="noopener">one-key-hidpi</a></li>
 <li><a href="https://github.com/williambj1" target="_blank" rel="noopener">Bat.bat</a>更新维护的<a href="https://blog.daliansky.net/OpenCore-BootLoader.html">精解OpenCore</a></li>
+<li><a href="https://github.com/shuiyunxc" target="_blank" rel="noopener">shuiyunxc</a> 更新维护的<a href="https://shuiyunxc.gitee.io/2020/04/06/Faults/index/" target="_blank" rel="noopener">OpenCore配置错误、故障与解决办法</a></li>
 <li><a href="https://github.com/athlonreg" target="_blank" rel="noopener">athlonreg</a>更新维护的<a href="https://blog.cloudops.ml/ocbook/" target="_blank" rel="noopener">OpenCore 0.5+ 部件补丁</a> <a href="https://github.com/athlonreg/Common-patches-for-hackintosh" target="_blank" rel="noopener">Common-patches-for-hackintosh</a></li>
 <li><a href="github.com">github.com</a></li>
 <li><a href="gitee.io">码云 gitee.io</a></li>
@@ -1728,39 +1682,17 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
 </ul>
 <h2 id="参考及引用"><a class="markdownIt-Anchor" href="#参考及引用"></a> 参考及引用：</h2>
 <ul>
-<li>
-<p><a href="https://wikidevi.com/wiki/Dell" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell</a></p>
-</li>
-<li>
-<p><a href="https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></p>
-</li>
-<li>
-<p><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></p>
-</li>
-<li>
-<p><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></p>
-</li>
-<li>
-<p><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></p>
-</li>
-<li>
-<p><a href="https://blog.xjn819.com/" target="_blank" rel="noopener">xjn819</a>： <a href="https://blog.xjn819.com/?p=543" target="_blank" rel="noopener">使用OpenCore引导黑苹果</a> <a href="https://blog.xjn819.com/?p=317" target="_blank" rel="noopener">300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）</a></p>
-</li>
-<li>
-<p><a href="https://www.insanelymac.com/" target="_blank" rel="noopener">insanelymac.com</a></p>
-</li>
-<li>
-<p><a href="https://www.tonymacx86.com/" target="_blank" rel="noopener">tonymacx86.com</a></p>
-</li>
-<li>
-<p><a href="http://bbs.pcbeta.com" target="_blank" rel="noopener">远景论坛</a></p>
-</li>
-<li>
-<p><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></p>
-</li>
-<li>
-<p><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></p>
-</li>
+<li><a href="https://deviwiki.com/wiki/Dell" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell</a></li>
+<li><a href="https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></li>
+<li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></li>
+<li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></li>
+<li><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></li>
+<li><a href="https://blog.xjn819.com/" target="_blank" rel="noopener">xjn819</a>： <a href="https://blog.xjn819.com/?p=543" target="_blank" rel="noopener">使用OpenCore引导黑苹果</a> <a href="https://blog.xjn819.com/?p=317" target="_blank" rel="noopener">300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）</a></li>
+<li><a href="https://www.insanelymac.com/" target="_blank" rel="noopener">insanelymac.com</a></li>
+<li><a href="https://www.tonymacx86.com/" target="_blank" rel="noopener">tonymacx86.com</a></li>
+<li><a href="http://bbs.pcbeta.com" target="_blank" rel="noopener">远景论坛</a></li>
+<li><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></li>
+<li><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></li>
 </ul>
 ]]></content>
       <categories>
@@ -1770,8 +1702,8 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <tag>教程</tag>
         <tag>安装</tag>
         <tag>macOS</tag>
-        <tag>联想</tag>
         <tag>小新Pro</tag>
+        <tag>联想</tag>
         <tag>PRO 13 2019 IML</tag>
       </tags>
   </entry>
@@ -2122,8 +2054,10 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
 <li><a href="https://github.com/chris1111" target="_blank" rel="noopener">chris1111</a>维护的项目：<a href="https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V15" target="_blank" rel="noopener">VoodooHDA</a> <a href="https://github.com/chris1111/Wireless-USB-Adapter-Clover" target="_blank" rel="noopener">Wireless USB Adapter Clover</a></li>
 <li><a href="https://github.com/zxystd" target="_blank" rel="noopener">zxystd</a>开发的<a href="https://github.com/zxystd/itlwm" target="_blank" rel="noopener">itlwm</a> <a href="https://github.com/zxystd/IntelBluetoothFirmware" target="_blank" rel="noopener">IntelBluetoothFirmware</a></li>
 <li><a href="https://github.com/lihaoyun6" target="_blank" rel="noopener">lihaoyun6</a>提供的工具：<a href="https://github.com/lihaoyun6/CPU-S" target="_blank" rel="noopener">CPU-S</a> <a href="https://github.com/lihaoyun6/macOS-Displays-icon" target="_blank" rel="noopener">macOS-Displays-icon</a> <a href="https://github.com/lihaoyun6/SidecarPatcher" target="_blank" rel="noopener">SidecarPatcher</a></li>
+<li><a href="https://github.com/SukkaW" target="_blank" rel="noopener">sukka</a>更新维护的<a href="https://blog.skk.moe/post/from-clover-to-opencore/" target="_blank" rel="noopener">从 Clover 到 OpenCore —— Clover 迁移 OpenCore 指南</a></li>
 <li><a href="https://github.com/xzhih" target="_blank" rel="noopener">xzhih</a>提供的工具：<a href="https://github.com/xzhih/one-key-hidpi" target="_blank" rel="noopener">one-key-hidpi</a></li>
 <li><a href="https://github.com/williambj1" target="_blank" rel="noopener">Bat.bat</a>更新维护的<a href="https://blog.daliansky.net/OpenCore-BootLoader.html">精解OpenCore</a></li>
+<li><a href="https://github.com/shuiyunxc" target="_blank" rel="noopener">shuiyunxc</a> 更新维护的<a href="https://shuiyunxc.gitee.io/2020/04/06/Faults/index/" target="_blank" rel="noopener">OpenCore配置错误、故障与解决办法</a></li>
 <li><a href="https://github.com/athlonreg" target="_blank" rel="noopener">athlonreg</a>更新维护的<a href="https://blog.cloudops.ml/ocbook/" target="_blank" rel="noopener">OpenCore 0.5+ 部件补丁</a> <a href="https://github.com/athlonreg/Common-patches-for-hackintosh" target="_blank" rel="noopener">Common-patches-for-hackintosh</a></li>
 <li><a href="github.com">github.com</a></li>
 <li><a href="gitee.io">码云 gitee.io</a></li>
@@ -2131,39 +2065,17 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
 </ul>
 <h2 id="参考及引用"><a class="markdownIt-Anchor" href="#参考及引用"></a> 参考及引用：</h2>
 <ul>
-<li>
-<p><a href="https://wikidevi.com/wiki/Dell" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell</a></p>
-</li>
-<li>
-<p><a href="https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></p>
-</li>
-<li>
-<p><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></p>
-</li>
-<li>
-<p><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></p>
-</li>
-<li>
-<p><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></p>
-</li>
-<li>
-<p><a href="https://blog.xjn819.com/" target="_blank" rel="noopener">xjn819</a>： <a href="https://blog.xjn819.com/?p=543" target="_blank" rel="noopener">使用OpenCore引导黑苹果</a> <a href="https://blog.xjn819.com/?p=317" target="_blank" rel="noopener">300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）</a></p>
-</li>
-<li>
-<p><a href="https://www.insanelymac.com/" target="_blank" rel="noopener">insanelymac.com</a></p>
-</li>
-<li>
-<p><a href="https://www.tonymacx86.com/" target="_blank" rel="noopener">tonymacx86.com</a></p>
-</li>
-<li>
-<p><a href="http://bbs.pcbeta.com" target="_blank" rel="noopener">远景论坛</a></p>
-</li>
-<li>
-<p><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></p>
-</li>
-<li>
-<p><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></p>
-</li>
+<li><a href="https://deviwiki.com/wiki/Dell" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell</a></li>
+<li><a href="https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></li>
+<li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></li>
+<li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></li>
+<li><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></li>
+<li><a href="https://blog.xjn819.com/" target="_blank" rel="noopener">xjn819</a>： <a href="https://blog.xjn819.com/?p=543" target="_blank" rel="noopener">使用OpenCore引导黑苹果</a> <a href="https://blog.xjn819.com/?p=317" target="_blank" rel="noopener">300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）</a></li>
+<li><a href="https://www.insanelymac.com/" target="_blank" rel="noopener">insanelymac.com</a></li>
+<li><a href="https://www.tonymacx86.com/" target="_blank" rel="noopener">tonymacx86.com</a></li>
+<li><a href="http://bbs.pcbeta.com" target="_blank" rel="noopener">远景论坛</a></li>
+<li><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></li>
+<li><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></li>
 </ul>
 ]]></content>
       <categories>
@@ -4562,7 +4474,7 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
 <img src="/images/loading.gif" data-original="https://img.shields.io/github/last-commit/daliansky/Hackintosh.svg?color=orange&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4">
 <img src="/images/loading.gif" data-original="https://img.shields.io/badge/link-996.icu-red.svg">
 </div>
-<h2 id="黑苹果长期维护机型整理"><a class="markdownIt-Anchor" href="#黑苹果长期维护机型整理"></a> 黑苹果长期维护机型整理</h2>
+## 黑苹果长期维护机型整理
 <blockquote>
 <p>引言 by @<a href="https://github.com/y010204025" target="_blank" rel="noopener">我意</a></p>
 <p>整理这份清单的目的：在于给想体验黑苹果的人一个方向，也想减少大家重复造轮子，节约大家的时间。</p>
@@ -8342,8 +8254,10 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
 <li><a href="https://github.com/chris1111" target="_blank" rel="noopener">chris1111</a>维护的项目：<a href="https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V15" target="_blank" rel="noopener">VoodooHDA</a> <a href="https://github.com/chris1111/Wireless-USB-Adapter-Clover" target="_blank" rel="noopener">Wireless USB Adapter Clover</a></li>
 <li><a href="https://github.com/zxystd" target="_blank" rel="noopener">zxystd</a>开发的<a href="https://github.com/zxystd/itlwm" target="_blank" rel="noopener">itlwm</a> <a href="https://github.com/zxystd/IntelBluetoothFirmware" target="_blank" rel="noopener">IntelBluetoothFirmware</a></li>
 <li><a href="https://github.com/lihaoyun6" target="_blank" rel="noopener">lihaoyun6</a>提供的工具：<a href="https://github.com/lihaoyun6/CPU-S" target="_blank" rel="noopener">CPU-S</a> <a href="https://github.com/lihaoyun6/macOS-Displays-icon" target="_blank" rel="noopener">macOS-Displays-icon</a> <a href="https://github.com/lihaoyun6/SidecarPatcher" target="_blank" rel="noopener">SidecarPatcher</a></li>
+<li><a href="https://github.com/SukkaW" target="_blank" rel="noopener">sukka</a>更新维护的<a href="https://blog.skk.moe/post/from-clover-to-opencore/" target="_blank" rel="noopener">从 Clover 到 OpenCore —— Clover 迁移 OpenCore 指南</a></li>
 <li><a href="https://github.com/xzhih" target="_blank" rel="noopener">xzhih</a>提供的工具：<a href="https://github.com/xzhih/one-key-hidpi" target="_blank" rel="noopener">one-key-hidpi</a></li>
 <li><a href="https://github.com/williambj1" target="_blank" rel="noopener">Bat.bat</a>更新维护的<a href="https://blog.daliansky.net/OpenCore-BootLoader.html">精解OpenCore</a></li>
+<li><a href="https://github.com/shuiyunxc" target="_blank" rel="noopener">shuiyunxc</a> 更新维护的<a href="https://shuiyunxc.gitee.io/2020/04/06/Faults/index/" target="_blank" rel="noopener">OpenCore配置错误、故障与解决办法</a></li>
 <li><a href="https://github.com/athlonreg" target="_blank" rel="noopener">athlonreg</a>更新维护的<a href="https://blog.cloudops.ml/ocbook/" target="_blank" rel="noopener">OpenCore 0.5+ 部件补丁</a> <a href="https://github.com/athlonreg/Common-patches-for-hackintosh" target="_blank" rel="noopener">Common-patches-for-hackintosh</a></li>
 <li><a href="github.com">github.com</a></li>
 <li><a href="gitee.io">码云 gitee.io</a></li>
@@ -8351,8 +8265,8 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
 </ul>
 <h2 id="参考及引用"><a class="markdownIt-Anchor" href="#参考及引用"></a> 参考及引用：</h2>
 <ul>
-<li><a href="https://wikidevi.com/wiki/Dell" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell</a></li>
-<li><a href="https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></li>
+<li><a href="https://deviwiki.com/wiki/Dell" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell</a></li>
+<li><a href="https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></li>
 <li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></li>
 <li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></li>
 <li><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></li>
@@ -8802,8 +8716,8 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
       </categories>
       <tags>
         <tag>教程</tag>
-        <tag>HDMI</tag>
         <tag>核显</tag>
+        <tag>HDMI</tag>
         <tag>Hackintool</tag>
       </tags>
   </entry>
@@ -9161,9 +9075,9 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <tag>教程</tag>
         <tag>安装</tag>
         <tag>macOS</tag>
+        <tag>联想</tag>
         <tag>小新air</tag>
         <tag>2018</tag>
-        <tag>联想</tag>
         <tag>Air 13 IWL</tag>
       </tags>
   </entry>
@@ -9834,8 +9748,10 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
 <li><a href="https://github.com/chris1111" target="_blank" rel="noopener">chris1111</a>维护的项目：<a href="https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V15" target="_blank" rel="noopener">VoodooHDA</a> <a href="https://github.com/chris1111/Wireless-USB-Adapter-Clover" target="_blank" rel="noopener">Wireless USB Adapter Clover</a></li>
 <li><a href="https://github.com/zxystd" target="_blank" rel="noopener">zxystd</a>开发的<a href="https://github.com/zxystd/itlwm" target="_blank" rel="noopener">itlwm</a> <a href="https://github.com/zxystd/IntelBluetoothFirmware" target="_blank" rel="noopener">IntelBluetoothFirmware</a></li>
 <li><a href="https://github.com/lihaoyun6" target="_blank" rel="noopener">lihaoyun6</a>提供的工具：<a href="https://github.com/lihaoyun6/CPU-S" target="_blank" rel="noopener">CPU-S</a> <a href="https://github.com/lihaoyun6/macOS-Displays-icon" target="_blank" rel="noopener">macOS-Displays-icon</a> <a href="https://github.com/lihaoyun6/SidecarPatcher" target="_blank" rel="noopener">SidecarPatcher</a></li>
+<li><a href="https://github.com/SukkaW" target="_blank" rel="noopener">sukka</a>更新维护的<a href="https://blog.skk.moe/post/from-clover-to-opencore/" target="_blank" rel="noopener">从 Clover 到 OpenCore —— Clover 迁移 OpenCore 指南</a></li>
 <li><a href="https://github.com/xzhih" target="_blank" rel="noopener">xzhih</a>提供的工具：<a href="https://github.com/xzhih/one-key-hidpi" target="_blank" rel="noopener">one-key-hidpi</a></li>
 <li><a href="https://github.com/williambj1" target="_blank" rel="noopener">Bat.bat</a>更新维护的<a href="https://blog.daliansky.net/OpenCore-BootLoader.html">精解OpenCore</a></li>
+<li><a href="https://github.com/shuiyunxc" target="_blank" rel="noopener">shuiyunxc</a> 更新维护的<a href="https://shuiyunxc.gitee.io/2020/04/06/Faults/index/" target="_blank" rel="noopener">OpenCore配置错误、故障与解决办法</a></li>
 <li><a href="https://github.com/athlonreg" target="_blank" rel="noopener">athlonreg</a>更新维护的<a href="https://blog.cloudops.ml/ocbook/" target="_blank" rel="noopener">OpenCore 0.5+ 部件补丁</a> <a href="https://github.com/athlonreg/Common-patches-for-hackintosh" target="_blank" rel="noopener">Common-patches-for-hackintosh</a></li>
 <li><a href="github.com">github.com</a></li>
 <li><a href="gitee.io">码云 gitee.io</a></li>
@@ -9843,51 +9759,29 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
 </ul>
 <h2 id="参考及引用"><a class="markdownIt-Anchor" href="#参考及引用"></a> 参考及引用：</h2>
 <ul>
-<li>
-<p><a href="https://wikidevi.com/wiki/Dell" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell</a></p>
-</li>
-<li>
-<p><a href="https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></p>
-</li>
-<li>
-<p><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></p>
-</li>
-<li>
-<p><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></p>
-</li>
-<li>
-<p><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></p>
-</li>
-<li>
-<p><a href="https://blog.xjn819.com/" target="_blank" rel="noopener">xjn819</a>： <a href="https://blog.xjn819.com/?p=543" target="_blank" rel="noopener">使用OpenCore引导黑苹果</a> <a href="https://blog.xjn819.com/?p=317" target="_blank" rel="noopener">300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）</a></p>
-</li>
-<li>
-<p><a href="https://www.insanelymac.com/" target="_blank" rel="noopener">insanelymac.com</a></p>
-</li>
-<li>
-<p><a href="https://www.tonymacx86.com/" target="_blank" rel="noopener">tonymacx86.com</a></p>
-</li>
-<li>
-<p><a href="http://bbs.pcbeta.com" target="_blank" rel="noopener">远景论坛</a></p>
-</li>
-<li>
-<p><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></p>
-</li>
-<li>
-<p><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></p>
-</li>
+<li><a href="https://deviwiki.com/wiki/Dell" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell</a></li>
+<li><a href="https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></li>
+<li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></li>
+<li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></li>
+<li><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></li>
+<li><a href="https://blog.xjn819.com/" target="_blank" rel="noopener">xjn819</a>： <a href="https://blog.xjn819.com/?p=543" target="_blank" rel="noopener">使用OpenCore引导黑苹果</a> <a href="https://blog.xjn819.com/?p=317" target="_blank" rel="noopener">300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）</a></li>
+<li><a href="https://www.insanelymac.com/" target="_blank" rel="noopener">insanelymac.com</a></li>
+<li><a href="https://www.tonymacx86.com/" target="_blank" rel="noopener">tonymacx86.com</a></li>
+<li><a href="http://bbs.pcbeta.com" target="_blank" rel="noopener">远景论坛</a></li>
+<li><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></li>
+<li><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></li>
 </ul>
 ]]></content>
       <categories>
         <category>教程</category>
       </categories>
       <tags>
-        <tag>USB</tag>
         <tag>教程</tag>
         <tag>FB</tag>
         <tag>patcher</tag>
         <tag>framebuffer</tag>
         <tag>帧缓冲</tag>
+        <tag>USB</tag>
         <tag>audio</tag>
         <tag>VRAM</tag>
       </tags>
@@ -10431,8 +10325,10 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
 <li><a href="https://github.com/chris1111" target="_blank" rel="noopener">chris1111</a>维护的项目：<a href="https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V15" target="_blank" rel="noopener">VoodooHDA</a> <a href="https://github.com/chris1111/Wireless-USB-Adapter-Clover" target="_blank" rel="noopener">Wireless USB Adapter Clover</a></li>
 <li><a href="https://github.com/zxystd" target="_blank" rel="noopener">zxystd</a>开发的<a href="https://github.com/zxystd/itlwm" target="_blank" rel="noopener">itlwm</a> <a href="https://github.com/zxystd/IntelBluetoothFirmware" target="_blank" rel="noopener">IntelBluetoothFirmware</a></li>
 <li><a href="https://github.com/lihaoyun6" target="_blank" rel="noopener">lihaoyun6</a>提供的工具：<a href="https://github.com/lihaoyun6/CPU-S" target="_blank" rel="noopener">CPU-S</a> <a href="https://github.com/lihaoyun6/macOS-Displays-icon" target="_blank" rel="noopener">macOS-Displays-icon</a> <a href="https://github.com/lihaoyun6/SidecarPatcher" target="_blank" rel="noopener">SidecarPatcher</a></li>
+<li><a href="https://github.com/SukkaW" target="_blank" rel="noopener">sukka</a>更新维护的<a href="https://blog.skk.moe/post/from-clover-to-opencore/" target="_blank" rel="noopener">从 Clover 到 OpenCore —— Clover 迁移 OpenCore 指南</a></li>
 <li><a href="https://github.com/xzhih" target="_blank" rel="noopener">xzhih</a>提供的工具：<a href="https://github.com/xzhih/one-key-hidpi" target="_blank" rel="noopener">one-key-hidpi</a></li>
 <li><a href="https://github.com/williambj1" target="_blank" rel="noopener">Bat.bat</a>更新维护的<a href="https://blog.daliansky.net/OpenCore-BootLoader.html">精解OpenCore</a></li>
+<li><a href="https://github.com/shuiyunxc" target="_blank" rel="noopener">shuiyunxc</a> 更新维护的<a href="https://shuiyunxc.gitee.io/2020/04/06/Faults/index/" target="_blank" rel="noopener">OpenCore配置错误、故障与解决办法</a></li>
 <li><a href="https://github.com/athlonreg" target="_blank" rel="noopener">athlonreg</a>更新维护的<a href="https://blog.cloudops.ml/ocbook/" target="_blank" rel="noopener">OpenCore 0.5+ 部件补丁</a> <a href="https://github.com/athlonreg/Common-patches-for-hackintosh" target="_blank" rel="noopener">Common-patches-for-hackintosh</a></li>
 <li><a href="github.com">github.com</a></li>
 <li><a href="gitee.io">码云 gitee.io</a></li>
@@ -10440,39 +10336,17 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
 </ul>
 <h2 id="参考及引用"><a class="markdownIt-Anchor" href="#参考及引用"></a> 参考及引用：</h2>
 <ul>
-<li>
-<p><a href="https://wikidevi.com/wiki/Dell" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell</a></p>
-</li>
-<li>
-<p><a href="https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></p>
-</li>
-<li>
-<p><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></p>
-</li>
-<li>
-<p><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></p>
-</li>
-<li>
-<p><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></p>
-</li>
-<li>
-<p><a href="https://blog.xjn819.com/" target="_blank" rel="noopener">xjn819</a>： <a href="https://blog.xjn819.com/?p=543" target="_blank" rel="noopener">使用OpenCore引导黑苹果</a> <a href="https://blog.xjn819.com/?p=317" target="_blank" rel="noopener">300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）</a></p>
-</li>
-<li>
-<p><a href="https://www.insanelymac.com/" target="_blank" rel="noopener">insanelymac.com</a></p>
-</li>
-<li>
-<p><a href="https://www.tonymacx86.com/" target="_blank" rel="noopener">tonymacx86.com</a></p>
-</li>
-<li>
-<p><a href="http://bbs.pcbeta.com" target="_blank" rel="noopener">远景论坛</a></p>
-</li>
-<li>
-<p><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></p>
-</li>
-<li>
-<p><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></p>
-</li>
+<li><a href="https://deviwiki.com/wiki/Dell" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell</a></li>
+<li><a href="https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></li>
+<li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></li>
+<li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></li>
+<li><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></li>
+<li><a href="https://blog.xjn819.com/" target="_blank" rel="noopener">xjn819</a>： <a href="https://blog.xjn819.com/?p=543" target="_blank" rel="noopener">使用OpenCore引导黑苹果</a> <a href="https://blog.xjn819.com/?p=317" target="_blank" rel="noopener">300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）</a></li>
+<li><a href="https://www.insanelymac.com/" target="_blank" rel="noopener">insanelymac.com</a></li>
+<li><a href="https://www.tonymacx86.com/" target="_blank" rel="noopener">tonymacx86.com</a></li>
+<li><a href="http://bbs.pcbeta.com" target="_blank" rel="noopener">远景论坛</a></li>
+<li><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></li>
+<li><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></li>
 </ul>
 ]]></content>
       <categories>
@@ -12683,10 +12557,6 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
 <p><em>某些SKL/KBL台式机如果驱动4K显示器可以试试</em> <code>platform-id:0x193b0005</code> 这个ig-platform-id不存在于gma.c列表里</p>
 <p>原文链接：<a href="https://www.tonymacx86.com/threads/intel-hd-graphics-framebuffer-edits-desktop.125239/" target="_blank" rel="noopener">https://www.tonymacx86.com/threads/intel-hd-graphics-framebuffer-edits-desktop.125239/</a></p>
 <p>扩展阅读：<a href="https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html">Intel FB-Patcher使用教程及插入姿势</a></p>
-<h2 id="关于打赏"><a class="markdownIt-Anchor" href="#关于打赏"></a> 关于打赏</h2>
-<p>您的支持就是我更新的动力！<br>
-本篇文章会持续不间断更新，每个Clover的更新日志都需要阅读，如果有新的platform-id，我都会第一时间添加进来。<br>
-so，如果不希望看到博主停更的话，请点击下方的 <code>打赏</code> 支持一下，有钱的捧个钱场，没钱的捧个人场，谢谢大家！</p>
 <h2 id="感谢名单"><a class="markdownIt-Anchor" href="#感谢名单"></a> 感谢名单</h2>
 <ul>
 <li><a href="https://www.apple.com/" target="_blank" rel="noopener">Apple</a> 的 macOS</li>
@@ -12698,8 +12568,10 @@ so，如果不希望看到博主停更的话，请点击下方的 <code>打赏</
 <li><a href="https://github.com/chris1111" target="_blank" rel="noopener">chris1111</a>维护的项目：<a href="https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V15" target="_blank" rel="noopener">VoodooHDA</a> <a href="https://github.com/chris1111/Wireless-USB-Adapter-Clover" target="_blank" rel="noopener">Wireless USB Adapter Clover</a></li>
 <li><a href="https://github.com/zxystd" target="_blank" rel="noopener">zxystd</a>开发的<a href="https://github.com/zxystd/itlwm" target="_blank" rel="noopener">itlwm</a> <a href="https://github.com/zxystd/IntelBluetoothFirmware" target="_blank" rel="noopener">IntelBluetoothFirmware</a></li>
 <li><a href="https://github.com/lihaoyun6" target="_blank" rel="noopener">lihaoyun6</a>提供的工具：<a href="https://github.com/lihaoyun6/CPU-S" target="_blank" rel="noopener">CPU-S</a> <a href="https://github.com/lihaoyun6/macOS-Displays-icon" target="_blank" rel="noopener">macOS-Displays-icon</a> <a href="https://github.com/lihaoyun6/SidecarPatcher" target="_blank" rel="noopener">SidecarPatcher</a></li>
+<li><a href="https://github.com/SukkaW" target="_blank" rel="noopener">sukka</a>更新维护的<a href="https://blog.skk.moe/post/from-clover-to-opencore/" target="_blank" rel="noopener">从 Clover 到 OpenCore —— Clover 迁移 OpenCore 指南</a></li>
 <li><a href="https://github.com/xzhih" target="_blank" rel="noopener">xzhih</a>提供的工具：<a href="https://github.com/xzhih/one-key-hidpi" target="_blank" rel="noopener">one-key-hidpi</a></li>
 <li><a href="https://github.com/williambj1" target="_blank" rel="noopener">Bat.bat</a>更新维护的<a href="https://blog.daliansky.net/OpenCore-BootLoader.html">精解OpenCore</a></li>
+<li><a href="https://github.com/shuiyunxc" target="_blank" rel="noopener">shuiyunxc</a> 更新维护的<a href="https://shuiyunxc.gitee.io/2020/04/06/Faults/index/" target="_blank" rel="noopener">OpenCore配置错误、故障与解决办法</a></li>
 <li><a href="https://github.com/athlonreg" target="_blank" rel="noopener">athlonreg</a>更新维护的<a href="https://blog.cloudops.ml/ocbook/" target="_blank" rel="noopener">OpenCore 0.5+ 部件补丁</a> <a href="https://github.com/athlonreg/Common-patches-for-hackintosh" target="_blank" rel="noopener">Common-patches-for-hackintosh</a></li>
 <li><a href="github.com">github.com</a></li>
 <li><a href="gitee.io">码云 gitee.io</a></li>
@@ -12707,13 +12579,8 @@ so，如果不希望看到博主停更的话，请点击下方的 <code>打赏</
 </ul>
 <h2 id="参考及引用"><a class="markdownIt-Anchor" href="#参考及引用"></a> 参考及引用：</h2>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/MacBook_Air" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/MacBook_Air</a></li>
-<li><a href="https://en.wikipedia.org/wiki/MacBook_Pro" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/MacBook_Pro</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Mac_Mini" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Mac_Mini</a></li>
-<li><a href="https://en.wikipedia.org/wiki/IMac" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/IMac</a></li>
-<li><a href="https://en.wikipedia.org/wiki/IMac_Pro" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/IMac_Pro</a></li>
-<li><a href="https://wikidevi.com/wiki/Dell" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell</a></li>
-<li><a href="https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></li>
+<li><a href="https://deviwiki.com/wiki/Dell" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell</a></li>
+<li><a href="https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></li>
 <li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></li>
 <li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></li>
 <li><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></li>
@@ -12724,6 +12591,10 @@ so，如果不希望看到博主停更的话，请点击下方的 <code>打赏</
 <li><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></li>
 <li><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></li>
 </ul>
+<h2 id="关于打赏"><a class="markdownIt-Anchor" href="#关于打赏"></a> 关于打赏</h2>
+<p>您的支持就是我更新的动力！<br>
+本篇文章会持续不间断更新，每个Clover的更新日志都需要阅读，如果有新的platform-id，我都会第一时间添加进来。<br>
+so，如果不希望看到博主停更的话，请点击下方的 <code>打赏</code> 支持一下，有钱的捧个钱场，没钱的捧个人场，谢谢大家！</p>
 ]]></content>
       <categories>
         <category>教程</category>
@@ -13702,7 +13573,7 @@ a3 a2 a1 a0=0001（二进制）=1（十进制）<br>
 <blockquote>
 <p>未完，待续[别问我何时续更]</p>
 </blockquote>
-<h1 id="感谢名单"><a class="markdownIt-Anchor" href="#感谢名单"></a> 感谢名单</h1>
+<h2 id="感谢名单"><a class="markdownIt-Anchor" href="#感谢名单"></a> 感谢名单</h2>
 <ul>
 <li><a href="https://www.apple.com/" target="_blank" rel="noopener">Apple</a> 的 macOS</li>
 <li><a href="https://github.com/rehabman" target="_blank" rel="noopener">RehabMan</a>维护的项目：<a href="https://github.com/RehabMan/OS-X-Clover-Laptop-Config" target="_blank" rel="noopener">OS-X-Clover-Laptop-Config</a> <a href="https://github.com/RehabMan/Laptop-DSDT-Patch" target="_blank" rel="noopener">Laptop-DSDT-Patch</a> <a href="https://github.com/RehabMan/OS-X-USB-Inject-All" target="_blank" rel="noopener">OS-X-USB-Inject-All</a>等</li>
@@ -13713,48 +13584,28 @@ a3 a2 a1 a0=0001（二进制）=1（十进制）<br>
 <li><a href="https://github.com/chris1111" target="_blank" rel="noopener">chris1111</a>维护的项目：<a href="https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V15" target="_blank" rel="noopener">VoodooHDA</a> <a href="https://github.com/chris1111/Wireless-USB-Adapter-Clover" target="_blank" rel="noopener">Wireless USB Adapter Clover</a></li>
 <li><a href="https://github.com/zxystd" target="_blank" rel="noopener">zxystd</a>开发的<a href="https://github.com/zxystd/itlwm" target="_blank" rel="noopener">itlwm</a> <a href="https://github.com/zxystd/IntelBluetoothFirmware" target="_blank" rel="noopener">IntelBluetoothFirmware</a></li>
 <li><a href="https://github.com/lihaoyun6" target="_blank" rel="noopener">lihaoyun6</a>提供的工具：<a href="https://github.com/lihaoyun6/CPU-S" target="_blank" rel="noopener">CPU-S</a> <a href="https://github.com/lihaoyun6/macOS-Displays-icon" target="_blank" rel="noopener">macOS-Displays-icon</a> <a href="https://github.com/lihaoyun6/SidecarPatcher" target="_blank" rel="noopener">SidecarPatcher</a></li>
+<li><a href="https://github.com/SukkaW" target="_blank" rel="noopener">sukka</a>更新维护的<a href="https://blog.skk.moe/post/from-clover-to-opencore/" target="_blank" rel="noopener">从 Clover 到 OpenCore —— Clover 迁移 OpenCore 指南</a></li>
 <li><a href="https://github.com/xzhih" target="_blank" rel="noopener">xzhih</a>提供的工具：<a href="https://github.com/xzhih/one-key-hidpi" target="_blank" rel="noopener">one-key-hidpi</a></li>
 <li><a href="https://github.com/williambj1" target="_blank" rel="noopener">Bat.bat</a>更新维护的<a href="https://blog.daliansky.net/OpenCore-BootLoader.html">精解OpenCore</a></li>
+<li><a href="https://github.com/shuiyunxc" target="_blank" rel="noopener">shuiyunxc</a> 更新维护的<a href="https://shuiyunxc.gitee.io/2020/04/06/Faults/index/" target="_blank" rel="noopener">OpenCore配置错误、故障与解决办法</a></li>
 <li><a href="https://github.com/athlonreg" target="_blank" rel="noopener">athlonreg</a>更新维护的<a href="https://blog.cloudops.ml/ocbook/" target="_blank" rel="noopener">OpenCore 0.5+ 部件补丁</a> <a href="https://github.com/athlonreg/Common-patches-for-hackintosh" target="_blank" rel="noopener">Common-patches-for-hackintosh</a></li>
 <li><a href="github.com">github.com</a></li>
 <li><a href="gitee.io">码云 gitee.io</a></li>
 <li><a href="coding.net">扣钉 coding.net</a></li>
 </ul>
-<h1 id="参考及引用"><a class="markdownIt-Anchor" href="#参考及引用"></a> 参考及引用：</h1>
+<h2 id="参考及引用"><a class="markdownIt-Anchor" href="#参考及引用"></a> 参考及引用：</h2>
 <ul>
-<li>
-<p><a href="https://wikidevi.com/wiki/Dell" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell</a></p>
-</li>
-<li>
-<p><a href="https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></p>
-</li>
-<li>
-<p><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></p>
-</li>
-<li>
-<p><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></p>
-</li>
-<li>
-<p><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></p>
-</li>
-<li>
-<p><a href="https://blog.xjn819.com/" target="_blank" rel="noopener">xjn819</a>： <a href="https://blog.xjn819.com/?p=543" target="_blank" rel="noopener">使用OpenCore引导黑苹果</a> <a href="https://blog.xjn819.com/?p=317" target="_blank" rel="noopener">300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）</a></p>
-</li>
-<li>
-<p><a href="https://www.insanelymac.com/" target="_blank" rel="noopener">insanelymac.com</a></p>
-</li>
-<li>
-<p><a href="https://www.tonymacx86.com/" target="_blank" rel="noopener">tonymacx86.com</a></p>
-</li>
-<li>
-<p><a href="http://bbs.pcbeta.com" target="_blank" rel="noopener">远景论坛</a></p>
-</li>
-<li>
-<p><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></p>
-</li>
-<li>
-<p>[<a href="http://olarila.com" target="_blank" rel="noopener">olarila.com</a>](</p>
-</li>
+<li><a href="https://deviwiki.com/wiki/Dell" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell</a></li>
+<li><a href="https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></li>
+<li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></li>
+<li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></li>
+<li><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></li>
+<li><a href="https://blog.xjn819.com/" target="_blank" rel="noopener">xjn819</a>： <a href="https://blog.xjn819.com/?p=543" target="_blank" rel="noopener">使用OpenCore引导黑苹果</a> <a href="https://blog.xjn819.com/?p=317" target="_blank" rel="noopener">300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）</a></li>
+<li><a href="https://www.insanelymac.com/" target="_blank" rel="noopener">insanelymac.com</a></li>
+<li><a href="https://www.tonymacx86.com/" target="_blank" rel="noopener">tonymacx86.com</a></li>
+<li><a href="http://bbs.pcbeta.com" target="_blank" rel="noopener">远景论坛</a></li>
+<li><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></li>
+<li><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></li>
 </ul>
 ]]></content>
       <categories>
@@ -13776,6 +13627,7 @@ a3 a2 a1 a0=0001（二进制）=1（十进制）<br>
 <ul>
 <li><code>实用工具-终端</code>，输入命令：<code>date 0201010116</code>，回车后关闭<code>终端</code>，可继续安装进程；</li>
 <li>安装过程中全程断开网络</li>
+<li>另一种方法：<code>BIOS</code>中修正系统时间，误差不要多于5秒，应该能解决该提示信息【<code>黑果小兵亲测有效</code>】</li>
 </ul>
 <h2 id="去掉lilu的输出信息还原1013-内核崩溃kernel-pance的真相"><a class="markdownIt-Anchor" href="#去掉lilu的输出信息还原1013-内核崩溃kernel-pance的真相"></a> 去掉<code>Lilu</code>的输出信息,还原10.13 内核崩溃(kernel pance)的真相</h2>
 <blockquote>
@@ -13962,6 +13814,40 @@ a3 a2 a1 a0=0001（二进制）=1（十进制）<br>
 <h2 id="重建缓存的命令"><a class="markdownIt-Anchor" href="#重建缓存的命令"></a> 重建缓存的命令</h2>
 <p>打开终端，输入命令：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/sh</span></span><br><span class="line">sudo chmod -Rf 755 /S*/L*/E*</span><br><span class="line">sudo chown -Rf 0:0 /S*/L*/E*</span><br><span class="line">sudo chmod -Rf 755 /L*/E*</span><br><span class="line">sudo chown -Rf 0:0 /L*/E*</span><br><span class="line">sudo rm -Rf /S*/L*/PrelinkedKernels/*</span><br><span class="line">sudo rm -Rf /S*/L*/Caches/com.apple.kext.caches/*</span><br><span class="line">sudo touch -f /S*/L*/E*</span><br><span class="line">sudo touch -f /L*/E*</span><br><span class="line">sudo kextcache -Boot -U /</span><br></pre></td></tr></table></figure>
+<h2 id="感谢名单"><a class="markdownIt-Anchor" href="#感谢名单"></a> 感谢名单</h2>
+<ul>
+<li><a href="https://www.apple.com/" target="_blank" rel="noopener">Apple</a> 的 macOS</li>
+<li><a href="https://github.com/rehabman" target="_blank" rel="noopener">RehabMan</a>维护的项目：<a href="https://github.com/RehabMan/OS-X-Clover-Laptop-Config" target="_blank" rel="noopener">OS-X-Clover-Laptop-Config</a> <a href="https://github.com/RehabMan/Laptop-DSDT-Patch" target="_blank" rel="noopener">Laptop-DSDT-Patch</a> <a href="https://github.com/RehabMan/OS-X-USB-Inject-All" target="_blank" rel="noopener">OS-X-USB-Inject-All</a>等</li>
+<li><a href="https://github.com/acidanthera" target="_blank" rel="noopener">Acidanthera</a> 维护的项目：<a href="https://github.com/acidanthera/OpenCorePkg" target="_blank" rel="noopener">OpenCorePkg</a> <a href="https://github.com/acidanthera/Lilu" target="_blank" rel="noopener">lilu</a> <a href="https://github.com/acidanthera/AirportBrcmFixup" target="_blank" rel="noopener">AirportBrcmFixup</a> <a href="https://github.com/acidanthera/WhateverGreen" target="_blank" rel="noopener">WhateverGreen</a> <a href="https://github.com/acidanthera/VirtualSMC" target="_blank" rel="noopener">VirtualSMC</a> <a href="https://github.com/acidanthera/AppleALC" target="_blank" rel="noopener">AppleALC</a> <a href="https://github.com/acidanthera/BrcmPatchRAM" target="_blank" rel="noopener">BrcmPatchRAM</a> <a href="https://github.com/acidanthera/MaciASL" target="_blank" rel="noopener">MaciASL</a> 等</li>
+<li><a href="https://www.insanelymac.com/forum/profile/1364628-headkaze/" target="_blank" rel="noopener">headkaze</a> 提供的工具：<a href="https://github.com/headkaze/Hackintool" target="_blank" rel="noopener">hackintool</a> <a href="https://github.com/headkaze/PinConfigurator" target="_blank" rel="noopener">PinConfigurator</a> <a href="https://www.insanelymac.com/forum/topic/339175-brcmpatchram2-for-1015-catalina-broadcom-bluetooth-firmware-upload/" target="_blank" rel="noopener">BrcmPatchRAM</a></li>
+<li><a href="https://github.com/CloverHackyColor" target="_blank" rel="noopener">CloverHackyColor</a>维护的项目：<a href="https://github.com/CloverHackyColor/CloverBootloader" target="_blank" rel="noopener">CloverBootloader</a> <a href="https://github.com/CloverHackyColor/CloverThemes" target="_blank" rel="noopener">CloverThemes</a></li>
+<li>宪武整理的：<a href="https://github.com/daliansky/P-little" target="_blank" rel="noopener">P-little</a> <a href="https://github.com/daliansky/OC-little" target="_blank" rel="noopener">OC-little</a></li>
+<li><a href="https://github.com/chris1111" target="_blank" rel="noopener">chris1111</a>维护的项目：<a href="https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V15" target="_blank" rel="noopener">VoodooHDA</a> <a href="https://github.com/chris1111/Wireless-USB-Adapter-Clover" target="_blank" rel="noopener">Wireless USB Adapter Clover</a></li>
+<li><a href="https://github.com/zxystd" target="_blank" rel="noopener">zxystd</a>开发的<a href="https://github.com/zxystd/itlwm" target="_blank" rel="noopener">itlwm</a> <a href="https://github.com/zxystd/IntelBluetoothFirmware" target="_blank" rel="noopener">IntelBluetoothFirmware</a></li>
+<li><a href="https://github.com/lihaoyun6" target="_blank" rel="noopener">lihaoyun6</a>提供的工具：<a href="https://github.com/lihaoyun6/CPU-S" target="_blank" rel="noopener">CPU-S</a> <a href="https://github.com/lihaoyun6/macOS-Displays-icon" target="_blank" rel="noopener">macOS-Displays-icon</a> <a href="https://github.com/lihaoyun6/SidecarPatcher" target="_blank" rel="noopener">SidecarPatcher</a></li>
+<li><a href="https://github.com/SukkaW" target="_blank" rel="noopener">sukka</a>更新维护的<a href="https://blog.skk.moe/post/from-clover-to-opencore/" target="_blank" rel="noopener">从 Clover 到 OpenCore —— Clover 迁移 OpenCore 指南</a></li>
+<li><a href="https://github.com/xzhih" target="_blank" rel="noopener">xzhih</a>提供的工具：<a href="https://github.com/xzhih/one-key-hidpi" target="_blank" rel="noopener">one-key-hidpi</a></li>
+<li><a href="https://github.com/williambj1" target="_blank" rel="noopener">Bat.bat</a>更新维护的<a href="https://blog.daliansky.net/OpenCore-BootLoader.html">精解OpenCore</a></li>
+<li><a href="https://github.com/shuiyunxc" target="_blank" rel="noopener">shuiyunxc</a> 更新维护的<a href="https://shuiyunxc.gitee.io/2020/04/06/Faults/index/" target="_blank" rel="noopener">OpenCore配置错误、故障与解决办法</a></li>
+<li><a href="https://github.com/athlonreg" target="_blank" rel="noopener">athlonreg</a>更新维护的<a href="https://blog.cloudops.ml/ocbook/" target="_blank" rel="noopener">OpenCore 0.5+ 部件补丁</a> <a href="https://github.com/athlonreg/Common-patches-for-hackintosh" target="_blank" rel="noopener">Common-patches-for-hackintosh</a></li>
+<li><a href="github.com">github.com</a></li>
+<li><a href="gitee.io">码云 gitee.io</a></li>
+<li><a href="coding.net">扣钉 coding.net</a></li>
+</ul>
+<h2 id="参考及引用"><a class="markdownIt-Anchor" href="#参考及引用"></a> 参考及引用：</h2>
+<ul>
+<li><a href="https://deviwiki.com/wiki/Dell" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell</a></li>
+<li><a href="https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></li>
+<li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></li>
+<li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></li>
+<li><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></li>
+<li><a href="https://blog.xjn819.com/" target="_blank" rel="noopener">xjn819</a>： <a href="https://blog.xjn819.com/?p=543" target="_blank" rel="noopener">使用OpenCore引导黑苹果</a> <a href="https://blog.xjn819.com/?p=317" target="_blank" rel="noopener">300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）</a></li>
+<li><a href="https://www.insanelymac.com/" target="_blank" rel="noopener">insanelymac.com</a></li>
+<li><a href="https://www.tonymacx86.com/" target="_blank" rel="noopener">tonymacx86.com</a></li>
+<li><a href="http://bbs.pcbeta.com" target="_blank" rel="noopener">远景论坛</a></li>
+<li><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></li>
+<li><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></li>
+</ul>
 <h2 id="关于打赏"><a class="markdownIt-Anchor" href="#关于打赏"></a> 关于打赏</h2>
 <p>您的支持就是我更新的动力！<br>
 如果不希望看到博主停更的话，请点击下方的 <code>打赏</code> 支持一下，有钱的捧个钱场，没钱的捧个人场，谢谢大家！</p>
@@ -14054,12 +13940,12 @@ a3 a2 a1 a0=0001（二进制）=1（十进制）<br>
 <tr>
 <td>Rx Vega VII</td>
 <td>R9 260/360</td>
-<td>RX5700/RX5700XT</td>
+<td></td>
 </tr>
 <tr>
 <td>Vega 64</td>
 <td>R9 270/370</td>
-<td>RX580 2048SP</td>
+<td>RX580 2048SP[可刷RX570 VBIOS驱动]</td>
 </tr>
 <tr>
 <td>Vega 56</td>
@@ -14490,8 +14376,10 @@ a3 a2 a1 a0=0001（二进制）=1（十进制）<br>
 <li><a href="https://github.com/chris1111" target="_blank" rel="noopener">chris1111</a>维护的项目：<a href="https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V15" target="_blank" rel="noopener">VoodooHDA</a> <a href="https://github.com/chris1111/Wireless-USB-Adapter-Clover" target="_blank" rel="noopener">Wireless USB Adapter Clover</a></li>
 <li><a href="https://github.com/zxystd" target="_blank" rel="noopener">zxystd</a>开发的<a href="https://github.com/zxystd/itlwm" target="_blank" rel="noopener">itlwm</a> <a href="https://github.com/zxystd/IntelBluetoothFirmware" target="_blank" rel="noopener">IntelBluetoothFirmware</a></li>
 <li><a href="https://github.com/lihaoyun6" target="_blank" rel="noopener">lihaoyun6</a>提供的工具：<a href="https://github.com/lihaoyun6/CPU-S" target="_blank" rel="noopener">CPU-S</a> <a href="https://github.com/lihaoyun6/macOS-Displays-icon" target="_blank" rel="noopener">macOS-Displays-icon</a> <a href="https://github.com/lihaoyun6/SidecarPatcher" target="_blank" rel="noopener">SidecarPatcher</a></li>
+<li><a href="https://github.com/SukkaW" target="_blank" rel="noopener">sukka</a>更新维护的<a href="https://blog.skk.moe/post/from-clover-to-opencore/" target="_blank" rel="noopener">从 Clover 到 OpenCore —— Clover 迁移 OpenCore 指南</a></li>
 <li><a href="https://github.com/xzhih" target="_blank" rel="noopener">xzhih</a>提供的工具：<a href="https://github.com/xzhih/one-key-hidpi" target="_blank" rel="noopener">one-key-hidpi</a></li>
 <li><a href="https://github.com/williambj1" target="_blank" rel="noopener">Bat.bat</a>更新维护的<a href="https://blog.daliansky.net/OpenCore-BootLoader.html">精解OpenCore</a></li>
+<li><a href="https://github.com/shuiyunxc" target="_blank" rel="noopener">shuiyunxc</a> 更新维护的<a href="https://shuiyunxc.gitee.io/2020/04/06/Faults/index/" target="_blank" rel="noopener">OpenCore配置错误、故障与解决办法</a></li>
 <li><a href="https://github.com/athlonreg" target="_blank" rel="noopener">athlonreg</a>更新维护的<a href="https://blog.cloudops.ml/ocbook/" target="_blank" rel="noopener">OpenCore 0.5+ 部件补丁</a> <a href="https://github.com/athlonreg/Common-patches-for-hackintosh" target="_blank" rel="noopener">Common-patches-for-hackintosh</a></li>
 <li><a href="github.com">github.com</a></li>
 <li><a href="gitee.io">码云 gitee.io</a></li>
@@ -14499,39 +14387,17 @@ a3 a2 a1 a0=0001（二进制）=1（十进制）<br>
 </ul>
 <h2 id="参考及引用"><a class="markdownIt-Anchor" href="#参考及引用"></a> 参考及引用：</h2>
 <ul>
-<li>
-<p><a href="https://wikidevi.com/wiki/Dell" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell</a></p>
-</li>
-<li>
-<p><a href="https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></p>
-</li>
-<li>
-<p><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></p>
-</li>
-<li>
-<p><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></p>
-</li>
-<li>
-<p><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></p>
-</li>
-<li>
-<p><a href="https://blog.xjn819.com/" target="_blank" rel="noopener">xjn819</a>： <a href="https://blog.xjn819.com/?p=543" target="_blank" rel="noopener">使用OpenCore引导黑苹果</a> <a href="https://blog.xjn819.com/?p=317" target="_blank" rel="noopener">300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）</a></p>
-</li>
-<li>
-<p><a href="https://www.insanelymac.com/" target="_blank" rel="noopener">insanelymac.com</a></p>
-</li>
-<li>
-<p><a href="https://www.tonymacx86.com/" target="_blank" rel="noopener">tonymacx86.com</a></p>
-</li>
-<li>
-<p><a href="http://bbs.pcbeta.com" target="_blank" rel="noopener">远景论坛</a></p>
-</li>
-<li>
-<p><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></p>
-</li>
-<li>
-<p><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></p>
-</li>
+<li><a href="https://deviwiki.com/wiki/Dell" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell</a></li>
+<li><a href="https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></li>
+<li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></li>
+<li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></li>
+<li><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></li>
+<li><a href="https://blog.xjn819.com/" target="_blank" rel="noopener">xjn819</a>： <a href="https://blog.xjn819.com/?p=543" target="_blank" rel="noopener">使用OpenCore引导黑苹果</a> <a href="https://blog.xjn819.com/?p=317" target="_blank" rel="noopener">300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）</a></li>
+<li><a href="https://www.insanelymac.com/" target="_blank" rel="noopener">insanelymac.com</a></li>
+<li><a href="https://www.tonymacx86.com/" target="_blank" rel="noopener">tonymacx86.com</a></li>
+<li><a href="http://bbs.pcbeta.com" target="_blank" rel="noopener">远景论坛</a></li>
+<li><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></li>
+<li><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></li>
 </ul>
 ]]></content>
       <categories>
@@ -15596,9 +15462,9 @@ diskutil mount HighSierra</p>
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.2</tag>
         <tag>19C57</tag>
@@ -15716,8 +15582,8 @@ diskutil mount HighSierra</p>
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.6</tag>
         <tag>17G2112</tag>
@@ -15808,10 +15674,10 @@ diskutil mount HighSierra</p>
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>17A389</tag>
       </tags>
@@ -15868,8 +15734,8 @@ diskutil mount HighSierra</p>
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.2</tag>
         <tag>17C88</tag>
@@ -16067,9 +15933,9 @@ diskutil mount HighSierra</p>
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.14.6</tag>
         <tag>18G84</tag>
@@ -16285,9 +16151,9 @@ diskutil mount HighSierra</p>
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.14.4</tag>
         <tag>1.8e+227</tag>
@@ -16306,6 +16172,7 @@ diskutil mount HighSierra</p>
 <ul>
 <li><code>实用工具-终端</code>，输入命令：<code>date 0201010116</code>，回车后关闭<code>终端</code>，可继续安装进程；</li>
 <li>安装过程中全程断开网络</li>
+<li>另一种方法：<code>BIOS</code>中修正系统时间，误差不要多于5秒，应该能解决该提示信息【<code>黑果小兵亲测有效</code>】</li>
 </ul>
 <h2 id="关于clover-bootloader的版本"><a class="markdownIt-Anchor" href="#关于clover-bootloader的版本"></a> 关于<code>Clover Bootloader</code>的版本</h2>
 <p>想要正确地安装macOS Mojave 10.14，它要求你的<code>Clover Bootloader</code>版本不低于r4515，截止到目前为止[4-11-2019]，<code>Clover Bootloader</code>的版本已经更新为v2.4k r4919，支持安装macOS Mojave 10.14.4。<a href="https://github.com/Dids/clover-builder/releases" target="_blank" rel="noopener">Clover Bootloader最新版本下载</a></p>
@@ -16586,6 +16453,40 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
 <h2 id="重建缓存的命令"><a class="markdownIt-Anchor" href="#重建缓存的命令"></a> 重建缓存的命令</h2>
 <p>打开终端，输入命令：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/sh</span></span><br><span class="line">sudo chmod -Rf 755 /S*/L*/E*</span><br><span class="line">sudo chown -Rf 0:0 /S*/L*/E*</span><br><span class="line">sudo chmod -Rf 755 /L*/E*</span><br><span class="line">sudo chown -Rf 0:0 /L*/E*</span><br><span class="line">sudo rm -Rf /S*/L*/PrelinkedKernels/*</span><br><span class="line">sudo rm -Rf /S*/L*/Caches/com.apple.kext.caches/*</span><br><span class="line">sudo touch -f /S*/L*/E*</span><br><span class="line">sudo touch -f /L*/E*</span><br><span class="line">sudo kextcache -Boot -U /</span><br></pre></td></tr></table></figure>
+<h2 id="感谢名单"><a class="markdownIt-Anchor" href="#感谢名单"></a> 感谢名单</h2>
+<ul>
+<li><a href="https://www.apple.com/" target="_blank" rel="noopener">Apple</a> 的 macOS</li>
+<li><a href="https://github.com/rehabman" target="_blank" rel="noopener">RehabMan</a>维护的项目：<a href="https://github.com/RehabMan/OS-X-Clover-Laptop-Config" target="_blank" rel="noopener">OS-X-Clover-Laptop-Config</a> <a href="https://github.com/RehabMan/Laptop-DSDT-Patch" target="_blank" rel="noopener">Laptop-DSDT-Patch</a> <a href="https://github.com/RehabMan/OS-X-USB-Inject-All" target="_blank" rel="noopener">OS-X-USB-Inject-All</a>等</li>
+<li><a href="https://github.com/acidanthera" target="_blank" rel="noopener">Acidanthera</a> 维护的项目：<a href="https://github.com/acidanthera/OpenCorePkg" target="_blank" rel="noopener">OpenCorePkg</a> <a href="https://github.com/acidanthera/Lilu" target="_blank" rel="noopener">lilu</a> <a href="https://github.com/acidanthera/AirportBrcmFixup" target="_blank" rel="noopener">AirportBrcmFixup</a> <a href="https://github.com/acidanthera/WhateverGreen" target="_blank" rel="noopener">WhateverGreen</a> <a href="https://github.com/acidanthera/VirtualSMC" target="_blank" rel="noopener">VirtualSMC</a> <a href="https://github.com/acidanthera/AppleALC" target="_blank" rel="noopener">AppleALC</a> <a href="https://github.com/acidanthera/BrcmPatchRAM" target="_blank" rel="noopener">BrcmPatchRAM</a> <a href="https://github.com/acidanthera/MaciASL" target="_blank" rel="noopener">MaciASL</a> 等</li>
+<li><a href="https://www.insanelymac.com/forum/profile/1364628-headkaze/" target="_blank" rel="noopener">headkaze</a> 提供的工具：<a href="https://github.com/headkaze/Hackintool" target="_blank" rel="noopener">hackintool</a> <a href="https://github.com/headkaze/PinConfigurator" target="_blank" rel="noopener">PinConfigurator</a> <a href="https://www.insanelymac.com/forum/topic/339175-brcmpatchram2-for-1015-catalina-broadcom-bluetooth-firmware-upload/" target="_blank" rel="noopener">BrcmPatchRAM</a></li>
+<li><a href="https://github.com/CloverHackyColor" target="_blank" rel="noopener">CloverHackyColor</a>维护的项目：<a href="https://github.com/CloverHackyColor/CloverBootloader" target="_blank" rel="noopener">CloverBootloader</a> <a href="https://github.com/CloverHackyColor/CloverThemes" target="_blank" rel="noopener">CloverThemes</a></li>
+<li>宪武整理的：<a href="https://github.com/daliansky/P-little" target="_blank" rel="noopener">P-little</a> <a href="https://github.com/daliansky/OC-little" target="_blank" rel="noopener">OC-little</a></li>
+<li><a href="https://github.com/chris1111" target="_blank" rel="noopener">chris1111</a>维护的项目：<a href="https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V15" target="_blank" rel="noopener">VoodooHDA</a> <a href="https://github.com/chris1111/Wireless-USB-Adapter-Clover" target="_blank" rel="noopener">Wireless USB Adapter Clover</a></li>
+<li><a href="https://github.com/zxystd" target="_blank" rel="noopener">zxystd</a>开发的<a href="https://github.com/zxystd/itlwm" target="_blank" rel="noopener">itlwm</a> <a href="https://github.com/zxystd/IntelBluetoothFirmware" target="_blank" rel="noopener">IntelBluetoothFirmware</a></li>
+<li><a href="https://github.com/lihaoyun6" target="_blank" rel="noopener">lihaoyun6</a>提供的工具：<a href="https://github.com/lihaoyun6/CPU-S" target="_blank" rel="noopener">CPU-S</a> <a href="https://github.com/lihaoyun6/macOS-Displays-icon" target="_blank" rel="noopener">macOS-Displays-icon</a> <a href="https://github.com/lihaoyun6/SidecarPatcher" target="_blank" rel="noopener">SidecarPatcher</a></li>
+<li><a href="https://github.com/SukkaW" target="_blank" rel="noopener">sukka</a>更新维护的<a href="https://blog.skk.moe/post/from-clover-to-opencore/" target="_blank" rel="noopener">从 Clover 到 OpenCore —— Clover 迁移 OpenCore 指南</a></li>
+<li><a href="https://github.com/xzhih" target="_blank" rel="noopener">xzhih</a>提供的工具：<a href="https://github.com/xzhih/one-key-hidpi" target="_blank" rel="noopener">one-key-hidpi</a></li>
+<li><a href="https://github.com/williambj1" target="_blank" rel="noopener">Bat.bat</a>更新维护的<a href="https://blog.daliansky.net/OpenCore-BootLoader.html">精解OpenCore</a></li>
+<li><a href="https://github.com/shuiyunxc" target="_blank" rel="noopener">shuiyunxc</a> 更新维护的<a href="https://shuiyunxc.gitee.io/2020/04/06/Faults/index/" target="_blank" rel="noopener">OpenCore配置错误、故障与解决办法</a></li>
+<li><a href="https://github.com/athlonreg" target="_blank" rel="noopener">athlonreg</a>更新维护的<a href="https://blog.cloudops.ml/ocbook/" target="_blank" rel="noopener">OpenCore 0.5+ 部件补丁</a> <a href="https://github.com/athlonreg/Common-patches-for-hackintosh" target="_blank" rel="noopener">Common-patches-for-hackintosh</a></li>
+<li><a href="github.com">github.com</a></li>
+<li><a href="gitee.io">码云 gitee.io</a></li>
+<li><a href="coding.net">扣钉 coding.net</a></li>
+</ul>
+<h2 id="参考及引用"><a class="markdownIt-Anchor" href="#参考及引用"></a> 参考及引用：</h2>
+<ul>
+<li><a href="https://deviwiki.com/wiki/Dell" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell</a></li>
+<li><a href="https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></li>
+<li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></li>
+<li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></li>
+<li><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></li>
+<li><a href="https://blog.xjn819.com/" target="_blank" rel="noopener">xjn819</a>： <a href="https://blog.xjn819.com/?p=543" target="_blank" rel="noopener">使用OpenCore引导黑苹果</a> <a href="https://blog.xjn819.com/?p=317" target="_blank" rel="noopener">300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）</a></li>
+<li><a href="https://www.insanelymac.com/" target="_blank" rel="noopener">insanelymac.com</a></li>
+<li><a href="https://www.tonymacx86.com/" target="_blank" rel="noopener">tonymacx86.com</a></li>
+<li><a href="http://bbs.pcbeta.com" target="_blank" rel="noopener">远景论坛</a></li>
+<li><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></li>
+<li><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></li>
+</ul>
 <h2 id="关于打赏"><a class="markdownIt-Anchor" href="#关于打赏"></a> 关于打赏</h2>
 <p>您的支持就是我更新的动力！<br>
 如果不希望看到博主停更的话，请点击下方的 <code>打赏</code> 支持一下，有钱的捧个钱场，没钱的捧个人场，谢谢大家！</p>
@@ -16792,9 +16693,9 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.3</tag>
         <tag>19D76</tag>
@@ -17019,9 +16920,9 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.1</tag>
         <tag>19B88</tag>
@@ -17234,10 +17135,10 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
         <tag>10.15</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>19A583</tag>
       </tags>
@@ -17432,9 +17333,9 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.14.5</tag>
         <tag>18F132</tag>
@@ -17631,9 +17532,9 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.14.3</tag>
         <tag>18D42</tag>
@@ -17919,9 +17820,9 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.14.2</tag>
         <tag>18C54</tag>
@@ -18147,9 +18048,9 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.14.1</tag>
         <tag>18B75</tag>
@@ -18357,10 +18258,10 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>18A391</tag>
       </tags>
@@ -18584,9 +18485,9 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <category>教程</category>
       </categories>
       <tags>
+        <tag>framebuffer</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
-        <tag>framebuffer</tag>
         <tag>10.13.6</tag>
         <tag>17G2112</tag>
         <tag>patch</tag>
@@ -18677,8 +18578,8 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.6</tag>
         <tag>17G65</tag>
@@ -18769,8 +18670,8 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.5</tag>
         <tag>17F77</tag>
@@ -19084,8 +18985,8 @@ HDMI连接器通过连接器类型在ioreg中标识<code>&lt;00 08 00 00&gt;</co
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.4</tag>
         <tag>1.7e+200</tag>
@@ -19889,8 +19790,8 @@ And 的第三个参数，是把前两个数的计算结果，写入到第三个�
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.2</tag>
         <tag>17C88</tag>
@@ -20686,8 +20587,8 @@ MD5 (macOS High Sierra 10.13.1(17B48) Installer with Clover 4278.dmg) = 2e6b403e
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.1</tag>
         <tag>17B48</tag>
@@ -21043,8 +20944,8 @@ Clover默认config.plist为620/630/640/650；<br>
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>17A405</tag>
       </tags>
@@ -21129,8 +21030,8 @@ Clover默认config.plist为620/630/640/650；<br>
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
       </tags>
   </entry>
@@ -21166,8 +21067,8 @@ Clover默认config.plist为620/630/640/650；<br>
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>GM</tag>
         <tag>17A362a</tag>
@@ -22768,8 +22669,8 @@ Clover默认config.plist为620/630/640/650；<br>
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>DB9</tag>
         <tag>17A360a</tag>
         <tag>dmg</tag>
@@ -22800,13 +22701,13 @@ Clover默认config.plist为620/630/640/650；<br>
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>10.12.6</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
         <tag>Catalina</tag>
         <tag>10.15</tag>
         <tag>Download</tag>
+        <tag>下载</tag>
       </tags>
   </entry>
   <entry>
@@ -22869,8 +22770,8 @@ Clover默认config.plist为620/630/640/650；<br>
       </categories>
       <tags>
         <tag>10.13</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>DB8</tag>
         <tag>17A358a</tag>
       </tags>
@@ -23044,9 +22945,9 @@ Clover默认config.plist为620/630/640/650；<br>
       </categories>
       <tags>
         <tag>10.13</tag>
+        <tag>下载</tag>
         <tag>DB7</tag>
         <tag>镜像</tag>
-        <tag>下载</tag>
       </tags>
   </entry>
   <entry>
@@ -23219,8 +23120,8 @@ MD5 (macOS Sierra 10.12.6 16G29 Installer with Clover 4133.dmg) = 81ecbc29863381
       </categories>
       <tags>
         <tag>Sierra</tag>
-        <tag>镜像</tag>
         <tag>10.12.6</tag>
+        <tag>镜像</tag>
         <tag>安装</tag>
         <tag>dmg</tag>
       </tags>
@@ -23440,8 +23341,8 @@ MD5 (macOS Sierra 10.12.6 16G29 Installer with Clover 4133.dmg) = 81ecbc29863381
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>17A344b</tag>
       </tags>

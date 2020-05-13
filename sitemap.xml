@@ -2,86 +2,100 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
+    
+    <lastmod>2020-05-13T06:03:31.006Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.daliansky.net/macOS-Catalina-10.15.4-19E266-Release-version-with-Clover-5107-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
     
-    <lastmod>2020-05-11T01:31:27.944Z</lastmod>
+    <lastmod>2020-05-13T06:03:15.241Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.daliansky.net/Intel-core-display-platformID-finishing.html</loc>
     
-    <lastmod>2020-05-11T01:25:47.038Z</lastmod>
+    <lastmod>2020-05-13T06:02:58.166Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.daliansky.net/WeChat_First-macOS-Catalina-10.15.4-19E2269-official-version-Clover-5116-original-image-reconstruction-version.html</loc>
     
-    <lastmod>2020-05-10T02:30:44.958Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
-    
-    <lastmod>2020-05-08T05:25:47.145Z</lastmod>
+    <lastmod>2020-05-13T06:02:37.825Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.daliansky.net/Use-AppleALC-sound-card-to-drive-the-correct-posture-of-AppleHDA.html</loc>
     
-    <lastmod>2020-05-06T07:00:37.633Z</lastmod>
+    <lastmod>2020-05-13T06:02:24.361Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html</loc>
     
-    <lastmod>2020-04-23T01:11:54.125Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html</loc>
-    
-    <lastmod>2020-04-21T00:40:53.129Z</lastmod>
+    <lastmod>2020-05-13T06:02:06.005Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.daliansky.net/From-Clover-To-OpenCore.html</loc>
     
-    <lastmod>2020-04-14T02:59:25.305Z</lastmod>
+    <lastmod>2020-05-13T06:01:39.880Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html</loc>
+    
+    <lastmod>2020-05-13T06:01:25.551Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.daliansky.net/clover-user-manual.html</loc>
     
-    <lastmod>2020-04-13T03:20:04.986Z</lastmod>
+    <lastmod>2020-05-13T06:01:01.243Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.daliansky.net/Mojave-Hardware-Support-List.html</loc>
     
-    <lastmod>2020-04-13T03:17:36.663Z</lastmod>
+    <lastmod>2020-05-13T06:00:24.533Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.daliansky.net/Lenovo-Xiaoxin-PRO-13-2019-and-macOS-Catalina-Installation-Tutorial.html</loc>
     
-    <lastmod>2020-04-13T03:16:51.302Z</lastmod>
+    <lastmod>2020-05-13T05:59:24.811Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html</loc>
     
-    <lastmod>2020-04-13T03:15:28.992Z</lastmod>
+    <lastmod>2020-05-13T05:58:49.743Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Mojave-10.14-installation.html</loc>
+    
+    <lastmod>2020-05-13T05:58:29.740Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.daliansky.net/macOS-10.13-installation-of-common-problems-and-solutions.html</loc>
+    
+    <lastmod>2020-05-13T05:58:14.438Z</lastmod>
     
   </url>
   
@@ -411,20 +425,6 @@
     <loc>https://blog.daliansky.net/Fresh-installing-macOS-High-Sierra(10.13)-on-AMD-Ryzen-Hackintosh-Guide.html</loc>
     
     <lastmod>2019-12-30T07:57:58.164Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/macOS-10.13-installation-of-common-problems-and-solutions.html</loc>
-    
-    <lastmod>2019-12-30T07:57:58.163Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Mojave-10.14-installation.html</loc>
-    
-    <lastmod>2019-12-30T07:57:58.163Z</lastmod>
     
   </url>
   

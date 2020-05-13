@@ -170,7 +170,7 @@
 <meta property="og:site_name" content="黑果小兵的部落阁">
 <meta property="og:description" content="本文的由来  经常有网友进群问某某机型需要注入哪个platform-id才能正确地驱动显卡，每到这个时候，我都需要翻出Clover自带的⁨src⁩ ▸ ⁨edk2⁩ ▸ ⁨Clover⁩ ▸ ⁨rEFIt_UEFI⁩ ▸ ⁨Platform⁩ ▸ gma.cpp查找显卡参数。于是我就想把它整理出来方便大家查询，markdown的表格排版对我来说是一种考验，但更像是一种折磨。还好还好，它没花费我太">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2020-05-11T01:25:47.038Z">
+<meta property="og:updated_time" content="2020-05-13T06:02:58.166Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="黑苹果必备：Intel核显platform ID整理及smbios速查表">
 <meta name="twitter:description" content="本文的由来  经常有网友进群问某某机型需要注入哪个platform-id才能正确地驱动显卡，每到这个时候，我都需要翻出Clover自带的⁨src⁩ ▸ ⁨edk2⁩ ▸ ⁨Clover⁩ ▸ ⁨rEFIt_UEFI⁩ ▸ ⁨Platform⁩ ▸ gma.cpp查找显卡参数。于是我就想把它整理出来方便大家查询，markdown的表格排版对我来说是一种考验，但更像是一种折磨。还好还好，它没花费我太">
@@ -516,7 +516,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 
-                <time title="修改时间：2020-05-11 09:25:47" itemprop="dateModified" datetime="2020-05-11T09:25:47+08:00">2020-05-11</time>
+                <time title="修改时间：2020-05-13 14:02:58" itemprop="dateModified" datetime="2020-05-13T14:02:58+08:00">2020-05-13</time>
               
             
           </span>
@@ -2797,10 +2797,6 @@
 <p><em>某些SKL/KBL台式机如果驱动4K显示器可以试试</em> <code>platform-id:0x193b0005</code> 这个ig-platform-id不存在于gma.c列表里</p>
 <p>原文链接：<a href="https://www.tonymacx86.com/threads/intel-hd-graphics-framebuffer-edits-desktop.125239/" target="_blank" rel="noopener">https://www.tonymacx86.com/threads/intel-hd-graphics-framebuffer-edits-desktop.125239/</a></p>
 <p>扩展阅读：<a href="https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html">Intel FB-Patcher使用教程及插入姿势</a></p>
-<h2 id="关于打赏"><a class="markdownIt-Anchor" href="#关于打赏"></a> 关于打赏</h2>
-<p>您的支持就是我更新的动力！<br>
-本篇文章会持续不间断更新，每个Clover的更新日志都需要阅读，如果有新的platform-id，我都会第一时间添加进来。<br>
-so，如果不希望看到博主停更的话，请点击下方的 <code>打赏</code> 支持一下，有钱的捧个钱场，没钱的捧个人场，谢谢大家！</p>
 <h2 id="感谢名单"><a class="markdownIt-Anchor" href="#感谢名单"></a> 感谢名单</h2>
 <ul>
 <li><a href="https://www.apple.com/" target="_blank" rel="noopener">Apple</a> 的 macOS</li>
@@ -2812,8 +2808,10 @@ so，如果不希望看到博主停更的话，请点击下方的 <code>打赏</
 <li><a href="https://github.com/chris1111" target="_blank" rel="noopener">chris1111</a>维护的项目：<a href="https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V15" target="_blank" rel="noopener">VoodooHDA</a> <a href="https://github.com/chris1111/Wireless-USB-Adapter-Clover" target="_blank" rel="noopener">Wireless USB Adapter Clover</a></li>
 <li><a href="https://github.com/zxystd" target="_blank" rel="noopener">zxystd</a>开发的<a href="https://github.com/zxystd/itlwm" target="_blank" rel="noopener">itlwm</a> <a href="https://github.com/zxystd/IntelBluetoothFirmware" target="_blank" rel="noopener">IntelBluetoothFirmware</a></li>
 <li><a href="https://github.com/lihaoyun6" target="_blank" rel="noopener">lihaoyun6</a>提供的工具：<a href="https://github.com/lihaoyun6/CPU-S" target="_blank" rel="noopener">CPU-S</a> <a href="https://github.com/lihaoyun6/macOS-Displays-icon" target="_blank" rel="noopener">macOS-Displays-icon</a> <a href="https://github.com/lihaoyun6/SidecarPatcher" target="_blank" rel="noopener">SidecarPatcher</a></li>
+<li><a href="https://github.com/SukkaW" target="_blank" rel="noopener">sukka</a>更新维护的<a href="https://blog.skk.moe/post/from-clover-to-opencore/" target="_blank" rel="noopener">从 Clover 到 OpenCore —— Clover 迁移 OpenCore 指南</a></li>
 <li><a href="https://github.com/xzhih" target="_blank" rel="noopener">xzhih</a>提供的工具：<a href="https://github.com/xzhih/one-key-hidpi" target="_blank" rel="noopener">one-key-hidpi</a></li>
 <li><a href="https://github.com/williambj1" target="_blank" rel="noopener">Bat.bat</a>更新维护的<a href="https://blog.daliansky.net/OpenCore-BootLoader.html">精解OpenCore</a></li>
+<li><a href="https://github.com/shuiyunxc" target="_blank" rel="noopener">shuiyunxc</a> 更新维护的<a href="https://shuiyunxc.gitee.io/2020/04/06/Faults/index/" target="_blank" rel="noopener">OpenCore配置错误、故障与解决办法</a></li>
 <li><a href="https://github.com/athlonreg" target="_blank" rel="noopener">athlonreg</a>更新维护的<a href="https://blog.cloudops.ml/ocbook/" target="_blank" rel="noopener">OpenCore 0.5+ 部件补丁</a> <a href="https://github.com/athlonreg/Common-patches-for-hackintosh" target="_blank" rel="noopener">Common-patches-for-hackintosh</a></li>
 <li><a href="github.com">github.com</a></li>
 <li><a href="gitee.io">码云 gitee.io</a></li>
@@ -2821,13 +2819,8 @@ so，如果不希望看到博主停更的话，请点击下方的 <code>打赏</
 </ul>
 <h2 id="参考及引用"><a class="markdownIt-Anchor" href="#参考及引用"></a> 参考及引用：</h2>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/MacBook_Air" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/MacBook_Air</a></li>
-<li><a href="https://en.wikipedia.org/wiki/MacBook_Pro" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/MacBook_Pro</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Mac_Mini" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Mac_Mini</a></li>
-<li><a href="https://en.wikipedia.org/wiki/IMac" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/IMac</a></li>
-<li><a href="https://en.wikipedia.org/wiki/IMac_Pro" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/IMac_Pro</a></li>
-<li><a href="https://wikidevi.com/wiki/Dell" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell</a></li>
-<li><a href="https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://wikidevi.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></li>
+<li><a href="https://deviwiki.com/wiki/Dell" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell</a></li>
+<li><a href="https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></li>
 <li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></li>
 <li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></li>
 <li><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></li>
@@ -2838,6 +2831,10 @@ so，如果不希望看到博主停更的话，请点击下方的 <code>打赏</
 <li><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></li>
 <li><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></li>
 </ul>
+<h2 id="关于打赏"><a class="markdownIt-Anchor" href="#关于打赏"></a> 关于打赏</h2>
+<p>您的支持就是我更新的动力！<br>
+本篇文章会持续不间断更新，每个Clover的更新日志都需要阅读，如果有新的platform-id，我都会第一时间添加进来。<br>
+so，如果不希望看到博主停更的话，请点击下方的 <code>打赏</code> 支持一下，有钱的捧个钱场，没钱的捧个人场，谢谢大家！</p>
 
       
     </div>
@@ -2865,7 +2862,7 @@ so，如果不希望看到博主停更的话，请点击下方的 <code>打赏</
     <!-- 更新日期 -->
     
       <div class="updated">
-        <svg xmlns="http://www.w3.org/2000/svg" width="130" height="20"><lineargradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></lineargradient><clippath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clippath><g clip-path="url(#a)"><path fill="#555" d="M0 0h55v20H0z"/><path fill="#97CA00" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-family="Menlo,monospace" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textlength="450" transform="scale(.1)">更新日期</text><text x="285" y="140" textlength="450" transform="scale(.1)">更新日期</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textlength="650" transform="scale(.1)">2020-05-11</text><text x="915" y="140" textlength="650" transform="scale(.1)">2020-05-11</text></g></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="130" height="20"><lineargradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></lineargradient><clippath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clippath><g clip-path="url(#a)"><path fill="#555" d="M0 0h55v20H0z"/><path fill="#97CA00" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-family="Menlo,monospace" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textlength="450" transform="scale(.1)">更新日期</text><text x="285" y="140" textlength="450" transform="scale(.1)">更新日期</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textlength="650" transform="scale(.1)">2020-05-13</text><text x="915" y="140" textlength="650" transform="scale(.1)">2020-05-13</text></g></svg>
       </div>
     
 
@@ -3686,7 +3683,7 @@ so，如果不希望看到博主停更的话，请点击下方的 <code>打赏</
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#本文的由来"><span class="nav-number">1.</span> <span class="nav-text"> 本文的由来</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#smbios速查表"><span class="nav-number">2.</span> <span class="nav-text"> smbios速查表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#intel核显平台"><span class="nav-number">3.</span> <span class="nav-text"> INTEL核显平台</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sandy-bridge平台"><span class="nav-number">4.</span> <span class="nav-text"> sandy bridge平台</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ivy-bridge平台"><span class="nav-number">5.</span> <span class="nav-text"> ivy bridge平台</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#haswell平台"><span class="nav-number">6.</span> <span class="nav-text"> haswell平台</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#broadwell平台"><span class="nav-number">7.</span> <span class="nav-text"> broadwell平台</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#skylake平台"><span class="nav-number">8.</span> <span class="nav-text"> skylake平台</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#kabylake平台"><span class="nav-number">9.</span> <span class="nav-text"> kabylake平台</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#coffeelake平台"><span class="nav-number">10.</span> <span class="nav-text"> coffeelake平台</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ice-lake平台"><span class="nav-number">11.</span> <span class="nav-text"> Ice lake平台</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#已知gpu的列表"><span class="nav-number">12.</span> <span class="nav-text"> 已知GPU的列表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#关于打赏"><span class="nav-number">13.</span> <span class="nav-text"> 关于打赏</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#感谢名单"><span class="nav-number">14.</span> <span class="nav-text"> 感谢名单</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考及引用"><span class="nav-number">15.</span> <span class="nav-text"> 参考及引用：</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#本文的由来"><span class="nav-number">1.</span> <span class="nav-text"> 本文的由来</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#smbios速查表"><span class="nav-number">2.</span> <span class="nav-text"> smbios速查表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#intel核显平台"><span class="nav-number">3.</span> <span class="nav-text"> INTEL核显平台</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sandy-bridge平台"><span class="nav-number">4.</span> <span class="nav-text"> sandy bridge平台</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ivy-bridge平台"><span class="nav-number">5.</span> <span class="nav-text"> ivy bridge平台</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#haswell平台"><span class="nav-number">6.</span> <span class="nav-text"> haswell平台</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#broadwell平台"><span class="nav-number">7.</span> <span class="nav-text"> broadwell平台</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#skylake平台"><span class="nav-number">8.</span> <span class="nav-text"> skylake平台</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#kabylake平台"><span class="nav-number">9.</span> <span class="nav-text"> kabylake平台</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#coffeelake平台"><span class="nav-number">10.</span> <span class="nav-text"> coffeelake平台</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ice-lake平台"><span class="nav-number">11.</span> <span class="nav-text"> Ice lake平台</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#已知gpu的列表"><span class="nav-number">12.</span> <span class="nav-text"> 已知GPU的列表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#感谢名单"><span class="nav-number">13.</span> <span class="nav-text"> 感谢名单</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考及引用"><span class="nav-number">14.</span> <span class="nav-text"> 参考及引用：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#关于打赏"><span class="nav-number">15.</span> <span class="nav-text"> 关于打赏</span></a></li></ol></div>
             
 
           </div>
@@ -3718,7 +3715,7 @@ so，如果不希望看到博主停更的话，请点击下方的 <code>打赏</
       <i class="fa fa-area-chart"></i>
     </span>
     
-    <span title="站点总字数">610k</span>
+    <span title="站点总字数">614k</span>
   
 
   
@@ -3727,7 +3724,7 @@ so，如果不希望看到博主停更的话，请点击下方的 <code>打赏</
       <i class="fa fa-coffee"></i>
     </span>
     
-    <span title="站点阅读时长">18:29</span>
+    <span title="站点阅读时长">18:36</span>
   
 </div>
 
