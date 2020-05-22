@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.daliansky.net/OpenCore-BootLoader.html</loc>
+    
+    <lastmod>2020-05-14T00:32:45.825Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
     
     <lastmod>2020-05-13T06:03:31.006Z</lastmod>
@@ -103,13 +110,6 @@
     <loc>https://blog.daliansky.net/macOS-Catalina-10.15.3-19D76-Release-version-with-Clover-5103-original-image-Double-EFI-Version.html</loc>
     
     <lastmod>2020-04-03T05:58:03.338Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/OpenCore-BootLoader.html</loc>
-    
-    <lastmod>2020-03-04T05:07:57.991Z</lastmod>
     
   </url>
   
