@@ -1702,8 +1702,8 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <tag>教程</tag>
         <tag>安装</tag>
         <tag>macOS</tag>
-        <tag>联想</tag>
         <tag>小新Pro</tag>
+        <tag>联想</tag>
         <tag>PRO 13 2019 IML</tag>
       </tags>
   </entry>
@@ -9075,9 +9075,9 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <tag>教程</tag>
         <tag>安装</tag>
         <tag>macOS</tag>
+        <tag>联想</tag>
         <tag>小新air</tag>
         <tag>2018</tag>
-        <tag>联想</tag>
         <tag>Air 13 IWL</tag>
       </tags>
   </entry>
@@ -16923,9 +16923,9 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <tag>Catalina</tag>
         <tag>下载</tag>
         <tag>镜像</tag>
-        <tag>dmg</tag>
         <tag>10.15.1</tag>
         <tag>19B88</tag>
+        <tag>dmg</tag>
       </tags>
   </entry>
   <entry>
@@ -19922,8 +19922,8 @@ And 的第三个参数，是把前两个数的计算结果，写入到第三个�
         <category>教程</category>
       </categories>
       <tags>
-        <tag>接口</tag>
         <tag>platform-id</tag>
+        <tag>接口</tag>
         <tag>显存</tag>
         <tag>显示器</tag>
       </tags>
@@ -21115,8 +21115,8 @@ Clover默认config.plist为620/630/640/650；<br>
         <category>教程</category>
       </categories>
       <tags>
-        <tag>CPUFriend</tag>
         <tag>Lilu</tag>
+        <tag>CPUFriend</tag>
         <tag>Plugins</tag>
         <tag>CPU变频</tag>
         <tag>插件</tag>
@@ -22024,9 +22024,9 @@ Clover默认config.plist为620/630/640/650；<br>
         <category>教程</category>
       </categories>
       <tags>
-        <tag>Lilu</tag>
         <tag>AppleALC</tag>
         <tag>Codec</tag>
+        <tag>Lilu</tag>
       </tags>
   </entry>
   <entry>
@@ -22262,11 +22262,11 @@ HDMI连接到0204，所以我修补该端口的HDMI（启用HDMI音频）。<br>
       </categories>
       <tags>
         <tag>Lilu</tag>
-        <tag>Plugins</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
+        <tag>Plugins</tag>
         <tag>Clover</tag>
         <tag>常见问题</tag>
         <tag>platform-id</tag>
@@ -22671,9 +22671,9 @@ Clover默认config.plist为620/630/640/650；<br>
         <tag>High Sierra</tag>
         <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>dmg</tag>
         <tag>DB9</tag>
         <tag>17A360a</tag>
-        <tag>dmg</tag>
       </tags>
   </entry>
   <entry>

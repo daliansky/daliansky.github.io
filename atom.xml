@@ -156,9 +156,9 @@
     
       <category term="macOS" scheme="https://blog.daliansky.net/tags/macOS/"/>
     
-      <category term="联想" scheme="https://blog.daliansky.net/tags/%E8%81%94%E6%83%B3/"/>
-    
       <category term="小新Pro" scheme="https://blog.daliansky.net/tags/%E5%B0%8F%E6%96%B0Pro/"/>
+    
+      <category term="联想" scheme="https://blog.daliansky.net/tags/%E8%81%94%E6%83%B3/"/>
     
       <category term="PRO 13 2019 IML" scheme="https://blog.daliansky.net/tags/PRO-13-2019-IML/"/>
     
@@ -267,11 +267,11 @@
     
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
-      <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
-    
       <category term="10.15.1" scheme="https://blog.daliansky.net/tags/10-15-1/"/>
     
       <category term="19B88" scheme="https://blog.daliansky.net/tags/19B88/"/>
+    
+      <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
   </entry>
   
@@ -685,11 +685,11 @@
     
       <category term="macOS" scheme="https://blog.daliansky.net/tags/macOS/"/>
     
+      <category term="联想" scheme="https://blog.daliansky.net/tags/%E8%81%94%E6%83%B3/"/>
+    
       <category term="小新air" scheme="https://blog.daliansky.net/tags/%E5%B0%8F%E6%96%B0air/"/>
     
       <category term="2018" scheme="https://blog.daliansky.net/tags/2018/"/>
-    
-      <category term="联想" scheme="https://blog.daliansky.net/tags/%E8%81%94%E6%83%B3/"/>
     
       <category term="Air 13 IWL" scheme="https://blog.daliansky.net/tags/Air-13-IWL/"/>
     
@@ -1617,9 +1617,9 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="接口" scheme="https://blog.daliansky.net/tags/%E6%8E%A5%E5%8F%A3/"/>
-    
       <category term="platform-id" scheme="https://blog.daliansky.net/tags/platform-id/"/>
+    
+      <category term="接口" scheme="https://blog.daliansky.net/tags/%E6%8E%A5%E5%8F%A3/"/>
     
       <category term="显存" scheme="https://blog.daliansky.net/tags/%E6%98%BE%E5%AD%98/"/>
     
@@ -2334,9 +2334,9 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="CPUFriend" scheme="https://blog.daliansky.net/tags/CPUFriend/"/>
-    
       <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
+    
+      <category term="CPUFriend" scheme="https://blog.daliansky.net/tags/CPUFriend/"/>
     
       <category term="Plugins" scheme="https://blog.daliansky.net/tags/Plugins/"/>
     
@@ -2407,11 +2407,11 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
-    
       <category term="AppleALC" scheme="https://blog.daliansky.net/tags/AppleALC/"/>
     
       <category term="Codec" scheme="https://blog.daliansky.net/tags/Codec/"/>
+    
+      <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
     
   </entry>
   
@@ -2482,8 +2482,6 @@
     
       <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
     
-      <category term="Plugins" scheme="https://blog.daliansky.net/tags/Plugins/"/>
-    
       <category term="10.12" scheme="https://blog.daliansky.net/tags/10-12/"/>
     
       <category term="10.13" scheme="https://blog.daliansky.net/tags/10-13/"/>
@@ -2491,6 +2489,8 @@
       <category term="Sierra" scheme="https://blog.daliansky.net/tags/Sierra/"/>
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
+    
+      <category term="Plugins" scheme="https://blog.daliansky.net/tags/Plugins/"/>
     
       <category term="Clover" scheme="https://blog.daliansky.net/tags/Clover/"/>
     
@@ -2575,11 +2575,11 @@ hda-verb是linu
     
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
+      <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
+    
       <category term="DB9" scheme="https://blog.daliansky.net/tags/DB9/"/>
     
       <category term="17A360a" scheme="https://blog.daliansky.net/tags/17A360a/"/>
-    
-      <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
   </entry>
   
