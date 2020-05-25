@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.daliansky.net/Add-the-CLOVER-boot-to-the-correct-posture-of-the-UEFI-Boot-Option-Menu.html</loc>
+    
+    <lastmod>2020-05-25T08:34:28.716Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.daliansky.net/OpenCore-BootLoader.html</loc>
     
     <lastmod>2020-05-14T00:32:45.825Z</lastmod>
@@ -199,13 +206,6 @@
   
   <url>
     <loc>https://blog.daliansky.net/With-VoodooHDA-comes-getdump-find-valid-nodes-and-paths.html</loc>
-    
-    <lastmod>2019-12-30T07:57:58.169Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/Add-the-CLOVER-boot-to-the-correct-posture-of-the-UEFI-Boot-Option-Menu.html</loc>
     
     <lastmod>2019-12-30T07:57:58.169Z</lastmod>
     
