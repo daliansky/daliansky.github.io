@@ -218,7 +218,7 @@
 <li>适用于<code>CLOVER</code> 的 <a href="https://github.com/daliansky/P-little" target="_blank" rel="noopener">P-little</a> ；</li>
 <li>适用于 <code>OpenCore</code> 的 <a href="https://github.com/daliansky/OC-little" target="_blank" rel="noopener">OC-little</a></li>
 </ul>
-<h2 id="10155-19f96-clover-v5118-efi三分区intelamd特别版下载链接"><a class="markdownIt-Anchor" href="#10155-19f96-clover-v5118-efi三分区intelamd特别版下载链接"></a> **10.15.5  <code>19F96</code> CLOVER <code>v5118</code>  <code>EFI</code>三分区INTEL/AMD特别版<a href="https://blog.daliansky.net/WeChat_First-macOS-Catalina-10.15.4-19E2269-official-version-Clover-5116-original-image-reconstruction-version.html">下载链接</a> **</h2>
+<h2 id="10155-19f96-clover-v5118-efi三分区intelamd特别版下载链接"><a class="markdownIt-Anchor" href="#10155-19f96-clover-v5118-efi三分区intelamd特别版下载链接"></a> <strong>10.15.5  <code>19F96</code> CLOVER <code>v5118</code>  <code>EFI</code>三分区INTEL/AMD特别版</strong><a href="https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.5-19F96-official-version-Clover-5118-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html">下载链接</a></h2>
 <div class="note info"><p>请通过微信公众号【<code>黑果小兵的部落阁</code>】下载</p><p>访问码请通过微信公众号【<code>黑果小兵的部落阁</code>】获取</p></div>
 <p>16GB及以上U盘请下载：<code>macOS Catalina 10.15.5(19F96) Installer for Clover 5118 and OC and WEPE Support UEFI and MBR.dmg</code></p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># md5 macOS\ Catalina\ 10.15.5\(19F96\)\ Installer\ for\ Clover\ 5118\ and\ OC\ and\ WEPE\ Support\ UEFI\ and\ MBR.dmg</span></span><br><span class="line">MD5 (macOS Catalina 10.15.5(19F96) Installer <span class="keyword">for</span> Clover 5118 and OC and WEPE Support UEFI and MBR.dmg) = fc0e20a49ba7e4fe97c5904c3cfe0f97</span><br></pre></td></tr></table></figure>
@@ -20394,8 +20394,8 @@ And 的第三个参数，是把前两个数的计算结果，写入到第三个�
         <category>教程</category>
       </categories>
       <tags>
-        <tag>platform-id</tag>
         <tag>接口</tag>
+        <tag>platform-id</tag>
         <tag>显存</tag>
         <tag>显示器</tag>
       </tags>
