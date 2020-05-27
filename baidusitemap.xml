@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.5-19F96-official-version-Clover-5118-OC-WEPE-%20supports-both-INTEL-and-AMD-original-images.html</loc>
+    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.5-19F96-official-version-Clover-5118-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
     <lastmod>2020-05-27</lastmod>
   </url>  <url>
     <loc>https://blog.daliansky.net/WeChat_First-macOS-Catalina-10.15.4-19E2269-official-version-Clover-5116-original-image-reconstruction-version.html</loc>
@@ -115,16 +115,16 @@
     <loc>https://blog.daliansky.net/macOS-Mojave-10.14.5-18F132-official-version-with-Clover-4928-original-image.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
-    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.6-18G87-Release-version-with-Clover-5033-original-image.html</loc>
-    <lastmod>2019-12-30</lastmod>
-  </url>  <url>
     <loc>https://blog.daliansky.net/macOS-Sierra-10-12-6-16G29-with-Clover-4133-original-mirror-with-multi-drive.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
-    <loc>https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html</loc>
+    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.6-18G87-Release-version-with-Clover-5033-original-image.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
     <loc>https://blog.daliansky.net/Add-CLOVER-boot-to-UEFI-without-any-tools.html</loc>
+    <lastmod>2019-12-30</lastmod>
+  </url>  <url>
+    <loc>https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
     <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.6-17G65-Release-Version-with-Clover-4596-original-mirror.html</loc>
@@ -139,13 +139,13 @@
     <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13-official-version-update-17A405-with-Clover-4238-original-mirror.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
+    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.1-18B75-official-version-with-Clover-4726-original-image.html</loc>
+    <lastmod>2019-12-30</lastmod>
+  </url>  <url>
     <loc>https://blog.daliansky.net/macOS-Mojave-10.14-18A389-Release-with-Clover-4670-original-mirror.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
     <loc>https://blog.daliansky.net/macOS-Mojave-10.14-18A391-official-version-with-Clover-4674-original-image.html</loc>
-    <lastmod>2019-12-30</lastmod>
-  </url>  <url>
-    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.1-18B75-official-version-with-Clover-4726-original-image.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
     <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.1-(17B48)-official-version-and-Clover-4278-original-image.html</loc>
@@ -169,9 +169,6 @@
     <loc>https://blog.daliansky.net/CLOVER-v2-4-r4438-Integrated-Millet-Notebook-PRO-EFI-Installation-Instructions.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
-    <loc>https://blog.daliansky.net/CoffeeLake-UHD-630-black-screen-direct-bright-screen-and-correct-adjustment-of-brightness-adjustment.html</loc>
-    <lastmod>2019-12-30</lastmod>
-  </url>  <url>
     <loc>https://blog.daliansky.net/macOS-Catalina-10.15-19A583-Release-version-with-Clover-5093-original-image-Double-EFI-Version.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
@@ -181,10 +178,13 @@
     <loc>https://blog.daliansky.net/macOS-Catalina-10.15.1-19B88-Release-version-with-Clover-5098-original-image-Double-EFI-Version.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
-    <loc>https://blog.daliansky.net/Self-use-next-theme-custom-reference-format-table.html</loc>
+    <loc>https://blog.daliansky.net/CoffeeLake-UHD-630-black-screen-direct-bright-screen-and-correct-adjustment-of-brightness-adjustment.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
     <loc>https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html</loc>
+    <lastmod>2019-12-30</lastmod>
+  </url>  <url>
+    <loc>https://blog.daliansky.net/Self-use-next-theme-custom-reference-format-table.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
     <loc>https://blog.daliansky.net/Webmin-Mysql-module-warns-of-the-lack-of-DBI-and-DBD-mysql-processing.html</loc>
@@ -199,16 +199,16 @@
     <loc>https://blog.daliansky.net/hotpatch-detailed-solution.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
-    <loc>https://blog.daliansky.net/Use-the-gpt-command-to-repair-a-damaged-EFI-partition-under-Mac-OS-As-well-as-the-basic-usage-of-the-dd-command.html</loc>
-    <lastmod>2019-12-30</lastmod>
-  </url>  <url>
     <loc>https://blog.daliansky.net/MacOS-use-the-dd-command-to-make-Ubuntu-install-USB-disk.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
-    <loc>https://blog.daliansky.net/Mac-frequently-used-to-the-command---continuous-update.html</loc>
+    <loc>https://blog.daliansky.net/Use-the-gpt-command-to-repair-a-damaged-EFI-partition-under-Mac-OS-As-well-as-the-basic-usage-of-the-dd-command.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
     <loc>https://blog.daliansky.net/Slide-value-acquisition-and-calculation.html</loc>
+    <lastmod>2019-12-30</lastmod>
+  </url>  <url>
+    <loc>https://blog.daliansky.net/Mac-frequently-used-to-the-command---continuous-update.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
     <loc>https://blog.daliansky.net/Under-Windows-using-DISKPART-to-create-EFI-points.html</loc>
@@ -247,10 +247,10 @@
     <loc>https://blog.daliansky.net/8-good-habit-chi-zha-in-the-workplace.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
-    <loc>https://blog.daliansky.net/AppleALC-Supported-codecs.html</loc>
+    <loc>https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
-    <loc>https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html</loc>
+    <loc>https://blog.daliansky.net/AppleALC-Supported-codecs.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
     <loc>https://blog.daliansky.net/macOS-High-Sierra-10-13DB9-17A360a-with-Clover-4189.html</loc>
