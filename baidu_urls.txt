@@ -1,3 +1,5 @@
+https://blog.daliansky.net/macOS-Catalina-10.15.5-19F96-Release-version-with-Clover-5118-original-image-Double-EFI-Version-UEFI-and-MBR.html
+https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.5-19F96-official-version-Clover-5118-OC-WEPE- supports-both-INTEL-and-AMD-original-images.html
 https://blog.daliansky.net/WeChat_First-macOS-Catalina-10.15.4-19E2269-official-version-Clover-5116-original-image-reconstruction-version.html
 https://blog.daliansky.net/From-Clover-To-OpenCore.html
 https://blog.daliansky.net/macOS-Catalina-10.15.4-19E266-Release-version-with-Clover-5107-original-image-Double-EFI-Version-UEFI-and-MBR.html
@@ -16,5 +18,3 @@ https://blog.daliansky.net/Tutorial-Using-Hackintool-to-open-the-correct-pose-of
 https://blog.daliansky.net/macOS-Mojave-10.14.3-18D42-official-version-with-Clover-4859-original-image.html
 https://blog.daliansky.net/Slide-value-acquisition-and-calculation.html
 https://blog.daliansky.net/Intel-FB-Patcher-USB-Custom-Video.html
-https://blog.daliansky.net/Lenovo-Xiaoxin-Air-13-macOS-Mojave-installation-tutorial.html
-https://blog.daliansky.net/Mojave-Hardware-Support-List.html
