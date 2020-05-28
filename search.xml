@@ -5,11 +5,12 @@
     <url>/macOS-Catalina-10.15.5-19F96-Release-version-with-Clover-5118-original-image-Double-EFI-Version-UEFI-and-MBR.html</url>
     <content><![CDATA[<h1 id="黑果小兵macos-catalina-10155-19f96-正式版-with-clover-5118原版镜像双efi版-uefi-and-mbr"><a class="markdownIt-Anchor" href="#黑果小兵macos-catalina-10155-19f96-正式版-with-clover-5118原版镜像双efi版-uefi-and-mbr"></a> 【黑果小兵】macOS Catalina 10.15.5 19F96 正式版 with Clover 5118原版镜像[双EFI版] [UEFI and MBR]</h1>
 <blockquote>
-<p>美国苹果公司今天发布了macOS Catalina 10.15.5正式版更新！加入了用户期待已久的电池健康度管理功能，此设计可增强Mac笔记型电脑的电池组件。</p>
+<p>苹果公司今天发布了macOS Catalina 10.15.5正式版更新！加入了用户期待已久的电池健康度管理功能，此设计可增强Mac笔记型电脑的电池组件。</p>
 </blockquote>
 <blockquote>
 <p>macOS Catalina 10.15.5 在“节能”设置中为笔记本电脑带来了电池健康管理功能，增加了控制 FaceTime 群聊期间视频拼贴自动突显的选项以及用于微调 Pro Display XDR 内建校准的控制。本更新还提高了 Mac 的稳定性、可靠性和安全性。</p>
 </blockquote>
+<p><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.5/Cap_10.15.5_19F96a.png" alt="19F96"></p>
 <h2 id="电池健康管理"><a class="markdownIt-Anchor" href="#电池健康管理"></a> 电池健康管理</h2>
 <ul>
 <li>电池健康管理有助于最大限度延长 Mac 笔记本电脑的电池使用寿命</li>
@@ -59,9 +60,9 @@
 <li>从苹果菜单  中选取“系统偏好设置”，然后点按“节能”。</li>
 <li>点按“电池健康”。</li>
 <li>取消选中“电池健康管理”，然后点按“好”。<br>
-<img src="/images/loading.gif" data-original="http://7.daliansk.net/10.15.5/macos-catalina-system-prefs-energy-saver-battery-health.jpg" alt="img"></li>
+<img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.5/macos-catalina-system-prefs-energy-saver-battery-health.jpg" alt="img"></li>
 <li>点按“关闭”。<br>
-<img src="/images/loading.gif" data-original="https://7.daliansk.net/10.15.5/macos-catalina-system-prefs-energy-saver-battery-health-turn-off.jpg" alt="img"></li>
+<img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.5/macos-catalina-system-prefs-energy-saver-battery-health-turn-off.jpg" alt="img"></li>
 </ol>
 <p>请注意，关闭这项功能可能会缩短电池的使用寿命。</p>
 <h2 id="镜像靓点"><a class="markdownIt-Anchor" href="#镜像靓点"></a> 镜像靓点：</h2>
@@ -73,7 +74,10 @@
 <p>更新<code>CLOVER</code>到<code>v2.5k r518</code>【根本性解决了<code>SVG</code>主题错位问题】</p>
 </li>
 <li>
-<p>新增<code>PE</code>引导分区，同时支持<code>CLOVER</code> / <code>PE</code>双引导，<strong>三分区特别版</strong>同时支持<code>CLOVER</code> / <code>OC</code> / <code>WEPE</code>引导</p>
+<p>新增<code>PE</code>引导分区，同时支持<code>CLOVER</code> / <code>PE</code>双引导</p>
+</li>
+<li>
+<p><strong>三分区特别版</strong>同时支持<code>CLOVER</code> / <code>OC</code> / <code>WEPE</code>引导，支持<code>AMD</code>安装使用</p>
 </li>
 <li>
 <p>新增<code>MBR</code>引导，支持旧主板旧机型的安装</p>
@@ -188,10 +192,10 @@
 <h2 id="截图"><a class="markdownIt-Anchor" href="#截图"></a> 截图：</h2>
 <p><strong>结合了台式机和笔记本的截屏，仅供参考</strong></p>
 <p><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.5/Cap_10.15.5_19F96a.png" alt="19F96"><br>
-<img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.4/Hackintool.png" alt="1About_Hackintool"><br>
+<img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.5/10.15.5_Hackintool.png" alt="1About_Hackintool"><br>
 <img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.4/DualDisplays.png" alt="21Displays"><br>
-<img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.4/zsh.png" alt="zsh"><br>
-<img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.4/DW1820A.png" alt="DW1820A_Bug_Report"><br>
+<img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.5/10.15.5_zsh.png" alt="zsh"><br>
+<img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.5/10.15.5_DW1820A.png" alt="DW1820A_Bug_Report"><br>
 <img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/DW1820A_WIFI_Status.png" alt="DW1820A_WIFI_Status"><br>
 <img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/DW1820A_BT_Status.png" alt="DW1820A_BT_Status"><br>
 <img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/ASPM.png" alt="ASPM"><br>
@@ -225,9 +229,10 @@
 <p>32GB及以上U盘请下载：<code>macOS Catalina 10.15.5(19F96) Installer for Clover 5118 and OC and WEPE Support UEFI and MBR 32GB.dmg</code></p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># md5 macOS\ Catalina\ 10.15.5\(19F96\)\ Installer\ for\ Clover\ 5118\ and\ OC\ and\ WEPE\ Support\ UEFI\ and\ MBR\ 32GB.dmg</span></span><br><span class="line">MD5 (macOS Catalina 10.15.5(19F96) Installer <span class="keyword">for</span> Clover 5118 and OC and WEPE Support UEFI and MBR 32GB.dmg) = 75c01361dc85a081c9629ba4eb330cc9</span><br></pre></td></tr></table></figure>
 <h2 id="10155-19f96-双efi分区版下载链接"><a class="markdownIt-Anchor" href="#10155-19f96-双efi分区版下载链接"></a> <strong>10.15.5  <code>19F96</code>  <code>双EFI</code>分区版下载链接</strong></h2>
-<p>迅雷离线下载：[<a href>请点击下载</a>] 感谢<code>@难忘情怀</code>提供下载资源</p>
+<p>迅雷离线下载：[<a href>请点击下载</a>] 感谢<code>@难忘情怀</code>提供下载资源 【备注：资源同步中，需时1-2天】</p>
 <p>http下载链接:<a href="https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/" target="_blank" rel="noopener">请点击下载</a> 感谢<code>@难忘情怀</code>提供下载资源</p>
-<p>天翼云盘： <a href="https://cloud.189.cn/t/nIbiqa77vMju%EF%BC%88%E8%AE%BF%E9%97%AE%E7%A0%81%EF%BC%9A" target="_blank" rel="noopener">https://cloud.189.cn/t/nIbiqa77vMju（访问码：</a><code>u6g3</code> ）</p>
+<p>天翼云盘： <a href="https://cloud.189.cn/t/rMNFzyriIBFj" target="_blank" rel="noopener">https://cloud.189.cn/t/rMNFzyriIBFj</a> 【备注：由于最近天翼云盘会员被限制下载速度，现正在与官网沟通申请退费，同时使用另外的手机号申请了新会员，今天会补上下载资源】</p>
+<p><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.5/Cloud_189.png" alt="Cloud_189"></p>
 <p>奶牛快传： 感谢针针@QQ:756876988提供下载资源</p>
 <p><strong>镜像上传中，请耐心等待</strong></p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># md5 macOS\ Catalina\ 10.15.5\(19F96\)\ Installer\ for\ Clover\ 5118\ and\ WEPE\ Support\ UEFI\ and\ MBR.dmg</span></span><br><span class="line">MD5 (macOS Catalina 10.15.5(19F96) Installer <span class="keyword">for</span> Clover 5118 and WEPE Support UEFI and MBR.dmg) = 42c8fdd822e83eb60a7b50e16a9ce827</span><br></pre></td></tr></table></figure>
@@ -291,8 +296,13 @@
 </blockquote>
 <ul>
 <li><code>实用工具-终端</code>，输入命令：<code>date 0201010116</code>，回车后关闭<code>终端</code>，可继续安装进程；</li>
-<li>安装过程中全程断开网络</li>
+<li>新版本<code>10.15.5</code>系统的安装如果提示上述信息，大概率是你的<code>CMOS</code>时间是错的，这常见于使用双系统导致的；
+<ul>
+<li>解决方案：可以将时间设置为当前时间，格式：<code>date 月月日日时时分分年年年年.秒秒</code>，比如我现在编辑这段文字的时间为：<code>2020年5月28日04:50:45</code>，那么就输入命令：<code>date 052804502020.45</code>，回车后关闭<code>终端</code>即可继续安装进程；【<code>黑果小兵亲测有效</code>】</li>
+</ul>
+</li>
 <li>另一种方法：<code>BIOS</code>中修正系统时间，误差不要多于5秒，应该能解决该提示信息【<code>黑果小兵亲测有效</code>】</li>
+<li>安装过程中全程断开网络</li>
 </ul>
 <h2 id="关于clover-bootloader的版本"><a class="markdownIt-Anchor" href="#关于clover-bootloader的版本"></a> 关于<code>Clover Bootloader</code>的版本</h2>
 <p>想要正确地安装<code>macOS Catalina 10.15.4</code>，它要求你的<code>Clover Bootloader</code>版本不低于<code>v5.0 r5107</code>。<a href="https://github.com/Dids/clover-builder/releases" target="_blank" rel="noopener">Clover Bootloader最新版本下载</a></p>
@@ -673,7 +683,6 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
     <title>【微信首发】macOS Catalina 10.15.5 19F96 正式版 Clover 5118/OC/WEPE同时支持INTEL及AMD原版镜像</title>
     <url>/WeChat-First-macOS-Catalina-10.15.5-19F96-official-version-Clover-5118-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</url>
     <content><![CDATA[<h1 id="微信首发macos-catalina-10155-19f96-正式版-clover-5118ocwepe同时支持intel及amd原版镜像"><a class="markdownIt-Anchor" href="#微信首发macos-catalina-10155-19f96-正式版-clover-5118ocwepe同时支持intel及amd原版镜像"></a> 【微信首发】macOS Catalina 10.15.5 19F96 正式版 Clover 5118/OC/WEPE同时支持INTEL及AMD原版镜像</h1>
-<p><img src="/images/loading.gif" data-original="http://7.daliansky.net/CDImage/CDIMAGE.png" alt="CDIMAGE"></p>
 <h2 id="特点"><a class="markdownIt-Anchor" href="#特点"></a> 特点：</h2>
 <ul>
 <li>三个独立的<code>EFI</code>引导分区，同时支持<code>CLOVER</code> / <code>OpenCore</code> / <code>WEPE</code>引导</li>
@@ -690,7 +699,7 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
 <li>
 <p><code>5-27-2020</code> 更新</p>
 <ul>
-<li>macOS Catalina 10.15.4 <code>19F96</code></li>
+<li>macOS Catalina <code>10.15.5</code>  <code>19F96</code></li>
 <li>更新支持:<code>MacBookPro 2020</code></li>
 <li>更新了<code>DW1820A</code> 蓝牙驱动到 <code>v2.5.3</code></li>
 <li>更新<code>CLOVER</code>到<code>v2.5k r5118</code></li>
@@ -763,6 +772,8 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
 <p><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.5.5/Install_macOS_Catalina_19F96.png" alt="Install_macOS_Catalina"></p>
 <p><img src="/images/loading.gif" data-original="http://7.daliansky.net/CDImage/OC.png" alt="OC"></p>
 <p><img src="/images/loading.gif" data-original="http://7.daliansky.net/CDImage/wepe.png" alt="wepe"></p>
+<p><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.5/10.15.5_zsh.png" alt="10.15.5_zsh"></p>
+<p><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.5/10.15.5_Hackintool.png" alt="10.15.5_Hackintool"></p>
 <p><img src="/images/loading.gif" data-original="http://7.daliansky.net/CDImage/PE.png" alt="weipe2"></p>
 <h2 id="下载链接"><a class="markdownIt-Anchor" href="#下载链接"></a> 下载链接</h2>
 <p>请通过 <code>喜欢作者</code> 打赏后获取下载链接</p>
@@ -808,7 +819,7 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
 <h2 id="温馨提醒"><a class="markdownIt-Anchor" href="#温馨提醒"></a> 温馨提醒</h2>
 <blockquote>
 <p>赞赏后自动回复的消息，会通过<code>微信公众号</code>推送，它并不会出现在文章里</p>
-<p>您也可以前往博客下载双EFI分区版本 <a href="https://blog.daliansky.net/macOS-Catalina-10.15.4-19E266-Release-version-with-Clover-5107-original-image-Double-EFI-Version-UEFI-and-MBR.html">点击前往</a></p>
+<p>您也可以前往博客下载双EFI分区版本 <a href="https://blog.daliansky.net/macOS-Catalina-10.15.5-19F96-Release-version-with-Clover-5118-original-image-Double-EFI-Version-UEFI-and-MBR.html">点击前往</a></p>
 </blockquote>
 <h2 id="下载"><a class="markdownIt-Anchor" href="#下载"></a> <strong>下载</strong></h2>
 <p>下载链接请务必进入<code>微信公众号</code>里面的文章通过 <code>喜欢作者</code> 打赏后获取，请点击<code>正在看</code>让更多人关注</p>
@@ -13844,9 +13855,9 @@ a3 a2 a1 a0=0001（二进制）=1（十进制）<br>
         <tag>EDID</tag>
         <tag>安装</tag>
         <tag>常见问题</tag>
+        <tag>黑屏</tag>
         <tag>屏蔽独显</tag>
         <tag>花屏</tag>
-        <tag>黑屏</tag>
       </tags>
   </entry>
   <entry>
@@ -14526,8 +14537,8 @@ a3 a2 a1 a0=0001（二进制）=1（十进制）<br>
       </categories>
       <tags>
         <tag>EDID</tag>
-        <tag>花屏</tag>
         <tag>黑屏</tag>
+        <tag>花屏</tag>
         <tag>HIDPI</tag>
         <tag>睡眠唤醒</tag>
         <tag>内屏黑屏</tag>
@@ -18583,9 +18594,9 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <category>教程</category>
       </categories>
       <tags>
-        <tag>黑屏</tag>
         <tag>UHD 630</tag>
         <tag>CoffeeLake</tag>
+        <tag>黑屏</tag>
         <tag>亮屏</tag>
         <tag>亮度调整</tag>
       </tags>
@@ -20394,8 +20405,8 @@ And 的第三个参数，是把前两个数的计算结果，写入到第三个�
         <category>教程</category>
       </categories>
       <tags>
-        <tag>接口</tag>
         <tag>platform-id</tag>
+        <tag>接口</tag>
         <tag>显存</tag>
         <tag>显示器</tag>
       </tags>
@@ -22736,8 +22747,8 @@ HDMI连接到0204，所以我修补该端口的HDMI（启用HDMI音频）。<br>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
         <tag>Plugins</tag>
-        <tag>Clover</tag>
         <tag>常见问题</tag>
+        <tag>Clover</tag>
         <tag>platform-id</tag>
         <tag>Patch</tag>
         <tag>wake</tag>

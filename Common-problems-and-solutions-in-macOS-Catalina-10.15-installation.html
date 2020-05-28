@@ -182,7 +182,7 @@
 <meta property="og:image" content="https://blog.daliansky.net/images/loading.gif">
 <meta property="og:image" content="https://blog.daliansky.net/images/loading.gif">
 <meta property="og:image" content="https://blog.daliansky.net/images/loading.gif">
-<meta property="og:updated_time" content="2020-05-13T05:58:49.743Z">
+<meta property="og:updated_time" content="2020-05-28T00:22:11.374Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="macOS Catalina 10.15安装中常见的问题及解决方法">
 <meta name="twitter:description" content="随着macOS Catalina(卡塔利娜) 10.15发行正式版本的临近，各种安装常见问题也需要同步更新，本篇文章就是针对10.15的常见问题的汇总，我会持续不间断更新，敬请期待   安装提示安装macOS 应用程序副本已损坏，不能用来安装macOS的解决方法  该错误会经常出现于旧版中，根源是苹果的安装镜像中的证书过期导致的。解决方法如下：   实用工具-终端，输入命令：date 02010">
@@ -529,7 +529,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 
-                <time title="修改时间：2020-05-13 13:58:49" itemprop="dateModified" datetime="2020-05-13T13:58:49+08:00">2020-05-13</time>
+                <time title="修改时间：2020-05-28 08:22:11" itemprop="dateModified" datetime="2020-05-28T08:22:11+08:00">2020-05-28</time>
               
             
           </span>
@@ -589,7 +589,7 @@
                   <i class="fa fa-clock-o"></i>
                 </span>
                 
-                <span title="阅读时长">24 分钟</span>
+                <span title="阅读时长">25 分钟</span>
               
             </div>
           
@@ -623,8 +623,13 @@
 </blockquote>
 <ul>
 <li><code>实用工具-终端</code>，输入命令：<code>date 0201010116</code>，回车后关闭<code>终端</code>，可继续安装进程；</li>
-<li>安装过程中全程断开网络</li>
+<li>新版本<code>10.15.5</code>系统的安装如果提示上述信息，大概率是你的<code>CMOS</code>时间是错的，这常见于使用双系统导致的；
+<ul>
+<li>解决方案：可以将时间设置为当前时间，格式：<code>date 月月日日时时分分年年年年.秒秒</code>，比如我现在编辑这段文字的时间为：<code>2020年5月28日04:50:45</code>，那么就输入命令：<code>date 052804502020.45</code>，回车后关闭<code>终端</code>即可继续安装进程；【<code>黑果小兵亲测有效</code>】</li>
+</ul>
+</li>
 <li>另一种方法：<code>BIOS</code>中修正系统时间，误差不要多于5秒，应该能解决该提示信息【<code>黑果小兵亲测有效</code>】</li>
+<li>安装过程中全程断开网络</li>
 </ul>
 <h2 id="关于clover-bootloader的版本"><a class="markdownIt-Anchor" href="#关于clover-bootloader的版本"></a> 关于<code>Clover Bootloader</code>的版本</h2>
 <p>想要正确地安装<code>macOS Catalina 10.15.4</code>，它要求你的<code>Clover Bootloader</code>版本不低于<code>v5.0 r5107</code>。<a href="https://github.com/Dids/clover-builder/releases" target="_blank" rel="noopener">Clover Bootloader最新版本下载</a></p>
@@ -1017,7 +1022,7 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
     <!-- 更新日期 -->
     
       <div class="updated">
-        <svg xmlns="http://www.w3.org/2000/svg" width="130" height="20"><lineargradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></lineargradient><clippath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clippath><g clip-path="url(#a)"><path fill="#555" d="M0 0h55v20H0z"/><path fill="#97CA00" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-family="Menlo,monospace" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textlength="450" transform="scale(.1)">更新日期</text><text x="285" y="140" textlength="450" transform="scale(.1)">更新日期</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textlength="650" transform="scale(.1)">2020-05-13</text><text x="915" y="140" textlength="650" transform="scale(.1)">2020-05-13</text></g></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="130" height="20"><lineargradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></lineargradient><clippath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clippath><g clip-path="url(#a)"><path fill="#555" d="M0 0h55v20H0z"/><path fill="#97CA00" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-family="Menlo,monospace" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textlength="450" transform="scale(.1)">更新日期</text><text x="285" y="140" textlength="450" transform="scale(.1)">更新日期</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textlength="650" transform="scale(.1)">2020-05-28</text><text x="915" y="140" textlength="650" transform="scale(.1)">2020-05-28</text></g></svg>
       </div>
     
 
@@ -1093,6 +1098,12 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
                     673294583 <a href="http://shang.qq.com/wpa/qunwpa?idkey=c00a79b8adbba92c152f71cdc721660cc2de276f62a1d4435c83b884e7f369c0" target="_blank" rel="noopener">小新Pro黑苹果技术群</a> 500人群 非专用机型请勿加入<br>
                     946132482 <a href="http://shang.qq.com/wpa/qunwpa?idkey=d64dff649d6a19f9496aaa472ee3a14450cfbbeddd0e618edf182ffe320a1fd0" target="_blank" rel="noopener">小新Pro黑苹果</a> 500人群 非专用机型请勿加入<br>
                     943181023 <a href="http://shang.qq.com/wpa/qunwpa?idkey=fb772a7e01436d43e1d856a099549551952bb08161ced4a8fc08b4e75e7ab438" target="_blank" rel="noopener">联想小新Air黑苹果交流群</a> 500人群 非专用机型请勿加入<br>
+                </p>
+                <p>
+                    </p><h2>Telegram群：</h2>
+                <p></p>                
+                <p>
+                    黑果小兵的部落阁 <a href="http://t.me/daliansky" target="_blank">http://t.me/daliansky</a>
                 </p>
             </div>
         </ul>    
@@ -2430,5 +2441,5 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
 
   
 
-<script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){var c=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function t(){for(var t,e,a=0;a<c.length;a++)t=c[a],0<=(e=t.getBoundingClientRect()).bottom&&0<=e.left&&e.top<=(n.innerHeight||document.documentElement.clientHeight)&&function(){var t,e,n,i,o=c[a];t=o,e=function(){c=c.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},n.src=i}()}function e(t,e){clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)}t(),n.addEventListener("scroll",function(){e(t,n)}),n.imageLazyLoadSetting&&(n.imageLazyLoadSetting.processImages=t,n.imageLazyLoadSetting.processImagesThrottle=e)}(this);</script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"scale":1.2,"hHeadPos":0.5,"vHeadPos":0.618,"jsonPath":"/live2dw/assets/tororo.model.json"},"display":{"superSample":2,"width":150,"height":300,"position":"right","hOffset":0,"vOffset":-20},"mobile":{"show":false,"scale":0.5},"react":{"opacityDefault":0.7,"opacityOnHover":0.2},"log":false,"tagMode":false});</script></body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"scale":1.2,"hHeadPos":0.5,"vHeadPos":0.618,"jsonPath":"/live2dw/assets/tororo.model.json"},"display":{"superSample":2,"width":150,"height":300,"position":"right","hOffset":0,"vOffset":-20},"mobile":{"show":false,"scale":0.5},"react":{"opacityDefault":0.7,"opacityOnHover":0.2},"log":false,"tagMode":false});</script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){var c=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function t(){for(var t,e,a=0;a<c.length;a++)t=c[a],0<=(e=t.getBoundingClientRect()).bottom&&0<=e.left&&e.top<=(n.innerHeight||document.documentElement.clientHeight)&&function(){var t,e,n,i,o=c[a];t=o,e=function(){c=c.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},n.src=i}()}function e(t,e){clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)}t(),n.addEventListener("scroll",function(){e(t,n)}),n.imageLazyLoadSetting&&(n.imageLazyLoadSetting.processImages=t,n.imageLazyLoadSetting.processImagesThrottle=e)}(this);</script></body>
 </html>
