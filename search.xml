@@ -231,7 +231,7 @@
 <h2 id="10155-19f96-双efi分区版下载链接"><a class="markdownIt-Anchor" href="#10155-19f96-双efi分区版下载链接"></a> <strong>10.15.5  <code>19F96</code>  <code>双EFI</code>分区版下载链接</strong></h2>
 <p>迅雷离线下载：[<a href>请点击下载</a>] 感谢<code>@难忘情怀</code>提供下载资源 【备注：资源同步中，需时1-2天】</p>
 <p>http下载链接:<a href="https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/" target="_blank" rel="noopener">请点击下载</a> 感谢<code>@难忘情怀</code>提供下载资源</p>
-<p>天翼云盘： <a href="https://cloud.189.cn/t/rMNFzyriIBFj" target="_blank" rel="noopener">https://cloud.189.cn/t/rMNFzyriIBFj</a> 【备注：由于最近天翼云盘会员被限制下载速度，现正在与官网沟通申请退费，同时使用另外的手机号申请了新会员，今天会补上下载资源】</p>
+<p>天翼云盘： <a href="https://cloud.189.cn/t/26VVrabqQjya" target="_blank" rel="noopener">https://cloud.189.cn/t/26VVrabqQjya</a> 【备注：由于最近天翼云盘会员被限制下载速度，现正在与官网沟通申请退费，同时使用另外的手机号申请了新会员，今天会补上下载资源】</p>
 <p><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.5/Cloud_189.png" alt="Cloud_189"></p>
 <p>奶牛快传： 感谢针针@QQ:756876988提供下载资源</p>
 <p><strong>镜像上传中，请耐心等待</strong></p>
@@ -276,9 +276,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.5</tag>
         <tag>19F96</tag>
@@ -864,9 +864,9 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.5</tag>
         <tag>19F96</tag>
@@ -13855,9 +13855,9 @@ a3 a2 a1 a0=0001（二进制）=1（十进制）<br>
         <tag>EDID</tag>
         <tag>安装</tag>
         <tag>常见问题</tag>
-        <tag>黑屏</tag>
         <tag>屏蔽独显</tag>
         <tag>花屏</tag>
+        <tag>黑屏</tag>
       </tags>
   </entry>
   <entry>
@@ -14537,8 +14537,8 @@ a3 a2 a1 a0=0001（二进制）=1（十进制）<br>
       </categories>
       <tags>
         <tag>EDID</tag>
-        <tag>黑屏</tag>
         <tag>花屏</tag>
+        <tag>黑屏</tag>
         <tag>HIDPI</tag>
         <tag>睡眠唤醒</tag>
         <tag>内屏黑屏</tag>
@@ -15426,9 +15426,9 @@ diskutil mount HighSierra</p>
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.4</tag>
         <tag>Infinity</tag>
@@ -15717,9 +15717,9 @@ diskutil mount HighSierra</p>
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.4</tag>
         <tag>1.9e+267</tag>
@@ -15945,9 +15945,9 @@ diskutil mount HighSierra</p>
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.2</tag>
         <tag>19C57</tag>
@@ -16065,8 +16065,8 @@ diskutil mount HighSierra</p>
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.6</tag>
         <tag>17G2112</tag>
@@ -16157,10 +16157,10 @@ diskutil mount HighSierra</p>
         <category>镜像</category>
       </categories>
       <tags>
+        <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
-        <tag>下载</tag>
-        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>17A389</tag>
       </tags>
@@ -16217,8 +16217,8 @@ diskutil mount HighSierra</p>
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.2</tag>
         <tag>17C88</tag>
@@ -16416,9 +16416,9 @@ diskutil mount HighSierra</p>
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Mojave</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Mojave</tag>
         <tag>dmg</tag>
         <tag>10.14.6</tag>
         <tag>18G84</tag>
@@ -16634,9 +16634,9 @@ diskutil mount HighSierra</p>
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Mojave</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Mojave</tag>
         <tag>dmg</tag>
         <tag>10.14.4</tag>
         <tag>1.8e+227</tag>
@@ -17176,9 +17176,9 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.3</tag>
         <tag>19D76</tag>
@@ -17403,9 +17403,9 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.1</tag>
         <tag>19B88</tag>
@@ -17618,10 +17618,10 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <category>镜像</category>
       </categories>
       <tags>
+        <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>Catalina</tag>
         <tag>10.15</tag>
-        <tag>下载</tag>
-        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>19A583</tag>
       </tags>
@@ -17816,9 +17816,9 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Mojave</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Mojave</tag>
         <tag>dmg</tag>
         <tag>10.14.5</tag>
         <tag>18F132</tag>
@@ -18015,9 +18015,9 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Mojave</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Mojave</tag>
         <tag>dmg</tag>
         <tag>10.14.3</tag>
         <tag>18D42</tag>
@@ -18303,9 +18303,9 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Mojave</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Mojave</tag>
         <tag>dmg</tag>
         <tag>10.14.2</tag>
         <tag>18C54</tag>
@@ -18531,9 +18531,9 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Mojave</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Mojave</tag>
         <tag>dmg</tag>
         <tag>10.14.1</tag>
         <tag>18B75</tag>
@@ -18594,9 +18594,9 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <category>教程</category>
       </categories>
       <tags>
+        <tag>黑屏</tag>
         <tag>UHD 630</tag>
         <tag>CoffeeLake</tag>
-        <tag>黑屏</tag>
         <tag>亮屏</tag>
         <tag>亮度调整</tag>
       </tags>
@@ -18741,10 +18741,10 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <category>镜像</category>
       </categories>
       <tags>
+        <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
-        <tag>下载</tag>
-        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>18A391</tag>
       </tags>
@@ -19061,8 +19061,8 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.6</tag>
         <tag>17G65</tag>
@@ -19153,8 +19153,8 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.5</tag>
         <tag>17F77</tag>
@@ -19468,8 +19468,8 @@ HDMI连接器通过连接器类型在ioreg中标识<code>&lt;00 08 00 00&gt;</co
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.4</tag>
         <tag>1.7e+200</tag>
@@ -20273,8 +20273,8 @@ And 的第三个参数，是把前两个数的计算结果，写入到第三个�
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.2</tag>
         <tag>17C88</tag>
@@ -21070,8 +21070,8 @@ MD5 (macOS High Sierra 10.13.1(17B48) Installer with Clover 4278.dmg) = 2e6b403e
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.1</tag>
         <tag>17B48</tag>
@@ -21424,8 +21424,8 @@ Clover默认config.plist为620/630/640/650；<br>
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>17A405</tag>
       </tags>
@@ -21510,8 +21510,8 @@ Clover默认config.plist为620/630/640/650；<br>
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
       </tags>
   </entry>
@@ -21547,8 +21547,8 @@ Clover默认config.plist为620/630/640/650；<br>
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>GM</tag>
         <tag>17A362a</tag>
@@ -22747,8 +22747,8 @@ HDMI连接到0204，所以我修补该端口的HDMI（启用HDMI音频）。<br>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
         <tag>Plugins</tag>
-        <tag>常见问题</tag>
         <tag>Clover</tag>
+        <tag>常见问题</tag>
         <tag>platform-id</tag>
         <tag>Patch</tag>
         <tag>wake</tag>
@@ -23149,8 +23149,8 @@ Clover默认config.plist为620/630/640/650；<br>
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>DB9</tag>
         <tag>17A360a</tag>
         <tag>dmg</tag>
@@ -23181,13 +23181,13 @@ Clover默认config.plist为620/630/640/650；<br>
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
+        <tag>下载</tag>
         <tag>10.12.6</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
         <tag>Catalina</tag>
         <tag>10.15</tag>
         <tag>Download</tag>
-        <tag>下载</tag>
       </tags>
   </entry>
   <entry>
@@ -23250,8 +23250,8 @@ Clover默认config.plist为620/630/640/650；<br>
       </categories>
       <tags>
         <tag>10.13</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>DB8</tag>
         <tag>17A358a</tag>
       </tags>
@@ -23425,9 +23425,9 @@ Clover默认config.plist为620/630/640/650；<br>
       </categories>
       <tags>
         <tag>10.13</tag>
-        <tag>下载</tag>
         <tag>DB7</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
       </tags>
   </entry>
   <entry>
@@ -23600,8 +23600,8 @@ MD5 (macOS Sierra 10.12.6 16G29 Installer with Clover 4133.dmg) = 81ecbc29863381
       </categories>
       <tags>
         <tag>Sierra</tag>
-        <tag>10.12.6</tag>
         <tag>镜像</tag>
+        <tag>10.12.6</tag>
         <tag>安装</tag>
         <tag>dmg</tag>
       </tags>
@@ -23821,8 +23821,8 @@ MD5 (macOS Sierra 10.12.6 16G29 Installer with Clover 4133.dmg) = 81ecbc29863381
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>17A344b</tag>
       </tags>
