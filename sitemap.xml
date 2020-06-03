@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.5-19F96-Release-version-with-Clover-5118-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
+    
+    <lastmod>2020-06-03T04:58:47.458Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
+    
+    <lastmod>2020-06-03T03:49:28.568Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.5-19F101-official-version-Clover-5118-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
     
     <lastmod>2020-06-03T02:39:22.882Z</lastmod>
@@ -12,13 +26,6 @@
     <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.5-19F96-official-version-Clover-5118-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
     
     <lastmod>2020-06-02T14:16:27.455Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.5-19F96-Release-version-with-Clover-5118-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
-    
-    <lastmod>2020-06-02T14:08:23.349Z</lastmod>
     
   </url>
   
@@ -61,13 +68,6 @@
     <loc>https://blog.daliansky.net/OpenCore-BootLoader.html</loc>
     
     <lastmod>2020-05-14T00:32:45.825Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
-    
-    <lastmod>2020-05-13T06:03:31.006Z</lastmod>
     
   </url>
   
