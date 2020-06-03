@@ -254,6 +254,7 @@
 <p>迅雷离线下载：[<a href>请点击下载</a>] 感谢<code>@难忘情怀</code>提供下载资源 【镜像同步中，预计1-2天能同步完】</p>
 <p>http下载链接:<a href="https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/" target="_blank" rel="noopener">请点击下载</a> 感谢<code>@难忘情怀</code>提供下载资源</p>
 <p>天翼云盘： <a href="https://cloud.189.cn/t/FfQRjyzeEF3i" target="_blank" rel="noopener">https://cloud.189.cn/t/FfQRjyzeEF3i</a></p>
+<p>OneDrive下载：<a href="http://suo.im/6g7MYL" target="_blank" rel="noopener">http://suo.im/6g7MYL</a></p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># md5 macOS\ Catalina\ 10.15.5\(19F101\)\ Installer\ for\ Clover\ 5118\ and\ WEPE\ Support\ UEFI\ and\ MBR.dmg</span></span><br><span class="line">MD5 (macOS Catalina 10.15.5(19F101) Installer <span class="keyword">for</span> Clover 5118 and WEPE Support UEFI and MBR.dmg) = 9a6e6bca1882f6791bafa4d6b45c28ce</span><br></pre></td></tr></table></figure>
 <h2 id="10155-19f96-双efi分区版下载链接"><a class="markdownIt-Anchor" href="#10155-19f96-双efi分区版下载链接"></a> <strong>10.15.5  <code>19F96</code>  <code>双EFI</code>分区版下载链接</strong></h2>
 <p>迅雷离线下载：[<a href="https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/macOS%20Catalina%2010.15.5%2819F96%29%20Installer%20for%20Clover%205118%20and%20WEPE%20Support%20UEFI%20and%20MBR.dmg" target="_blank" rel="noopener">请点击下载</a>] 感谢<code>@难忘情怀</code>提供下载资源</p>
@@ -19229,9 +19230,9 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <category>教程</category>
       </categories>
       <tags>
+        <tag>framebuffer</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
-        <tag>framebuffer</tag>
         <tag>10.13.6</tag>
         <tag>17G2112</tag>
         <tag>patch</tag>
@@ -23002,11 +23003,11 @@ HDMI连接到0204，所以我修补该端口的HDMI（启用HDMI音频）。<br>
         <category>教程</category>
       </categories>
       <tags>
-        <tag>Lilu</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
+        <tag>Lilu</tag>
         <tag>Plugins</tag>
         <tag>Clover</tag>
         <tag>常见问题</tag>
@@ -23863,8 +23864,8 @@ MD5 (macOS Sierra 10.12.6 16G29 Installer with Clover 4133.dmg) = 81ecbc29863381
         <tag>Sierra</tag>
         <tag>10.12.6</tag>
         <tag>镜像</tag>
-        <tag>dmg</tag>
         <tag>安装</tag>
+        <tag>dmg</tag>
       </tags>
   </entry>
   <entry>
