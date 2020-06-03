@@ -792,7 +792,7 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
 <p><img src="/images/loading.gif" data-original="http://7.daliansky.net/CDImage/32GB.png" alt="CDIMAGE"></p>
 <p><img src="/images/loading.gif" data-original="http://7.daliansky.net/CDImage/32GB_Size.png" alt="CDIMAGE"></p>
 <p><img src="/images/loading.gif" data-original="http://7.daliansky.net/CDImage/CLOVER.png" alt="CLOVER"></p>
-<p><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.5.5/Install_macOS_Catalina_19F101.png" alt="Install_macOS_Catalina"></p>
+<p><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.5/Install_macOS_Catalina_19F101.png" alt="Install_macOS_Catalina"></p>
 <p><img src="/images/loading.gif" data-original="http://7.daliansky.net/CDImage/OC.png" alt="OC"></p>
 <p><img src="/images/loading.gif" data-original="http://7.daliansky.net/CDImage/wepe.png" alt="wepe"></p>
 <p><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.5/10.15.5_19F101.png" alt="10.15.5_19F101"></p>
@@ -9796,12 +9796,12 @@ Layout1,3,8,9,11,12,13,18,22,23,24,25,26,27,28,29,30,31,32,34,36,37,38,39,41， 
         <category>教程</category>
       </categories>
       <tags>
-        <tag>USB</tag>
         <tag>教程</tag>
         <tag>FB</tag>
         <tag>patcher</tag>
         <tag>framebuffer</tag>
         <tag>帧缓冲</tag>
+        <tag>USB</tag>
         <tag>audio</tag>
         <tag>VRAM</tag>
       </tags>
