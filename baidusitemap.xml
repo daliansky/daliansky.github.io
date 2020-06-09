@@ -64,10 +64,10 @@
     <loc>https://blog.daliansky.net/macOS-Catalina-10.15.2-19C57-Release-version-with-Clover-5100-original-image-Double-EFI-Version.html</loc>
     <lastmod>2020-01-29</lastmod>
   </url>  <url>
-    <loc>https://blog.daliansky.net/translate-guide-intel-igpu-hdmi-dp-audio-sandy-ivy-haswell-broadwell-skylake-kabylake.html</loc>
+    <loc>https://blog.daliansky.net/Lenovo-Xiaoxin-Air-13-macOS-Mojave-installation-tutorial.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
-    <loc>https://blog.daliansky.net/Lenovo-Xiaoxin-Air-13-macOS-Mojave-installation-tutorial.html</loc>
+    <loc>https://blog.daliansky.net/translate-guide-intel-igpu-hdmi-dp-audio-sandy-ivy-haswell-broadwell-skylake-kabylake.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
     <loc>https://blog.daliansky.net/Clover-Configurator-Chinese-Version.html</loc>
@@ -118,10 +118,10 @@
     <loc>https://blog.daliansky.net/macOS-Mojave-10.14.5-18F132-official-version-with-Clover-4928-original-image.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
-    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.6-18G87-Release-version-with-Clover-5033-original-image.html</loc>
+    <loc>https://blog.daliansky.net/macOS-Sierra-10-12-6-16G29-with-Clover-4133-original-mirror-with-multi-drive.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
-    <loc>https://blog.daliansky.net/macOS-Sierra-10-12-6-16G29-with-Clover-4133-original-mirror-with-multi-drive.html</loc>
+    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.6-18G87-Release-version-with-Clover-5033-original-image.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
     <loc>https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html</loc>
@@ -169,9 +169,6 @@
     <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.6-17G2112-Release-Special-with-Clover-4606-original-mirror.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
-    <loc>https://blog.daliansky.net/Fresh-installing-macOS-High-Sierra(10.13)-on-AMD-Ryzen-Hackintosh-Guide.html</loc>
-    <lastmod>2019-12-30</lastmod>
-  </url>  <url>
     <loc>https://blog.daliansky.net/CLOVER-v2-4-r4438-Integrated-Millet-Notebook-PRO-EFI-Installation-Instructions.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
@@ -179,6 +176,9 @@
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
     <loc>https://blog.daliansky.net/macOS-Catalina-10.15-19A583-Release-version-with-Clover-5093-original-image-Double-EFI-Version.html</loc>
+    <lastmod>2019-12-30</lastmod>
+  </url>  <url>
+    <loc>https://blog.daliansky.net/Fresh-installing-macOS-High-Sierra(10.13)-on-AMD-Ryzen-Hackintosh-Guide.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
     <loc>https://blog.daliansky.net/macOS-Catalina-10.15.1-19B88-Release-version-with-Clover-5098-original-image-Double-EFI-Version.html</loc>
@@ -193,13 +193,13 @@
     <loc>https://blog.daliansky.net/Webmin-Mysql-module-warns-of-the-lack-of-DBI-and-DBD-mysql-processing.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
+    <loc>https://blog.daliansky.net/an-nginx-405-not-allowed-error-solution.html</loc>
+    <lastmod>2019-12-30</lastmod>
+  </url>  <url>
     <loc>https://blog.daliansky.net/hda-verb-parameter-detail-table.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
     <loc>https://blog.daliansky.net/hotpatch-detailed-solution.html</loc>
-    <lastmod>2019-12-30</lastmod>
-  </url>  <url>
-    <loc>https://blog.daliansky.net/an-nginx-405-not-allowed-error-solution.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>  <url>
     <loc>https://blog.daliansky.net/MacOS-use-the-dd-command-to-make-Ubuntu-install-USB-disk.html</loc>
