@@ -2451,9 +2451,9 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="CPUFriend" scheme="https://blog.daliansky.net/tags/CPUFriend/"/>
-    
       <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
+    
+      <category term="CPUFriend" scheme="https://blog.daliansky.net/tags/CPUFriend/"/>
     
       <category term="Plugins" scheme="https://blog.daliansky.net/tags/Plugins/"/>
     
@@ -2524,11 +2524,11 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
-    
       <category term="AppleALC" scheme="https://blog.daliansky.net/tags/AppleALC/"/>
     
       <category term="Codec" scheme="https://blog.daliansky.net/tags/Codec/"/>
+    
+      <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
     
   </entry>
   
@@ -2599,8 +2599,6 @@
     
       <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
     
-      <category term="Plugins" scheme="https://blog.daliansky.net/tags/Plugins/"/>
-    
       <category term="10.12" scheme="https://blog.daliansky.net/tags/10-12/"/>
     
       <category term="10.13" scheme="https://blog.daliansky.net/tags/10-13/"/>
@@ -2608,6 +2606,8 @@
       <category term="Sierra" scheme="https://blog.daliansky.net/tags/Sierra/"/>
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
+    
+      <category term="Plugins" scheme="https://blog.daliansky.net/tags/Plugins/"/>
     
       <category term="Clover" scheme="https://blog.daliansky.net/tags/Clover/"/>
     
@@ -3057,9 +3057,9 @@ hda-verb是linu
     
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
-      <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
-    
       <category term="安装" scheme="https://blog.daliansky.net/tags/%E5%AE%89%E8%A3%85/"/>
+    
+      <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
   </entry>
   
