@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.5-19F96-Release-version-with-Clover-5118-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
+    
+    <lastmod>2020-06-12T05:41:48.008Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
     
-    <lastmod>2020-06-10T06:15:44.315Z</lastmod>
+    <lastmod>2020-06-12T05:36:43.450Z</lastmod>
     
   </url>
   
@@ -19,13 +26,6 @@
     <loc>https://blog.daliansky.net/translate-guide-intel-igpu-hdmi-dp-audio-sandy-ivy-haswell-broadwell-skylake-kabylake.html</loc>
     
     <lastmod>2020-06-09T23:50:25.439Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.5-19F96-Release-version-with-Clover-5118-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
-    
-    <lastmod>2020-06-05T00:26:21.801Z</lastmod>
     
   </url>
   
