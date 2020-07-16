@@ -1,4 +1,5 @@
 https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-2-Installer-for-Clover-5119-and-PE-dual-EFI-partition-original-image.html
+https://blog.daliansky.net/macOS-Catalina-10.15.6-19G73-Release-version-with-Clover-5119-original-image-Double-EFI-Version-UEFI-and-MBR.html
 https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-2-Installer-for-OpenCore-and-PE-dual-EFI-partition-original-image.html
 https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.5-19F101-official-version-Clover-5118-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html
 https://blog.daliansky.net/macOS-Catalina-10.15.5-19F96-Release-version-with-Clover-5118-original-image-Double-EFI-Version-UEFI-and-MBR.html
@@ -17,4 +18,3 @@ https://blog.daliansky.net/OpenCore-BootLoader.html
 https://blog.daliansky.net/macOS-Mojave-10.14.5-18F132-official-version-with-Clover-4928-original-image.html
 https://blog.daliansky.net/macOS-Mojave-10.14.4-18E226-official-version-with-Clover-4903-original-image.html
 https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html
-https://blog.daliansky.net/Tutorial-Using-Hackintool-to-open-the-correct-pose-of-the-8th-generation-core-display-HDMI-or-DVI-output.html
