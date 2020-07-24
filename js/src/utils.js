@@ -1,3 +1,331 @@
-// build time:Fri Jul 17 2020 14:32:32 GMT+0800 (GMT+08:00)
-NexT.utils=NexT.$u={wrapImageWithFancyBox:function(){$(".content img").not(":hidden").not(".group-picture img, .post-gallery img").each(function(){var i=$(this);var e=i.attr("title");var t=i.parent("a");if(t.length<1){var a=i.attr("data-original")?this.getAttribute("data-original"):this.getAttribute("src");t=i.wrap('<a data-fancybox="group" href="'+a+'"></a>').parent("a");t.addClass("fancybox fancybox.image");t.attr("rel","group")}if(e){t.append('<p class="image-caption">'+e+"</p>");t.attr("title",e)}});$(".fancybox").fancybox({helpers:{overlay:{locked:false}}})},lazyLoadPostsImages:function(){$("#posts").find("img").lazyload({effect:"fadeIn",threshold:0})},registerTabsTag:function(){var i=".tabs ul.nav-tabs ";$(function(){$(window).bind("hashchange",function(){var e=location.hash;if(e!==""&&!e.match(/%\S{2}/)){$(i+'li:has(a[href="'+e+'"])').addClass("active").siblings().removeClass("active");$(e).addClass("active").siblings().removeClass("active")}}).trigger("hashchange")});$(i+".tab").on("click",function(i){i.preventDefault();if(!$(this).hasClass("active")){$(this).addClass("active").siblings().removeClass("active");var e=$(this).find("a").attr("href");$(e).addClass("active").siblings().removeClass("active");if(location.hash!==""){history.pushState("",document.title,window.location.pathname+window.location.search)}}})},registerESCKeyEvent:function(){$(document).on("keyup",function(i){var e=i.which===27&&$(".search-popup").is(":visible");if(e){$(".search-popup").hide();$(".search-popup-overlay").remove();$("body").css("overflow","")}})},registerBackToTop:function(){var i=50;var e=$(".back-to-top");function t(){e.toggleClass("back-to-top-on",window.pageYOffset>i);var t=$(window).scrollTop();var a=NexT.utils.getContentVisibilityHeight();var n=t/a;var o=Math.round(n*100);var r=o>100?100:o;$("#scrollpercent>span").html(r)}$(window).on("load",function(){t()});$(window).on("scroll",function(){t()});e.on("click",function(){$("body").velocity("scroll")})},embeddedVideoTransformer:function(){var i=$("iframe");var e=["www.youtube.com","player.vimeo.com","player.youku.com","music.163.com","www.tudou.com"];var t=new RegExp(e.join("|"));function a(i){return{width:i.width(),height:i.height()}}function n(i,e){return e/i*100}i.each(function(){var i=this;var e=$(this);var o=a(e);var r;if(this.src.search(t)>0){var s=n(o.width,o.height);e.width("100%").height("100%").css({position:"absolute",top:"0",left:"0"});var c=document.createElement("div");c.className="fluid-vids";c.style.position="relative";c.style.marginBottom="20px";c.style.width="100%";c.style.paddingTop=s+"%";c.style.paddingTop===""&&(c.style.paddingTop="50%");var d=i.parentNode;d.insertBefore(c,i);c.appendChild(i);if(this.src.search("music.163.com")>0){r=a(e);var h=r.width>o.width||r.height<o.height;if(h){c.style.paddingTop=n(r.width,o.height)+"%"}}}})},hasMobileUA:function(){var i=window.navigator;var e=i.userAgent;var t=/iPad|iPhone|Android|Opera Mini|BlackBerry|webOS|UCWEB|Blazer|PSP|IEMobile|Symbian/g;return t.test(e)},isTablet:function(){return window.screen.width<992&&window.screen.width>767&&this.hasMobileUA()},isMobile:function(){return window.screen.width<767&&this.hasMobileUA()},isDesktop:function(){return!this.isTablet()&&!this.isMobile()},escapeSelector:function(i){return i.replace(/[!"$%&'()*+,./:;<=>?@[\\\]^`{|}~]/g,"\\$&")},displaySidebar:function(){if(!this.isDesktop()||this.isPisces()||this.isGemini()){return}$(".sidebar-toggle").trigger("click")},isMist:function(){return CONFIG.scheme==="Mist"},isPisces:function(){return CONFIG.scheme==="Pisces"},isGemini:function(){return CONFIG.scheme==="Gemini"},getScrollbarWidth:function(){var i=$("<div />").addClass("scrollbar-measure").prependTo("body");var e=i[0];var t=e.offsetWidth-e.clientWidth;i.remove();return t},getContentVisibilityHeight:function(){var i=$("#content").height();var e=$(window).height();var t=i>e?i-e:$(document).height()-e;return t},getSidebarb2tHeight:function(){var i=CONFIG.sidebar.b2t?$(".back-to-top").height():0;return i},getSidebarSchemePadding:function(){var i=$(".sidebar-nav").css("display")==="block"?$(".sidebar-nav").outerHeight(true):0;var e=$(".sidebar-inner");var t=e.innerWidth()-e.width();var a=CONFIG.sidebar.offset?CONFIG.sidebar.offset:12;var n=this.isPisces()||this.isGemini()?t*2+i+a+this.getSidebarb2tHeight():t*2+i/2;return n}};$(document).ready(function(){function i(i){i=i||"auto";$(".site-overview, .post-toc").css("max-height",i)}function e(){var e;$(window).on("resize",function(){e&&clearTimeout(e);e=setTimeout(function(){var e=document.body.clientHeight-NexT.utils.getSidebarSchemePadding();i(e)},0)});var t=NexT.utils.getScrollbarWidth();if($(".site-overview-wrap").height()>document.body.clientHeight-NexT.utils.getSidebarSchemePadding()){$(".site-overview").css("width","calc(100% + "+t+"px)")}if($(".post-toc-wrap").height()>document.body.clientHeight-NexT.utils.getSidebarSchemePadding()){$(".post-toc").css("width","calc(100% + "+t+"px)")}i(document.body.clientHeight-NexT.utils.getSidebarSchemePadding())}e()});
-//rebuild by neat 
+/* global NexT, CONFIG */
+
+NexT.utils = NexT.$u = {
+
+  /**
+   * Wrap images with fancybox support.
+   */
+  wrapImageWithFancyBox: function() {
+    $('.content img')
+      .not(':hidden')
+      .not('.group-picture img, .post-gallery img')
+      .each(function() {
+        var $image = $(this);
+        var imageTitle = $image.attr('title');
+        var $imageWrapLink = $image.parent('a');
+
+        if ($imageWrapLink.length < 1) {
+          var imageLink = $image.attr('data-original') ? this.getAttribute('data-original') : this.getAttribute('src');
+          $imageWrapLink = $image.wrap('<a data-fancybox="group" href="' + imageLink + '"></a>').parent('a');
+          $imageWrapLink.addClass('fancybox fancybox.image');
+          $imageWrapLink.attr('rel', 'group');
+        }
+
+        if (imageTitle) {
+          $imageWrapLink.append('<p class="image-caption">' + imageTitle + '</p>');
+
+          //make sure img title tag will show correctly in fancybox
+          $imageWrapLink.attr('title', imageTitle);
+        }
+      });
+
+    $('.fancybox').fancybox({
+      helpers: {
+        overlay: {
+          locked: false
+        }
+      }
+    });
+  },
+
+  lazyLoadPostsImages: function() {
+    $('#posts').find('img').lazyload({
+      //placeholder: '/images/loading.gif',
+      effect   : 'fadeIn',
+      threshold: 0
+    });
+  },
+
+  /**
+   * Tabs tag listener (without twitter bootstrap).
+   */
+  registerTabsTag: function() {
+    var tNav = '.tabs ul.nav-tabs ';
+
+    // Binding `nav-tabs` & `tab-content` by real time permalink changing.
+    $(function() {
+      $(window).bind('hashchange', function() {
+        var tHash = location.hash;
+        if (tHash !== '' && !tHash.match(/%\S{2}/)) {
+          $(tNav + 'li:has(a[href="' + tHash + '"])').addClass('active').siblings().removeClass('active');
+          $(tHash).addClass('active').siblings().removeClass('active');
+        }
+      }).trigger('hashchange');
+    });
+
+    $(tNav + '.tab').on('click', function(href) {
+      href.preventDefault();
+      // Prevent selected tab to select again.
+      if (!$(this).hasClass('active')) {
+
+        // Add & Remove active class on `nav-tabs` & `tab-content`.
+        $(this).addClass('active').siblings().removeClass('active');
+        var tActive = $(this).find('a').attr('href');
+        $(tActive).addClass('active').siblings().removeClass('active');
+
+        // Clear location hash in browser if #permalink exists.
+        if (location.hash !== '') {
+          history.pushState('', document.title, window.location.pathname + window.location.search);
+        }
+      }
+    });
+
+  },
+
+  registerESCKeyEvent: function() {
+    $(document).on('keyup', function(event) {
+      var shouldDismissSearchPopup = event.which === 27
+          && $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        $('.search-popup').hide();
+        $('.search-popup-overlay').remove();
+        $('body').css('overflow', '');
+      }
+    });
+  },
+
+  registerBackToTop: function() {
+    var THRESHOLD = 50;
+    var $top = $('.back-to-top');
+
+    function initBackToTop() {
+      $top.toggleClass('back-to-top-on', window.pageYOffset > THRESHOLD);
+
+      var scrollTop = $(window).scrollTop();
+      var contentVisibilityHeight = NexT.utils.getContentVisibilityHeight();
+      var scrollPercent = scrollTop / contentVisibilityHeight;
+      var scrollPercentRounded = Math.round(scrollPercent * 100);
+      var scrollPercentMaxed = scrollPercentRounded > 100 ? 100 : scrollPercentRounded;
+      $('#scrollpercent>span').html(scrollPercentMaxed);
+    }
+
+    // For init back to top in sidebar if page was scrolled after page refresh.
+    $(window).on('load', function() {
+      initBackToTop();
+    });
+
+    $(window).on('scroll', function() {
+      initBackToTop();
+    });
+
+    $top.on('click', function() {
+      $('body').velocity('scroll');
+    });
+  },
+
+  /**
+   * Transform embedded video to support responsive layout.
+   * @see http://toddmotto.com/fluid-and-responsive-youtube-and-vimeo-videos-with-fluidvids-js/
+   */
+  embeddedVideoTransformer: function() {
+    var $iframes = $('iframe');
+
+    // Supported Players. Extend this if you need more players.
+    var SUPPORTED_PLAYERS = [
+      'www.youtube.com',
+      'player.vimeo.com',
+      'player.youku.com',
+      'music.163.com',
+      'www.tudou.com'
+    ];
+    var pattern = new RegExp(SUPPORTED_PLAYERS.join('|'));
+
+    function getDimension($element) {
+      return {
+        width : $element.width(),
+        height: $element.height()
+      };
+    }
+
+    function getAspectRadio(width, height) {
+      return height / width * 100;
+    }
+
+    $iframes.each(function() {
+      var iframe = this;
+      var $iframe = $(this);
+      var oldDimension = getDimension($iframe);
+      var newDimension;
+
+      if (this.src.search(pattern) > 0) {
+
+        // Calculate the video ratio based on the iframe's w/h dimensions
+        var videoRatio = getAspectRadio(oldDimension.width, oldDimension.height);
+
+        // Replace the iframe's dimensions and position the iframe absolute
+        // This is the trick to emulate the video ratio
+        $iframe.width('100%').height('100%')
+          .css({
+            position: 'absolute',
+            top     : '0',
+            left    : '0'
+          });
+
+        // Wrap the iframe in a new <div> which uses a dynamically fetched padding-top property
+        // based on the video's w/h dimensions
+        var wrap = document.createElement('div');
+        wrap.className = 'fluid-vids';
+        wrap.style.position = 'relative';
+        wrap.style.marginBottom = '20px';
+        wrap.style.width = '100%';
+        wrap.style.paddingTop = videoRatio + '%';
+        // Fix for appear inside tabs tag.
+        (wrap.style.paddingTop === '') && (wrap.style.paddingTop = '50%');
+
+        // Add the iframe inside our newly created <div>
+        var iframeParent = iframe.parentNode;
+        iframeParent.insertBefore(wrap, iframe);
+        wrap.appendChild(iframe);
+
+        // Additional adjustments for 163 Music
+        if (this.src.search('music.163.com') > 0) {
+          newDimension = getDimension($iframe);
+          var shouldRecalculateAspect = newDimension.width > oldDimension.width
+                                     || newDimension.height < oldDimension.height;
+
+          // 163 Music Player has a fixed height, so we need to reset the aspect radio
+          if (shouldRecalculateAspect) {
+            wrap.style.paddingTop = getAspectRadio(newDimension.width, oldDimension.height) + '%';
+          }
+        }
+      }
+    });
+
+  },
+
+  hasMobileUA: function() {
+    var nav = window.navigator;
+    var ua = nav.userAgent;
+    var pa = /iPad|iPhone|Android|Opera Mini|BlackBerry|webOS|UCWEB|Blazer|PSP|IEMobile|Symbian/g;
+
+    return pa.test(ua);
+  },
+
+  isTablet: function() {
+    return window.screen.width < 992 && window.screen.width > 767 && this.hasMobileUA();
+  },
+
+  isMobile: function() {
+    return window.screen.width < 767 && this.hasMobileUA();
+  },
+
+  isDesktop: function() {
+    return !this.isTablet() && !this.isMobile();
+  },
+
+  /**
+   * Escape meta symbols in jQuery selectors.
+   *
+   * @param selector
+   * @returns {string|void|XML|*}
+   */
+  escapeSelector: function(selector) {
+    return selector.replace(/[!"$%&'()*+,./:;<=>?@[\\\]^`{|}~]/g, '\\$&');
+  },
+
+  displaySidebar: function() {
+    if (!this.isDesktop() || this.isPisces() || this.isGemini()) {
+      return;
+    }
+    $('.sidebar-toggle').trigger('click');
+  },
+
+  isMist: function() {
+    return CONFIG.scheme === 'Mist';
+  },
+
+  isPisces: function() {
+    return CONFIG.scheme === 'Pisces';
+  },
+
+  isGemini: function() {
+    return CONFIG.scheme === 'Gemini';
+  },
+
+  getScrollbarWidth: function() {
+    var $div = $('<div />').addClass('scrollbar-measure').prependTo('body');
+    var div = $div[0];
+    var scrollbarWidth = div.offsetWidth - div.clientWidth;
+
+    $div.remove();
+
+    return scrollbarWidth;
+  },
+
+  getContentVisibilityHeight: function() {
+    var docHeight = $('#content').height();
+    var winHeight = $(window).height();
+    var contentVisibilityHeight = docHeight > winHeight ? docHeight - winHeight : $(document).height() - winHeight;
+    return contentVisibilityHeight;
+  },
+
+  getSidebarb2tHeight: function() {
+    //var sidebarb2tHeight = (CONFIG.sidebar.b2t) ? document.getElementsByClassName('back-to-top')[0].clientHeight : 0;
+    var sidebarb2tHeight = CONFIG.sidebar.b2t ? $('.back-to-top').height() : 0;
+    return sidebarb2tHeight;
+  },
+
+  getSidebarSchemePadding: function() {
+    var sidebarNavHeight = $('.sidebar-nav').css('display') === 'block' ? $('.sidebar-nav').outerHeight(true) : 0;
+    var sidebarInner = $('.sidebar-inner');
+    var sidebarPadding = sidebarInner.innerWidth() - sidebarInner.width();
+    var sidebarOffset = CONFIG.sidebar.offset ? CONFIG.sidebar.offset : 12;
+    var sidebarSchemePadding = this.isPisces() || this.isGemini()
+      ? (sidebarPadding * 2) + sidebarNavHeight + sidebarOffset + this.getSidebarb2tHeight()
+      : (sidebarPadding * 2) + (sidebarNavHeight / 2);
+    return sidebarSchemePadding;
+  }
+
+};
+
+$(document).ready(function() {
+
+  /**
+   * Init Sidebar & TOC inner dimensions on all pages and for all schemes.
+   * Need for Sidebar/TOC inner scrolling if content taller then viewport.
+   */
+
+  function updateSidebarHeight(height) {
+    height = height || 'auto';
+    $('.site-overview, .post-toc').css('max-height', height);
+  }
+
+  function initSidebarDimension() {
+    var updateSidebarHeightTimer;
+
+    $(window).on('resize', function() {
+      updateSidebarHeightTimer && clearTimeout(updateSidebarHeightTimer);
+
+      updateSidebarHeightTimer = setTimeout(function() {
+        var sidebarWrapperHeight = document.body.clientHeight - NexT.utils.getSidebarSchemePadding();
+
+        updateSidebarHeight(sidebarWrapperHeight);
+      }, 0);
+    });
+
+    // Initialize Sidebar & TOC Width.
+    var scrollbarWidth = NexT.utils.getScrollbarWidth();
+    if ($('.site-overview-wrap').height() > (document.body.clientHeight - NexT.utils.getSidebarSchemePadding())) {
+      $('.site-overview').css('width', 'calc(100% + ' + scrollbarWidth + 'px)');
+    }
+    if ($('.post-toc-wrap').height() > (document.body.clientHeight - NexT.utils.getSidebarSchemePadding())) {
+      $('.post-toc').css('width', 'calc(100% + ' + scrollbarWidth + 'px)');
+    }
+
+    // Initialize Sidebar & TOC Height.
+    updateSidebarHeight(document.body.clientHeight - NexT.utils.getSidebarSchemePadding());
+  }
+
+  initSidebarDimension();
+
+});

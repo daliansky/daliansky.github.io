@@ -2,9 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-3-Installer-for-OpenCore-0.6.0-and-PE-dual-EFI-partition-original-image.html</loc>
+    
+    <lastmod>2020-07-24T14:32:16.434Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.4-19E266-Release-version-with-Clover-5107-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
+    
+    <lastmod>2020-07-24T14:29:19.303Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.5-19F96-Release-version-with-Clover-5118-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
+    
+    <lastmod>2020-07-24T14:27:58.856Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.daliansky.net/macOS-Catalina-10.15-19A583-Release-version-with-Clover-5093-original-image-Double-EFI-Version.html</loc>
+    
+    <lastmod>2020-07-24T14:26:40.052Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.1-19B88-Release-version-with-Clover-5098-original-image-Double-EFI-Version.html</loc>
+    
+    <lastmod>2020-07-24T14:26:15.997Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.2-19C57-Release-version-with-Clover-5100-original-image-Double-EFI-Version.html</loc>
+    
+    <lastmod>2020-07-24T14:25:42.330Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.3-19D76-Release-version-with-Clover-5103-original-image-Double-EFI-Version.html</loc>
+    
+    <lastmod>2020-07-24T14:25:13.717Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.daliansky.net/macOS-Catalina-10.15.6-19G73-Release-version-with-Clover-5119-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
     
-    <lastmod>2020-07-17T06:28:36.719Z</lastmod>
+    <lastmod>2020-07-24T14:23:31.786Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.6-17G65-Release-Version-with-Clover-4596-original-mirror.html</loc>
+    
+    <lastmod>2020-07-24T14:22:57.038Z</lastmod>
     
   </url>
   
@@ -19,13 +75,6 @@
     <loc>https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-2-Installer-for-Clover-5119-and-PE-dual-EFI-partition-original-image.html</loc>
     
     <lastmod>2020-07-16T03:14:11.819Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.5-19F96-Release-version-with-Clover-5118-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
-    
-    <lastmod>2020-07-16T02:14:25.780Z</lastmod>
     
   </url>
   
@@ -163,13 +212,6 @@
   </url>
   
   <url>
-    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.4-19E266-Release-version-with-Clover-5107-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
-    
-    <lastmod>2020-05-27T07:03:59.300Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.daliansky.net/OpenCore-BootLoader.html</loc>
     
     <lastmod>2020-05-14T00:32:45.825Z</lastmod>
@@ -229,20 +271,6 @@
     <loc>https://blog.daliansky.net/macOS-10.13-installation-of-common-problems-and-solutions.html</loc>
     
     <lastmod>2020-05-13T05:58:14.438Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.3-19D76-Release-version-with-Clover-5103-original-image-Double-EFI-Version.html</loc>
-    
-    <lastmod>2020-04-03T05:58:03.338Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.2-19C57-Release-version-with-Clover-5100-original-image-Double-EFI-Version.html</loc>
-    
-    <lastmod>2020-01-29T15:07:35.271Z</lastmod>
     
   </url>
   
@@ -373,13 +401,6 @@
   </url>
   
   <url>
-    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.6-17G65-Release-Version-with-Clover-4596-original-mirror.html</loc>
-    
-    <lastmod>2019-12-30T07:57:58.166Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13-official-version-update-17A405-with-Clover-4238-original-mirror.html</loc>
     
     <lastmod>2019-12-30T07:57:58.166Z</lastmod>
@@ -439,20 +460,6 @@
     <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.1-(17B48)-official-version-and-Clover-4278-original-image.html</loc>
     
     <lastmod>2019-12-30T07:57:58.165Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.1-19B88-Release-version-with-Clover-5098-original-image-Double-EFI-Version.html</loc>
-    
-    <lastmod>2019-12-30T07:57:58.164Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/macOS-Catalina-10.15-19A583-Release-version-with-Clover-5093-original-image-Double-EFI-Version.html</loc>
-    
-    <lastmod>2019-12-30T07:57:58.164Z</lastmod>
     
   </url>
   

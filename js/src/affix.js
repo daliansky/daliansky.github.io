@@ -1,3 +1,168 @@
-// build time:Fri Jul 17 2020 14:32:32 GMT+0800 (GMT+08:00)
-(function(t){"use strict";var i=function(e,f){this.options=t.extend({},i.DEFAULTS,f);this.$target=t(this.options.target).on("scroll.bs.affix.data-api",t.proxy(this.checkPosition,this)).on("click.bs.affix.data-api",t.proxy(this.checkPositionWithEventLoop,this));this.$element=t(e);this.affixed=null;this.unpin=null;this.pinnedOffset=null;this.checkPosition()};i.VERSION="3.3.5";i.RESET="affix affix-top affix-bottom";i.DEFAULTS={offset:0,target:window};i.prototype.getState=function(t,i,e,f){var o=this.$target.scrollTop();var n=this.$element.offset();var s=this.$target.height();if(e!=null&&this.affixed==="top")return o<e?"top":false;if(this.affixed==="bottom"){if(e!=null)return o+this.unpin<=n.top?false:"bottom";return o+s<=t-f?false:"bottom"}var a=this.affixed==null;var r=a?o:n.top;var h=a?s:i;if(e!=null&&o<=e)return"top";if(f!=null&&r+h>=t-f)return"bottom";return false};i.prototype.getPinnedOffset=function(){if(this.pinnedOffset)return this.pinnedOffset;this.$element.removeClass(i.RESET).addClass("affix");var t=this.$target.scrollTop();var e=this.$element.offset();return this.pinnedOffset=e.top-t};i.prototype.checkPositionWithEventLoop=function(){setTimeout(t.proxy(this.checkPosition,this),1)};i.prototype.checkPosition=function(){if(!this.$element.is(":visible"))return;var e=this.$element.height();var f=this.options.offset;var o=f.top;var n=f.bottom;var s=Math.max(t(document).height(),t(document.body).height());if(typeof f!=="object")n=o=f;if(typeof o==="function")o=f.top(this.$element);if(typeof n==="function")n=f.bottom(this.$element);var a=this.getState(s,e,o,n);if(this.affixed!==a){if(this.unpin!=null)this.$element.css("top","");var r="affix"+(a?"-"+a:"");var h=new t.Event(r+".bs.affix");this.$element.trigger(h);if(h.isDefaultPrevented())return;this.affixed=a;this.unpin=a==="bottom"?this.getPinnedOffset():null;this.$element.removeClass(i.RESET).addClass(r).trigger(r.replace("affix","affixed")+".bs.affix")}if(a==="bottom"){this.$element.offset({top:s-e-n})}};function e(e){return this.each(function(){var f=t(this);var o=f.data("bs.affix");var n=typeof e==="object"&&e;if(!o)f.data("bs.affix",o=new i(this,n));if(typeof e==="string")o[e]()})}var f=t.fn.affix;t.fn.affix=e;t.fn.affix.Constructor=i;t.fn.affix.noConflict=function(){t.fn.affix=f;return this};t(window).on("load",function(){t('[data-spy="affix"]').each(function(){var i=t(this);var f=i.data();f.offset=f.offset||{};if(f.offsetBottom!=null)f.offset.bottom=f.offsetBottom;if(f.offsetTop!=null)f.offset.top=f.offsetTop;e.call(i,f)})})})(jQuery);
-//rebuild by neat 
+/* ========================================================================
+ * Bootstrap: affix.js v3.3.5
+ * http://getbootstrap.com/javascript/#affix
+ * ========================================================================
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * ======================================================================== */
+
+/**
+ * Customized by Ivan.Nginx
+ *
+ * - Refactored with eslint-config-theme-next style.
+ */
+
+(function($) {
+  'use strict';
+
+  // AFFIX CLASS DEFINITION
+  // ======================
+
+  var Affix = function(element, options) {
+    this.options = $.extend({}, Affix.DEFAULTS, options);
+
+    this.$target = $(this.options.target)
+      .on('scroll.bs.affix.data-api', $.proxy(this.checkPosition, this))
+      .on('click.bs.affix.data-api',  $.proxy(this.checkPositionWithEventLoop, this));
+
+    this.$element     = $(element);
+    this.affixed      = null;
+    this.unpin        = null;
+    this.pinnedOffset = null;
+
+    this.checkPosition();
+  };
+
+  Affix.VERSION  = '3.3.5';
+
+  Affix.RESET    = 'affix affix-top affix-bottom';
+
+  Affix.DEFAULTS = {
+    offset: 0,
+    target: window
+  };
+
+  Affix.prototype.getState = function(scrollHeight, height, offsetTop, offsetBottom) {
+    var scrollTop    = this.$target.scrollTop();
+    var position     = this.$element.offset();
+    var targetHeight = this.$target.height();
+
+    if (offsetTop != null && this.affixed === 'top') return scrollTop < offsetTop ? 'top' : false;
+
+    if (this.affixed === 'bottom') {
+      if (offsetTop != null) return scrollTop + this.unpin <= position.top ? false : 'bottom';
+      return scrollTop + targetHeight <= scrollHeight - offsetBottom ? false : 'bottom';
+    }
+
+    var initializing   = this.affixed == null;
+    var colliderTop    = initializing ? scrollTop : position.top;
+    var colliderHeight = initializing ? targetHeight : height;
+
+    if (offsetTop != null && scrollTop <= offsetTop) return 'top';
+    if (offsetBottom != null && (colliderTop + colliderHeight >= scrollHeight - offsetBottom)) return 'bottom';
+
+    return false;
+  };
+
+  Affix.prototype.getPinnedOffset = function() {
+    if (this.pinnedOffset) return this.pinnedOffset;
+    this.$element.removeClass(Affix.RESET).addClass('affix');
+    var scrollTop = this.$target.scrollTop();
+    var position  = this.$element.offset();
+    return (this.pinnedOffset = position.top - scrollTop);
+  };
+
+  Affix.prototype.checkPositionWithEventLoop = function() {
+    setTimeout($.proxy(this.checkPosition, this), 1);
+  };
+
+  Affix.prototype.checkPosition = function() {
+    if (!this.$element.is(':visible')) return;
+
+    var height       = this.$element.height();
+    var offset       = this.options.offset;
+    var offsetTop    = offset.top;
+    var offsetBottom = offset.bottom;
+    var scrollHeight = Math.max($(document).height(), $(document.body).height());
+
+    /* eslint-disable */
+    if (typeof offset !== 'object')         offsetBottom = offsetTop = offset;
+    if (typeof offsetTop === 'function')    offsetTop    = offset.top(this.$element);
+    if (typeof offsetBottom === 'function') offsetBottom = offset.bottom(this.$element);
+    /* eslint-enable */
+
+    var affix = this.getState(scrollHeight, height, offsetTop, offsetBottom);
+
+    if (this.affixed !== affix) {
+      if (this.unpin != null) this.$element.css('top', '');
+
+      var affixType = 'affix' + (affix ? '-' + affix : '');
+      var e         = new $.Event(affixType + '.bs.affix');
+
+      this.$element.trigger(e);
+
+      if (e.isDefaultPrevented()) return;
+
+      this.affixed = affix;
+      this.unpin = affix === 'bottom' ? this.getPinnedOffset() : null;
+
+      this.$element
+        .removeClass(Affix.RESET)
+        .addClass(affixType)
+        .trigger(affixType.replace('affix', 'affixed') + '.bs.affix');
+    }
+
+    if (affix === 'bottom') {
+      this.$element.offset({
+        top: scrollHeight - height - offsetBottom
+      });
+    }
+  };
+
+  // AFFIX PLUGIN DEFINITION
+  // =======================
+
+  function Plugin(option) {
+    return this.each(function() {
+      var $this   = $(this);
+      var data    = $this.data('bs.affix');
+      var options = typeof option === 'object' && option;
+
+      if (!data) $this.data('bs.affix', data = new Affix(this, options));
+      if (typeof option === 'string') data[option]();
+    });
+  }
+
+  var old = $.fn.affix;
+
+  $.fn.affix             = Plugin;
+  $.fn.affix.Constructor = Affix;
+
+  // AFFIX NO CONFLICT
+  // =================
+
+  $.fn.affix.noConflict = function() {
+    $.fn.affix = old;
+    return this;
+  };
+
+  // AFFIX DATA-API
+  // ==============
+
+  $(window).on('load', function() {
+    $('[data-spy="affix"]').each(function() {
+      var $spy = $(this);
+      var data = $spy.data();
+
+      data.offset = data.offset || {};
+
+      /* eslint-disable */
+      if (data.offsetBottom != null) data.offset.bottom = data.offsetBottom;
+      if (data.offsetTop    != null) data.offset.top    = data.offsetTop;
+      /* eslint-enable */
+
+      Plugin.call($spy, data);
+    });
+  });
+
+}(jQuery));

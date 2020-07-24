@@ -1,3 +1,104 @@
-// build time:Fri Jul 17 2020 14:32:32 GMT+0800 (GMT+08:00)
-$(document).ready(function(){function t(){var t=".post-toc";var a=$(t);var e=".active-current";function o(){$(t+" "+e).removeClass(e.substring(1))}a.on("activate.bs.scrollspy",function(){var e=$(t+" .active").last();o();e.addClass("active-current");a.scrollTop(e.offset().top-a.offset().top+a.scrollTop()-a.height()/2)}).on("clear.bs.scrollspy",o);$("body").scrollspy({target:t})}t()});$(document).ready(function(){var t=$("html");var a=200;var e=$.isFunction(t.velocity);$(".sidebar-nav li").on("click",function(){var t=$(this);var o="sidebar-nav-active";var s="sidebar-panel-active";if(t.hasClass(o)){return}var i=$("."+s);var l=$("."+t.data("target"));e?i.velocity("transition.slideUpOut",a,function(){l.velocity("stop").velocity("transition.slideDownIn",a).addClass(s)}):i.animate({opacity:0},a,function(){i.hide();l.stop().css({opacity:0,display:"block"}).animate({opacity:1},a,function(){i.removeClass(s);l.addClass(s)})});t.siblings().removeClass(o);t.addClass(o)});$(".post-toc a").on("click",function(a){a.preventDefault();var o=NexT.utils.escapeSelector(this.getAttribute("href"));var s=$(o).offset().top;e?t.velocity("stop").velocity("scroll",{offset:s+"px",mobileHA:false}):$("html, body").stop().animate({scrollTop:s},500)});var o=$(".post-toc-content");var s=CONFIG.page.sidebar;if(typeof s!=="boolean"){var i=CONFIG.sidebar.display==="post"||CONFIG.sidebar.display==="always";var l=o.length>0&&o.html().trim().length>0;s=i&&l}if(s){CONFIG.motion.enable?NexT.motion.middleWares.sidebar=function(){NexT.utils.displaySidebar()}:NexT.utils.displaySidebar()}});
-//rebuild by neat 
+/* global NexT, CONFIG */
+
+$(document).ready(function() {
+
+  function initScrollSpy() {
+    var tocSelector = '.post-toc';
+    var $tocElement = $(tocSelector);
+    var activeCurrentSelector = '.active-current';
+
+    function removeCurrentActiveClass() {
+      $(tocSelector + ' ' + activeCurrentSelector)
+        .removeClass(activeCurrentSelector.substring(1));
+    }
+
+    $tocElement
+      .on('activate.bs.scrollspy', function() {
+        var $currentActiveElement = $(tocSelector + ' .active').last();
+
+        removeCurrentActiveClass();
+        $currentActiveElement.addClass('active-current');
+
+        // Scrolling to center active TOC element if TOC content is taller then viewport.
+        $tocElement.scrollTop($currentActiveElement.offset().top - $tocElement.offset().top + $tocElement.scrollTop() - ($tocElement.height() / 2));
+      })
+      .on('clear.bs.scrollspy', removeCurrentActiveClass);
+
+    $('body').scrollspy({ target: tocSelector });
+  }
+
+  initScrollSpy();
+});
+
+$(document).ready(function() {
+  var html = $('html');
+  var TAB_ANIMATE_DURATION = 200;
+  var hasVelocity = $.isFunction(html.velocity);
+
+  $('.sidebar-nav li').on('click', function() {
+    var item = $(this);
+    var activeTabClassName = 'sidebar-nav-active';
+    var activePanelClassName = 'sidebar-panel-active';
+    if (item.hasClass(activeTabClassName)) {
+      return;
+    }
+
+    var currentTarget = $('.' + activePanelClassName);
+    var target = $('.' + item.data('target'));
+
+    hasVelocity
+      ? currentTarget.velocity('transition.slideUpOut', TAB_ANIMATE_DURATION, function() {
+        target
+          .velocity('stop')
+          .velocity('transition.slideDownIn', TAB_ANIMATE_DURATION)
+          .addClass(activePanelClassName);
+      })
+      : currentTarget.animate({ opacity: 0 }, TAB_ANIMATE_DURATION, function() {
+        currentTarget.hide();
+        target
+          .stop()
+          .css({'opacity': 0, 'display': 'block'})
+          .animate({ opacity: 1 }, TAB_ANIMATE_DURATION, function() {
+            currentTarget.removeClass(activePanelClassName);
+            target.addClass(activePanelClassName);
+          });
+      });
+
+    item.siblings().removeClass(activeTabClassName);
+    item.addClass(activeTabClassName);
+  });
+
+  // TOC item animation navigate & prevent #item selector in adress bar.
+  $('.post-toc a').on('click', function(e) {
+    e.preventDefault();
+    var targetSelector = NexT.utils.escapeSelector(this.getAttribute('href'));
+    var offset = $(targetSelector).offset().top;
+
+    hasVelocity
+      ? html.velocity('stop').velocity('scroll', {
+        offset  : offset + 'px',
+        mobileHA: false
+      })
+      : $('html, body').stop().animate({
+        scrollTop: offset
+      }, 500);
+  });
+
+  // Expand sidebar on post detail page by default, when post has a toc.
+  var $tocContent = $('.post-toc-content');
+  var display = CONFIG.page.sidebar;
+  if (typeof display !== 'boolean') {
+    // There's no definition sidebar in the page front-matter
+    var isSidebarCouldDisplay = CONFIG.sidebar.display === 'post'
+     || CONFIG.sidebar.display === 'always';
+    var hasTOC = $tocContent.length > 0 && $tocContent.html().trim().length > 0;
+    display = isSidebarCouldDisplay && hasTOC;
+  }
+  if (display) {
+    CONFIG.motion.enable
+      ? NexT.motion.middleWares.sidebar = function() {
+        NexT.utils.displaySidebar();
+      }
+      : NexT.utils.displaySidebar();
+  }
+});
