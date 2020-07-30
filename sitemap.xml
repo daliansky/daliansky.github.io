@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-BigSur-11.0-installation.html</loc>
+    
+    <lastmod>2020-07-30T01:37:35.887Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html</loc>
+    
+    <lastmod>2020-07-30T01:36:01.198Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.6-19G73-Release-version-with-Clover-5119-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
+    
+    <lastmod>2020-07-30T00:46:39.693Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.daliansky.net/Lenovo-Xiaoxin-PRO-13-2019-and-macOS-Catalina-Installation-Tutorial.html</loc>
     
     <lastmod>2020-07-28T08:29:01.903Z</lastmod>
@@ -54,13 +75,6 @@
     <loc>https://blog.daliansky.net/macOS-Catalina-10.15.3-19D76-Release-version-with-Clover-5103-original-image-Double-EFI-Version.html</loc>
     
     <lastmod>2020-07-24T14:25:13.717Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.6-19G73-Release-version-with-Clover-5119-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
-    
-    <lastmod>2020-07-24T14:23:31.786Z</lastmod>
     
   </url>
   
@@ -166,13 +180,6 @@
     <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
     
     <lastmod>2020-06-24T00:52:17.221Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html</loc>
-    
-    <lastmod>2020-06-23T08:58:35.414Z</lastmod>
     
   </url>
   
