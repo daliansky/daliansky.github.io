@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
+    
+    <lastmod>2020-07-31T02:44:30.220Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-BigSur-11.0-installation.html</loc>
     
-    <lastmod>2020-07-30T03:15:04.802Z</lastmod>
+    <lastmod>2020-07-31T00:59:37.600Z</lastmod>
     
   </url>
   
@@ -173,13 +180,6 @@
     <loc>https://blog.daliansky.net/macOS-Sierra-10-12-6-16G29-with-Clover-4133-original-mirror-with-multi-drive.html</loc>
     
     <lastmod>2020-07-07T01:26:43.400Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
-    
-    <lastmod>2020-06-24T00:52:17.221Z</lastmod>
     
   </url>
   
