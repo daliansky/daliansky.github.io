@@ -9,9 +9,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.6</tag>
         <tag>19G73</tag>
@@ -40,13 +40,13 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
-        <tag>三EFI分区</tag>
         <tag>10.11</tag>
         <tag>20A5323l</tag>
+        <tag>三EFI分区</tag>
       </tags>
   </entry>
   <entry>
@@ -58,9 +58,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.6</tag>
         <tag>19G73</tag>
@@ -93,22 +93,22 @@
         <tag>安装</tag>
         <tag>教程</tag>
         <tag>macOS</tag>
-        <tag>联想</tag>
         <tag>小新Pro</tag>
+        <tag>联想</tag>
         <tag>PRO 13 2019 IML</tag>
       </tags>
   </entry>
   <entry>
     <title>DW1820A/BCM94350ZAE/BCM94356ZEPA50DX插入的正确姿势</title>
     <url>/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html</url>
-    <content><![CDATA[<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2><blockquote><p>随着 <code>DW1830</code> / <code>DW1560</code> 价格的不断走高，能找到一款性价比超高的无线网卡对广大的 <code>Hackintosher</code> 来说就显得至关重要了。</p><p>从几个月前我就开始尝试驱动 <code>DW1820A</code> ，<code>WIFI</code> 驱动没问题，但是蓝牙各种翻车各种摔。功夫不负有心人，在众多热心网友的不断努力下，终于解决了蓝牙固件无法上传的问题，也因此就有了这篇驱动教程。</p></blockquote><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/BigSur_Clover.jpg" alt="BigSur_Clover"></p><h2 id="为什么是-dw1820a"><a class="markdownIt-Anchor" href="#为什么是-dw1820a"></a> 为什么是 <code>DW1820A</code></h2><ul><li>新款部分笔记本只能塞下<code>背面没有元器件</code>的无线网卡，比如[<a href="https://github.com/daliansky/XiaoXinPro-13-2019-hackintosh" target="_blank" rel="noopener">联想小新PRO 13 2019</a>]，此为刚需</li><li>价格：百元以内，不排除未来有涨价的可能</li><li>规格/参数：<ul><li>DW1820A/BCM94350ZAE</li><li>M.2 2230</li><li>802.11ac 双频 支持2.4GHz/5GHz</li><li>867Mbps</li><li>BlueTooth 4.1</li></ul></li><li>操作系统：支持 <code>macOS</code> / <code>Windows</code> / <code>linux</code></li></ul><h2 id="已知支持的设备信息"><a class="markdownIt-Anchor" href="#已知支持的设备信息"></a> 已知支持的设备信息</h2><h3 id="wlan"><a class="markdownIt-Anchor" href="#wlan"></a> WLAN:</h3><ul><li>Vendor: <code>0x14E4</code></li><li>Device: <code>0x43A3</code><ul><li>Sub Vendor: <code>1028</code> or <code>106B</code></li><li>Sub Device: <code>0021</code> <code>0022</code> <code>0023</code> <code>075a</code></li></ul></li></ul><h3 id="bluetooth"><a class="markdownIt-Anchor" href="#bluetooth"></a> Bluetooth:</h3><ul><li>Vendor ID:	<code>0x0A5C</code></li><li>Product ID:	<code>0x6412</code> <code>0x6414</code></li></ul><h3 id="dell-dw1820a设备信息整理"><a class="markdownIt-Anchor" href="#dell-dw1820a设备信息整理"></a> DELL <code>DW1820A</code>设备信息整理</h3><table><thead><tr><th>Part Number</th><th>Manufacturer</th><th>Module</th><th>WLAN</th><th>BT 4.1</th></tr></thead><tbody><tr><td><code>CN-0VW3T3</code></td><td>Dell Wireless 1820A 802.11ac</td><td>BCM94350ZAE_2</td><td><code>1028:0021</code></td><td><code>[0a5c:6412]</code></td></tr><tr><td><code>CN-0VW3T3</code></td><td>Dell Wireless 1820A 802.11ac</td><td>BCM94356ZEPA50DX_2</td><td><code>1028:0021</code></td><td><code>[0a5c:6412]</code></td></tr><tr><td><code>CN-096JNT</code></td><td>Dell Wireless 1820A 802.11ac</td><td>BCM94356ZEPA50DX_2</td><td><code>1028:0022</code></td><td><code>[0a5c:6412]</code></td></tr><tr><td><code>CN-08PKF4</code></td><td>Dell Wireless 1820A 802.11ac</td><td>BCM94356ZEPA50DX_2</td><td><code>1028:0023</code></td><td><code>[0a5c:6412]</code></td></tr></tbody></table><h3 id="联想版bcm94350设备信息整理"><a class="markdownIt-Anchor" href="#联想版bcm94350设备信息整理"></a> 联想版<code>BCM94350</code>设备信息整理</h3><table><thead><tr><th>Part Number</th><th>Manufacturer</th><th>Module</th><th>WLAN</th><th>BT 4.1</th></tr></thead><tbody><tr><td><code>00JT493</code></td><td>Lenovo</td><td>BCM94350ZAE_2</td><td><code>1028:075a</code></td><td><code>[0a5c:6414]</code></td></tr><tr><td><code>00JT494</code></td><td>Lenovo</td><td>BCM94350ZAE_2</td><td><code>1028:075a</code></td><td><code>[0a5c:6414]</code></td></tr></tbody></table><div class="note warning"><p>联想及绝大多数机型可能需要屏蔽针脚测试，详见下图</p></div><h2 id="macos驱动方法"><a class="markdownIt-Anchor" href="#macos驱动方法"></a> macOS驱动方法</h2><p><s>采用 <code>Device-&gt;Properties</code> 注入参数以便于直接驱动 <code>AirPortBrcm4360</code> 而不是驱动 <code>AirPort.BrcmNIC</code>，这样做的好处就是避免某一天苹果不提供<code>AirPortBrcm4350</code>的支持，便于支持未来的系统，包括<code>macOS Catalina</code>等。</s></p><blockquote><p>好吧，小兵猜错了，最新的<code>Big Sur</code>系统中，已经将<code>AirPortBrcm4360</code>驱动移除，只保留了<code>AirPort.BrcmNIC</code>，现在可驱动的设备是：</p><ul><li>Pci14e4,43ba</li><li>Pci14e4,43a3</li><li>Pci14e4,43a0</li></ul></blockquote><h3 id="wlan无线网卡"><a class="markdownIt-Anchor" href="#wlan无线网卡"></a> WLAN无线网卡</h3><blockquote><p>如果开机直接就驱动了WIFI无线网卡并且能持续、稳定地工作，那么下面这段内容就可以直接跳过，转到驱动蓝牙部分。</p></blockquote><h4 id="方法1clover小白篇"><a class="markdownIt-Anchor" href="#方法1clover小白篇"></a> 方法1【CLOVER小白篇】</h4><ul><li><p>使用工具：<code>Clover Configurator</code>，打开配置文件<code>config.plist</code></p></li><li><p>跳转到<code>Devices</code>-&gt;<code>Properties</code>：</p><ul><li><p>在左侧<code>Devices</code>中添加网卡所在的设备地址：<code>PciRoot(0x0)/Pci(0x1c,0x0)/Pci(0x0)</code></p></li><li><p>在右侧分别添加：</p><table><thead><tr><th>Properties Key*</th><th>Properties Value</th><th>Value Type</th></tr></thead><tbody><tr><td>AAPL,slot-name</td><td>WLAN</td><td>STRING</td></tr><tr><td>compatible</td><td>pci14e4,<code>43a3</code></td><td>STRING</td></tr><tr><td>device_type</td><td>Airport Extreme</td><td>STRING</td></tr><tr><td>model</td><td>DW1820A (BCM4350) 802.11ac Wireless</td><td>STRING</td></tr><tr><td>name</td><td>Airport</td><td>STRING</td></tr></tbody></table></li></ul></li></ul><p>完成后的截图如下：</p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/DW1820A_Properties.png" alt="DW1820A_Properties"></p><p>至于这个<code>PciRoot(0x0)/Pci(0x1c,0x0)/Pci(0x0)</code>是如何获得的，我们需要搬出工具<a href="https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html">Hackintool</a> 在PCI信息里，点击网卡所在行，右键-&gt;<code>Copy Device Path</code></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/Hackintool_PCIe.png" alt="Hackintool_PCI"></p><p>完整的<code>config.plist</code>源码如下：</p><figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span></span><br><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">plist</span> <span class="meta-keyword">PUBLIC</span> <span class="meta-string">"-//Apple//DTD PLIST 1.0//EN"</span> <span class="meta-string">"http://www.apple.com/DTDs/PropertyList-1.0.dtd"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">plist</span> <span class="attr">version</span>=<span class="string">"1.0"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>Devices<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">key</span>&gt;</span>Properties<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">key</span>&gt;</span>PciRoot(0x0)/Pci(0x1c,0x0)/Pci(0x0)<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line">				<span class="tag">&lt;<span class="name">key</span>&gt;</span>AAPL,slot-name<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">				<span class="tag">&lt;<span class="name">string</span>&gt;</span>WLAN<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">				<span class="tag">&lt;<span class="name">key</span>&gt;</span>compatible<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">				<span class="tag">&lt;<span class="name">string</span>&gt;</span>pci14e4,43a3<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">				<span class="tag">&lt;<span class="name">key</span>&gt;</span>device_type<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">				<span class="tag">&lt;<span class="name">string</span>&gt;</span>Airport Extreme<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">				<span class="tag">&lt;<span class="name">key</span>&gt;</span>model<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">				<span class="tag">&lt;<span class="name">string</span>&gt;</span>DW1820A (BCM4350) 802.11ac Wireless<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">				<span class="tag">&lt;<span class="name">key</span>&gt;</span>name<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">				<span class="tag">&lt;<span class="name">string</span>&gt;</span>Airport<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;/<span class="name">dict</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;/<span class="name">dict</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">dict</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dict</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">plist</span>&gt;</span></span><br></pre></td></tr></table></figure><p>请将该脚本合并到你的<code>/EFI/CLOVER/config.plist</code>中，<strong>不要直接替换</strong>。 [<strong>为某些不会合并配置文件的小白准备的<a href="http://7.daliansky.net/DW1820A/config_DW1820A.plist" target="_blank" rel="noopener">DW1820A配置文件</a>，供参考</strong>]</p><p>请于<code>/EFI/CLOVER/kexts/Other</code>目录中添加驱动<code>AirPortBrcmFixup</code> <code>v2.0.8</code> <a href="http://7.daliansky.net/DW1820A/AirportBrcmFixup-2.0.8-RELEASE.zip" target="_blank" rel="noopener">下载</a></p><p>请于<code>config.plist</code>的<code>boot-args</code>中添加：<code>brcmfx-country=#a</code>和<code>brcmfx-aspm</code>，不会操作的请移步：【<a href="https://blog.daliansky.net/OpenCore-BootLoader.html">精解OpenCore</a>】</p><p>至此，您可以重启电脑，以使<code>DW1820A</code>的<code>WIFI</code>可以正常工作。</p><h4 id="方法2-opencore篇"><a class="markdownIt-Anchor" href="#方法2-opencore篇"></a> 方法2 【OpenCore篇】</h4><ul><li><p>使用工具：<code>OpenCore Configurator</code>，打开配置文件<code>config.plist</code></p></li><li><p>跳转到<code>DevicesProperties</code>：</p><ul><li><p>在<code>Add</code>中，左侧添加网卡所在的设备地址：<code>PciRoot(0x0)/Pci(0x1c,0x0)/Pci(0x0)</code></p></li><li><p>右侧分别添加：</p><table><thead><tr><th>Key*</th><th>Value</th><th>Type</th></tr></thead><tbody><tr><td>AAPL,slot-name</td><td>WLAN</td><td>STRING</td></tr><tr><td>compatible</td><td>pci14e4,<code>43a3</code></td><td>STRING</td></tr><tr><td>device_type</td><td>Airport Extreme</td><td>STRING</td></tr><tr><td>model</td><td>DW1820A (BCM4350) 802.11ac Wireless</td><td>STRING</td></tr><tr><td>name</td><td>Airport</td><td>STRING</td></tr></tbody></table></li></ul></li></ul><p>完成后的截图如下：</p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/OC_DP.png" alt="OC_DP"></p><p>至于这个<code>PciRoot(0x0)/Pci(0x1c,0x0)/Pci(0x0)</code>是如何获得的，我们需要搬出工具<a href="https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html">Hackintool</a> 在PCI信息里，点击网卡所在行，右键-&gt;<code>Copy Device Path</code></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/Hackintool_PCIe.png" alt="Hackintool_PCI"><br>跳转到：<code>Kernel</code> -&gt; <code>Add</code> -&gt;，添加<code>AirportBrcmFixup</code>驱动，按下图操作</p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/AirPortBrcmFixup_for_BigSur.png" alt="AirPortBrcmFixup_for_BigSur"><br>完整的<code>config.plist</code>源码如下：</p><figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">key</span>&gt;</span>DeviceProperties<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>Add<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">key</span>&gt;</span>PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0)<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">key</span>&gt;</span>AAPL,slot-name<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">string</span>&gt;</span>WLAN<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">key</span>&gt;</span>compatible<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">string</span>&gt;</span>pci14e4,4331<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">key</span>&gt;</span>device_type<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">string</span>&gt;</span>Airport Extreme<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">key</span>&gt;</span>model<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">string</span>&gt;</span>BCM4350 802.11ac Wireless Network Adapter<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">key</span>&gt;</span>name<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">string</span>&gt;</span>Airport<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;/<span class="name">dict</span>&gt;</span></span><br></pre></td></tr></table></figure><ul><li><p>国家代码注入：</p><ul><li>请于<code>NVRAM</code>-&gt;<code>Add</code>-&gt;<code>UUID:</code>-&gt;<code>7C436110-AB2A-4BBB-A880-FE41995C9F82</code>-&gt;<code>boot-args</code>中添加：<code>brcmfx-country=#a</code>和<code>brcmfx-aspm</code>，不会操作的请移步：【<a href="https://blog.daliansky.net/OpenCore-BootLoader.html">精解OpenCore</a>】</li></ul></li><li><p>请于<code>/EFI/CLOVER/kexts/Other</code>目录中添加驱动<code>AirPortBrcmFixup</code> <code>v2.0.8</code> <a href="http://7.daliansky.net/DW1820A/AirportBrcmFixup-2.0.8-RELEASE.zip" target="_blank" rel="noopener">下载</a></p></li></ul><h4 id="方法3高阶篇不建议小白观看以免引起不适"><a class="markdownIt-Anchor" href="#方法3高阶篇不建议小白观看以免引起不适"></a> 方法3【高阶篇】【<code>不建议小白观看，以免引起不适</code>】</h4><p>直接使用工具<a href="https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html">Hackintool</a> 【备注：Hackintool <code>v2.9.6</code>开始提供支持，感谢<a href="https://github.com/headkaze" target="_blank" rel="noopener">@headkaze</a>专门帮我添加的此功能】</p><ul><li>操作：打开<code>Hackintool</code>工具，点击<code>应用补丁</code>，选择窗口右下方的<code>应用补丁</code>，选择<code>设备属性</code>，勾选</li><li>[x] <code>PCI设备</code> ，点击<code>生成补丁</code>，菜单项：<code>文件</code>-&gt;<code>导出</code>-&gt;<code>引导工具config.plist</code>，挂载<code>EFI</code>分区，选择覆盖<code>config.plist</code>即可</li></ul><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/ASPM2.png" alt="ASPM2"></p><h3 id="bluetooth蓝牙"><a class="markdownIt-Anchor" href="#bluetooth蓝牙"></a> Bluetooth蓝牙</h3><h4 id="clover"><a class="markdownIt-Anchor" href="#clover"></a> CLOVER：</h4><p>将【DW1820A蓝牙专用程序】 解压缩到<code>/EFI/CLOVER/kexts/Other</code>目录下，重启即可。</p><ul><li>稳定版本：<code>v2.5.4</code> <em><strong>根本性解决蓝牙冷启动无法上传固件问题，墙裂建议更新</strong></em><ul><li><a href="http://7.daliansky.net/DW1820A/DW1820A_BT_for_Mojave_v2.5.4.zip" target="_blank" rel="noopener">DW1820A_BT_for_Mojave_v2.5.4.zip</a>	支持10.14及以下版本</li><li><a href="http://7.daliansky.net/DW1820A/DW1820A_BT_for_Catalina_and_BigSur_v2.5.4.zip" target="_blank" rel="noopener">DW1820A_BT_for_Catalina_and_BigSur_v2.5.4.zip</a> 支持10.15及以上版本</li></ul></li><li>稳定版：<code>v2.2.10</code> <a href="http://7.daliansky.net/DW1820A/BT_for_DW1820A_Ver.2.zip" target="_blank" rel="noopener">下载链接</a></li></ul><blockquote><p>如果蓝牙睡眠唤醒后无法工作，请于<code>config.plist</code>中添加引导参数：<code>bpr_probedelay=100 bpr_initialdelay=300 bpr_postresetdelay=300</code></p></blockquote><h4 id="opencore"><a class="markdownIt-Anchor" href="#opencore"></a> OpenCore：</h4><ul><li><p>将【DW1820A蓝牙专用程序】 解压缩到<code>/EFI/OC/Kexts</code>目录下</p></li><li><p>稳定版本：<code>v2.5.4</code> <em><strong>根本性解决蓝牙冷启动无法上传固件问题，墙裂建议更新</strong></em></p><ul><li><a href="http://7.daliansky.net/DW1820A/DW1820A_BT_for_Mojave_v2.5.4.zip" target="_blank" rel="noopener">DW1820A_BT_for_Mojave_v2.5.4.zip</a>	支持10.14及以下版本</li><li><a href="http://7.daliansky.net/DW1820A/DW1820A_BT_for_Catalina_and_BigSur_v2.5.4.zip" target="_blank" rel="noopener">DW1820A_BT_for_Catalina_and_BigSur_v2.5.4.zip</a> 支持10.15及以上版本</li></ul></li><li><p>稳定版：<code>v2.2.10</code> <a href="http://7.daliansky.net/DW1820A/BT_for_DW1820A_Ver.2.zip" target="_blank" rel="noopener">下载链接</a></p></li><li><p><code>Kernel</code>-&gt;<code>Add</code>-&gt;<code>Browse</code>，将<code>/EFI/OC/Kexts</code>目录下的<code>BrcmBluetoothInjector.kext</code> / <code>BrcmFirmwareData.kext</code> / <code>BrcmPatchRAM3.kext</code>添加进列表中，注意加载的顺序</p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/OC_BT_Add.png" alt="OC_BT_Add"></p></li></ul><h2 id="windows驱动程序"><a class="markdownIt-Anchor" href="#windows驱动程序"></a> Windows驱动程序</h2><ul><li>下载链接：<a href="http://7.daliansky.net/DW1820A/DW1820A_for_Windows_Drivers.zip" target="_blank" rel="noopener">DW1820A_for_Windows_Drivers.zip</a></li><li>其它版本：<a href="https://www.dell.com/support/home/us/en/04/drivers/driversdetails?driverid=50xmj" target="_blank" rel="noopener">WIFI</a> / <a href="https://www.dell.com/support/home/us/en/04/drivers/driversdetails?driverid=8cp25" target="_blank" rel="noopener">蓝牙</a></li></ul><h2 id="截图"><a class="markdownIt-Anchor" href="#截图"></a> 截图</h2><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/Misc.png" alt="Misc"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/BIgSur_Zsh.png" alt="BIgSur_Zsh"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/Brcm_Drivers.png" alt="Brcm_Drivers"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/Bluetooth.png" alt="Bluetooth"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/WI-FI.png" alt="WI-FI"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/USB_BT.png" alt="USB_BT"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/PCI.png" alt="PCI"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/Extensions.png" alt="AirPortBrcm4360"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/ARPT.png" alt="ARPT"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/AirDrop.png" alt="AirDrop"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/Infos.png" alt="Infos"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/WI-FI2.png" alt="WI-FI2"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/Bluetooth2.png" alt="Bluetooth2"></p><p>部分机型可能需要屏蔽针脚才能正常使用</p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/DW1820A_pins_masking2.png" alt="DW1820A_Cover_pins"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/DW1820A_Cover_pins.jpg" alt="DW1820A_Cover_pins"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/speedtest.png" alt="speedtest"></p><h2 id="注意事项"><a class="markdownIt-Anchor" href="#注意事项"></a> 注意事项：</h2><div class="note warning"><ul><li>安装系统之前，请于<code>BIOS</code>中禁用<code>WLAN/WIFI</code> 和 <code>Bluetooth</code>，待安装系统成功后再行开启；感谢@<a href="https://github.com/y010204025" target="_blank" rel="noopener">我意</a>的反馈</li><li>如果插上网卡后进入系统直接卡住了，请于<code>/EFI/CLOVER/kexts/Other</code>目录中添加驱动<code>AirPortBrcmFixup</code><a href="http://7.daliansky.net/DW1820A/AirportBrcmFixup-2.0.8-RELEASE.zip" target="_blank" rel="noopener">下载</a>，并于<code>CLOVER</code>引导主界面【附：<a href="https://blog.daliansky.net/clover-user-manual.html">CLOVER教程</a>】按字母<code>o</code>进入<code>Options</code>，在<code>Boot Args:</code>中添加引导参数：<code>-brcmfxoff</code>直接跳过网卡驱动的加载【不加载网卡驱动】进入<code>macOS</code>系统后，再完善驱动</li><li>如果WIFI的连接速率只能到300Mbps，或者国家代码是<code>US</code>，请参考教程注入国家代码：<code>brcmfx-country=#a</code>即可。（请于<code>/EFI/CLOVER/kexts/Other</code>目录中添加驱动<code>AirPortBrcmFixup</code><a href="http://7.daliansky.net/DW1820A/AirportBrcmFixup-2.0.8-RELEASE.zip" target="_blank" rel="noopener">下载</a>）</li><li>如果想体验随航(<code>Sidecar</code>) / <code>Apple Watch</code>(测试性)解锁功能，请将<code>pci14e4,4331</code>修改为<code>pci14e4,43a0</code>或者<code>pci14e4,4353</code>，以便驱动<code>AirPortDriverBrcmNIC</code>并开启相应功能</li><li>如果找不到<code>WIFI</code>设备，可以尝试将屏蔽针脚的胶带的<code>前3</code>剪下来，保留<code>后2</code></li><li><s>如果蓝牙无法连接音频设备，或者连接后马上断开，请<code>关机拔掉电源，等待5分钟再加电开机</code></s></li><li>基本常识：双天线的网卡都存在蓝牙和WIFI的2.4G共用相同频率导致的信号干扰问题，解决方案：WIFI连接到5G使用即可。该现象常见于DW1560/DW1820/BCM94360CS等双天线网卡</li></ul></div><h2 id="信息反馈及技术交流"><a class="markdownIt-Anchor" href="#信息反馈及技术交流"></a> 信息反馈及技术交流</h2><ul><li><p>目前正在收集各种机型进行网卡测试，测试后，请大家提供测试结果给我，整合后会分享给大家参照。<strong>技术交流请加下方QQ群701278330 <a href="https://shang.qq.com/wpa/qunwpa?idkey=5bfd8b092f5a3f3079eab8bb1a497973dbba78ad785d9520ad090a931aeb06f6" target="_blank" rel="noopener">黑苹果无线网卡交流群</a></strong></p></li><li><p>寻求技术支持前，请<code>打开终端，输入命令：</code></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sh -c <span class="string">"<span class="variable">$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/DW1820A)</span>"</span></span><br></pre></td></tr></table></figure><p>将截屏粘贴到群里寻求帮助。</p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/DW1820A_Bug_Report.png" alt="DW1820A_Bug_Report"></p></li></ul><h3 id="小兵测试过的网卡"><a class="markdownIt-Anchor" href="#小兵测试过的网卡"></a> 小兵测试过的网卡</h3><ul><li><p>通过测试的网卡我都会扔到闲鱼出掉，如果你运气好，可能会找到我测试过的、屏蔽了针脚的网卡；</p></li><li><p>DW1820A目前已经全线断货，如果看到有上架的就赶紧拍下吧，我也懒得解释了；</p></li></ul><div class="note warning"><ul><li><p><code>咸鱼</code>只能上架下架商品，<code>无法回复任何消息</code>，<code>请通过</code>下方<code>QQ群</code>列表<code>沟通</code>;</p></li><li><p>请通过QQ群701278330 <a href="https://shang.qq.com/wpa/qunwpa?idkey=5bfd8b092f5a3f3079eab8bb1a497973dbba78ad785d9520ad090a931aeb06f6" target="_blank" rel="noopener">黑苹果无线网卡交流群</a> 沟通交流，【暗号：请输入你购买时所使用的<code>咸鱼ID</code>】</p></li></ul></div><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/QR/DALIANSKY2008_QR.jpg" alt="dalianksy_QR"></p><h2 id="感谢名单"><a class="markdownIt-Anchor" href="#感谢名单"></a> 感谢名单</h2><ul><li><a href="https://www.apple.com/" target="_blank" rel="noopener">Apple</a> 的 macOS</li><li><a href="https://github.com/rehabman" target="_blank" rel="noopener">RehabMan</a>维护的项目：<a href="https://github.com/RehabMan/OS-X-Clover-Laptop-Config" target="_blank" rel="noopener">OS-X-Clover-Laptop-Config</a> <a href="https://github.com/RehabMan/Laptop-DSDT-Patch" target="_blank" rel="noopener">Laptop-DSDT-Patch</a> <a href="https://github.com/RehabMan/OS-X-USB-Inject-All" target="_blank" rel="noopener">OS-X-USB-Inject-All</a>等</li><li><a href="https://github.com/acidanthera" target="_blank" rel="noopener">Acidanthera</a> 维护的项目：<a href="https://github.com/acidanthera/OpenCorePkg" target="_blank" rel="noopener">OpenCorePkg</a> <a href="https://github.com/acidanthera/Lilu" target="_blank" rel="noopener">lilu</a> <a href="https://github.com/acidanthera/AirportBrcmFixup" target="_blank" rel="noopener">AirportBrcmFixup</a> <a href="https://github.com/acidanthera/WhateverGreen" target="_blank" rel="noopener">WhateverGreen</a> <a href="https://github.com/acidanthera/VirtualSMC" target="_blank" rel="noopener">VirtualSMC</a> <a href="https://github.com/acidanthera/AppleALC" target="_blank" rel="noopener">AppleALC</a> <a href="https://github.com/acidanthera/BrcmPatchRAM" target="_blank" rel="noopener">BrcmPatchRAM</a> <a href="https://github.com/acidanthera/MaciASL" target="_blank" rel="noopener">MaciASL</a> 等</li><li><a href="https://www.insanelymac.com/forum/profile/1364628-headkaze/" target="_blank" rel="noopener">headkaze</a> 提供的工具：<a href="https://github.com/headkaze/Hackintool" target="_blank" rel="noopener">hackintool</a> <a href="https://github.com/headkaze/PinConfigurator" target="_blank" rel="noopener">PinConfigurator</a> <a href="https://www.insanelymac.com/forum/topic/339175-brcmpatchram2-for-1015-catalina-broadcom-bluetooth-firmware-upload/" target="_blank" rel="noopener">BrcmPatchRAM</a></li><li><a href="https://github.com/CloverHackyColor" target="_blank" rel="noopener">CloverHackyColor</a>维护的项目：<a href="https://github.com/CloverHackyColor/CloverBootloader" target="_blank" rel="noopener">CloverBootloader</a> <a href="https://github.com/CloverHackyColor/CloverThemes" target="_blank" rel="noopener">CloverThemes</a></li><li>宪武整理的：<a href="https://github.com/daliansky/P-little" target="_blank" rel="noopener">P-little</a> <a href="https://github.com/daliansky/OC-little" target="_blank" rel="noopener">OC-little</a></li><li><a href="https://github.com/chris1111" target="_blank" rel="noopener">chris1111</a>维护的项目：<a href="https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V15" target="_blank" rel="noopener">VoodooHDA</a> <a href="https://github.com/chris1111/Wireless-USB-Adapter-Clover" target="_blank" rel="noopener">Wireless USB Adapter Clover</a></li><li><a href="https://github.com/zxystd" target="_blank" rel="noopener">zxystd</a>开发的<a href="https://github.com/zxystd/itlwm" target="_blank" rel="noopener">itlwm</a> <a href="https://github.com/zxystd/IntelBluetoothFirmware" target="_blank" rel="noopener">IntelBluetoothFirmware</a></li><li><a href="https://github.com/lihaoyun6" target="_blank" rel="noopener">lihaoyun6</a>提供的工具：<a href="https://github.com/lihaoyun6/CPU-S" target="_blank" rel="noopener">CPU-S</a> <a href="https://github.com/lihaoyun6/macOS-Displays-icon" target="_blank" rel="noopener">macOS-Displays-icon</a> <a href="https://github.com/lihaoyun6/SidecarPatcher" target="_blank" rel="noopener">SidecarPatcher</a></li><li><a href="https://github.com/SukkaW" target="_blank" rel="noopener">sukka</a>更新维护的<a href="https://blog.skk.moe/post/from-clover-to-opencore/" target="_blank" rel="noopener">从 Clover 到 OpenCore —— Clover 迁移 OpenCore 指南</a></li><li><a href="https://github.com/xzhih" target="_blank" rel="noopener">xzhih</a>提供的工具：<a href="https://github.com/xzhih/one-key-hidpi" target="_blank" rel="noopener">one-key-hidpi</a></li><li><a href="https://github.com/williambj1" target="_blank" rel="noopener">Bat.bat</a>更新维护的<a href="https://blog.daliansky.net/OpenCore-BootLoader.html">精解OpenCore</a></li><li><a href="https://github.com/shuiyunxc" target="_blank" rel="noopener">shuiyunxc</a> 更新维护的<a href="https://shuiyunxc.gitee.io/2020/04/06/Faults/index/" target="_blank" rel="noopener">OpenCore配置错误、故障与解决办法</a></li><li><a href="https://github.com/athlonreg" target="_blank" rel="noopener">athlonreg</a>更新维护的<a href="https://blog.cloudops.ml/ocbook/" target="_blank" rel="noopener">OpenCore 0.5+ 部件补丁</a> <a href="https://github.com/athlonreg/Common-patches-for-hackintosh" target="_blank" rel="noopener">Common-patches-for-hackintosh</a></li><li><a href="github.com">github.com</a></li><li><a href="gitee.io">码云 gitee.io</a></li><li><a href="coding.net">扣钉 coding.net</a></li></ul><h2 id="参考及引用"><a class="markdownIt-Anchor" href="#参考及引用"></a> 参考及引用：</h2><ul><li><a href="https://deviwiki.com/wiki/Dell" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell</a></li><li><a href="https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></li><li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></li><li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></li><li><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></li><li><a href="https://blog.xjn819.com/" target="_blank" rel="noopener">xjn819</a>： <a href="https://blog.xjn819.com/?p=543" target="_blank" rel="noopener">使用OpenCore引导黑苹果</a> <a href="https://blog.xjn819.com/?p=317" target="_blank" rel="noopener">300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）</a></li><li><a href="https://www.insanelymac.com/" target="_blank" rel="noopener">insanelymac.com</a></li><li><a href="https://www.tonymacx86.com/" target="_blank" rel="noopener">tonymacx86.com</a></li><li><a href="http://bbs.pcbeta.com" target="_blank" rel="noopener">远景论坛</a></li><li><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></li><li><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></li></ul>]]></content>
+    <content><![CDATA[<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2><blockquote><p>随着 <code>DW1830</code> / <code>DW1560</code> 价格的不断走高，能找到一款性价比超高的无线网卡对广大的 <code>Hackintosher</code> 来说就显得至关重要了。</p><p>从几个月前我就开始尝试驱动 <code>DW1820A</code> ，<code>WIFI</code> 驱动没问题，但是蓝牙各种翻车各种摔。功夫不负有心人，在众多热心网友的不断努力下，终于解决了蓝牙固件无法上传的问题，也因此就有了这篇驱动教程。</p></blockquote><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/BigSur_Clover.jpg" alt="BigSur_Clover"></p><h2 id="为什么是-dw1820a"><a class="markdownIt-Anchor" href="#为什么是-dw1820a"></a> 为什么是 <code>DW1820A</code></h2><ul><li>新款部分笔记本只能塞下<code>背面没有元器件</code>的无线网卡，比如[<a href="https://github.com/daliansky/XiaoXinPro-13-2019-hackintosh" target="_blank" rel="noopener">联想小新PRO 13 2019</a>]，此为刚需</li><li>价格：百元以内，不排除未来有涨价的可能</li><li>规格/参数：<ul><li>DW1820A/BCM94350ZAE</li><li>M.2 2230</li><li>802.11ac 双频 支持2.4GHz/5GHz</li><li>867Mbps</li><li>BlueTooth 4.1</li></ul></li><li>操作系统：支持 <code>macOS</code> / <code>Windows</code> / <code>linux</code></li></ul><h2 id="已知支持的设备信息"><a class="markdownIt-Anchor" href="#已知支持的设备信息"></a> 已知支持的设备信息</h2><h3 id="wlan"><a class="markdownIt-Anchor" href="#wlan"></a> WLAN:</h3><ul><li>Vendor: <code>0x14E4</code></li><li>Device: <code>0x43A3</code><ul><li>Sub Vendor: <code>1028</code> or <code>106B</code></li><li>Sub Device: <code>0021</code> <code>0022</code> <code>0023</code> <code>075a</code></li></ul></li></ul><h3 id="bluetooth"><a class="markdownIt-Anchor" href="#bluetooth"></a> Bluetooth:</h3><ul><li>Vendor ID:	<code>0x0A5C</code></li><li>Product ID:	<code>0x6412</code> <code>0x6414</code></li></ul><h3 id="dell-dw1820a设备信息整理"><a class="markdownIt-Anchor" href="#dell-dw1820a设备信息整理"></a> DELL <code>DW1820A</code>设备信息整理</h3><table><thead><tr><th>Part Number</th><th>Manufacturer</th><th>Module</th><th>WLAN</th><th>BT 4.1</th></tr></thead><tbody><tr><td><code>CN-0VW3T3</code></td><td>Dell Wireless 1820A 802.11ac</td><td>BCM94350ZAE_2</td><td><code>1028:0021</code></td><td><code>[0a5c:6412]</code></td></tr><tr><td><code>CN-0VW3T3</code></td><td>Dell Wireless 1820A 802.11ac</td><td>BCM94356ZEPA50DX_2</td><td><code>1028:0021</code></td><td><code>[0a5c:6412]</code></td></tr><tr><td><code>CN-096JNT</code></td><td>Dell Wireless 1820A 802.11ac</td><td>BCM94356ZEPA50DX_2</td><td><code>1028:0022</code></td><td><code>[0a5c:6412]</code></td></tr><tr><td><code>CN-08PKF4</code></td><td>Dell Wireless 1820A 802.11ac</td><td>BCM94356ZEPA50DX_2</td><td><code>1028:0023</code></td><td><code>[0a5c:6412]</code></td></tr></tbody></table><h3 id="联想版bcm94350设备信息整理"><a class="markdownIt-Anchor" href="#联想版bcm94350设备信息整理"></a> 联想版<code>BCM94350</code>设备信息整理</h3><table><thead><tr><th>Part Number</th><th>Manufacturer</th><th>Module</th><th>WLAN</th><th>BT 4.1</th></tr></thead><tbody><tr><td><code>00JT493</code></td><td>Lenovo</td><td>BCM94350ZAE_2</td><td><code>1028:075a</code></td><td><code>[0a5c:6414]</code></td></tr><tr><td><code>00JT494</code></td><td>Lenovo</td><td>BCM94350ZAE_2</td><td><code>1028:075a</code></td><td><code>[0a5c:6414]</code></td></tr></tbody></table><div class="note warning"><p>联想及绝大多数机型可能需要屏蔽针脚测试，详见下图</p></div><h2 id="macos驱动方法"><a class="markdownIt-Anchor" href="#macos驱动方法"></a> macOS驱动方法</h2><p><s>采用 <code>Device-&gt;Properties</code> 注入参数以便于直接驱动 <code>AirPortBrcm4360</code> 而不是驱动 <code>AirPort.BrcmNIC</code>，这样做的好处就是避免某一天苹果不提供<code>AirPortBrcm4350</code>的支持，便于支持未来的系统，包括<code>macOS Catalina</code>等。</s></p><blockquote><p>好吧，小兵猜错了，最新的<code>Big Sur</code>系统中，已经将<code>AirPortBrcm4360</code>驱动移除，只保留了<code>AirPort.BrcmNIC</code>，现在可驱动的设备是：</p><ul><li>Pci14e4,43ba</li><li>Pci14e4,43a3</li><li>Pci14e4,43a0</li></ul></blockquote><h3 id="wlan无线网卡"><a class="markdownIt-Anchor" href="#wlan无线网卡"></a> WLAN无线网卡</h3><blockquote><p>如果开机直接就驱动了WIFI无线网卡并且能持续、稳定地工作，那么下面这段内容就可以直接跳过，转到驱动蓝牙部分。</p></blockquote><h4 id="方法1clover小白篇"><a class="markdownIt-Anchor" href="#方法1clover小白篇"></a> 方法1【CLOVER小白篇】</h4><ul><li><p>使用工具：<code>Clover Configurator</code>，打开配置文件<code>config.plist</code></p></li><li><p>跳转到<code>Devices</code>-&gt;<code>Properties</code>：</p><ul><li><p>在左侧<code>Devices</code>中添加网卡所在的设备地址：<code>PciRoot(0x0)/Pci(0x1c,0x0)/Pci(0x0)</code></p></li><li><p>在右侧分别添加：</p><table><thead><tr><th>Properties Key*</th><th>Properties Value</th><th>Value Type</th></tr></thead><tbody><tr><td>AAPL,slot-name</td><td>WLAN</td><td>STRING</td></tr><tr><td>compatible</td><td>pci14e4,<code>43a3</code></td><td>STRING</td></tr><tr><td>device_type</td><td>Airport Extreme</td><td>STRING</td></tr><tr><td>model</td><td>DW1820A (BCM4350) 802.11ac Wireless</td><td>STRING</td></tr><tr><td>name</td><td>Airport</td><td>STRING</td></tr></tbody></table></li></ul></li></ul><p>完成后的截图如下：</p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/DW1820A_Properties.png" alt="DW1820A_Properties"></p><p>至于这个<code>PciRoot(0x0)/Pci(0x1c,0x0)/Pci(0x0)</code>是如何获得的，我们需要搬出工具<a href="https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html">Hackintool</a> 在PCI信息里，点击网卡所在行，右键-&gt;<code>Copy Device Path</code></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/Hackintool_PCIe.png" alt="Hackintool_PCI"></p><p>完整的<code>config.plist</code>源码如下：</p><figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span></span><br><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">plist</span> <span class="meta-keyword">PUBLIC</span> <span class="meta-string">"-//Apple//DTD PLIST 1.0//EN"</span> <span class="meta-string">"http://www.apple.com/DTDs/PropertyList-1.0.dtd"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">plist</span> <span class="attr">version</span>=<span class="string">"1.0"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>Devices<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">key</span>&gt;</span>Properties<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">key</span>&gt;</span>PciRoot(0x0)/Pci(0x1c,0x0)/Pci(0x0)<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line">				<span class="tag">&lt;<span class="name">key</span>&gt;</span>AAPL,slot-name<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">				<span class="tag">&lt;<span class="name">string</span>&gt;</span>WLAN<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">				<span class="tag">&lt;<span class="name">key</span>&gt;</span>compatible<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">				<span class="tag">&lt;<span class="name">string</span>&gt;</span>pci14e4,43a3<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">				<span class="tag">&lt;<span class="name">key</span>&gt;</span>device_type<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">				<span class="tag">&lt;<span class="name">string</span>&gt;</span>Airport Extreme<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">				<span class="tag">&lt;<span class="name">key</span>&gt;</span>model<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">				<span class="tag">&lt;<span class="name">string</span>&gt;</span>DW1820A (BCM4350) 802.11ac Wireless<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">				<span class="tag">&lt;<span class="name">key</span>&gt;</span>name<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">				<span class="tag">&lt;<span class="name">string</span>&gt;</span>Airport<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;/<span class="name">dict</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;/<span class="name">dict</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">dict</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dict</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">plist</span>&gt;</span></span><br></pre></td></tr></table></figure><p>请将该脚本合并到你的<code>/EFI/CLOVER/config.plist</code>中，<strong>不要直接替换</strong>。 [<strong>为某些不会合并配置文件的小白准备的<a href="http://7.daliansky.net/DW1820A/config_DW1820A.plist" target="_blank" rel="noopener">DW1820A配置文件</a>，供参考</strong>]</p><p>请于<code>/EFI/CLOVER/kexts/Other</code>目录中添加驱动<code>AirPortBrcmFixup</code> <code>v2.0.9</code> <a href="http://7.daliansky.net/DW1820A/AirportBrcmFixup-2.0.9-RELEASE.zip" target="_blank" rel="noopener">下载</a></p><p>请于<code>config.plist</code>的<code>boot-args</code>中添加：<code>brcmfx-country=#a</code>和<code>brcmfx-aspm</code>，不会操作的请移步：【<a href="https://blog.daliansky.net/clover-user-manual.html">Clover使用教程</a>】</p><p>至此，您可以重启电脑，以使<code>DW1820A</code>的<code>WIFI</code>可以正常工作。</p><h4 id="方法2-opencore篇"><a class="markdownIt-Anchor" href="#方法2-opencore篇"></a> 方法2 【OpenCore篇】</h4><ul><li><p>使用工具：<code>OpenCore Configurator</code>，打开配置文件<code>config.plist</code></p></li><li><p>跳转到<code>DevicesProperties</code>：</p><ul><li><p>在<code>Add</code>中，左侧添加网卡所在的设备地址：<code>PciRoot(0x0)/Pci(0x1c,0x0)/Pci(0x0)</code></p></li><li><p>右侧分别添加：</p><table><thead><tr><th>Key*</th><th>Value</th><th>Type</th></tr></thead><tbody><tr><td>AAPL,slot-name</td><td>WLAN</td><td>STRING</td></tr><tr><td>compatible</td><td>pci14e4,<code>43a3</code></td><td>STRING</td></tr><tr><td>device_type</td><td>Airport Extreme</td><td>STRING</td></tr><tr><td>model</td><td>DW1820A (BCM4350) 802.11ac Wireless</td><td>STRING</td></tr><tr><td>name</td><td>Airport</td><td>STRING</td></tr></tbody></table></li></ul></li></ul><p>完成后的截图如下：</p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/OC_DP.png" alt="OC_DP"></p><p>至于这个<code>PciRoot(0x0)/Pci(0x1c,0x0)/Pci(0x0)</code>是如何获得的，我们需要搬出工具<a href="https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html">Hackintool</a> 在PCI信息里，点击网卡所在行，右键-&gt;<code>Copy Device Path</code></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/Hackintool_PCIe.png" alt="Hackintool_PCI"><br>跳转到：<code>Kernel</code> -&gt; <code>Add</code> -&gt;，添加<code>AirportBrcmFixup</code>驱动，按下图操作</p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/AirPortBrcmFixup_for_BigSur.png" alt="AirPortBrcmFixup_for_BigSur"><br>完整的<code>config.plist</code>源码如下：</p><figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">key</span>&gt;</span>DeviceProperties<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>Add<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">key</span>&gt;</span>PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0)<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">key</span>&gt;</span>AAPL,slot-name<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">string</span>&gt;</span>WLAN<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">key</span>&gt;</span>compatible<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">string</span>&gt;</span>pci14e4,43a3<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">key</span>&gt;</span>device_type<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">string</span>&gt;</span>Airport Extreme<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">key</span>&gt;</span>model<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">string</span>&gt;</span>BCM4350 802.11ac Wireless Network Adapter<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">key</span>&gt;</span>name<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">			<span class="tag">&lt;<span class="name">string</span>&gt;</span>Airport<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;/<span class="name">dict</span>&gt;</span></span><br></pre></td></tr></table></figure><ul><li><p>国家代码注入：</p><ul><li>请于<code>NVRAM</code>-&gt;<code>Add</code>-&gt;<code>UUID:</code>-&gt;<code>7C436110-AB2A-4BBB-A880-FE41995C9F82</code>-&gt;<code>boot-args</code>中添加：<code>brcmfx-country=#a</code>和<code>brcmfx-aspm</code>，不会操作的请移步：【<a href="https://blog.daliansky.net/OpenCore-BootLoader.html">精解OpenCore</a>】</li></ul></li><li><p>请于<code>/EFI/CLOVER/kexts/Other</code>目录中添加驱动<code>AirPortBrcmFixup</code> <code>v2.0.9</code> <a href="http://7.daliansky.net/DW1820A/AirportBrcmFixup-2.0.9-RELEASE.zip" target="_blank" rel="noopener">下载</a></p></li></ul><h4 id="方法3高阶篇不建议小白观看以免引起不适"><a class="markdownIt-Anchor" href="#方法3高阶篇不建议小白观看以免引起不适"></a> 方法3【高阶篇】【<code>不建议小白观看，以免引起不适</code>】</h4><p>直接使用工具<a href="https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html">Hackintool</a> 【备注：Hackintool <code>v2.9.6</code>开始提供支持，感谢<a href="https://github.com/headkaze" target="_blank" rel="noopener">@headkaze</a>专门帮我添加的此功能】</p><ul><li>操作：打开<code>Hackintool</code>工具，点击<code>应用补丁</code>，选择窗口右下方的<code>应用补丁</code>，选择<code>设备属性</code>，勾选</li><li>[x] <code>PCI设备</code> ，点击<code>生成补丁</code>，菜单项：<code>文件</code>-&gt;<code>导出</code>-&gt;<code>引导工具config.plist</code>，挂载<code>EFI</code>分区，选择覆盖<code>config.plist</code>即可</li></ul><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/ASPM2.png" alt="ASPM2"></p><h3 id="bluetooth蓝牙"><a class="markdownIt-Anchor" href="#bluetooth蓝牙"></a> Bluetooth蓝牙</h3><h4 id="clover"><a class="markdownIt-Anchor" href="#clover"></a> CLOVER：</h4><p>将【DW1820A蓝牙专用程序】 解压缩到<code>/EFI/CLOVER/kexts/Other</code>目录下，重启即可。</p><ul><li>稳定版本：<code>v2.5.5</code> <em><strong>将联想版493/494蓝牙固件更改为<code>v7 c4689</code></strong></em><ul><li><a href="http://7.daliansky.net/DW1820A/DW1820A_BT_for_Mojave_v2.5.5.zip" target="_blank" rel="noopener">DW1820A_BT_for_Mojave_v2.5.5.zip</a>	支持10.14及以下版本</li><li><a href="http://7.daliansky.net/DW1820A/DW1820A_BT_for_Catalina_and_BigSur_v2.5.5.zip" target="_blank" rel="noopener">DW1820A_BT_for_Catalina_and_BigSur_v2.5.5.zip</a> 支持10.15及以上版本</li></ul></li><li>稳定版：<code>v2.2.10</code> <a href="http://7.daliansky.net/DW1820A/BT_for_DW1820A_Ver.2.zip" target="_blank" rel="noopener">下载链接</a></li></ul><blockquote><p>如果蓝牙睡眠唤醒后无法工作，请于<code>config.plist</code>中添加引导参数：<code>bpr_probedelay=100 bpr_initialdelay=300 bpr_postresetdelay=300</code></p></blockquote><h4 id="opencore"><a class="markdownIt-Anchor" href="#opencore"></a> OpenCore：</h4><ul><li><p>将【DW1820A蓝牙专用程序】 解压缩到<code>/EFI/OC/Kexts</code>目录下</p></li><li><p>稳定版本：<code>v2.5.5</code> <em><strong>将联想版493/494蓝牙固件更改为<code>v7 c4689</code></strong></em></p><ul><li><a href="http://7.daliansky.net/DW1820A/DW1820A_BT_for_Mojave_v2.5.5.zip" target="_blank" rel="noopener">DW1820A_BT_for_Mojave_v2.5.5.zip</a>	支持10.14及以下版本</li><li><a href="http://7.daliansky.net/DW1820A/DW1820A_BT_for_Catalina_and_BigSur_v2.5.5.zip" target="_blank" rel="noopener">DW1820A_BT_for_Catalina_and_BigSur_v2.5.5.zip</a> 支持10.15及以上版本</li></ul></li><li><p>稳定版：<code>v2.2.10</code> <a href="http://7.daliansky.net/DW1820A/BT_for_DW1820A_Ver.2.zip" target="_blank" rel="noopener">下载链接</a></p></li><li><p><code>Kernel</code>-&gt;<code>Add</code>-&gt;<code>Browse</code>，将<code>/EFI/OC/Kexts</code>目录下的<code>BrcmBluetoothInjector.kext</code> / <code>BrcmFirmwareData.kext</code> / <code>BrcmPatchRAM3.kext</code>添加进列表中，注意加载的顺序</p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/OC_BT_Add.png" alt="OC_BT_Add"></p></li></ul><h2 id="windows驱动程序"><a class="markdownIt-Anchor" href="#windows驱动程序"></a> Windows驱动程序</h2><ul><li>下载链接：<a href="http://7.daliansky.net/DW1820A/DW1820A_for_Windows_Drivers.zip" target="_blank" rel="noopener">DW1820A_for_Windows_Drivers.zip</a></li><li>其它版本：<a href="https://www.dell.com/support/home/us/en/04/drivers/driversdetails?driverid=50xmj" target="_blank" rel="noopener">WIFI</a> / <a href="https://www.dell.com/support/home/us/en/04/drivers/driversdetails?driverid=8cp25" target="_blank" rel="noopener">蓝牙</a></li></ul><h2 id="截图"><a class="markdownIt-Anchor" href="#截图"></a> 截图</h2><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/Misc.png" alt="Misc"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/BIgSur_Zsh.png" alt="BIgSur_Zsh"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/Brcm_Drivers.png" alt="Brcm_Drivers"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/Bluetooth.png" alt="Bluetooth"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/WI-FI.png" alt="WI-FI"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/USB_BT.png" alt="USB_BT"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/PCI.png" alt="PCI"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/Extensions.png" alt="AirPortBrcm4360"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/ARPT.png" alt="ARPT"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/AirDrop.png" alt="AirDrop"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/Infos.png" alt="Infos"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/WI-FI2.png" alt="WI-FI2"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/Bluetooth2.png" alt="Bluetooth2"></p><p>部分机型可能需要屏蔽针脚才能正常使用</p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/DW1820A_pins_masking2.png" alt="DW1820A_Cover_pins"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/DW1820A_Cover_pins.jpg" alt="DW1820A_Cover_pins"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/speedtest.png" alt="speedtest"></p><h2 id="注意事项"><a class="markdownIt-Anchor" href="#注意事项"></a> 注意事项：</h2><div class="note warning"><ul><li>安装系统之前，请于<code>BIOS</code>中禁用<code>WLAN/WIFI</code> 和 <code>Bluetooth</code>，待安装系统成功后再行开启；感谢@<a href="https://github.com/y010204025" target="_blank" rel="noopener">我意</a>的反馈</li><li>如果插上网卡后进入系统直接卡住了，请于<code>/EFI/CLOVER/kexts/Other</code>目录中添加驱动<code>AirPortBrcmFixup</code><a href="http://7.daliansky.net/DW1820A/AirportBrcmFixup-2.0.9-RELEASE.zip" target="_blank" rel="noopener">下载</a>，并于<code>CLOVER</code>引导主界面【附：<a href="https://blog.daliansky.net/clover-user-manual.html">CLOVER教程</a>】按字母<code>o</code>进入<code>Options</code>，在<code>Boot Args:</code>中添加引导参数：<code>-brcmfxoff</code>直接跳过网卡驱动的加载【不加载网卡驱动】进入<code>macOS</code>系统后，再完善驱动</li><li>如果WIFI的连接速率只能到300Mbps，或者国家代码是<code>US</code>，请参考教程注入国家代码：<code>brcmfx-country=#a</code>即可。（请于<code>/EFI/CLOVER/kexts/Other</code>目录中添加驱动<code>AirPortBrcmFixup</code><a href="http://7.daliansky.net/DW1820A/AirportBrcmFixup-2.0.9-RELEASE.zip" target="_blank" rel="noopener">下载</a>）</li><li>如果想体验随航(<code>Sidecar</code>) / <code>Apple Watch</code>(测试性)解锁功能，请将<code>pci14e4,4331</code>修改为<code>pci14e4,43a0</code>或者<code>pci14e4,4353</code>，以便驱动<code>AirPortDriverBrcmNIC</code>并开启相应功能</li><li>如果找不到<code>WIFI</code>设备，可以尝试将屏蔽针脚的胶带的<code>前3</code>剪下来，保留<code>后2</code></li><li><s>如果蓝牙无法连接音频设备，或者连接后马上断开，请<code>关机拔掉电源，等待5分钟再加电开机</code></s></li><li>基本常识：双天线的网卡都存在蓝牙和WIFI的2.4G共用相同频率导致的信号干扰问题，解决方案：WIFI连接到5G使用即可。该现象常见于DW1560/DW1820/BCM94360CS等双天线网卡</li></ul></div><h2 id="信息反馈及技术交流"><a class="markdownIt-Anchor" href="#信息反馈及技术交流"></a> 信息反馈及技术交流</h2><ul><li><p>目前正在收集各种机型进行网卡测试，测试后，请大家提供测试结果给我，整合后会分享给大家参照。<strong>技术交流请加下方QQ群701278330 <a href="https://shang.qq.com/wpa/qunwpa?idkey=5bfd8b092f5a3f3079eab8bb1a497973dbba78ad785d9520ad090a931aeb06f6" target="_blank" rel="noopener">黑苹果无线网卡交流群</a></strong></p></li><li><p>寻求技术支持前，请<code>打开终端，输入命令：</code></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sh -c <span class="string">"<span class="variable">$(curl -fsSL https://raw.githubusercontent.com/daliansky/Hackintosh/master/Tools/DW1820A)</span>"</span></span><br></pre></td></tr></table></figure><p>将截屏粘贴到群里寻求帮助。</p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/DW1820A_Bug_Report.png" alt="DW1820A_Bug_Report"></p></li></ul><h3 id="小兵测试过的网卡"><a class="markdownIt-Anchor" href="#小兵测试过的网卡"></a> 小兵测试过的网卡</h3><ul><li><p>通过测试的网卡我都会扔到闲鱼出掉，如果你运气好，可能会找到我测试过的、屏蔽了针脚的网卡；</p></li><li><p>DW1820A目前已经全线断货，如果看到有上架的就赶紧拍下吧，我也懒得解释了；</p></li></ul><div class="note warning"><ul><li><p><code>咸鱼</code>只能上架下架商品，<code>无法回复任何消息</code>，<code>请通过</code>下方<code>QQ群</code>列表<code>沟通</code>;</p></li><li><p>请通过QQ群701278330 <a href="https://shang.qq.com/wpa/qunwpa?idkey=5bfd8b092f5a3f3079eab8bb1a497973dbba78ad785d9520ad090a931aeb06f6" target="_blank" rel="noopener">黑苹果无线网卡交流群</a> 沟通交流，【暗号：请输入你购买时所使用的<code>咸鱼ID</code>】</p></li></ul></div><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/QR/DALIANSKY2008_QR.jpg" alt="dalianksy_QR"></p><h2 id="感谢名单"><a class="markdownIt-Anchor" href="#感谢名单"></a> 感谢名单</h2><ul><li><a href="https://www.apple.com/" target="_blank" rel="noopener">Apple</a> 的 macOS</li><li><a href="https://github.com/rehabman" target="_blank" rel="noopener">RehabMan</a>维护的项目：<a href="https://github.com/RehabMan/OS-X-Clover-Laptop-Config" target="_blank" rel="noopener">OS-X-Clover-Laptop-Config</a> <a href="https://github.com/RehabMan/Laptop-DSDT-Patch" target="_blank" rel="noopener">Laptop-DSDT-Patch</a> <a href="https://github.com/RehabMan/OS-X-USB-Inject-All" target="_blank" rel="noopener">OS-X-USB-Inject-All</a>等</li><li><a href="https://github.com/acidanthera" target="_blank" rel="noopener">Acidanthera</a> 维护的项目：<a href="https://github.com/acidanthera/OpenCorePkg" target="_blank" rel="noopener">OpenCorePkg</a> <a href="https://github.com/acidanthera/Lilu" target="_blank" rel="noopener">lilu</a> <a href="https://github.com/acidanthera/AirportBrcmFixup" target="_blank" rel="noopener">AirportBrcmFixup</a> <a href="https://github.com/acidanthera/WhateverGreen" target="_blank" rel="noopener">WhateverGreen</a> <a href="https://github.com/acidanthera/VirtualSMC" target="_blank" rel="noopener">VirtualSMC</a> <a href="https://github.com/acidanthera/AppleALC" target="_blank" rel="noopener">AppleALC</a> <a href="https://github.com/acidanthera/BrcmPatchRAM" target="_blank" rel="noopener">BrcmPatchRAM</a> <a href="https://github.com/acidanthera/MaciASL" target="_blank" rel="noopener">MaciASL</a> 等</li><li><a href="https://www.insanelymac.com/forum/profile/1364628-headkaze/" target="_blank" rel="noopener">headkaze</a> 提供的工具：<a href="https://github.com/headkaze/Hackintool" target="_blank" rel="noopener">hackintool</a> <a href="https://github.com/headkaze/PinConfigurator" target="_blank" rel="noopener">PinConfigurator</a> <a href="https://www.insanelymac.com/forum/topic/339175-brcmpatchram2-for-1015-catalina-broadcom-bluetooth-firmware-upload/" target="_blank" rel="noopener">BrcmPatchRAM</a></li><li><a href="https://github.com/CloverHackyColor" target="_blank" rel="noopener">CloverHackyColor</a>维护的项目：<a href="https://github.com/CloverHackyColor/CloverBootloader" target="_blank" rel="noopener">CloverBootloader</a> <a href="https://github.com/CloverHackyColor/CloverThemes" target="_blank" rel="noopener">CloverThemes</a></li><li>宪武整理的：<a href="https://github.com/daliansky/P-little" target="_blank" rel="noopener">P-little</a> <a href="https://github.com/daliansky/OC-little" target="_blank" rel="noopener">OC-little</a></li><li><a href="https://github.com/chris1111" target="_blank" rel="noopener">chris1111</a>维护的项目：<a href="https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V15" target="_blank" rel="noopener">VoodooHDA</a> <a href="https://github.com/chris1111/Wireless-USB-Adapter-Clover" target="_blank" rel="noopener">Wireless USB Adapter Clover</a></li><li><a href="https://github.com/zxystd" target="_blank" rel="noopener">zxystd</a>开发的<a href="https://github.com/zxystd/itlwm" target="_blank" rel="noopener">itlwm</a> <a href="https://github.com/zxystd/IntelBluetoothFirmware" target="_blank" rel="noopener">IntelBluetoothFirmware</a></li><li><a href="https://github.com/lihaoyun6" target="_blank" rel="noopener">lihaoyun6</a>提供的工具：<a href="https://github.com/lihaoyun6/CPU-S" target="_blank" rel="noopener">CPU-S</a> <a href="https://github.com/lihaoyun6/macOS-Displays-icon" target="_blank" rel="noopener">macOS-Displays-icon</a> <a href="https://github.com/lihaoyun6/SidecarPatcher" target="_blank" rel="noopener">SidecarPatcher</a></li><li><a href="https://github.com/SukkaW" target="_blank" rel="noopener">sukka</a>更新维护的<a href="https://blog.skk.moe/post/from-clover-to-opencore/" target="_blank" rel="noopener">从 Clover 到 OpenCore —— Clover 迁移 OpenCore 指南</a></li><li><a href="https://github.com/xzhih" target="_blank" rel="noopener">xzhih</a>提供的工具：<a href="https://github.com/xzhih/one-key-hidpi" target="_blank" rel="noopener">one-key-hidpi</a></li><li><a href="https://github.com/williambj1" target="_blank" rel="noopener">Bat.bat</a>更新维护的<a href="https://blog.daliansky.net/OpenCore-BootLoader.html">精解OpenCore</a></li><li><a href="https://github.com/shuiyunxc" target="_blank" rel="noopener">shuiyunxc</a> 更新维护的<a href="https://shuiyunxc.gitee.io/2020/04/06/Faults/index/" target="_blank" rel="noopener">OpenCore配置错误、故障与解决办法</a></li><li><a href="https://github.com/athlonreg" target="_blank" rel="noopener">athlonreg</a>更新维护的<a href="https://blog.cloudops.ml/ocbook/" target="_blank" rel="noopener">OpenCore 0.5+ 部件补丁</a> <a href="https://github.com/athlonreg/Common-patches-for-hackintosh" target="_blank" rel="noopener">Common-patches-for-hackintosh</a></li><li><a href="github.com">github.com</a></li><li><a href="gitee.io">码云 gitee.io</a></li><li><a href="coding.net">扣钉 coding.net</a></li></ul><h2 id="参考及引用"><a class="markdownIt-Anchor" href="#参考及引用"></a> 参考及引用：</h2><ul><li><a href="https://deviwiki.com/wiki/Dell" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell</a></li><li><a href="https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></li><li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></li><li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></li><li><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></li><li><a href="https://blog.xjn819.com/" target="_blank" rel="noopener">xjn819</a>： <a href="https://blog.xjn819.com/?p=543" target="_blank" rel="noopener">使用OpenCore引导黑苹果</a> <a href="https://blog.xjn819.com/?p=317" target="_blank" rel="noopener">300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）</a></li><li><a href="https://www.insanelymac.com/" target="_blank" rel="noopener">insanelymac.com</a></li><li><a href="https://www.tonymacx86.com/" target="_blank" rel="noopener">tonymacx86.com</a></li><li><a href="http://bbs.pcbeta.com" target="_blank" rel="noopener">远景论坛</a></li><li><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></li><li><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></li></ul>]]></content>
       <categories>
         <category>教程</category>
       </categories>
       <tags>
+        <tag>驱动</tag>
         <tag>DW1820A</tag>
         <tag>BCM94350ZAE</tag>
-        <tag>驱动</tag>
       </tags>
   </entry>
   <entry>
@@ -239,9 +239,9 @@
         <tag>安装</tag>
         <tag>教程</tag>
         <tag>macOS</tag>
+        <tag>联想</tag>
         <tag>小新air</tag>
         <tag>2018</tag>
-        <tag>联想</tag>
         <tag>Air 13 IWL</tag>
       </tags>
   </entry>
@@ -299,8 +299,8 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>Clover</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
@@ -318,8 +318,8 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>10.16</tag>
@@ -380,13 +380,13 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>驱动</tag>
         <tag>DW1560</tag>
         <tag>BCM94352z</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
+        <tag>驱动</tag>
         <tag>WIFI</tag>
       </tags>
   </entry>
@@ -504,9 +504,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.5</tag>
         <tag>三EFI分区</tag>
@@ -522,9 +522,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.5</tag>
         <tag>19F101</tag>
@@ -540,9 +540,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.5</tag>
         <tag>19F96</tag>
@@ -558,9 +558,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.4</tag>
         <tag>Infinity</tag>
@@ -576,9 +576,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.4</tag>
         <tag>1.9e+267</tag>
@@ -595,9 +595,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.2</tag>
         <tag>19C57</tag>
@@ -613,8 +613,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.6</tag>
         <tag>17G2112</tag>
@@ -629,10 +629,10 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>17A389</tag>
       </tags>
@@ -647,8 +647,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.2</tag>
         <tag>17C88</tag>
@@ -663,9 +663,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.14.6</tag>
         <tag>18G84</tag>
@@ -681,9 +681,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.14.4</tag>
         <tag>1.8e+227</tag>
@@ -712,9 +712,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.3</tag>
         <tag>19D76</tag>
@@ -729,9 +729,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.1</tag>
         <tag>19B88</tag>
@@ -746,10 +746,10 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
         <tag>10.15</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>19A583</tag>
       </tags>
@@ -763,9 +763,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.14.5</tag>
         <tag>18F132</tag>
@@ -780,9 +780,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.14.3</tag>
         <tag>18D42</tag>
@@ -822,9 +822,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.14.2</tag>
         <tag>18C54</tag>
@@ -856,9 +856,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.14.1</tag>
         <tag>18B75</tag>
@@ -888,10 +888,10 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>18A391</tag>
       </tags>
@@ -935,8 +935,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.6</tag>
         <tag>17G65</tag>
@@ -952,8 +952,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.5</tag>
         <tag>17F77</tag>
@@ -1011,8 +1011,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.4</tag>
         <tag>1.7e+200</tag>
@@ -1084,8 +1084,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.2</tag>
         <tag>17C88</tag>
@@ -1169,8 +1169,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.1</tag>
         <tag>17B48</tag>
@@ -1260,8 +1260,8 @@
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>17A405</tag>
       </tags>
@@ -1294,8 +1294,8 @@
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
       </tags>
   </entry>
@@ -1310,8 +1310,8 @@
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>GM</tag>
         <tag>17A362a</tag>
@@ -1353,13 +1353,13 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>驱动</tag>
         <tag>DW1560</tag>
         <tag>BCM94352z</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
+        <tag>驱动</tag>
         <tag>WIFI</tag>
         <tag>蓝牙</tag>
         <tag>BlueTooth</tag>
@@ -1414,8 +1414,8 @@
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>DB9</tag>
         <tag>17A360a</tag>
         <tag>dmg</tag>
@@ -1429,13 +1429,13 @@
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>10.12.6</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
         <tag>Catalina</tag>
         <tag>10.15</tag>
         <tag>Download</tag>
+        <tag>下载</tag>
       </tags>
   </entry>
   <entry>
@@ -1463,10 +1463,10 @@
       </categories>
       <tags>
         <tag>10.13</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
         <tag>DB8</tag>
         <tag>17A358a</tag>
+        <tag>镜像</tag>
       </tags>
   </entry>
   <entry>
@@ -1492,9 +1492,9 @@
       </categories>
       <tags>
         <tag>10.13</tag>
-        <tag>DB7</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
+        <tag>DB7</tag>
       </tags>
   </entry>
   <entry>
@@ -1534,8 +1534,8 @@
       <tags>
         <tag>安装</tag>
         <tag>Sierra</tag>
-        <tag>镜像</tag>
         <tag>10.12.6</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
       </tags>
   </entry>
@@ -1563,8 +1563,8 @@
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>17A344b</tag>
       </tags>
