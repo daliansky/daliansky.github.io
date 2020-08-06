@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.6-19G73-official-version-Clover-5119-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
+    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
     <lastmod>2020-08-06</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/macOS-Catalina-10.15.6-19G73-Release-version-with-Clover-5119-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
+    <lastmod>2020-08-06</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.6-19G73-official-version-Clover-5119-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
     <lastmod>2020-08-06</lastmod>
   </url>
   <url>
@@ -23,10 +27,6 @@
   <url>
     <loc>https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html</loc>
     <lastmod>2020-08-04</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
-    <lastmod>2020-07-31</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html</loc>
@@ -165,11 +165,11 @@
     <lastmod>2020-05-13</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Clover-Configurator-Chinese-Version.html</loc>
+    <loc>https://blog.daliansky.net/Lenovo-Xiaoxin-Air-13-macOS-Mojave-installation-tutorial.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Lenovo-Xiaoxin-Air-13-macOS-Mojave-installation-tutorial.html</loc>
+    <loc>https://blog.daliansky.net/Clover-Configurator-Chinese-Version.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
@@ -178,6 +178,10 @@
   </url>
   <url>
     <loc>https://blog.daliansky.net/With-VoodooHDA-comes-getdump-find-valid-nodes-and-paths.html</loc>
+    <lastmod>2019-12-30</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/HP-HP-ENVY-Laptop-13-ad1xx-Notebook-PC-Mac-OS-Note-and-EFI-Share.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
@@ -194,10 +198,6 @@
   </url>
   <url>
     <loc>https://blog.daliansky.net/Updated-Frequently-Asked-Questions-in-Sierra-or-high-sierra.html</loc>
-    <lastmod>2019-12-30</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/HP-HP-ENVY-Laptop-13-ad1xx-Notebook-PC-Mac-OS-Note-and-EFI-Share.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
@@ -221,15 +221,15 @@
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13GM-17A362a-and-clover-4207-original-mirror.html</loc>
-    <lastmod>2019-12-30</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13-official-version-and-Clover-4221-original-image.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13-official-version-update-17A405-with-Clover-4238-original-mirror.html</loc>
+    <lastmod>2019-12-30</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13GM-17A362a-and-clover-4207-original-mirror.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
@@ -265,11 +265,11 @@
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/CoffeeLake-UHD-630-black-screen-direct-bright-screen-and-correct-adjustment-of-brightness-adjustment.html</loc>
+    <loc>https://blog.daliansky.net/Fresh-installing-macOS-High-Sierra(10.13)-on-AMD-Ryzen-Hackintosh-Guide.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Fresh-installing-macOS-High-Sierra(10.13)-on-AMD-Ryzen-Hackintosh-Guide.html</loc>
+    <loc>https://blog.daliansky.net/CoffeeLake-UHD-630-black-screen-direct-bright-screen-and-correct-adjustment-of-brightness-adjustment.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
@@ -309,15 +309,15 @@
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Under-Windows-using-DISKPART-to-create-EFI-points.html</loc>
-    <lastmod>2019-12-30</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/Mac-frequently-used-to-the-command---continuous-update.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Intel-FB-Patcher-USB-Custom-Video.html</loc>
+    <loc>https://blog.daliansky.net/Under-Windows-using-DISKPART-to-create-EFI-points.html</loc>
+    <lastmod>2019-12-30</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Method-for-correctly-configuring-HTTP-forced-HTTPS-in-LNMP-environment.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
@@ -329,11 +329,11 @@
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Method-for-correctly-configuring-HTTP-forced-HTTPS-in-LNMP-environment.html</loc>
+    <loc>https://blog.daliansky.net/Mac-Sierra-and-High-Sierra-Installer-App-Download.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Mac-Sierra-and-High-Sierra-Installer-App-Download.html</loc>
+    <loc>https://blog.daliansky.net/Intel-FB-Patcher-USB-Custom-Video.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
@@ -353,19 +353,19 @@
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/10-interesting-things-that-google.html</loc>
-    <lastmod>2019-12-30</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/8-good-habit-chi-zha-in-the-workplace.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html</loc>
+    <loc>https://blog.daliansky.net/10-interesting-things-that-google.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/AppleALC-Supported-codecs.html</loc>
+    <lastmod>2019-12-30</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
