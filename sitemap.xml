@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
-    
-    <lastmod>2020-08-06T08:31:31.185Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.daliansky.net/macOS-Catalina-10.15.6-19G73-Release-version-with-Clover-5119-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
     
-    <lastmod>2020-08-06T06:19:21.740Z</lastmod>
+    <lastmod>2020-08-07T13:35:42.553Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.6-19G73-official-version-Clover-5119-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
     
-    <lastmod>2020-08-06T05:41:07.653Z</lastmod>
+    <lastmod>2020-08-07T13:32:39.783Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
+    
+    <lastmod>2020-08-06T08:31:31.185Z</lastmod>
     
   </url>
   
