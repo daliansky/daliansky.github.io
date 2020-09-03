@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.6-18G87-Release-version-with-Clover-5033-original-image.html</loc>
+    <lastmod>2020-09-03</lastmod>
+  </url>
+  <url>
     <loc>https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-4-20A5343i-Installer-for-OpenCore-0.6.0-and-PE-dual-EFI-partition-original-image.html</loc>
     <lastmod>2020-08-21</lastmod>
   </url>
@@ -97,10 +101,6 @@
     <lastmod>2020-07-07</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.6-18G87-Release-version-with-Clover-5033-original-image.html</loc>
-    <lastmod>2020-07-07</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/macOS-Mojave-10.14-18A389-Release-with-Clover-4670-original-mirror.html</loc>
     <lastmod>2020-07-07</lastmod>
   </url>
@@ -177,19 +177,19 @@
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/HP-HP-ENVY-Laptop-13-ad1xx-Notebook-PC-Mac-OS-Note-and-EFI-Share.html</loc>
-    <lastmod>2019-12-30</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/With-VoodooHDA-comes-getdump-find-valid-nodes-and-paths.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Scan-code-support-QQ-group-upgrade.html</loc>
+    <loc>https://blog.daliansky.net/XiaoMiPro-notebook-Installation-10.13-readily-remember-and-share-EFI.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/XiaoMiPro-notebook-Installation-10.13-readily-remember-and-share-EFI.html</loc>
+    <loc>https://blog.daliansky.net/HP-HP-ENVY-Laptop-13-ad1xx-Notebook-PC-Mac-OS-Note-and-EFI-Share.html</loc>
+    <lastmod>2019-12-30</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Scan-code-support-QQ-group-upgrade.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
@@ -205,11 +205,11 @@
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Use-HIDPI-to-solve-sleep-wake-up-black-screen,-Huaping-and-connect-the-external-monitor-the-correct-posture.html</loc>
+    <loc>https://blog.daliansky.net/Modify-DSDT-to-achieve-power-display-method.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Modify-DSDT-to-achieve-power-display-method.html</loc>
+    <loc>https://blog.daliansky.net/Use-HIDPI-to-solve-sleep-wake-up-black-screen,-Huaping-and-connect-the-external-monitor-the-correct-posture.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
@@ -261,11 +261,11 @@
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/CLOVER-v2-4-r4438-Integrated-Millet-Notebook-PRO-EFI-Installation-Instructions.html</loc>
+    <loc>https://blog.daliansky.net/Fresh-installing-macOS-High-Sierra(10.13)-on-AMD-Ryzen-Hackintosh-Guide.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Fresh-installing-macOS-High-Sierra(10.13)-on-AMD-Ryzen-Hackintosh-Guide.html</loc>
+    <loc>https://blog.daliansky.net/CLOVER-v2-4-r4438-Integrated-Millet-Notebook-PRO-EFI-Installation-Instructions.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
@@ -289,11 +289,11 @@
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/hda-verb-parameter-detail-table.html</loc>
+    <loc>https://blog.daliansky.net/hotpatch-detailed-solution.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/hotpatch-detailed-solution.html</loc>
+    <loc>https://blog.daliansky.net/hda-verb-parameter-detail-table.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
@@ -337,11 +337,11 @@
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/CPUFriend-Installation-and-Usage.html</loc>
+    <loc>https://blog.daliansky.net/Broadcom-WiFi-BlueTooth-BCM94352z-DW1560-the%20correct-drive-posture.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Broadcom-WiFi-BlueTooth-BCM94352z-DW1560-the%20correct-drive-posture.html</loc>
+    <loc>https://blog.daliansky.net/CPUFriend-Installation-and-Usage.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
@@ -361,11 +361,11 @@
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html</loc>
+    <loc>https://blog.daliansky.net/AppleALC-Supported-codecs.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/AppleALC-Supported-codecs.html</loc>
+    <loc>https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html</loc>
     <lastmod>2019-12-30</lastmod>
   </url>
   <url>

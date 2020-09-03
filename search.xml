@@ -9,9 +9,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.6</tag>
         <tag>19G73</tag>
@@ -30,8 +30,8 @@
       </categories>
       <tags>
         <tag>11</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>20A5343i</tag>
@@ -63,9 +63,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.6</tag>
         <tag>19G73</tag>
@@ -265,12 +265,12 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>USB</tag>
         <tag>教程</tag>
         <tag>FB</tag>
         <tag>patcher</tag>
         <tag>framebuffer</tag>
         <tag>帧缓冲</tag>
+        <tag>USB</tag>
         <tag>audio</tag>
         <tag>VRAM</tag>
       </tags>
@@ -311,8 +311,8 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>Clover</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
@@ -330,8 +330,8 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>三EFI分区</tag>
@@ -374,10 +374,10 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>10.13</tag>
-        <tag>High Sierra</tag>
         <tag>安装</tag>
         <tag>常见问题</tag>
+        <tag>10.13</tag>
+        <tag>High Sierra</tag>
         <tag>EDID</tag>
         <tag>屏蔽独显</tag>
         <tag>花屏</tag>
@@ -488,8 +488,8 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>High Sierra</tag>
         <tag>安装</tag>
+        <tag>High Sierra</tag>
       </tags>
   </entry>
   <entry>
@@ -516,8 +516,8 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>三EFI分区</tag>
@@ -534,9 +534,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.5</tag>
         <tag>三EFI分区</tag>
@@ -552,9 +552,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.5</tag>
         <tag>19F101</tag>
@@ -570,9 +570,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.5</tag>
         <tag>19F96</tag>
@@ -588,9 +588,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.4</tag>
         <tag>Infinity</tag>
@@ -606,9 +606,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.4</tag>
         <tag>1.9e+267</tag>
@@ -625,9 +625,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.2</tag>
         <tag>19C57</tag>
@@ -643,8 +643,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.6</tag>
         <tag>17G2112</tag>
@@ -659,10 +659,10 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>17A389</tag>
       </tags>
@@ -677,29 +677,30 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.2</tag>
         <tag>17C88</tag>
       </tags>
   </entry>
   <entry>
-    <title>【黑果小兵】macOS Mojave 10.14.6 18G87 正式版 with Clover 5050原版镜像[双EFI双平台终极版]</title>
+    <title>【黑果小兵】macOS Mojave 10.14.6 18G103 正式版 with Clover 5091原版镜像[双EFI双平台终极版]</title>
     <url>/macOS-Mojave-10.14.6-18G87-Release-version-with-Clover-5033-original-image.html</url>
-    <content><![CDATA[<h3 id="黑果小兵macos-mojave-10146-18g87-正式版-with-clover-5050原版镜像双efi双平台终极版"><a class="markdownIt-Anchor" href="#黑果小兵macos-mojave-10146-18g87-正式版-with-clover-5050原版镜像双efi双平台终极版"></a> 【黑果小兵】macOS Mojave 10.14.6 18G87 正式版 with Clover 5050原版镜像[双EFI双平台终极版]</h3><h4 id="macos-mojave-10146-补充更新"><a class="markdownIt-Anchor" href="#macos-mojave-10146-补充更新"></a> macOS Mojave 10.14.6 补充更新</h4><ul><li>修复了部分 Mac 无法从睡眠状态正常唤醒的问题。</li></ul><h4 id="macos-mojave-10146-更新提高了-mac-的稳定性和可靠性"><a class="markdownIt-Anchor" href="#macos-mojave-10146-更新提高了-mac-的稳定性和可靠性"></a> macOS Mojave 10.14.6 更新提高了 Mac 的稳定性和可靠性。</h4><ul><li>解决了无法在配备融合硬盘的 iMac 和 Mac mini 上新建“启动转换”分区的问题</li><li>解决了在重新启动过程中可能无响应的问题</li><li>解决了从睡眠状态唤醒时可能发生的图形问题</li><li>修复了可能导致 Mac mini 全屏播放视频时屏幕变黑的问题</li><li>提高了通过 SMB 共享文件的可靠性</li></ul><h3 id="镜像靓点"><a class="markdownIt-Anchor" href="#镜像靓点"></a> 镜像靓点：</h3><ul><li><p>Clover默认配置文件<code>config.plist</code>原则上支持各种机型引导安装；</p></li><li><p>更新<code>CLOVER</code>到<code>v2.5k r5050</code></p></li><li><p>新增<code>PE</code>引导分区，同时支持<code>CLOVER</code> / <code>PE</code>双引导</p></li><li><p>新增<code>AMD_Vanilla</code>，支持High Sierra 10.13.6 (17G65, 17G66, 17G8030)/Mojave 10.14.6 (18G84, 18G87)</p><ul><li><code>config_AMD_FX_A</code> 支持<code>FX Series</code> / <code>A Series</code></li><li><code>config_AMD_Ryzen</code> 支持 <code>Ryzen, Threadripper, Athlon 2xxGE</code></li></ul></li><li><p>驱动更新</p><ul><li>更新<code>lilu</code> <code>v1.3.8</code></li><li>更新<code>AppleALC</code> <code>v1.4.0</code></li><li>更新<code>WhatEverGreen</code> <code>v1.3.1</code>，根本上解决紫条问题</li></ul></li><li><p>去除<code>USB端口限制</code>，减少禁行发生的几率；增加<code>Lilu</code>崩溃的日志信息显示；</p></li><li><p>本镜像采用官方原版app制作，集成Clover 5050，支持UEFI启动安装;<code>apfs.efi</code>同时去除日志显示；其它的驱动位于 <code>drivers/off</code>；</p></li><li><p><strong>300系列主板请于drivers64UEFI目录中移除<code>AptioMemoryFix-64.efi</code>添加<code>OsxAptioFix2Drv-free2000.efi</code>该驱动位于<code>/EFI/CLOVER/drivers/off</code>目录下</strong> 或者 <a href="https://blog.daliansky.net/Slide-value-acquisition-and-calculation.html">Slide值获取及计算</a></p></li><li><p>Clover集成了本人修改的全新主题，不喜欢的可以于安装系统后自行替换；<img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.2/CLOVER.png" alt="0Clover"></p></li><li><p>所有配置文件中默认添加<code>Lilu</code>崩溃日志的输出信息,详见：<a href="https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Mojave-10.14-installation.html">macOS Mojave 10.14安装中常见的问题及解决方法</a>;</p></li><li><p>更新<code>WhateverGreen</code>到<code>v1.3.1</code>(7月23日编译)，原生支持UHD620/UHD630等八代核显，不需要注入<code>platform-id</code>， 同时它也支持NVIDIA和AMD的显卡，以及整合了<code>Shiki</code>和<code>CoreDisplayFixup</code>的驱动，现在是All In One了；核显驱动更多的教程请参考：<a href="https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html">Hackintool(原Intel FB-Patcher)使用教程及插入姿势</a> / <a href="https://blog.daliansky.net/Intel-core-display-platformID-finishing.html">黑苹果必备：Intel核显platform ID整理及smbios速查表</a> / <a href="https://blog.daliansky.net/Coffee-Lake-frame-buffer-patch-and-UHD630-Coffee-Lake-ig-platform-id-data-finishing.html">Coffee Lake帧缓冲区补丁及UHD630 Coffee Lake ig-platform-id数据整理</a> <a href="https://blog.daliansky.net/Tutorial-Using-Hackintool-to-open-the-correct-pose-of-the-8th-generation-core-display-HDMI-or-DVI-output.html">教程：利用Hackintool打开第8代核显HDMI输出的正确姿势</a></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/dell/IntelGraphicsFixup.jpg" alt="http://7.daliansky.net/dell/IntelGraphicsFixup.jpg"></p></li><li><p>其它机型的配置文件统一保存到<code>config-Other</code>目录下，请自行复制相应机型配置文件；</p><ul><li>其它配置文件包括：HD520/530/540，HD550/P530,HD5000/5100/5200/5300/5500/6000,HD4200/4400/4600；所有config配置文件都可通过Clover引导界面-<code>Options</code>-<code>configs</code>进行选择；不会操作的请移步：<a href="https://blog.daliansky.net/clover-user-manual.html">Clover使用教程</a> <a href="https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html">macOS安装教程</a> <a href="https://blog.daliansky.net/Mojave-Hardware-Support-List.html">Mojave硬件支持列表</a></li><li>HD3000驱动方法请移步<a href="https://github.com/chris1111/Fix-Graphics-HD-3000-Mojave-10.14-Catalina-10.15" target="_blank" rel="noopener">这里</a></li></ul></li></ul><h3 id="安装教程简单版"><a class="markdownIt-Anchor" href="#安装教程简单版"></a> 安装教程简单版</h3><ul><li><p>安装过程（简易版）：详细的安装教程请移步：<a href="https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html">macOS安装教程</a></p><ul><li><p>下载镜像：<a href="https://blog.daliansky.net">黑果小兵的部落阁</a></p></li><li><p>校验md5值：</p><ul><li><p>macOS：打开终端，输入命令：</p></li><li><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">  <span class="comment"># md5 macOS\ Mojave\ 10.14.6\(18G87\)\ Installer\ for\ Intel\ and\ AMD\ with\ Clover\ 5050\ and\ WEPE.dmg	# 空格以\ 代替</span></span><br><span class="line">  MD5 (macOS Mojave 10.14.6(18G87) Installer <span class="keyword">for</span> Intel and AMD with Clover 5050 and WEPE.dmg) = c9a861f9dfecfb359b1124b80d37d709</span><br><span class="line">  <span class="comment"># md5 macOS\ Mojave\ 10.14.6\(18G87\)\ Installer\ with\ Clover\ 5033.dmg	# 空格以\ 代替</span></span><br><span class="line">MD5 (macOS Mojave 10.14.6(18G87) Installer with Clover 5033.dmg) = 886cc509cacaf3bb20fbd41dfb8da8ac</span><br><span class="line">  <span class="comment"># md5 macOS\ Mojave\ 10.14.6\(18G84\)\ Installer\ with\ Clover\ 5027.dmg	# 空格以\ 代替</span></span><br><span class="line">  MD5 (macOS Mojave 10.14.6(18G84) Installer with Clover 5027.dmg) = af934738cd02c4cefacf527d23532289</span><br></pre></td></tr></table></figure></li><li><p>Windows下：请使用<a href="http://www.winmd5.com" target="_blank" rel="noopener">winmd5</a>，将下载的安装镜像拖进winmd5窗口，核验md5值（截图略）</p></li></ul></li><li><p>镜像制作：</p><ul><li>下载<a href="https://etcher.io" target="_blank" rel="noopener">etcher</a>，打开镜像，选择U盘，点击Flash即可<img src="/images/loading.gif" data-original="http://7.daliansky.net/etcher.png" alt="etcher"></li></ul></li><li><p>安装macOS：</p><ul><li><strong>安装过程中不要先替换EFI，等安装全部结果后再执行替换EFI的操作</strong></li><li>安装过程中出现问题请参考：<a href="https://blog.daliansky.net/clover-user-manual.html">clover使用教程</a> 以及 <a href="https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Mojave-10.14-installation.html">macOS Mojave 10.14安装中常见的问题及解决方法</a></li><li><em><strong>如果卡在<code>CLOVER</code>主界面，请尝试更新<code>CLOVER</code>版本到<a href="(%3Chttps://github.com/Dids/clover-builder/releases%3E)">4911及以上</a></strong></em> 【3-30-2019备注】</li></ul></li><li><p>安装后所需要执行的动作：</p><ul><li><a href="https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html#undefined">合并和替换EFI</a> <a href="https://blog.daliansky.net/Add-CLOVER-boot-to-UEFI-without-any-tools.html">不借助任何工具将CLOVER引导添加进UEFI的正确姿势</a></li><li>驱动：显卡、声卡、USB定制：<a href="https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html">Hackintool(原Intel FB-Patcher)使用教程及插入姿势</a> / <a href="https://blog.daliansky.net/Intel-core-display-platformID-finishing.html">黑苹果必备：Intel核显platform ID整理及smbios速查表</a> / <a href="https://blog.daliansky.net/Coffee-Lake-frame-buffer-patch-and-UHD630-Coffee-Lake-ig-platform-id-data-finishing.html">Coffee Lake帧缓冲区补丁及UHD630 Coffee Lake ig-platform-id数据整理</a> <a href="https://blog.daliansky.net/Tutorial-Using-Hackintool-to-open-the-correct-pose-of-the-8th-generation-core-display-HDMI-or-DVI-output.html">教程：利用Hackintool打开第8代核显HDMI输出的正确姿势</a></li><li>声卡仿冒：<a href="https://blog.daliansky.net/Use-AppleALC-sound-card-to-drive-the-correct-posture-of-AppleHDA.html">使用AppleALC声卡仿冒驱动AppleHDA的正确姿势</a></li><li>无线网卡：<a href="https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html">DW1820A/BCM94350ZAE/BCM94356ZEPA50DX插入的正确姿势</a> <a href="https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html">Broadcom BCM94352z/DW1560驱动新姿势新方法</a></li></ul></li></ul></li><li><p>本镜像集成的EFI如果无法安装，请根据自己的机型寻找相应的EFI进行替换，请参考：<a href="http://bbs.pcbeta.com/viewthread-1795904-1-1.html" target="_blank" rel="noopener">远景：黑苹果长期维护机型资料整理(2019年3月1日更新)</a> 或者 <a href="https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html">本站：黑苹果长期维护机型整理清单</a> ，如果你有自己机型的EFI也可以提交到<a href="https://github.com/daliansky/Hackintosh" target="_blank" rel="noopener">这里</a></p></li><li><p>支持Realtek8111/8100系列有线网卡，支持Intel板载有线网卡；其它的网卡驱动位于<code>kexts/Other/其它驱动</code></p></li><li><p>本镜像已经过本人安装测试，若您在使用中遇到问题，可通过爬楼自行解决。本人才疏学浅，所学知识都来自于远景社区，感谢远景各位大咖一直以来对 <code>黑果小兵</code> 的大力支持，由于人员众多，恕不一一列名致谢！</p></li><li><p>挂载EFI分区</p><p>Windows操作系统下面,以系统管理员身份打开<code>cmd</code>窗口,输入命令:</p><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">c:\&gt;diskpart</span><br><span class="line">list disk           <span class="comment"># 磁盘列表</span></span><br><span class="line">select disk n       <span class="comment"># 选择EFI分区所在的磁盘，n为磁盘号</span></span><br><span class="line">list partition      <span class="comment"># 磁盘分区列表</span></span><br><span class="line">select partition n  <span class="comment"># 选择EFI分区，n为EFI分区号</span></span><br><span class="line"><span class="built_in">set</span> id=<span class="string">"ebd0a0a2-b9e5-4433-87c0-68b6b72699c7"</span>	<span class="comment"># 设置为基本数据分区</span></span><br><span class="line">assign letter=X     <span class="comment"># x为EFI分区盘符</span></span><br><span class="line"><span class="built_in">exit</span>				<span class="comment"># 退出diskpart</span></span><br><span class="line">notepad				<span class="comment"># 打开记事本程序，点击文件-&gt;打开，即可访问EFI分区</span></span><br></pre></td></tr></table></figure><p>您可以重复输入命令同时挂载USB的EFI分区和磁盘的EFI分区</p><p>另一种方法：直接 使用应用程序<code>diskgenius</code>挂载EFI分区进行操作</p></li><li><p>本镜像发布站点：<a href="http://bbs.pcbeta.com/forum.php?gid=86" target="_blank" rel="noopener">远景论坛</a> / <a href="https://blog.daliansky.net">黑果小兵的部落阁</a></p></li></ul><h3 id="截图"><a class="markdownIt-Anchor" href="#截图"></a> 截图：</h3><p><strong>结合了台式机和笔记本的截屏，仅供参考</strong></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.6/10.14.6.png" alt="1About_10.14.6"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.2/Displays.png" alt="21Displays"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.2/Displays2.png" alt="22Displays"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.2/Video.png" alt="2Video"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.2/Audio.png" alt="1Audio"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.2/Audio2.png" alt="1Audio2"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.2/AppleALC.png" alt="1AudioPatch"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/dell7000/2BlueTooth.png" alt="2BlueTooth"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/dell7000/2BlueTooth2.png" alt="2BlueTooth2"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/dell7000/3Wifi.png" alt="3Wifi"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/dell7000/4Sata.png" alt="4Sata"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/dell7000/5Ethernet.png" alt="5Ethernet"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.2/USB.png" alt="6USB"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.2/USBPorts.png" alt="6USBFinal"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/dell7000/7Light.png" alt="7Light"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/dell7000/8Volume.png" alt="8Volume"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/6Extensions.png" alt="Extensions"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/PCI_List.png" alt="PCI_List"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14GM/4I2C.png" alt="4I2C"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14GM/5TouchPad.png" alt="5TouchPad"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.6/10.14.6_18G84.png" alt="18G84"></p><h3 id="特别感谢"><a class="markdownIt-Anchor" href="#特别感谢"></a> 特别感谢</h3><p>@<code>宪武</code> 提供的hotpatch的全套方法：</p><ul><li>适用于<code>CLOVER</code> 的 <a href="https://github.com/daliansky/P-little" target="_blank" rel="noopener">P-little</a> ；</li><li>适用于 <code>OpenCore</code> 的 <a href="https://github.com/daliansky/OC-little" target="_blank" rel="noopener">OC-little</a></li></ul><h3 id="下载链接"><a class="markdownIt-Anchor" href="#下载链接"></a> 下载链接</h3><h4 id="10146-18g103-双平台intelamd-双efi分区版下载链接"><a class="markdownIt-Anchor" href="#10146-18g103-双平台intelamd-双efi分区版下载链接"></a> <strong>10.14.6 <code>18G103</code> <code>双平台</code>(Intel/AMD) <code>双EFI</code>分区版下载链接</strong></h4><p>迅雷离线下载：[<a href="https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/10.14/macOS%20Mojave%2010.14.6%2818G103%29%20Installer%20for%20Intel%20and%20AMD%20with%20Clover%205091%20and%20WEPE.dmg" target="_blank" rel="noopener">请点击下载</a>] 感谢<code>@难忘情怀</code>提供下载资源</p><p>http下载链接:<a href="https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/" target="_blank" rel="noopener">请点击下载</a> 感谢<code>@难忘情怀</code>提供下载资源</p><p>天翼云盘：<a href="https://cloud.189.cn/t/zQziUjuEfuMr" target="_blank" rel="noopener">https://cloud.189.cn/t/zQziUjuEfuMr</a></p><h4 id="10146-18g87-双平台intelamd-双efi分区版下载链接"><a class="markdownIt-Anchor" href="#10146-18g87-双平台intelamd-双efi分区版下载链接"></a> <strong>10.14.6 <code>18G87</code> <code>双平台</code>(Intel/AMD) <code>双EFI</code>分区版下载链接</strong></h4><p>迅雷离线下载：[<a href="https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/macOS%20Mojave%2010.14.6%2818G87%29%20Installer%20for%20Intel%20and%20AMD%20with%20Clover%205050%20and%20WEPE.dmg" target="_blank" rel="noopener">请点击下载</a>] 感谢<code>@难忘情怀</code>提供下载资源</p><p>http下载链接:<a href="https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/" target="_blank" rel="noopener">请点击下载</a> 感谢<code>@难忘情怀</code>提供下载资源</p><p>百毒云下载链接: <a href="https://pan.baidu.com/s/1W07eZpfzmKoiQLTKsmxzSA" target="_blank" rel="noopener">https://pan.baidu.com/s/1W07eZpfzmKoiQLTKsmxzSA</a> 提取码: <code>cdqn</code></p><p>MD5 (macOS Mojave 10.14.6(18G87) Installer for Intel and AMD with Clover 5050 and WEPE.dmg) = c9a861f9dfecfb359b1124b80d37d709</p><h4 id="10146-18g87-下载链接"><a class="markdownIt-Anchor" href="#10146-18g87-下载链接"></a> <strong>10.14.6 <code>18G87</code> 下载链接</strong></h4><p>迅雷离线下载：[<a href="https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/macOS%20Mojave%2010.14.6%2818G87%29%20Installer%20with%20Clover%205033.dmg" target="_blank" rel="noopener">请点击下载</a>] 感谢<code>@难忘情怀</code>提供下载资源</p><p>http下载链接:<a href="https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/" target="_blank" rel="noopener">请点击下载</a> 感谢<code>@难忘情怀</code>提供下载资源</p><p>百毒云下载链接：<a href="https://pan.baidu.com/s/1-9e6yYAvS3Ey_Ly4c-z_EA" target="_blank" rel="noopener">https://pan.baidu.com/s/1-9e6yYAvS3Ey_Ly4c-z_EA</a> 提取码：<code>9ite</code></p><p>天翼云盘：</p><p>MD5 (macOS Mojave 10.14.6(18G87) Installer with Clover 5033.dmg) = 886cc509cacaf3bb20fbd41dfb8da8ac</p><h4 id="10146-18g84-下载链接"><a class="markdownIt-Anchor" href="#10146-18g84-下载链接"></a> 10.14.6 <code>18G84</code> 下载链接</h4><p>迅雷离线下载：[<a href="https://mirrors.dtops.cc/iso/MacOS/10.14/daliansky_macos/macOS%20Mojave%2010.14.6%2818G84%29%20Installer%20with%20Clover%205027.dmg" target="_blank" rel="noopener">请点击下载</a>] 感谢<code>@难忘情怀</code>提供下载资源</p><p>http下载链接:<a href="https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/" target="_blank" rel="noopener">请点击下载</a> 感谢<code>@难忘情怀</code>提供下载资源</p><p>百毒云下载链接: <a href="https://pan.baidu.com/s/1yx7A_wlfepp6ybTCRcz4cg" target="_blank" rel="noopener">https://pan.baidu.com/s/1yx7A_wlfepp6ybTCRcz4cg</a> 提取码: <code>qrwt</code></p><p>天翼云盘：<a href="https://cloud.189.cn/t/meMjayvyArUb" target="_blank" rel="noopener">https://cloud.189.cn/t/meMjayvyArUb</a></p><p>MD5 (macOS Mojave 10.14.6(18G84) Installer with Clover 5027.dmg) = af934738cd02c4cefacf527d23532289</p><h3 id="其它机型efi下载"><a class="markdownIt-Anchor" href="#其它机型efi下载"></a> 其它机型EFI下载：</h3><p><a href="https://github.com/daliansky/Hackintosh" target="_blank" rel="noopener">https://github.com/daliansky/Hackintosh</a></p><h3 id="关于打赏"><a class="markdownIt-Anchor" href="#关于打赏"></a> 关于打赏</h3><p>您的支持就是我更新的动力！<br>如果不希望看到博主停更的话，请点击下方的 <code>打赏</code> 支持一下，有钱的捧个钱场，没钱的捧个人场，谢谢大家！</p>]]></content>
+    <content><![CDATA[<h3 id="黑果小兵macos-mojave-10146-18g103-正式版-with-clover-5050原版镜像双efi双平台终极版"><a class="markdownIt-Anchor" href="#黑果小兵macos-mojave-10146-18g103-正式版-with-clover-5050原版镜像双efi双平台终极版"></a> 【黑果小兵】macOS Mojave 10.14.6 18G103 正式版 with Clover 5050原版镜像[双EFI双平台终极版]</h3><h4 id="macos-mojave-10146-补充更新"><a class="markdownIt-Anchor" href="#macos-mojave-10146-补充更新"></a> macOS Mojave 10.14.6 补充更新</h4><ul><li>修复了部分 Mac 无法从睡眠状态正常唤醒的问题。</li></ul><h4 id="macos-mojave-10146-更新提高了-mac-的稳定性和可靠性"><a class="markdownIt-Anchor" href="#macos-mojave-10146-更新提高了-mac-的稳定性和可靠性"></a> macOS Mojave 10.14.6 更新提高了 Mac 的稳定性和可靠性。</h4><ul><li>解决了无法在配备融合硬盘的 iMac 和 Mac mini 上新建“启动转换”分区的问题</li><li>解决了在重新启动过程中可能无响应的问题</li><li>解决了从睡眠状态唤醒时可能发生的图形问题</li><li>修复了可能导致 Mac mini 全屏播放视频时屏幕变黑的问题</li><li>提高了通过 SMB 共享文件的可靠性</li></ul><h3 id="镜像靓点"><a class="markdownIt-Anchor" href="#镜像靓点"></a> 镜像靓点：</h3><ul><li><p>Clover默认配置文件<code>config.plist</code>原则上支持各种机型引导安装；</p></li><li><p>更新<code>CLOVER</code>到<code>v2.5k r5050</code></p></li><li><p>新增<code>PE</code>引导分区，同时支持<code>CLOVER</code> / <code>PE</code>双引导</p></li><li><p>新增<code>AMD_Vanilla</code>，支持High Sierra 10.13.6 (17G65, 17G66, 17G8030)/Mojave 10.14.6 (18G84, 18G87)</p><ul><li><code>config_AMD_FX_A</code> 支持<code>FX Series</code> / <code>A Series</code></li><li><code>config_AMD_Ryzen</code> 支持 <code>Ryzen, Threadripper, Athlon 2xxGE</code></li></ul></li><li><p>驱动更新</p><ul><li>更新<code>lilu</code> <code>v1.3.8</code></li><li>更新<code>AppleALC</code> <code>v1.4.0</code></li><li>更新<code>WhatEverGreen</code> <code>v1.3.1</code>，根本上解决紫条问题</li></ul></li><li><p>去除<code>USB端口限制</code>，减少禁行发生的几率；增加<code>Lilu</code>崩溃的日志信息显示；</p></li><li><p>本镜像采用官方原版app制作，集成Clover 5050，支持UEFI启动安装;<code>apfs.efi</code>同时去除日志显示；其它的驱动位于 <code>drivers/off</code>；</p></li><li><p><strong>300系列主板请于drivers64UEFI目录中移除<code>AptioMemoryFix-64.efi</code>添加<code>OsxAptioFix2Drv-free2000.efi</code>该驱动位于<code>/EFI/CLOVER/drivers/off</code>目录下</strong> 或者 <a href="https://blog.daliansky.net/Slide-value-acquisition-and-calculation.html">Slide值获取及计算</a></p></li><li><p>Clover集成了本人修改的全新主题，不喜欢的可以于安装系统后自行替换；<img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.2/CLOVER.png" alt="0Clover"></p></li><li><p>所有配置文件中默认添加<code>Lilu</code>崩溃日志的输出信息,详见：<a href="https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Mojave-10.14-installation.html">macOS Mojave 10.14安装中常见的问题及解决方法</a>;</p></li><li><p>更新<code>WhateverGreen</code>到<code>v1.3.1</code>(7月23日编译)，原生支持UHD620/UHD630等八代核显，不需要注入<code>platform-id</code>， 同时它也支持NVIDIA和AMD的显卡，以及整合了<code>Shiki</code>和<code>CoreDisplayFixup</code>的驱动，现在是All In One了；核显驱动更多的教程请参考：<a href="https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html">Hackintool(原Intel FB-Patcher)使用教程及插入姿势</a> / <a href="https://blog.daliansky.net/Intel-core-display-platformID-finishing.html">黑苹果必备：Intel核显platform ID整理及smbios速查表</a> / <a href="https://blog.daliansky.net/Coffee-Lake-frame-buffer-patch-and-UHD630-Coffee-Lake-ig-platform-id-data-finishing.html">Coffee Lake帧缓冲区补丁及UHD630 Coffee Lake ig-platform-id数据整理</a> <a href="https://blog.daliansky.net/Tutorial-Using-Hackintool-to-open-the-correct-pose-of-the-8th-generation-core-display-HDMI-or-DVI-output.html">教程：利用Hackintool打开第8代核显HDMI输出的正确姿势</a></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/dell/IntelGraphicsFixup.jpg" alt="http://7.daliansky.net/dell/IntelGraphicsFixup.jpg"></p></li><li><p>其它机型的配置文件统一保存到<code>config-Other</code>目录下，请自行复制相应机型配置文件；</p><ul><li>其它配置文件包括：HD520/530/540，HD550/P530,HD5000/5100/5200/5300/5500/6000,HD4200/4400/4600；所有config配置文件都可通过Clover引导界面-<code>Options</code>-<code>configs</code>进行选择；不会操作的请移步：<a href="https://blog.daliansky.net/clover-user-manual.html">Clover使用教程</a> <a href="https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html">macOS安装教程</a> <a href="https://blog.daliansky.net/Mojave-Hardware-Support-List.html">Mojave硬件支持列表</a></li><li>HD3000驱动方法请移步<a href="https://github.com/chris1111/Fix-Graphics-HD-3000-Mojave-10.14-Catalina-10.15" target="_blank" rel="noopener">这里</a></li></ul></li></ul><h3 id="安装教程简单版"><a class="markdownIt-Anchor" href="#安装教程简单版"></a> 安装教程简单版</h3><ul><li><p>安装过程（简易版）：详细的安装教程请移步：<a href="https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html">macOS安装教程</a></p><ul><li><p>下载镜像：<a href="https://blog.daliansky.net">黑果小兵的部落阁</a></p></li><li><p>校验md5值：</p><ul><li><p>macOS：打开终端，输入命令：</p></li><li><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">  <span class="comment"># md5 macOS\ Mojave\ 10.14.6\(18G103\)\ Installer\ for\ Intel\ and\ AMD\ with\ Clover\ 5091\ and\ WEPE.dmg</span></span><br><span class="line">  MD5 (macOS Mojave 10.14.6(18G103) Installer <span class="keyword">for</span> Intel and AMD with Clover 5091 and WEPE.dmg) = 43ef9a89ddaec33effe5245f0b9a7eb4</span><br><span class="line">  <span class="comment"># md5 macOS\ Mojave\ 10.14.6\(18G87\)\ Installer\ for\ Intel\ and\ AMD\ with\ Clover\ 5050\ and\ WEPE.dmg	# 空格以\ 代替</span></span><br><span class="line">MD5 (macOS Mojave 10.14.6(18G87) Installer <span class="keyword">for</span> Intel and AMD with Clover 5050 and WEPE.dmg) = c9a861f9dfecfb359b1124b80d37d709</span><br><span class="line">  <span class="comment"># md5 macOS\ Mojave\ 10.14.6\(18G87\)\ Installer\ with\ Clover\ 5033.dmg	# 空格以\ 代替</span></span><br><span class="line">  MD5 (macOS Mojave 10.14.6(18G87) Installer with Clover 5033.dmg) = 886cc509cacaf3bb20fbd41dfb8da8ac</span><br><span class="line">  <span class="comment"># md5 macOS\ Mojave\ 10.14.6\(18G84\)\ Installer\ with\ Clover\ 5027.dmg	# 空格以\ 代替</span></span><br><span class="line">  MD5 (macOS Mojave 10.14.6(18G84) Installer with Clover 5027.dmg) = af934738cd02c4cefacf527d23532289</span><br></pre></td></tr></table></figure></li><li><p>Windows下：请使用<a href="http://www.winmd5.com" target="_blank" rel="noopener">winmd5</a>，将下载的安装镜像拖进winmd5窗口，核验md5值（截图略）</p></li></ul></li><li><p>镜像制作：</p><ul><li>下载<a href="https://etcher.io" target="_blank" rel="noopener">etcher</a>，打开镜像，选择U盘，点击Flash即可<img src="/images/loading.gif" data-original="http://7.daliansky.net/etcher.png" alt="etcher"></li></ul></li><li><p>安装macOS：</p><ul><li><strong>安装过程中不要先替换EFI，等安装全部结果后再执行替换EFI的操作</strong></li><li>安装过程中出现问题请参考：<a href="https://blog.daliansky.net/clover-user-manual.html">clover使用教程</a> 以及 <a href="https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Mojave-10.14-installation.html">macOS Mojave 10.14安装中常见的问题及解决方法</a></li><li><em><strong>如果卡在<code>CLOVER</code>主界面，请尝试更新<code>CLOVER</code>版本到<a href="(%3Chttps://github.com/Dids/clover-builder/releases%3E)">4911及以上</a></strong></em> 【3-30-2019备注】</li></ul></li><li><p>安装后所需要执行的动作：</p><ul><li><a href="https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html#undefined">合并和替换EFI</a> <a href="https://blog.daliansky.net/Add-CLOVER-boot-to-UEFI-without-any-tools.html">不借助任何工具将CLOVER引导添加进UEFI的正确姿势</a></li><li>驱动：显卡、声卡、USB定制：<a href="https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html">Hackintool(原Intel FB-Patcher)使用教程及插入姿势</a> / <a href="https://blog.daliansky.net/Intel-core-display-platformID-finishing.html">黑苹果必备：Intel核显platform ID整理及smbios速查表</a> / <a href="https://blog.daliansky.net/Coffee-Lake-frame-buffer-patch-and-UHD630-Coffee-Lake-ig-platform-id-data-finishing.html">Coffee Lake帧缓冲区补丁及UHD630 Coffee Lake ig-platform-id数据整理</a> <a href="https://blog.daliansky.net/Tutorial-Using-Hackintool-to-open-the-correct-pose-of-the-8th-generation-core-display-HDMI-or-DVI-output.html">教程：利用Hackintool打开第8代核显HDMI输出的正确姿势</a></li><li>声卡仿冒：<a href="https://blog.daliansky.net/Use-AppleALC-sound-card-to-drive-the-correct-posture-of-AppleHDA.html">使用AppleALC声卡仿冒驱动AppleHDA的正确姿势</a></li><li>无线网卡：<a href="https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html">DW1820A/BCM94350ZAE/BCM94356ZEPA50DX插入的正确姿势</a> <a href="https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html">Broadcom BCM94352z/DW1560驱动新姿势新方法</a></li></ul></li></ul></li><li><p>本镜像集成的EFI如果无法安装，请根据自己的机型寻找相应的EFI进行替换，请参考：<a href="http://bbs.pcbeta.com/viewthread-1795904-1-1.html" target="_blank" rel="noopener">远景：黑苹果长期维护机型资料整理(2019年3月1日更新)</a> 或者 <a href="https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html">本站：黑苹果长期维护机型整理清单</a> ，如果你有自己机型的EFI也可以提交到<a href="https://github.com/daliansky/Hackintosh" target="_blank" rel="noopener">这里</a></p></li><li><p>支持Realtek8111/8100系列有线网卡，支持Intel板载有线网卡；其它的网卡驱动位于<code>kexts/Other/其它驱动</code></p></li><li><p>本镜像已经过本人安装测试，若您在使用中遇到问题，可通过爬楼自行解决。本人才疏学浅，所学知识都来自于远景社区，感谢远景各位大咖一直以来对 <code>黑果小兵</code> 的大力支持，由于人员众多，恕不一一列名致谢！</p></li><li><p>挂载EFI分区</p><p>Windows操作系统下面,以系统管理员身份打开<code>cmd</code>窗口,输入命令:</p><figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">c:\&gt;diskpart</span><br><span class="line">list disk           <span class="comment"># 磁盘列表</span></span><br><span class="line">select disk n       <span class="comment"># 选择EFI分区所在的磁盘，n为磁盘号</span></span><br><span class="line">list partition      <span class="comment"># 磁盘分区列表</span></span><br><span class="line">select partition n  <span class="comment"># 选择EFI分区，n为EFI分区号</span></span><br><span class="line"><span class="built_in">set</span> id=<span class="string">"ebd0a0a2-b9e5-4433-87c0-68b6b72699c7"</span>	<span class="comment"># 设置为基本数据分区</span></span><br><span class="line">assign letter=X     <span class="comment"># x为EFI分区盘符</span></span><br><span class="line"><span class="built_in">exit</span>				<span class="comment"># 退出diskpart</span></span><br><span class="line">notepad				<span class="comment"># 打开记事本程序，点击文件-&gt;打开，即可访问EFI分区</span></span><br></pre></td></tr></table></figure><p>您可以重复输入命令同时挂载USB的EFI分区和磁盘的EFI分区</p><p>另一种方法：直接 使用应用程序<code>diskgenius</code>挂载EFI分区进行操作</p></li><li><p>本镜像发布站点：<a href="http://bbs.pcbeta.com/forum.php?gid=86" target="_blank" rel="noopener">远景论坛</a> / <a href="https://blog.daliansky.net">黑果小兵的部落阁</a></p></li></ul><h3 id="截图"><a class="markdownIt-Anchor" href="#截图"></a> 截图：</h3><p><strong>结合了台式机和笔记本的截屏，仅供参考</strong></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.6/10.14.6.png" alt="1About_10.14.6"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.2/Displays.png" alt="21Displays"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.2/Displays2.png" alt="22Displays"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.2/Video.png" alt="2Video"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.2/Audio.png" alt="1Audio"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.2/Audio2.png" alt="1Audio2"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.2/AppleALC.png" alt="1AudioPatch"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/dell7000/2BlueTooth.png" alt="2BlueTooth"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/dell7000/2BlueTooth2.png" alt="2BlueTooth2"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/dell7000/3Wifi.png" alt="3Wifi"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/dell7000/4Sata.png" alt="4Sata"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/dell7000/5Ethernet.png" alt="5Ethernet"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.2/USB.png" alt="6USB"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.2/USBPorts.png" alt="6USBFinal"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/dell7000/7Light.png" alt="7Light"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/dell7000/8Volume.png" alt="8Volume"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/6Extensions.png" alt="Extensions"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/PCI_List.png" alt="PCI_List"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14GM/4I2C.png" alt="4I2C"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14GM/5TouchPad.png" alt="5TouchPad"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.6/10.14.6_18G84.png" alt="18G84"></p><h3 id="特别感谢"><a class="markdownIt-Anchor" href="#特别感谢"></a> 特别感谢</h3><p>@<code>宪武</code> 提供的hotpatch的全套方法：</p><ul><li>适用于<code>CLOVER</code> 的 <a href="https://github.com/daliansky/P-little" target="_blank" rel="noopener">P-little</a> ；</li><li>适用于 <code>OpenCore</code> 的 <a href="https://github.com/daliansky/OC-little" target="_blank" rel="noopener">OC-little</a></li></ul><h3 id="下载链接"><a class="markdownIt-Anchor" href="#下载链接"></a> 下载链接</h3><h4 id="10146-18g103-双平台intelamd-双efi分区版下载链接"><a class="markdownIt-Anchor" href="#10146-18g103-双平台intelamd-双efi分区版下载链接"></a> <strong>10.14.6 <code>18G103</code> <code>双平台</code>(Intel/AMD) <code>双EFI</code>分区版下载链接</strong></h4><p>迅雷离线下载：[<a href="https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/10.14/macOS%20Mojave%2010.14.6%2818G103%29%20Installer%20for%20Intel%20and%20AMD%20with%20Clover%205091%20and%20WEPE.dmg" target="_blank" rel="noopener">请点击下载</a>] 感谢<code>@难忘情怀</code>提供下载资源</p><p>http下载链接:<a href="https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/" target="_blank" rel="noopener">请点击下载</a> 感谢<code>@难忘情怀</code>提供下载资源</p><p>天翼云盘：<a href="https://cloud.189.cn/t/zQziUjuEfuMr" target="_blank" rel="noopener">https://cloud.189.cn/t/zQziUjuEfuMr</a></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">MD5 (macOS Mojave 10.14.6(18G103) Installer <span class="keyword">for</span> Intel and AMD with Clover 5091 and WEPE.dmg) = 43ef9a89ddaec33effe5245f0b9a7eb4</span><br></pre></td></tr></table></figure><h4 id="10146-18g87-双平台intelamd-双efi分区版下载链接"><a class="markdownIt-Anchor" href="#10146-18g87-双平台intelamd-双efi分区版下载链接"></a> <strong>10.14.6 <code>18G87</code> <code>双平台</code>(Intel/AMD) <code>双EFI</code>分区版下载链接</strong></h4><p>迅雷离线下载：[<a href="https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/macOS%20Mojave%2010.14.6%2818G87%29%20Installer%20for%20Intel%20and%20AMD%20with%20Clover%205050%20and%20WEPE.dmg" target="_blank" rel="noopener">请点击下载</a>] 感谢<code>@难忘情怀</code>提供下载资源</p><p>http下载链接:<a href="https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/" target="_blank" rel="noopener">请点击下载</a> 感谢<code>@难忘情怀</code>提供下载资源</p><p>百毒云下载链接: <a href="https://pan.baidu.com/s/1W07eZpfzmKoiQLTKsmxzSA" target="_blank" rel="noopener">https://pan.baidu.com/s/1W07eZpfzmKoiQLTKsmxzSA</a> 提取码: <code>cdqn</code></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">MD5 (macOS Mojave 10.14.6(18G87) Installer <span class="keyword">for</span> Intel and AMD with Clover 5050 and WEPE.dmg) = c9a861f9dfecfb359b1124b80d37d709</span><br></pre></td></tr></table></figure><h4 id="10146-18g87-下载链接"><a class="markdownIt-Anchor" href="#10146-18g87-下载链接"></a> <strong>10.14.6 <code>18G87</code> 下载链接</strong></h4><p>迅雷离线下载：[<a href="https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/macOS%20Mojave%2010.14.6%2818G87%29%20Installer%20with%20Clover%205033.dmg" target="_blank" rel="noopener">请点击下载</a>] 感谢<code>@难忘情怀</code>提供下载资源</p><p>http下载链接:<a href="https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/" target="_blank" rel="noopener">请点击下载</a> 感谢<code>@难忘情怀</code>提供下载资源</p><p>百毒云下载链接：<a href="https://pan.baidu.com/s/1-9e6yYAvS3Ey_Ly4c-z_EA" target="_blank" rel="noopener">https://pan.baidu.com/s/1-9e6yYAvS3Ey_Ly4c-z_EA</a> 提取码：<code>9ite</code></p><p>天翼云盘：</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">MD5 (macOS Mojave 10.14.6(18G87) Installer with Clover 5033.dmg) = 886cc509cacaf3bb20fbd41dfb8da8ac</span><br></pre></td></tr></table></figure><h4 id="10146-18g84-下载链接"><a class="markdownIt-Anchor" href="#10146-18g84-下载链接"></a> 10.14.6 <code>18G84</code> 下载链接</h4><p>迅雷离线下载：[<a href="https://mirrors.dtops.cc/iso/MacOS/10.14/daliansky_macos/macOS%20Mojave%2010.14.6%2818G84%29%20Installer%20with%20Clover%205027.dmg" target="_blank" rel="noopener">请点击下载</a>] 感谢<code>@难忘情怀</code>提供下载资源</p><p>http下载链接:<a href="https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/" target="_blank" rel="noopener">请点击下载</a> 感谢<code>@难忘情怀</code>提供下载资源</p><p>百毒云下载链接: <a href="https://pan.baidu.com/s/1yx7A_wlfepp6ybTCRcz4cg" target="_blank" rel="noopener">https://pan.baidu.com/s/1yx7A_wlfepp6ybTCRcz4cg</a> 提取码: <code>qrwt</code></p><p>天翼云盘：<a href="https://cloud.189.cn/t/meMjayvyArUb" target="_blank" rel="noopener">https://cloud.189.cn/t/meMjayvyArUb</a></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">MD5 (macOS Mojave 10.14.6(18G84) Installer with Clover 5027.dmg) = af934738cd02c4cefacf527d23532289</span><br></pre></td></tr></table></figure><h3 id="其它机型efi下载"><a class="markdownIt-Anchor" href="#其它机型efi下载"></a> 其它机型EFI下载：</h3><p><a href="https://github.com/daliansky/Hackintosh" target="_blank" rel="noopener">https://github.com/daliansky/Hackintosh</a></p><h3 id="关于打赏"><a class="markdownIt-Anchor" href="#关于打赏"></a> 关于打赏</h3><p>您的支持就是我更新的动力！<br>如果不希望看到博主停更的话，请点击下方的 <code>打赏</code> 支持一下，有钱的捧个钱场，没钱的捧个人场，谢谢大家！</p>]]></content>
       <categories>
         <category>下载</category>
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.14.6</tag>
         <tag>18G84</tag>
         <tag>18G87</tag>
+        <tag>18G103</tag>
       </tags>
   </entry>
   <entry>
@@ -711,9 +712,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.14.4</tag>
         <tag>1.8e+227</tag>
@@ -742,9 +743,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.3</tag>
         <tag>19D76</tag>
@@ -759,9 +760,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.1</tag>
         <tag>19B88</tag>
@@ -776,10 +777,10 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
         <tag>10.15</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>19A583</tag>
       </tags>
@@ -793,9 +794,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.14.5</tag>
         <tag>18F132</tag>
@@ -810,9 +811,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.14.3</tag>
         <tag>18D42</tag>
@@ -852,9 +853,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.14.2</tag>
         <tag>18C54</tag>
@@ -886,9 +887,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.14.1</tag>
         <tag>18B75</tag>
@@ -918,10 +919,10 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>18A391</tag>
       </tags>
@@ -965,8 +966,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.6</tag>
         <tag>17G65</tag>
@@ -982,8 +983,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.5</tag>
         <tag>17F77</tag>
@@ -1041,8 +1042,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.4</tag>
         <tag>1.7e+200</tag>
@@ -1114,8 +1115,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.2</tag>
         <tag>17C88</tag>
@@ -1199,8 +1200,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.1</tag>
         <tag>17B48</tag>
@@ -1290,8 +1291,8 @@
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>17A405</tag>
       </tags>
@@ -1324,8 +1325,8 @@
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
       </tags>
   </entry>
@@ -1340,8 +1341,8 @@
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>GM</tag>
         <tag>17A362a</tag>
@@ -1403,13 +1404,13 @@
         <category>教程</category>
       </categories>
       <tags>
+        <tag>Lilu</tag>
+        <tag>常见问题</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
-        <tag>Lilu</tag>
         <tag>Plugins</tag>
-        <tag>常见问题</tag>
         <tag>Clover</tag>
         <tag>platform-id</tag>
         <tag>Patch</tag>
@@ -1444,8 +1445,8 @@
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>DB9</tag>
         <tag>17A360a</tag>
         <tag>dmg</tag>
@@ -1459,13 +1460,13 @@
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>10.12.6</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
         <tag>Catalina</tag>
         <tag>10.15</tag>
         <tag>Download</tag>
+        <tag>下载</tag>
       </tags>
   </entry>
   <entry>
@@ -1493,8 +1494,8 @@
       </categories>
       <tags>
         <tag>10.13</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>DB8</tag>
         <tag>17A358a</tag>
       </tags>
@@ -1522,9 +1523,9 @@
       </categories>
       <tags>
         <tag>10.13</tag>
+        <tag>下载</tag>
         <tag>DB7</tag>
         <tag>镜像</tag>
-        <tag>下载</tag>
       </tags>
   </entry>
   <entry>
@@ -1562,10 +1563,10 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Sierra</tag>
         <tag>安装</tag>
-        <tag>镜像</tag>
+        <tag>Sierra</tag>
         <tag>10.12.6</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
       </tags>
   </entry>
@@ -1593,8 +1594,8 @@
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>17A344b</tag>
       </tags>
