@@ -1,3 +1,5 @@
+https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.7-19H2-official-version-Clover-5122-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html
+https://blog.daliansky.net/Hackintosh-on-Lenovo-Tianyi-510s-Mini-PC.html
 https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-4-20A5343i-Installer-for-OpenCore-0.6.0-and-PE-dual-EFI-partition-original-image.html
 https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-BigSur-11.0-installation.html
 https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-3-Installer-for-OpenCore-0.6.0-and-PE-dual-EFI-partition-original-image.html
@@ -16,5 +18,3 @@ https://blog.daliansky.net/macOS-Catalina-10.15.3-19D76-Release-version-with-Clo
 https://blog.daliansky.net/macOS-Catalina-10.15.2-19C57-Release-version-with-Clover-5100-original-image-Double-EFI-Version.html
 https://blog.daliansky.net/macOS-Catalina-10.15.1-19B88-Release-version-with-Clover-5098-original-image-Double-EFI-Version.html
 https://blog.daliansky.net/macOS-Catalina-10.15-19A583-Release-version-with-Clover-5093-original-image-Double-EFI-Version.html
-https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html
-https://blog.daliansky.net/macOS-Mojave-10.14.6-18G87-Release-version-with-Clover-5033-original-image.html
