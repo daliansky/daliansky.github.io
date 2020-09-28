@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.daliansky.net/"/>
-  <updated>2020-09-28T01:11:55.146Z</updated>
+  <updated>2020-09-28T01:27:51.477Z</updated>
   <id>https://blog.daliansky.net/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="https://blog.daliansky.net/macOS-Catalina-10.15.7-19H2-Release-version-with-Clover-5122-original-image-Double-EFI-Version-UEFI-and-MBR.html"/>
     <id>https://blog.daliansky.net/macOS-Catalina-10.15.7-19H2-Release-version-with-Clover-5122-original-image-Double-EFI-Version-UEFI-and-MBR.html</id>
     <published>2020-09-25T02:15:07.000Z</published>
-    <updated>2020-09-28T01:11:55.146Z</updated>
+    <updated>2020-09-28T01:27:51.477Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="黑果小兵macos-catalina-10156-19g2021-正式版-with-clover-5120原版镜像双efi版-uefi-and-mbr"><a class="markdownIt-Anchor" href="#黑果小兵macos-catalina-10156-19g2021-正式版-with-clover-5120原版镜像双efi版-uefi-and-mbr"></a> 【黑果小兵】macOS Catalina 10.15.6 19G2021 正式版 with Clover 5120原版镜像[双EFI版] [UEFI and MBR]</h1><blockquote><blockquote><p>这也许是10.xx系列的最后一个版本了，但它一定不是<code>macOS</code>支持黑苹果的最后一版，所以做为生产力工具使用的小伙伴们，可以快乐地升级啦！！！</p></blockquote><p>这不，本来以为10.15.6会是10.xx系列的最后一个版本了，但是，可但是，苹果破天荒地发布了10.15.7版本。</p></blockquote><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.7/10.15.7_19H2.png" alt="19H2"></p><h2 id="19h2更新说明"><a class="markdownIt-Anchor" href="#19h2更新说明"></a> <code>19H2</code>更新说明</h2><p>9月24日，苹果向macOS推送10.15.7系统补充更新，macOS Catalina 10.15.7 为您的 Mac 提供了重要的安全性更新和错误修复。</p><ul><li>解决了 macOS 不会自动接入 Wi-Fi 网络的问题</li><li>修复了文件可能无法通过 iCloud 云盘同步的问题</li><li>解决了配备 Radeon Pro 5700 XT 的 iMac（视网膜 5K 显示屏，27 英寸，2020 年机型）上可能发生的图形卡问题</li></ul><h2 id="镜像靓点"><a class="markdownIt-Anchor" href="#镜像靓点"></a> 镜像靓点：</h2><div class="note warning"><p>使用博通无线网卡的用户，须于安装后移除引导参数：<code>brcmfx-driver=0</code>以开启WIFI功能</p></div><ul><li><p>Clover默认配置文件<code>config.plist</code>原则上支持各种机型引导安装；</p></li><li><p>更新<code>CLOVER</code>到<code>v2.5k r5122</code></p></li><li><p>内存修正驱动采用<code>OcQuirks</code>，原则上支持<code>Big Sur</code></p></li><li><p>新增<code>PE</code>引导分区，同时支持<code>CLOVER</code> / <code>PE</code>双引导</p></li><li><p><strong>三分区特别版</strong>同时支持<code>CLOVER</code> / <code>OC</code> / <code>WEPE</code>引导，支持<code>AMD</code>安装使用</p></li><li><p>新增<code>MBR</code>引导，支持旧主板旧机型的安装</p></li><li><p>驱动更新</p><ul><li>更新<code>Lilu</code> <code>v1.4.8</code></li><li>更新<code>WhatEverGreen</code> <code>v1.4.3</code></li><li>更新<code>AppleALC</code> <code>v1.5.3</code>，新增<code>Lenovo 天逸510s Mini</code>专用ID</li><li>更新<code>VirtualSMC</code> <code>v1.1.7</code></li><li>更新<code>VoodooPS2Controller</code> <code>v2.1.8</code></li><li>新增<code>RTCMemoryFixup</code> <code>v1.0.7</code></li><li>更新<code>BrcmPatchRAM</code> <code>v2.5.5</code></li><li>更新<code>AirportBrcmFixup</code> <code>v2.1.0</code>，支持<code>DW1820A</code> / <code>DW1560</code> / <code>DW1830</code> / <code>BCM94331CD</code> / <code>BCM943602CDP</code> / <code>BCM94360CD</code> 等</li><li>更新<code>USBInjectAll</code> <code>v0.7.6</code> 新增了对<code>Z490</code> / <code>B460</code>等芯片组的支持</li><li>更新<code>LucyRTL8125Ethernet.kext</code> <code>v1.0.0d6</code>，支持<code>z490</code>主板</li></ul></li><li><p>去除<code>USB端口限制</code>，减少禁行发生的几率；增加<code>Lilu</code>崩溃的日志信息显示；</p></li><li><p>本镜像采用官方原版app制作，集成Clover r5120，支持UEFI启动安装;<code>apfs.efi</code>同时去除日志显示；其它的驱动位于 <code>drivers/off</code>；</p></li><li><p><s><strong>300系列主板请于UEFI目录中移除<code>AptioMemoryFix-64.efi</code>添加<code>OsxAptioFix2Drv-free2000.efi</code>该驱动位于<code>/EFI/CLOVER/drivers/off</code>目录下</strong> 或者 <a href="https://blog.daliansky.net/Slide-value-acquisition-and-calculation.html">Slide值获取及计算</a></s></p></li><li><p>Clover集成了全新主题以及本人收藏的其它主题，不喜欢的可以于安装系统后自行替换；<img src="/images/loading.gif" data-original="http://7.daliansky.net/CDImage/CLOVER2.png" alt="CLOVER2"></p></li><li><p>所有配置文件中默认添加<code>Lilu</code>崩溃日志的输出信息,详见：<a href="https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html">macOS Catalina 10.15安装中常见的问题及解决方法</a>;</p></li><li><p>更新<code>WhateverGreen</code>到<code>v1.4.2</code>(7月15日编译，根治安装/更新中的黑屏现象)，原生支持UHD620/UHD630等八代核显，不需要注入<code>platform-id</code>， 同时它也支持NVIDIA和AMD的显卡，以及整合了<code>Shiki</code>和<code>CoreDisplayFixup</code>的驱动，现在是All In One了；核显驱动更多的教程请参考：<a href="https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html">Hackintool(原Intel FB-Patcher)使用教程及插入姿势</a> / <a href="https://blog.daliansky.net/Intel-core-display-platformID-finishing.html">黑苹果必备：Intel核显platform ID整理及smbios速查表</a> / <a href="https://blog.daliansky.net/Coffee-Lake-frame-buffer-patch-and-UHD630-Coffee-Lake-ig-platform-id-data-finishing.html">Coffee Lake帧缓冲区补丁及UHD630 Coffee Lake ig-platform-id数据整理</a> <a href="https://blog.daliansky.net/Tutorial-Using-Hackintool-to-open-the-correct-pose-of-the-8th-generation-core-display-HDMI-or-DVI-output.html">教程：利用Hackintool打开第8代核显HDMI输出的正确姿势</a></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/dell/IntelGraphicsFixup.jpg" alt="http://7.daliansky.net/dell/IntelGraphicsFixup.jpg"></p></li><li><p>其它的补丁统一保存到<code>config-Other</code>目录下，请自行根据机型修改/添加相应补丁；</p><ul><li>HD3000驱动方法请移步<a href="https://github.com/chris1111/Fix-Graphics-HD-3000-Mojave-10.14-Catalina-10.15" target="_blank" rel="noopener">这里</a></li></ul></li></ul><h2 id="安装教程简单版"><a class="markdownIt-Anchor" href="#安装教程简单版"></a> 安装教程简单版</h2><ul><li><p>安装过程（简易版）：详细的安装教程请移步：<a href="https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html">macOS安装教程</a></p><ul><li><p>下载镜像：<a href="https://blog.daliansky.net">黑果小兵的部落阁</a></p></li><li><p>校验md5值：</p><ul><li><p>macOS：打开终端，输入命令：</p></li><li><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># md5 macOS\ Catalina\ 10.15.7\(19H2\)\ Installer\ for\ Clover\ 5122\ and\ WEPE.dmg</span></span><br><span class="line">MD5 (macOS Catalina 10.15.7(19H2) Installer <span class="keyword">for</span> Clover 5122 and WEPE.dmg) = 418ae1bfcaef06f1c2890f914ed3a622</span><br></pre></td></tr></table></figure></li><li><p>Windows下：请使用<a href="http://www.winmd5.com" target="_blank" rel="noopener">winmd5</a>，将下载的安装镜像拖进winmd5窗口，核验md5值（截图略）</p></li></ul></li><li><p>镜像制作：</p><ul><li>下载<a href="https://etcher.io" target="_blank" rel="noopener">etcher</a>，打开镜像，选择U盘，点击Flash即可。<em><strong>Windows10需要以管理员权限运行</strong></em><img src="/images/loading.gif" data-original="http://7.daliansky.net/etcher.png" alt="etcher"></li></ul></li><li><p>安装macOS：</p><ul><li><strong>安装过程中不要先替换EFI，等安装全部结果后再执行替换EFI的操作</strong></li></ul></li><li><p>安装过程中出现问题请参考：<a href="https://blog.daliansky.net/clover-user-manual.html">clover使用教程</a> 以及 <a href="https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html">macOS Mojave 10.15安装中常见的问题及解决方法</a></p></li><li><p>安装后所需要执行的动作：</p><ul><li><a href="https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html#undefined">合并和替换EFI</a> <a href="https://blog.daliansky.net/Add-CLOVER-boot-to-UEFI-without-any-tools.html">不借助任何工具将CLOVER引导添加进UEFI的正确姿势</a></li></ul></li><li><p>驱动：显卡、声卡、USB定制：<a href="https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html">Hackintool(原Intel FB-Patcher)使用教程及插入姿势</a> / <a href="https://blog.daliansky.net/Intel-core-display-platformID-finishing.html">黑苹果必备：Intel核显platform ID整理及smbios速查表</a> / <a href="https://blog.daliansky.net/Coffee-Lake-frame-buffer-patch-and-UHD630-Coffee-Lake-ig-platform-id-data-finishing.html">Coffee Lake帧缓冲区补丁及UHD630 Coffee Lake ig-platform-id数据整理</a> <a href="https://blog.daliansky.net/Tutorial-Using-Hackintool-to-open-the-correct-pose-of-the-8th-generation-core-display-HDMI-or-DVI-output.html">教程：利用Hackintool打开第8代核显HDMI输出的正确姿势</a></p><ul><li>声卡仿冒：<a href="https://blog.daliansky.net/Use-AppleALC-sound-card-to-drive-the-correct-posture-of-AppleHDA.html">使用AppleALC声卡仿冒驱动AppleHDA的正确姿势</a></li><li>无线网卡：<a href="https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html">DW1820A/BCM94350ZAE/BCM94356ZEPA50DX插入的正确姿势</a> <a href="https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html">Broadcom BCM94352z/DW1560驱动新姿势新方法</a></li></ul></li></ul></li><li><p>本镜像集成的EFI如果无法安装，请根据自己的机型寻找相应的EFI进行替换，请参考：<a href="http://bbs.pcbeta.com/viewthread-1856511-1-1.html" target="_blank" rel="noopener">远景：黑苹果长期维护机型资料整理(2020年5月10日更新)</a> 或者 <a href="https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html">本站：黑苹果长期维护机型整理清单</a> ，如果你有自己机型的EFI也可以提交到<a href="https://github.com/daliansky/Hackintosh" target="_blank" rel="noopener">这里</a></p></li><li><p>支持Realtek8111/8100系列有线网卡，支持Intel板载有线网卡；其它的网卡驱动位于<code>kexts/Other/其它驱动</code></p></li><li><p>本镜像已经过本人安装测试，若您在使用中遇到问题，可通过爬楼自行解决。本人才疏学浅，所学知识都来自于远景社区，感谢远景各位大咖一直以来对 <code>黑果小兵</code> 的大力支持，由于人员众多，恕不一一列名致谢！</p></li><li><p>挂载EFI分区</p><p>Windows操作系统下面,以系统管理员身份打开<code>cmd</code>窗口,输入命令:</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">c:\&gt;diskpart</span><br><span class="line">list disk           <span class="comment"># 磁盘列表</span></span><br><span class="line">select disk n       <span class="comment"># 选择EFI分区所在的磁盘，n为磁盘号</span></span><br><span class="line">list partition      <span class="comment"># 磁盘分区列表</span></span><br><span class="line">select partition n  <span class="comment"># 选择EFI分区，n为EFI分区号</span></span><br><span class="line"><span class="built_in">set</span> id=<span class="string">"ebd0a0a2-b9e5-4433-87c0-68b6b72699c7"</span><span class="comment"># 设置为基本数据分区</span></span><br><span class="line">assign letter=X     <span class="comment"># x为EFI分区盘符</span></span><br><span class="line"><span class="built_in">exit</span><span class="comment"># 退出diskpart</span></span><br><span class="line">notepad<span class="comment"># 打开记事本程序，点击文件-&gt;打开，即可访问EFI分区</span></span><br></pre></td></tr></table></figure><p>您可以重复输入命令同时挂载USB的EFI分区和磁盘的EFI分区</p><p>另一种方法：直接 使用应用程序<code>diskgenius</code>挂载EFI分区进行操作</p></li><li><p>通过<code>UEFI SHELL</code>添加<code>UEFI</code>引导的正确姿势</p><p>无论是<code>Clover</code>还是<code>OpenCore</code>，经常会遇到的问题是：重置了<code>NVRAM</code>后就会导致<code>UEFI</code>引导项的丢失。正确的、最简单的插入姿势就是：进入<code>UEFI SHELL</code> (CLOVER)或者<code>Open Shell</code>(OpenCore)，然后查看<code>EFI</code>所在的<code>fsV</code></p><p>假如你的是<code>fs0</code>，那么如何判断<code>fs0</code>目录下面就是<code>EFI</code>呢，可以这样验证：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">Shell&gt; ls fs0:</span><br><span class="line">如果显示有`EFI`的目录，那么就继续执行</span><br><span class="line">Shell&gt; ls fs0:\efi</span><br><span class="line">显示`BOOT`和`OC`或者`BOOT`和`CLOVER`目录，那么可以确定这是你需要操作的位置</span><br><span class="line">Shell&gt; bcfg boot add 0 fs0:\efi\oc\opencore.efi <span class="string">"OpenCore Bootloader"</span></span><br><span class="line">这是添加`OC`的引导项命令</span><br><span class="line">Shell&gt; bcfg boot add 0 fs0:\efi\clover\cloverx64.efi <span class="string">"Clover Bootloader"</span></span><br><span class="line">这是添加`CLOVER`的引导项命令</span><br><span class="line">Shell&gt; <span class="built_in">exit</span></span><br><span class="line">退出`UEFI Shell`</span><br></pre></td></tr></table></figure><p>UEFI SHELL其它的用法请谷歌</p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/11.0/UEFIShell3.png" alt="UEFI SHELL"></p></li><li><p>本镜像发布站点：<a href="http://bbs.pcbeta.com/forum.php?gid=86" target="_blank" rel="noopener">远景论坛</a> / <a href="https://blog.daliansky.net">黑果小兵的部落阁</a></p></li></ul><h2 id="截图"><a class="markdownIt-Anchor" href="#截图"></a> 截图：</h2><p><strong>结合了台式机和笔记本的截屏，仅供参考</strong></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.7/19H2_iMac.png" alt="10.15.7 19H2"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.7/Hackintool.png" alt="1About_Hackintool"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.4/DualDisplays.png" alt="21Displays"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.7/19H2_ZSH.png" alt="zsh"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/11.0/11.0_DW1820A.png" alt="DW1820A_Bug_Report"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/DW1820A_WIFI_Status.png" alt="DW1820A_WIFI_Status"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/DW1820A_BT_Status.png" alt="DW1820A_BT_Status"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/ASPM.png" alt="ASPM"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.2/Video.png" alt="2Video"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.2/Audio.png" alt="1Audio"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.2/Audio2.png" alt="1Audio2"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.6/AppleALC.png" alt="1AudioPatch"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.6/BlueTooth.png" alt="2BlueTooth"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/dell7000/3Wifi.png" alt="3Wifi"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15/NVMe.png" alt="4Sata"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/dell7000/5Ethernet.png" alt="5Ethernet"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.2/USB.png" alt="6USB"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.6/UsbPorts.png" alt="6USBFinal"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/dell7000/7Light.png" alt="7Light"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/dell7000/8Volume.png" alt="8Volume"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15/Extensions.png" alt="Extensions"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/PCI_List.png" alt="PCI_List"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14GM/4I2C.png" alt="4I2C"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14GM/5TouchPad.png" alt="5TouchPad"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.7/10.15.7_19H2_Desktop_Air.png" alt="18G84"></p><h2 id="特别感谢"><a class="markdownIt-Anchor" href="#特别感谢"></a> 特别感谢</h2><p>@<code>宪武</code> 提供的hotpatch的全套方法：</p><ul><li>适用于<code>CLOVER</code> 的 <a href="https://github.com/daliansky/P-little" target="_blank" rel="noopener">P-little</a> ；</li><li>适用于 <code>OpenCore</code> 的 <a href="https://github.com/daliansky/OC-little" target="_blank" rel="noopener">OC-little</a></li></ul><h2 id="10157-19h2-clover-v5122-opencore-v061-pe三分区特别版下载链接"><a class="markdownIt-Anchor" href="#10157-19h2-clover-v5122-opencore-v061-pe三分区特别版下载链接"></a> <strong>10.15.7 <code>19H2</code> CLOVER <code>v5122</code> / OpenCore <code>v0.6.1</code> / <code>PE</code>三分区特别版</strong><a href="https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.7-19H2-official-version-Clover-5122-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html">下载链接</a></h2><div class="note info"><p>请通过微信公众号【<code>黑果小兵的部落阁</code>】下载</p><p>访问码请通过微信公众号【<code>黑果小兵的部落阁</code>】获取</p></div><p>16GB 及以上 U 盘请下载：<code>macOS Catalina 10.15.7(19H2) Installer for Clover 5122 and OC 0.6.1 and PE.dmg</code></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># md5 macOS\ Catalina\ 10.15.7\(19H2\)\ Installer\ for\ Clover\ 5122\ and\ OC\ 0.6.1\ and\ PE.dmg</span></span><br><span class="line">MD5 (macOS Catalina 10.15.7(19H2) Installer <span class="keyword">for</span> Clover 5122 and OC 0.6.1 and PE.dmg) = b44de9c1aa8aea1c7414b0d14f187b55</span><br></pre></td></tr></table></figure><p>32GB 及以上 U 盘请下载：<code>macOS Catalina 10.15.7(19H2) Installer for Clover 5122 and OC 0.6.1 and PE 32G.dmg</code></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># md5 macOS\ Catalina\ 10.15.7\(19H2\)\ Installer\ for\ Clover\ 5122\ and\ OC\ 0.6.1\ and\ PE\ 32G.dmg</span></span><br><span class="line">MD5 (macOS Catalina 10.15.7(19H2) Installer <span class="keyword">for</span> Clover 5122 and OC 0.6.1 and PE 32G.dmg) = f54c4c5c0bf930643469b7f064078fda</span><br></pre></td></tr></table></figure><h2 id="10157-19h2-双efi分区版下载链接"><a class="markdownIt-Anchor" href="#10157-19h2-双efi分区版下载链接"></a> <strong>10.15.7 <code>19H2</code> <code>双EFI</code>分区版下载链接</strong></h2><p>迅雷离线下载：[<a href>请点击下载</a>] 感谢<code>@难忘情怀</code>提供下载资源</p><p>http下载链接:<a href="https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/" target="_blank" rel="noopener">请点击下载</a> 感谢<code>@难忘情怀</code>提供下载资源</p><p>天翼云盘：<a href="https://cloud.189.cn/t/jm6FJfmUVrue" target="_blank" rel="noopener">https://cloud.189.cn/t/jm6FJfmUVrue</a></p><p>OneDrive下载：[<a href>请点击下载</a>]</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># md5 macOS\ Catalina\ 10.15.7\(19H2\)\ Installer\ for\ Clover\ 5122\ and\ WEPE.dmg</span></span><br><span class="line">MD5 (macOS Catalina 10.15.7(19H2) Installer <span class="keyword">for</span> Clover 5122 and WEPE.dmg) = 418ae1bfcaef06f1c2890f914ed3a622</span><br></pre></td></tr></table></figure><h2 id="感谢名单"><a class="markdownIt-Anchor" href="#感谢名单"></a> 感谢名单</h2><ul><li><a href="https://www.apple.com/" target="_blank" rel="noopener">Apple</a> 的 macOS</li><li><a href="https://github.com/rehabman" target="_blank" rel="noopener">RehabMan</a>维护的项目：<a href="https://github.com/RehabMan/OS-X-Clover-Laptop-Config" target="_blank" rel="noopener">OS-X-Clover-Laptop-Config</a> <a href="https://github.com/RehabMan/Laptop-DSDT-Patch" target="_blank" rel="noopener">Laptop-DSDT-Patch</a> <a href="https://github.com/RehabMan/OS-X-USB-Inject-All" target="_blank" rel="noopener">OS-X-USB-Inject-All</a>等</li><li><a href="https://github.com/acidanthera" target="_blank" rel="noopener">Acidanthera</a> 维护的项目：<a href="https://github.com/acidanthera/OpenCorePkg" target="_blank" rel="noopener">OpenCorePkg</a> <a href="https://github.com/acidanthera/Lilu" target="_blank" rel="noopener">lilu</a> <a href="https://github.com/acidanthera/AirportBrcmFixup" target="_blank" rel="noopener">AirportBrcmFixup</a> <a href="https://github.com/acidanthera/WhateverGreen" target="_blank" rel="noopener">WhateverGreen</a> <a href="https://github.com/acidanthera/VirtualSMC" target="_blank" rel="noopener">VirtualSMC</a> <a href="https://github.com/acidanthera/AppleALC" target="_blank" rel="noopener">AppleALC</a> <a href="https://github.com/acidanthera/BrcmPatchRAM" target="_blank" rel="noopener">BrcmPatchRAM</a> <a href="https://github.com/acidanthera/MaciASL" target="_blank" rel="noopener">MaciASL</a> 等</li><li><a href="https://www.insanelymac.com/forum/profile/1364628-headkaze/" target="_blank" rel="noopener">headkaze</a> 提供的工具：<a href="https://github.com/headkaze/Hackintool" target="_blank" rel="noopener">hackintool</a> <a href="https://github.com/headkaze/PinConfigurator" target="_blank" rel="noopener">PinConfigurator</a> <a href="https://www.insanelymac.com/forum/topic/339175-brcmpatchram2-for-1015-catalina-broadcom-bluetooth-firmware-upload/" target="_blank" rel="noopener">BrcmPatchRAM</a></li><li><a href="https://github.com/CloverHackyColor" target="_blank" rel="noopener">CloverHackyColor</a>维护的项目：<a href="https://github.com/CloverHackyColor/CloverBootloader" target="_blank" rel="noopener">CloverBootloader</a> <a href="https://github.com/CloverHackyColor/CloverThemes" target="_blank" rel="noopener">CloverThemes</a></li><li>宪武整理的：<a href="https://github.com/daliansky/P-little" target="_blank" rel="noopener">P-little</a> <a href="https://github.com/daliansky/OC-little" target="_blank" rel="noopener">OC-little</a></li><li><a href="https://github.com/chris1111" target="_blank" rel="noopener">chris1111</a>维护的项目：<a href="https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V15" target="_blank" rel="noopener">VoodooHDA</a> <a href="https://github.com/chris1111/Wireless-USB-Adapter-Clover" target="_blank" rel="noopener">Wireless USB Adapter Clover</a></li><li><a href="https://github.com/zxystd" target="_blank" rel="noopener">zxystd</a>开发的<a href="https://github.com/zxystd/itlwm" target="_blank" rel="noopener">itlwm</a> <a href="https://github.com/zxystd/IntelBluetoothFirmware" target="_blank" rel="noopener">IntelBluetoothFirmware</a></li><li><a href="https://github.com/lihaoyun6" target="_blank" rel="noopener">lihaoyun6</a>提供的工具：<a href="https://github.com/lihaoyun6/CPU-S" target="_blank" rel="noopener">CPU-S</a> <a href="https://github.com/lihaoyun6/macOS-Displays-icon" target="_blank" rel="noopener">macOS-Displays-icon</a> <a href="https://github.com/lihaoyun6/SidecarPatcher" target="_blank" rel="noopener">SidecarPatcher</a></li><li><a href="https://github.com/SukkaW" target="_blank" rel="noopener">sukka</a>更新维护的<a href="https://blog.skk.moe/post/from-clover-to-opencore/" target="_blank" rel="noopener">从 Clover 到 OpenCore —— Clover 迁移 OpenCore 指南</a></li><li><a href="https://github.com/xzhih" target="_blank" rel="noopener">xzhih</a>提供的工具：<a href="https://github.com/xzhih/one-key-hidpi" target="_blank" rel="noopener">one-key-hidpi</a></li><li><a href="https://github.com/williambj1" target="_blank" rel="noopener">Bat.bat</a>更新维护的<a href="https://blog.daliansky.net/OpenCore-BootLoader.html">精解OpenCore</a></li><li><a href="https://github.com/shuiyunxc" target="_blank" rel="noopener">shuiyunxc</a> 更新维护的<a href="https://shuiyunxc.gitee.io/2020/04/06/Faults/index/" target="_blank" rel="noopener">OpenCore配置错误、故障与解决办法</a></li><li><a href="https://github.com/athlonreg" target="_blank" rel="noopener">athlonreg</a>更新维护的<a href="https://blog.cloudops.ml/ocbook/" target="_blank" rel="noopener">OpenCore 0.5+ 部件补丁</a> <a href="https://github.com/athlonreg/Common-patches-for-hackintosh" target="_blank" rel="noopener">Common-patches-for-hackintosh</a></li><li><a href="github.com">github.com</a></li><li><a href="gitee.io">码云 gitee.io</a></li><li><a href="coding.net">扣钉 coding.net</a></li></ul><h2 id="参考及引用"><a class="markdownIt-Anchor" href="#参考及引用"></a> 参考及引用：</h2><ul><li><a href="https://deviwiki.com/wiki/Dell" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell</a></li><li><a href="https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></li><li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></li><li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></li><li><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></li><li><a href="https://blog.xjn819.com/" target="_blank" rel="noopener">xjn819</a>： <a href="https://blog.xjn819.com/?p=543" target="_blank" rel="noopener">使用OpenCore引导黑苹果</a> <a href="https://blog.xjn819.com/?p=317" target="_blank" rel="noopener">300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）</a></li><li><a href="https://www.insanelymac.com/" target="_blank" rel="noopener">insanelymac.com</a></li><li><a href="https://www.tonymacx86.com/" target="_blank" rel="noopener">tonymacx86.com</a></li><li><a href="http://bbs.pcbeta.com" target="_blank" rel="noopener">远景论坛</a></li><li><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></li><li><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="黑果小兵macos-catalina-10157-19h2-正式版-with-clover-5122原版镜像双efi版-uefi-and-mbr"><a class="markdownIt-Anchor" href="#黑果小兵macos-catalina-10157-19h2-正式版-with-clover-5122原版镜像双efi版-uefi-and-mbr"></a> 【黑果小兵】macOS Catalina 10.15.7 19H2 正式版 with Clover 5122原版镜像[双EFI版] [UEFI and MBR]</h1><blockquote><blockquote><p>这也许是10.xx系列的最后一个版本了，但它一定不是<code>macOS</code>支持黑苹果的最后一版，所以做为生产力工具使用的小伙伴们，可以快乐地升级啦！！！</p></blockquote><p>这不，本来以为10.15.6会是10.xx系列的最后一个版本了，但是，可但是，苹果破天荒地发布了10.15.7版本。</p></blockquote><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.7/10.15.7_19H2.png" alt="19H2"></p><h2 id="19h2更新说明"><a class="markdownIt-Anchor" href="#19h2更新说明"></a> <code>19H2</code>更新说明</h2><p>9月24日，苹果向macOS推送10.15.7系统补充更新，macOS Catalina 10.15.7 为您的 Mac 提供了重要的安全性更新和错误修复。</p><ul><li>解决了 macOS 不会自动接入 Wi-Fi 网络的问题</li><li>修复了文件可能无法通过 iCloud 云盘同步的问题</li><li>解决了配备 Radeon Pro 5700 XT 的 iMac（视网膜 5K 显示屏，27 英寸，2020 年机型）上可能发生的图形卡问题</li></ul><h2 id="镜像靓点"><a class="markdownIt-Anchor" href="#镜像靓点"></a> 镜像靓点：</h2><div class="note warning"><p>使用博通无线网卡的用户，须于安装后移除引导参数：<code>brcmfx-driver=0</code>以开启WIFI功能</p></div><ul><li><p>Clover默认配置文件<code>config.plist</code>原则上支持各种机型引导安装；</p></li><li><p>更新<code>CLOVER</code>到<code>v2.5k r5122</code></p></li><li><p>内存修正驱动采用<code>OcQuirks</code>，原则上支持<code>Big Sur</code></p></li><li><p>新增<code>PE</code>引导分区，同时支持<code>CLOVER</code> / <code>PE</code>双引导</p></li><li><p><strong>三分区特别版</strong>同时支持<code>CLOVER</code> / <code>OC</code> / <code>WEPE</code>引导，支持<code>AMD</code>安装使用</p></li><li><p>新增<code>MBR</code>引导，支持旧主板旧机型的安装</p></li><li><p>驱动更新</p><ul><li>更新<code>Lilu</code> <code>v1.4.8</code></li><li>更新<code>WhatEverGreen</code> <code>v1.4.3</code></li><li>更新<code>AppleALC</code> <code>v1.5.3</code>，新增<code>Lenovo 天逸510s Mini</code>专用ID</li><li>更新<code>VirtualSMC</code> <code>v1.1.7</code></li><li>更新<code>VoodooPS2Controller</code> <code>v2.1.8</code></li><li>新增<code>RTCMemoryFixup</code> <code>v1.0.7</code></li><li>更新<code>BrcmPatchRAM</code> <code>v2.5.5</code></li><li>更新<code>AirportBrcmFixup</code> <code>v2.1.0</code>，支持<code>DW1820A</code> / <code>DW1560</code> / <code>DW1830</code> / <code>BCM94331CD</code> / <code>BCM943602CDP</code> / <code>BCM94360CD</code> 等</li><li>更新<code>USBInjectAll</code> <code>v0.7.6</code> 新增了对<code>Z490</code> / <code>B460</code>等芯片组的支持</li><li>更新<code>LucyRTL8125Ethernet.kext</code> <code>v1.0.0d6</code>，支持<code>z490</code>主板</li></ul></li><li><p>去除<code>USB端口限制</code>，减少禁行发生的几率；增加<code>Lilu</code>崩溃的日志信息显示；</p></li><li><p>本镜像采用官方原版app制作，集成Clover r5120，支持UEFI启动安装;<code>apfs.efi</code>同时去除日志显示；其它的驱动位于 <code>drivers/off</code>；</p></li><li><p><s><strong>300系列主板请于UEFI目录中移除<code>AptioMemoryFix-64.efi</code>添加<code>OsxAptioFix2Drv-free2000.efi</code>该驱动位于<code>/EFI/CLOVER/drivers/off</code>目录下</strong> 或者 <a href="https://blog.daliansky.net/Slide-value-acquisition-and-calculation.html">Slide值获取及计算</a></s></p></li><li><p>Clover集成了全新主题以及本人收藏的其它主题，不喜欢的可以于安装系统后自行替换；<img src="/images/loading.gif" data-original="http://7.daliansky.net/CDImage/CLOVER2.png" alt="CLOVER2"></p></li><li><p>所有配置文件中默认添加<code>Lilu</code>崩溃日志的输出信息,详见：<a href="https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html">macOS Catalina 10.15安装中常见的问题及解决方法</a>;</p></li><li><p>更新<code>WhateverGreen</code>到<code>v1.4.2</code>(7月15日编译，根治安装/更新中的黑屏现象)，原生支持UHD620/UHD630等八代核显，不需要注入<code>platform-id</code>， 同时它也支持NVIDIA和AMD的显卡，以及整合了<code>Shiki</code>和<code>CoreDisplayFixup</code>的驱动，现在是All In One了；核显驱动更多的教程请参考：<a href="https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html">Hackintool(原Intel FB-Patcher)使用教程及插入姿势</a> / <a href="https://blog.daliansky.net/Intel-core-display-platformID-finishing.html">黑苹果必备：Intel核显platform ID整理及smbios速查表</a> / <a href="https://blog.daliansky.net/Coffee-Lake-frame-buffer-patch-and-UHD630-Coffee-Lake-ig-platform-id-data-finishing.html">Coffee Lake帧缓冲区补丁及UHD630 Coffee Lake ig-platform-id数据整理</a> <a href="https://blog.daliansky.net/Tutorial-Using-Hackintool-to-open-the-correct-pose-of-the-8th-generation-core-display-HDMI-or-DVI-output.html">教程：利用Hackintool打开第8代核显HDMI输出的正确姿势</a></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/dell/IntelGraphicsFixup.jpg" alt="http://7.daliansky.net/dell/IntelGraphicsFixup.jpg"></p></li><li><p>其它的补丁统一保存到<code>config-Other</code>目录下，请自行根据机型修改/添加相应补丁；</p><ul><li>HD3000驱动方法请移步<a href="https://github.com/chris1111/Fix-Graphics-HD-3000-Mojave-10.14-Catalina-10.15" target="_blank" rel="noopener">这里</a></li></ul></li></ul><h2 id="安装教程简单版"><a class="markdownIt-Anchor" href="#安装教程简单版"></a> 安装教程简单版</h2><ul><li><p>安装过程（简易版）：详细的安装教程请移步：<a href="https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html">macOS安装教程</a></p><ul><li><p>下载镜像：<a href="https://blog.daliansky.net">黑果小兵的部落阁</a></p></li><li><p>校验md5值：</p><ul><li><p>macOS：打开终端，输入命令：</p></li><li><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># md5 macOS\ Catalina\ 10.15.7\(19H2\)\ Installer\ for\ Clover\ 5122\ and\ WEPE.dmg</span></span><br><span class="line">MD5 (macOS Catalina 10.15.7(19H2) Installer <span class="keyword">for</span> Clover 5122 and WEPE.dmg) = 418ae1bfcaef06f1c2890f914ed3a622</span><br></pre></td></tr></table></figure></li><li><p>Windows下：请使用<a href="http://www.winmd5.com" target="_blank" rel="noopener">winmd5</a>，将下载的安装镜像拖进winmd5窗口，核验md5值（截图略）</p></li></ul></li><li><p>镜像制作：</p><ul><li>下载<a href="https://etcher.io" target="_blank" rel="noopener">etcher</a>，打开镜像，选择U盘，点击Flash即可。<em><strong>Windows10需要以管理员权限运行</strong></em><img src="/images/loading.gif" data-original="http://7.daliansky.net/etcher.png" alt="etcher"></li></ul></li><li><p>安装macOS：</p><ul><li><strong>安装过程中不要先替换EFI，等安装全部结果后再执行替换EFI的操作</strong></li></ul></li><li><p>安装过程中出现问题请参考：<a href="https://blog.daliansky.net/clover-user-manual.html">clover使用教程</a> 以及 <a href="https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html">macOS Mojave 10.15安装中常见的问题及解决方法</a></p></li><li><p>安装后所需要执行的动作：</p><ul><li><a href="https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html#undefined">合并和替换EFI</a> <a href="https://blog.daliansky.net/Add-CLOVER-boot-to-UEFI-without-any-tools.html">不借助任何工具将CLOVER引导添加进UEFI的正确姿势</a></li></ul></li><li><p>驱动：显卡、声卡、USB定制：<a href="https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html">Hackintool(原Intel FB-Patcher)使用教程及插入姿势</a> / <a href="https://blog.daliansky.net/Intel-core-display-platformID-finishing.html">黑苹果必备：Intel核显platform ID整理及smbios速查表</a> / <a href="https://blog.daliansky.net/Coffee-Lake-frame-buffer-patch-and-UHD630-Coffee-Lake-ig-platform-id-data-finishing.html">Coffee Lake帧缓冲区补丁及UHD630 Coffee Lake ig-platform-id数据整理</a> <a href="https://blog.daliansky.net/Tutorial-Using-Hackintool-to-open-the-correct-pose-of-the-8th-generation-core-display-HDMI-or-DVI-output.html">教程：利用Hackintool打开第8代核显HDMI输出的正确姿势</a></p><ul><li>声卡仿冒：<a href="https://blog.daliansky.net/Use-AppleALC-sound-card-to-drive-the-correct-posture-of-AppleHDA.html">使用AppleALC声卡仿冒驱动AppleHDA的正确姿势</a></li><li>无线网卡：<a href="https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html">DW1820A/BCM94350ZAE/BCM94356ZEPA50DX插入的正确姿势</a> <a href="https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html">Broadcom BCM94352z/DW1560驱动新姿势新方法</a></li></ul></li></ul></li><li><p>本镜像集成的EFI如果无法安装，请根据自己的机型寻找相应的EFI进行替换，请参考：<a href="http://bbs.pcbeta.com/viewthread-1856511-1-1.html" target="_blank" rel="noopener">远景：黑苹果长期维护机型资料整理(2020年5月10日更新)</a> 或者 <a href="https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html">本站：黑苹果长期维护机型整理清单</a> ，如果你有自己机型的EFI也可以提交到<a href="https://github.com/daliansky/Hackintosh" target="_blank" rel="noopener">这里</a></p></li><li><p>支持Realtek8111/8100系列有线网卡，支持Intel板载有线网卡；其它的网卡驱动位于<code>kexts/Other/其它驱动</code></p></li><li><p>本镜像已经过本人安装测试，若您在使用中遇到问题，可通过爬楼自行解决。本人才疏学浅，所学知识都来自于远景社区，感谢远景各位大咖一直以来对 <code>黑果小兵</code> 的大力支持，由于人员众多，恕不一一列名致谢！</p></li><li><p>挂载EFI分区</p><p>Windows操作系统下面,以系统管理员身份打开<code>cmd</code>窗口,输入命令:</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">c:\&gt;diskpart</span><br><span class="line">list disk           <span class="comment"># 磁盘列表</span></span><br><span class="line">select disk n       <span class="comment"># 选择EFI分区所在的磁盘，n为磁盘号</span></span><br><span class="line">list partition      <span class="comment"># 磁盘分区列表</span></span><br><span class="line">select partition n  <span class="comment"># 选择EFI分区，n为EFI分区号</span></span><br><span class="line"><span class="built_in">set</span> id=<span class="string">"ebd0a0a2-b9e5-4433-87c0-68b6b72699c7"</span><span class="comment"># 设置为基本数据分区</span></span><br><span class="line">assign letter=X     <span class="comment"># x为EFI分区盘符</span></span><br><span class="line"><span class="built_in">exit</span><span class="comment"># 退出diskpart</span></span><br><span class="line">notepad<span class="comment"># 打开记事本程序，点击文件-&gt;打开，即可访问EFI分区</span></span><br></pre></td></tr></table></figure><p>您可以重复输入命令同时挂载USB的EFI分区和磁盘的EFI分区</p><p>另一种方法：直接 使用应用程序<code>diskgenius</code>挂载EFI分区进行操作</p></li><li><p>通过<code>UEFI SHELL</code>添加<code>UEFI</code>引导的正确姿势</p><p>无论是<code>Clover</code>还是<code>OpenCore</code>，经常会遇到的问题是：重置了<code>NVRAM</code>后就会导致<code>UEFI</code>引导项的丢失。正确的、最简单的插入姿势就是：进入<code>UEFI SHELL</code> (CLOVER)或者<code>Open Shell</code>(OpenCore)，然后查看<code>EFI</code>所在的<code>fsV</code></p><p>假如你的是<code>fs0</code>，那么如何判断<code>fs0</code>目录下面就是<code>EFI</code>呢，可以这样验证：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">Shell&gt; ls fs0:</span><br><span class="line">如果显示有`EFI`的目录，那么就继续执行</span><br><span class="line">Shell&gt; ls fs0:\efi</span><br><span class="line">显示`BOOT`和`OC`或者`BOOT`和`CLOVER`目录，那么可以确定这是你需要操作的位置</span><br><span class="line">Shell&gt; bcfg boot add 0 fs0:\efi\oc\opencore.efi <span class="string">"OpenCore Bootloader"</span></span><br><span class="line">这是添加`OC`的引导项命令</span><br><span class="line">Shell&gt; bcfg boot add 0 fs0:\efi\clover\cloverx64.efi <span class="string">"Clover Bootloader"</span></span><br><span class="line">这是添加`CLOVER`的引导项命令</span><br><span class="line">Shell&gt; <span class="built_in">exit</span></span><br><span class="line">退出`UEFI Shell`</span><br></pre></td></tr></table></figure><p>UEFI SHELL其它的用法请谷歌</p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/11.0/UEFIShell3.png" alt="UEFI SHELL"></p></li><li><p>本镜像发布站点：<a href="http://bbs.pcbeta.com/forum.php?gid=86" target="_blank" rel="noopener">远景论坛</a> / <a href="https://blog.daliansky.net">黑果小兵的部落阁</a></p></li></ul><h2 id="截图"><a class="markdownIt-Anchor" href="#截图"></a> 截图：</h2><p><strong>结合了台式机和笔记本的截屏，仅供参考</strong></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.7/19H2_iMac.png" alt="10.15.7 19H2"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.7/Hackintool.png" alt="1About_Hackintool"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.4/DualDisplays.png" alt="21Displays"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.7/19H2_ZSH.png" alt="zsh"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/11.0/11.0_DW1820A.png" alt="DW1820A_Bug_Report"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/DW1820A_WIFI_Status.png" alt="DW1820A_WIFI_Status"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/DW1820A_BT_Status.png" alt="DW1820A_BT_Status"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/DW1820A/ASPM.png" alt="ASPM"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.2/Video.png" alt="2Video"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.2/Audio.png" alt="1Audio"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.2/Audio2.png" alt="1Audio2"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.6/AppleALC.png" alt="1AudioPatch"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.6/BlueTooth.png" alt="2BlueTooth"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/dell7000/3Wifi.png" alt="3Wifi"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15/NVMe.png" alt="4Sata"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/dell7000/5Ethernet.png" alt="5Ethernet"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14.2/USB.png" alt="6USB"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.6/UsbPorts.png" alt="6USBFinal"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/dell7000/7Light.png" alt="7Light"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/dell7000/8Volume.png" alt="8Volume"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15/Extensions.png" alt="Extensions"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/PCI_List.png" alt="PCI_List"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14GM/4I2C.png" alt="4I2C"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.14GM/5TouchPad.png" alt="5TouchPad"><br><img src="/images/loading.gif" data-original="http://7.daliansky.net/10.15.7/10.15.7_19H2_Desktop_Air.png" alt="18G84"></p><h2 id="特别感谢"><a class="markdownIt-Anchor" href="#特别感谢"></a> 特别感谢</h2><p>@<code>宪武</code> 提供的hotpatch的全套方法：</p><ul><li>适用于<code>CLOVER</code> 的 <a href="https://github.com/daliansky/P-little" target="_blank" rel="noopener">P-little</a> ；</li><li>适用于 <code>OpenCore</code> 的 <a href="https://github.com/daliansky/OC-little" target="_blank" rel="noopener">OC-little</a></li></ul><h2 id="10157-19h2-clover-v5122-opencore-v061-pe三分区特别版下载链接"><a class="markdownIt-Anchor" href="#10157-19h2-clover-v5122-opencore-v061-pe三分区特别版下载链接"></a> <strong>10.15.7 <code>19H2</code> CLOVER <code>v5122</code> / OpenCore <code>v0.6.1</code> / <code>PE</code>三分区特别版</strong><a href="https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.7-19H2-official-version-Clover-5122-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html">下载链接</a></h2><div class="note info"><p>请通过微信公众号【<code>黑果小兵的部落阁</code>】下载</p><p>访问码请通过微信公众号【<code>黑果小兵的部落阁</code>】获取</p></div><p>16GB 及以上 U 盘请下载：<code>macOS Catalina 10.15.7(19H2) Installer for Clover 5122 and OC 0.6.1 and PE.dmg</code></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># md5 macOS\ Catalina\ 10.15.7\(19H2\)\ Installer\ for\ Clover\ 5122\ and\ OC\ 0.6.1\ and\ PE.dmg</span></span><br><span class="line">MD5 (macOS Catalina 10.15.7(19H2) Installer <span class="keyword">for</span> Clover 5122 and OC 0.6.1 and PE.dmg) = b44de9c1aa8aea1c7414b0d14f187b55</span><br></pre></td></tr></table></figure><p>32GB 及以上 U 盘请下载：<code>macOS Catalina 10.15.7(19H2) Installer for Clover 5122 and OC 0.6.1 and PE 32G.dmg</code></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># md5 macOS\ Catalina\ 10.15.7\(19H2\)\ Installer\ for\ Clover\ 5122\ and\ OC\ 0.6.1\ and\ PE\ 32G.dmg</span></span><br><span class="line">MD5 (macOS Catalina 10.15.7(19H2) Installer <span class="keyword">for</span> Clover 5122 and OC 0.6.1 and PE 32G.dmg) = f54c4c5c0bf930643469b7f064078fda</span><br></pre></td></tr></table></figure><h2 id="10157-19h2-双efi分区版下载链接"><a class="markdownIt-Anchor" href="#10157-19h2-双efi分区版下载链接"></a> <strong>10.15.7 <code>19H2</code> <code>双EFI</code>分区版下载链接</strong></h2><p>迅雷离线下载：[<a href>请点击下载</a>] 感谢<code>@难忘情怀</code>提供下载资源</p><p>http下载链接:<a href="https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/" target="_blank" rel="noopener">请点击下载</a> 感谢<code>@难忘情怀</code>提供下载资源</p><p>天翼云盘：<a href="https://cloud.189.cn/t/jm6FJfmUVrue" target="_blank" rel="noopener">https://cloud.189.cn/t/jm6FJfmUVrue</a></p><p>OneDrive下载：[<a href>请点击下载</a>]</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># md5 macOS\ Catalina\ 10.15.7\(19H2\)\ Installer\ for\ Clover\ 5122\ and\ WEPE.dmg</span></span><br><span class="line">MD5 (macOS Catalina 10.15.7(19H2) Installer <span class="keyword">for</span> Clover 5122 and WEPE.dmg) = 418ae1bfcaef06f1c2890f914ed3a622</span><br></pre></td></tr></table></figure><h2 id="感谢名单"><a class="markdownIt-Anchor" href="#感谢名单"></a> 感谢名单</h2><ul><li><a href="https://www.apple.com/" target="_blank" rel="noopener">Apple</a> 的 macOS</li><li><a href="https://github.com/rehabman" target="_blank" rel="noopener">RehabMan</a>维护的项目：<a href="https://github.com/RehabMan/OS-X-Clover-Laptop-Config" target="_blank" rel="noopener">OS-X-Clover-Laptop-Config</a> <a href="https://github.com/RehabMan/Laptop-DSDT-Patch" target="_blank" rel="noopener">Laptop-DSDT-Patch</a> <a href="https://github.com/RehabMan/OS-X-USB-Inject-All" target="_blank" rel="noopener">OS-X-USB-Inject-All</a>等</li><li><a href="https://github.com/acidanthera" target="_blank" rel="noopener">Acidanthera</a> 维护的项目：<a href="https://github.com/acidanthera/OpenCorePkg" target="_blank" rel="noopener">OpenCorePkg</a> <a href="https://github.com/acidanthera/Lilu" target="_blank" rel="noopener">lilu</a> <a href="https://github.com/acidanthera/AirportBrcmFixup" target="_blank" rel="noopener">AirportBrcmFixup</a> <a href="https://github.com/acidanthera/WhateverGreen" target="_blank" rel="noopener">WhateverGreen</a> <a href="https://github.com/acidanthera/VirtualSMC" target="_blank" rel="noopener">VirtualSMC</a> <a href="https://github.com/acidanthera/AppleALC" target="_blank" rel="noopener">AppleALC</a> <a href="https://github.com/acidanthera/BrcmPatchRAM" target="_blank" rel="noopener">BrcmPatchRAM</a> <a href="https://github.com/acidanthera/MaciASL" target="_blank" rel="noopener">MaciASL</a> 等</li><li><a href="https://www.insanelymac.com/forum/profile/1364628-headkaze/" target="_blank" rel="noopener">headkaze</a> 提供的工具：<a href="https://github.com/headkaze/Hackintool" target="_blank" rel="noopener">hackintool</a> <a href="https://github.com/headkaze/PinConfigurator" target="_blank" rel="noopener">PinConfigurator</a> <a href="https://www.insanelymac.com/forum/topic/339175-brcmpatchram2-for-1015-catalina-broadcom-bluetooth-firmware-upload/" target="_blank" rel="noopener">BrcmPatchRAM</a></li><li><a href="https://github.com/CloverHackyColor" target="_blank" rel="noopener">CloverHackyColor</a>维护的项目：<a href="https://github.com/CloverHackyColor/CloverBootloader" target="_blank" rel="noopener">CloverBootloader</a> <a href="https://github.com/CloverHackyColor/CloverThemes" target="_blank" rel="noopener">CloverThemes</a></li><li>宪武整理的：<a href="https://github.com/daliansky/P-little" target="_blank" rel="noopener">P-little</a> <a href="https://github.com/daliansky/OC-little" target="_blank" rel="noopener">OC-little</a></li><li><a href="https://github.com/chris1111" target="_blank" rel="noopener">chris1111</a>维护的项目：<a href="https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V15" target="_blank" rel="noopener">VoodooHDA</a> <a href="https://github.com/chris1111/Wireless-USB-Adapter-Clover" target="_blank" rel="noopener">Wireless USB Adapter Clover</a></li><li><a href="https://github.com/zxystd" target="_blank" rel="noopener">zxystd</a>开发的<a href="https://github.com/zxystd/itlwm" target="_blank" rel="noopener">itlwm</a> <a href="https://github.com/zxystd/IntelBluetoothFirmware" target="_blank" rel="noopener">IntelBluetoothFirmware</a></li><li><a href="https://github.com/lihaoyun6" target="_blank" rel="noopener">lihaoyun6</a>提供的工具：<a href="https://github.com/lihaoyun6/CPU-S" target="_blank" rel="noopener">CPU-S</a> <a href="https://github.com/lihaoyun6/macOS-Displays-icon" target="_blank" rel="noopener">macOS-Displays-icon</a> <a href="https://github.com/lihaoyun6/SidecarPatcher" target="_blank" rel="noopener">SidecarPatcher</a></li><li><a href="https://github.com/SukkaW" target="_blank" rel="noopener">sukka</a>更新维护的<a href="https://blog.skk.moe/post/from-clover-to-opencore/" target="_blank" rel="noopener">从 Clover 到 OpenCore —— Clover 迁移 OpenCore 指南</a></li><li><a href="https://github.com/xzhih" target="_blank" rel="noopener">xzhih</a>提供的工具：<a href="https://github.com/xzhih/one-key-hidpi" target="_blank" rel="noopener">one-key-hidpi</a></li><li><a href="https://github.com/williambj1" target="_blank" rel="noopener">Bat.bat</a>更新维护的<a href="https://blog.daliansky.net/OpenCore-BootLoader.html">精解OpenCore</a></li><li><a href="https://github.com/shuiyunxc" target="_blank" rel="noopener">shuiyunxc</a> 更新维护的<a href="https://shuiyunxc.gitee.io/2020/04/06/Faults/index/" target="_blank" rel="noopener">OpenCore配置错误、故障与解决办法</a></li><li><a href="https://github.com/athlonreg" target="_blank" rel="noopener">athlonreg</a>更新维护的<a href="https://blog.cloudops.ml/ocbook/" target="_blank" rel="noopener">OpenCore 0.5+ 部件补丁</a> <a href="https://github.com/athlonreg/Common-patches-for-hackintosh" target="_blank" rel="noopener">Common-patches-for-hackintosh</a></li><li><a href="github.com">github.com</a></li><li><a href="gitee.io">码云 gitee.io</a></li><li><a href="coding.net">扣钉 coding.net</a></li></ul><h2 id="参考及引用"><a class="markdownIt-Anchor" href="#参考及引用"></a> 参考及引用：</h2><ul><li><a href="https://deviwiki.com/wiki/Dell" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell</a></li><li><a href="https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></li><li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></li><li><a href="%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></li><li><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></li><li><a href="https://blog.xjn819.com/" target="_blank" rel="noopener">xjn819</a>： <a href="https://blog.xjn819.com/?p=543" target="_blank" rel="noopener">使用OpenCore引导黑苹果</a> <a href="https://blog.xjn819.com/?p=317" target="_blank" rel="noopener">300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）</a></li><li><a href="https://www.insanelymac.com/" target="_blank" rel="noopener">insanelymac.com</a></li><li><a href="https://www.tonymacx86.com/" target="_blank" rel="noopener">tonymacx86.com</a></li><li><a href="http://bbs.pcbeta.com" target="_blank" rel="noopener">远景论坛</a></li><li><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></li><li><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;黑果小兵macos-catalina-10156-19g2021-正式版-with-clover-5120原版镜像双efi版-uefi-and-mbr&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#黑果小兵macos-catalina-
+        &lt;h1 id=&quot;黑果小兵macos-catalina-10157-19h2-正式版-with-clover-5122原版镜像双efi版-uefi-and-mbr&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#黑果小兵macos-catalina-101
       
     
     </summary>
@@ -39,11 +39,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -76,11 +76,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -142,9 +142,9 @@
     
       <category term="11" scheme="https://blog.daliansky.net/tags/11/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -214,9 +214,9 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -253,11 +253,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -298,9 +298,9 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="Clover" scheme="https://blog.daliansky.net/tags/Clover/"/>
     
@@ -339,11 +339,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -382,9 +382,9 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -421,11 +421,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -460,11 +460,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -499,11 +499,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -538,11 +538,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -607,11 +607,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -683,11 +683,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -720,11 +720,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -757,11 +757,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -794,13 +794,13 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
-    
-      <category term="10.15" scheme="https://blog.daliansky.net/tags/10-15/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
+    
+      <category term="10.15" scheme="https://blog.daliansky.net/tags/10-15/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -860,11 +860,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -932,11 +932,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -969,11 +969,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -1070,11 +1070,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -1231,11 +1231,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -1305,11 +1305,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -1340,11 +1340,11 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="黑屏" scheme="https://blog.daliansky.net/tags/%E9%BB%91%E5%B1%8F/"/>
-    
       <category term="UHD 630" scheme="https://blog.daliansky.net/tags/UHD-630/"/>
     
       <category term="CoffeeLake" scheme="https://blog.daliansky.net/tags/CoffeeLake/"/>
+    
+      <category term="黑屏" scheme="https://blog.daliansky.net/tags/%E9%BB%91%E5%B1%8F/"/>
     
       <category term="亮屏" scheme="https://blog.daliansky.net/tags/%E4%BA%AE%E5%B1%8F/"/>
     
@@ -1375,13 +1375,13 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
-    
-      <category term="10.14" scheme="https://blog.daliansky.net/tags/10-14/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
+    
+      <category term="10.14" scheme="https://blog.daliansky.net/tags/10-14/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -1480,13 +1480,13 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
-    
-      <category term="10.14" scheme="https://blog.daliansky.net/tags/10-14/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
+    
+      <category term="10.14" scheme="https://blog.daliansky.net/tags/10-14/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -1616,9 +1616,9 @@
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -1653,9 +1653,9 @@
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -1690,9 +1690,9 @@
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -1847,9 +1847,9 @@
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -1915,9 +1915,9 @@
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -2045,9 +2045,9 @@
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -2210,9 +2210,9 @@
     
       <category term="EDID" scheme="https://blog.daliansky.net/tags/EDID/"/>
     
-      <category term="花屏" scheme="https://blog.daliansky.net/tags/%E8%8A%B1%E5%B1%8F/"/>
-    
       <category term="黑屏" scheme="https://blog.daliansky.net/tags/%E9%BB%91%E5%B1%8F/"/>
+    
+      <category term="花屏" scheme="https://blog.daliansky.net/tags/%E8%8A%B1%E5%B1%8F/"/>
     
       <category term="HIDPI" scheme="https://blog.daliansky.net/tags/HIDPI/"/>
     
@@ -2303,9 +2303,9 @@
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -2565,9 +2565,9 @@
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -2643,11 +2643,11 @@
     
       <category term="EDID" scheme="https://blog.daliansky.net/tags/EDID/"/>
     
+      <category term="黑屏" scheme="https://blog.daliansky.net/tags/%E9%BB%91%E5%B1%8F/"/>
+    
       <category term="屏蔽独显" scheme="https://blog.daliansky.net/tags/%E5%B1%8F%E8%94%BD%E7%8B%AC%E6%98%BE/"/>
     
       <category term="花屏" scheme="https://blog.daliansky.net/tags/%E8%8A%B1%E5%B1%8F/"/>
-    
-      <category term="黑屏" scheme="https://blog.daliansky.net/tags/%E9%BB%91%E5%B1%8F/"/>
     
   </entry>
   
@@ -2678,9 +2678,9 @@
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -2740,9 +2740,9 @@
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -2917,8 +2917,6 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
-    
       <category term="常见问题" scheme="https://blog.daliansky.net/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
     
       <category term="10.12" scheme="https://blog.daliansky.net/tags/10-12/"/>
@@ -2928,6 +2926,8 @@
       <category term="Sierra" scheme="https://blog.daliansky.net/tags/Sierra/"/>
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
+    
+      <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
     
       <category term="Plugins" scheme="https://blog.daliansky.net/tags/Plugins/"/>
     
@@ -3005,9 +3005,9 @@
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="DB9" scheme="https://blog.daliansky.net/tags/DB9/"/>
     
@@ -3042,6 +3042,8 @@
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
     
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
+    
       <category term="10.12.6" scheme="https://blog.daliansky.net/tags/10-12-6/"/>
     
       <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
@@ -3053,8 +3055,6 @@
       <category term="10.15" scheme="https://blog.daliansky.net/tags/10-15/"/>
     
       <category term="Download" scheme="https://blog.daliansky.net/tags/Download/"/>
-    
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
   </entry>
   
@@ -3147,9 +3147,9 @@
     
       <category term="10.13" scheme="https://blog.daliansky.net/tags/10-13/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="DB8" scheme="https://blog.daliansky.net/tags/DB8/"/>
     
@@ -3211,11 +3211,11 @@
     
       <category term="10.13" scheme="https://blog.daliansky.net/tags/10-13/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="DB7" scheme="https://blog.daliansky.net/tags/DB7/"/>
     
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
   </entry>
   
@@ -3364,9 +3364,9 @@
     
       <category term="Sierra" scheme="https://blog.daliansky.net/tags/Sierra/"/>
     
-      <category term="10.12.6" scheme="https://blog.daliansky.net/tags/10-12-6/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="10.12.6" scheme="https://blog.daliansky.net/tags/10-12-6/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -3425,9 +3425,9 @@
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
