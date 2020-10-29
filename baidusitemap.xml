@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.daliansky.net/Hackintosh-on-Lenovo-Tianyi-510s-Mini-PC.html</loc>
+    <lastmod>2020-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
+    <lastmod>2020-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/undefined.html</loc>
+    <lastmod>2020-10-27</lastmod>
+  </url>
+  <url>
     <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.7-19H2-official-version-Clover-5122-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
     <lastmod>2020-10-25</lastmod>
   </url>
@@ -11,10 +23,6 @@
   <url>
     <loc>https://blog.daliansky.net/Lenovo-Xiaoxin-PRO-13-2019-and-macOS-Catalina-Installation-Tutorial.html</loc>
     <lastmod>2020-10-22</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/undefined.html</loc>
-    <lastmod>2020-10-21</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.6-17G65-Release-Version-with-Clover-4596-original-mirror.html</loc>
@@ -30,14 +38,6 @@
   </url>
   <url>
     <loc>https://blog.daliansky.net/macOS-Catalina-10.15.7-19H2-Release-version-with-Clover-5122-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
-    <lastmod>2020-10-10</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Hackintosh-on-Lenovo-Tianyi-510s-Mini-PC.html</loc>
-    <lastmod>2020-10-10</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
     <lastmod>2020-10-10</lastmod>
   </url>
   <url>
