@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-11.0.1-20B5012d-Installer-for-OpenCore-0.6.2-and-PE-dual-EFI-partition-original-image.html</loc>
+    
+    <lastmod>2020-10-30T05:32:15.331Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.daliansky.net/WeChat_First-macOS-Catalina-10.15.4-19E2269-official-version-Clover-5116-original-image-reconstruction-version.html</loc>
     
     <lastmod>2020-10-30T05:16:51.444Z</lastmod>
@@ -40,13 +47,6 @@
     <loc>https://blog.daliansky.net/macOS-Catalina-10.15.6-19G73-Release-version-with-Clover-5119-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
     
     <lastmod>2020-10-30T05:15:11.148Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-11.0.1-20B5012d-Installer-for-OpenCore-0.6.2-and-PE-dual-EFI-partition-original-image.html</loc>
-    
-    <lastmod>2020-10-30T03:12:59.329Z</lastmod>
     
   </url>
   

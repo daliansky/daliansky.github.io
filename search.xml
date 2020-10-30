@@ -31,12 +31,12 @@
         <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
-        <tag>三EFI分区</tag>
         <tag>20A5343i</tag>
         <tag>20A5343j</tag>
         <tag>20A5364e</tag>
         <tag>20A5384c</tag>
         <tag>20A5395g</tag>
+        <tag>三EFI分区</tag>
         <tag>20B5012d</tag>
       </tags>
   </entry>
@@ -150,8 +150,8 @@
       </categories>
       <tags>
         <tag>教程</tag>
-        <tag>EFI</tag>
         <tag>Hackintosh</tag>
+        <tag>EFI</tag>
         <tag>向导</tag>
         <tag>guide</tag>
       </tags>
@@ -557,12 +557,12 @@
         <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
-        <tag>三EFI分区</tag>
         <tag>20A5343i</tag>
         <tag>20A5343j</tag>
         <tag>20A5364e</tag>
         <tag>20A5384c</tag>
         <tag>20A5395g</tag>
+        <tag>三EFI分区</tag>
       </tags>
   </entry>
   <entry>
@@ -579,10 +579,10 @@
         <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
-        <tag>三EFI分区</tag>
         <tag>20A5343i</tag>
         <tag>20A5343j</tag>
         <tag>20A5364e</tag>
+        <tag>三EFI分区</tag>
       </tags>
   </entry>
   <entry>
@@ -676,9 +676,9 @@
         <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
+        <tag>三EFI分区</tag>
         <tag>10.16</tag>
         <tag>20A4300b</tag>
-        <tag>三EFI分区</tag>
       </tags>
   </entry>
   <entry>
@@ -1425,11 +1425,11 @@
       <tags>
         <tag>Lilu</tag>
         <tag>常见问题</tag>
-        <tag>Plugins</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
+        <tag>Plugins</tag>
         <tag>Clover</tag>
         <tag>platform-id</tag>
         <tag>Patch</tag>
