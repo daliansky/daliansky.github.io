@@ -1,91 +1,323 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-11.0.1-20B5012d-Installer-for-OpenCore-0.6.2-and-PE-dual-EFI-partition-original-image.html</loc>
-    <lastmod>2020-10-30</lastmod>
+    <loc>https://blog.daliansky.net/macOS-BigSur-11.0.1-20B29-Release-version-with-Clover-5126-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
+    <lastmod>2020-11-21</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/WeChat_First-macOS-Catalina-10.15.4-19E2269-official-version-Clover-5116-original-image-reconstruction-version.html</loc>
-    <lastmod>2020-10-30</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.5-19F101-official-version-Clover-5118-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
-    <lastmod>2020-10-30</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.5-19F96-official-version-Clover-5118-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
-    <lastmod>2020-10-30</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.5-19F96-Release-version-with-Clover-5118-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
-    <lastmod>2020-10-30</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.6-19G73-official-version-Clover-5119-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
-    <lastmod>2020-10-30</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.6-19G73-Release-version-with-Clover-5119-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
-    <lastmod>2020-10-30</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-3-Installer-for-OpenCore-0.6.0-and-PE-dual-EFI-partition-original-image.html</loc>
-    <lastmod>2020-10-30</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-2-Installer-for-OpenCore-and-PE-dual-EFI-partition-original-image.html</loc>
-    <lastmod>2020-10-30</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-2-Installer-for-Clover-5119-and-PE-dual-EFI-partition-original-image.html</loc>
-    <lastmod>2020-10-30</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-4-20A5343i-Installer-for-OpenCore-0.6.0-and-PE-dual-EFI-partition-original-image.html</loc>
-    <lastmod>2020-10-30</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-10-20A5395g-Installer-for-OpenCore-0.6.2-and-PE-dual-EFI-partition-original-image.html</loc>
-    <lastmod>2020-10-30</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
-    <lastmod>2020-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Hackintosh-on-Lenovo-Tianyi-510s-Mini-PC.html</loc>
-    <lastmod>2020-10-29</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/undefined.html</loc>
-    <lastmod>2020-10-27</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.7-19H2-official-version-Clover-5122-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
-    <lastmod>2020-10-25</lastmod>
+    <loc>https://blog.daliansky.net/macOS-BigSur-11.0.1-20B29-Release-version-with-Clover-5126-and-OC-0.6.3-and-PE-original-image.html</loc>
+    <lastmod>2020-11-21</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/Lenovo-Xiaoxin-PRO-13-2019-and-macOS-Catalina-Installation-Tutorial.html</loc>
-    <lastmod>2020-10-22</lastmod>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Clover-Configurator-Chinese-Version.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/translate-guide-intel-igpu-hdmi-dp-audio-sandy-ivy-haswell-broadwell-skylake-kabylake.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Lenovo-Xiaoxin-Air-13-macOS-Mojave-installation-tutorial.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/OpenCore-BootLoader.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Updated-Frequently-Asked-Questions-in-Sierra-or-high-sierra.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Display-interface-data-and-parameter-changes.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Tutorial-Using-Hackintool-to-open-the-correct-pose-of-the-8th-generation-core-display-HDMI-or-DVI-output.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/XiaoMiPro-notebook-Installation-10.13-readily-remember-and-share-EFI.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/HP-HP-ENVY-Laptop-13-ad1xx-Notebook-PC-Mac-OS-Note-and-EFI-Share.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Scan-code-support-QQ-group-upgrade.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Use-HIDPI-to-solve-sleep-wake-up-black-screen,-Huaping-and-connect-the-external-monitor-the-correct-posture.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/With-VoodooHDA-comes-getdump-find-valid-nodes-and-paths.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Add-the-CLOVER-boot-to-the-correct-posture-of-the-UEFI-Boot-Option-Menu.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Clover-Patched-Desktop-AppleHDA-Realtek-ALC-Audio.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Use-AppleALC-sound-card-to-drive-the-correct-posture-of-AppleHDA.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.7-19H15-official-version-Clover-5126-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.7-19H2-official-version-Clover-5122-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Add-CLOVER-boot-to-UEFI-without-any-tools.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.6-19G73-official-version-Clover-5119-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.5-19F101-official-version-Clover-5118-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.5-19F96-official-version-Clover-5118-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-11.0.1-20B5012d-Installer-for-OpenCore-0.6.2-and-PE-dual-EFI-partition-original-image.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/WeChat_First-macOS-Catalina-10.15.4-19E2269-official-version-Clover-5116-original-image-reconstruction-version.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-4-20A5343i-Installer-for-OpenCore-0.6.0-and-PE-dual-EFI-partition-original-image.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-2-Installer-for-OpenCore-and-PE-dual-EFI-partition-original-image.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-3-Installer-for-OpenCore-0.6.0-and-PE-dual-EFI-partition-original-image.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-10-20A5395g-Installer-for-OpenCore-0.6.2-and-PE-dual-EFI-partition-original-image.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-2-Installer-for-Clover-5119-and-PE-dual-EFI-partition-original-image.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.6-18G87-Release-version-with-Clover-5033-original-image.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.3-18D42-official-version-with-Clover-4859-original-image.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.4-18E226-official-version-with-Clover-4903-original-image.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.5-18F132-official-version-with-Clover-4928-original-image.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-Mojave-10.14-18A389-Release-with-Clover-4670-original-mirror.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-Mojave-10.14-18A391-official-version-with-Clover-4674-original-image.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.2-18C54-official-version-with-Clover-4792-original-image.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13GM-17A362a-and-clover-4207-original-mirror.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13-official-version-and-Clover-4221-original-image.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13-official-version-update-17A405-with-Clover-4238-original-mirror.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.1-18B75-official-version-with-Clover-4726-original-image.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.6-17G2112-Release-Special-with-Clover-4606-original-mirror.html</loc>
+    <lastmod>2020-11-13</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.6-17G65-Release-Version-with-Clover-4596-original-mirror.html</loc>
-    <lastmod>2020-10-20</lastmod>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.3-(17D47)-official-version-and-Clover-4391-original-image.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.4-17E199-Release-Version-and-Clover-4418-Original-Image.html</loc>
+    <lastmod>2020-11-13</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.5-17F77-Release-Version-with-Clover-4512-original-mirror.html</loc>
-    <lastmod>2020-10-20</lastmod>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.1-(17B48)-official-version-and-Clover-4278-original-image.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.2-(17C88)-official-version-and-Clover-4333-original-image.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.6-19G73-Release-version-with-Clover-5119-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
+    <lastmod>2020-11-13</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/macOS-Catalina-10.15.7-19H2-Release-version-with-Clover-5122-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
-    <lastmod>2020-10-10</lastmod>
+    <lastmod>2020-11-13</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Mac-Sierra-and-High-Sierra-Installer-App-Download.html</loc>
-    <lastmod>2020-09-12</lastmod>
+    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.5-19F96-Release-version-with-Clover-5118-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.2-19C57-Release-version-with-Clover-5100-original-image-Double-EFI-Version.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.3-19D76-Release-version-with-Clover-5103-original-image-Double-EFI-Version.html</loc>
+    <lastmod>2020-11-13</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/macOS-Catalina-10.15.4-19E266-Release-version-with-Clover-5107-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/CoffeeLake-UHD-630-black-screen-direct-bright-screen-and-correct-adjustment-of-brightness-adjustment.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-Catalina-10.15-19A583-Release-version-with-Clover-5093-original-image-Double-EFI-Version.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.1-19B88-Release-version-with-Clover-5098-original-image-Double-EFI-Version.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Fresh-installing-macOS-High-Sierra(10.13)-on-AMD-Ryzen-Hackintosh-Guide.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/CLOVER-v2-4-r4438-Integrated-Millet-Notebook-PRO-EFI-Installation-Instructions.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Mojave-10.14-installation.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-10.13-installation-of-common-problems-and-solutions.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Slide-value-acquisition-and-calculation.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/clover-user-manual.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/From-Clover-To-OpenCore.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/MacOS-use-the-dd-command-to-make-Ubuntu-install-USB-disk.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Mac-frequently-used-to-the-command---continuous-update.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Hackintosh-on-Lenovo-Tianyi-510s-Mini-PC.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Broadcom-WiFi-BlueTooth-BCM94352z-DW1560-the%20correct-drive-posture.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Coffee-Lake-frame-buffer-patch-and-UHD630-Coffee-Lake-ig-platform-id-data-finishing.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Lenovo-Tianyi-510s-Mini-and-macOS-BigSur-Installation-Tutorial.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-BigSur-11.0-installation.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
+    <lastmod>2020-11-02</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Mac-Sierra-and-High-Sierra-Installer-App-Download.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
@@ -93,55 +325,7 @@
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/With-VoodooHDA-comes-getdump-find-valid-nodes-and-paths.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/MacOS-use-the-dd-command-to-make-Ubuntu-install-USB-disk.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.4-17E199-Release-Version-and-Clover-4418-Original-Image.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Broadcom-WiFi-BlueTooth-BCM94352z-DW1560-the%20correct-drive-posture.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/macOS-Catalina-10.15-19A583-Release-version-with-Clover-5093-original-image-Double-EFI-Version.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/AppleALC-Supported-codecs.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-BigSur-11.0-installation.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.1-19B88-Release-version-with-Clover-5098-original-image-Double-EFI-Version.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13-official-version-update-17A405-with-Clover-4238-original-mirror.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Fresh-installing-macOS-High-Sierra(10.13)-on-AMD-Ryzen-Hackintosh-Guide.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.6-17G2112-Release-Special-with-Clover-4606-original-mirror.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/translate-guide-intel-igpu-hdmi-dp-audio-sandy-ivy-haswell-broadwell-skylake-kabylake.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
@@ -149,15 +333,7 @@
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Lenovo-Xiaoxin-Air-13-macOS-Mojave-installation-tutorial.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/MacOS-multi-system-Bluetooth-device-automatically-connected.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
@@ -165,15 +341,7 @@
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/CLOVER-v2-4-r4438-Integrated-Millet-Notebook-PRO-EFI-Installation-Instructions.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/Self-use-next-theme-custom-reference-format-table.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
@@ -181,63 +349,11 @@
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/clover-user-manual.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/an-nginx-405-not-allowed-error-solution.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Coffee-Lake-frame-buffer-patch-and-UHD630-Coffee-Lake-ig-platform-id-data-finishing.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/Webmin-Mysql-module-warns-of-the-lack-of-DBI-and-DBD-mysql-processing.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Updated-Frequently-Asked-Questions-in-Sierra-or-high-sierra.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Mac-frequently-used-to-the-command---continuous-update.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/XiaoMiPro-notebook-Installation-10.13-readily-remember-and-share-EFI.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.1-(17B48)-official-version-and-Clover-4278-original-image.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.3-(17D47)-official-version-and-Clover-4391-original-image.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.1-18B75-official-version-with-Clover-4726-original-image.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.3-18D42-official-version-with-Clover-4859-original-image.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/HP-HP-ENVY-Laptop-13-ad1xx-Notebook-PC-Mac-OS-Note-and-EFI-Share.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/macOS-10.13-installation-of-common-problems-and-solutions.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/macOS-Mojave-10.14-18A389-Release-with-Clover-4670-original-mirror.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/OpenCore-BootLoader.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
@@ -249,39 +365,7 @@
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-Mojave-10.14-18A391-official-version-with-Clover-4674-original-image.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/Mojave-Hardware-Support-List.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Use-AppleALC-sound-card-to-drive-the-correct-posture-of-AppleHDA.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Display-interface-data-and-parameter-changes.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.6-18G87-Release-version-with-Clover-5033-original-image.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Add-CLOVER-boot-to-UEFI-without-any-tools.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/From-Clover-To-OpenCore.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
@@ -289,67 +373,11 @@
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Mojave-10.14-installation.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.2-19C57-Release-version-with-Clover-5100-original-image-Double-EFI-Version.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Clover-Patched-Desktop-AppleHDA-Realtek-ALC-Audio.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13-official-version-and-Clover-4221-original-image.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.4-18E226-official-version-with-Clover-4903-original-image.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.2-(17C88)-official-version-and-Clover-4333-original-image.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Tutorial-Using-Hackintool-to-open-the-correct-pose-of-the-8th-generation-core-display-HDMI-or-DVI-output.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Add-the-CLOVER-boot-to-the-correct-posture-of-the-UEFI-Boot-Option-Menu.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/hotpatch-detailed-solution.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.5-18F132-official-version-with-Clover-4928-original-image.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/Existing-Lilu-Plugins.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Clover-Configurator-Chinese-Version.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Scan-code-support-QQ-group-upgrade.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Slide-value-acquisition-and-calculation.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Use-HIDPI-to-solve-sleep-wake-up-black-screen,-Huaping-and-connect-the-external-monitor-the-correct-posture.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
@@ -361,10 +389,6 @@
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.2-18C54-official-version-with-Clover-4792-original-image.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/10-interesting-things-that-google.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
@@ -373,23 +397,11 @@
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.3-19D76-Release-version-with-Clover-5103-original-image-Double-EFI-Version.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/CoffeeLake-UHD-630-black-screen-direct-bright-screen-and-correct-adjustment-of-brightness-adjustment.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/Method-for-correctly-configuring-HTTP-forced-HTTPS-in-LNMP-environment.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/Use-the-gpt-command-to-repair-a-damaged-EFI-partition-under-Mac-OS-As-well-as-the-basic-usage-of-the-dd-command.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13GM-17A362a-and-clover-4207-original-mirror.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
