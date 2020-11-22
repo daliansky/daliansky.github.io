@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html</loc>
+    <lastmod>2020-11-22</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/clover-user-manual.html</loc>
+    <lastmod>2020-11-22</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Lenovo-Xiaoxin-PRO-13-2019-and-macOS-Catalina-Installation-Tutorial.html</loc>
+    <lastmod>2020-11-22</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Lenovo-Xiaoxin-Air-13-macOS-Mojave-installation-tutorial.html</loc>
+    <lastmod>2020-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-11.0.1-20B5012d-Installer-for-OpenCore-0.6.2-and-PE-dual-EFI-partition-original-image.html</loc>
+    <lastmod>2020-11-21</lastmod>
+  </url>
+  <url>
     <loc>https://blog.daliansky.net/macOS-BigSur-11.0.1-20B29-Release-version-with-Clover-5126-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
     <lastmod>2020-11-21</lastmod>
   </url>
@@ -9,19 +29,11 @@
     <lastmod>2020-11-21</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Lenovo-Xiaoxin-PRO-13-2019-and-macOS-Catalina-Installation-Tutorial.html</loc>
-    <lastmod>2020-11-13</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/Clover-Configurator-Chinese-Version.html</loc>
     <lastmod>2020-11-13</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/translate-guide-intel-igpu-hdmi-dp-audio-sandy-ivy-haswell-broadwell-skylake-kabylake.html</loc>
-    <lastmod>2020-11-13</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Lenovo-Xiaoxin-Air-13-macOS-Mojave-installation-tutorial.html</loc>
     <lastmod>2020-11-13</lastmod>
   </url>
   <url>
@@ -73,6 +85,10 @@
     <lastmod>2020-11-13</lastmod>
   </url>
   <url>
+    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.6-19G73-official-version-Clover-5119-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
+    <lastmod>2020-11-13</lastmod>
+  </url>
+  <url>
     <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.7-19H15-official-version-Clover-5126-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
     <lastmod>2020-11-13</lastmod>
   </url>
@@ -89,19 +105,11 @@
     <lastmod>2020-11-13</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.6-19G73-official-version-Clover-5119-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
-    <lastmod>2020-11-13</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.5-19F101-official-version-Clover-5118-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
     <lastmod>2020-11-13</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.5-19F96-official-version-Clover-5118-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
-    <lastmod>2020-11-13</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-11.0.1-20B5012d-Installer-for-OpenCore-0.6.2-and-PE-dual-EFI-partition-original-image.html</loc>
     <lastmod>2020-11-13</lastmod>
   </url>
   <url>
@@ -137,11 +145,11 @@
     <lastmod>2020-11-13</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.4-18E226-official-version-with-Clover-4903-original-image.html</loc>
+    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.5-18F132-official-version-with-Clover-4928-original-image.html</loc>
     <lastmod>2020-11-13</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.5-18F132-official-version-with-Clover-4928-original-image.html</loc>
+    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.4-18E226-official-version-with-Clover-4903-original-image.html</loc>
     <lastmod>2020-11-13</lastmod>
   </url>
   <url>
@@ -161,11 +169,11 @@
     <lastmod>2020-11-13</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13-official-version-and-Clover-4221-original-image.html</loc>
+    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13-official-version-update-17A405-with-Clover-4238-original-mirror.html</loc>
     <lastmod>2020-11-13</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13-official-version-update-17A405-with-Clover-4238-original-mirror.html</loc>
+    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13-official-version-and-Clover-4221-original-image.html</loc>
     <lastmod>2020-11-13</lastmod>
   </url>
   <url>
@@ -265,10 +273,6 @@
     <lastmod>2020-11-13</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/clover-user-manual.html</loc>
-    <lastmod>2020-11-13</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/From-Clover-To-OpenCore.html</loc>
     <lastmod>2020-11-13</lastmod>
   </url>
@@ -293,19 +297,15 @@
     <lastmod>2020-11-13</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html</loc>
-    <lastmod>2020-11-13</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/Coffee-Lake-frame-buffer-patch-and-UHD630-Coffee-Lake-ig-platform-id-data-finishing.html</loc>
     <lastmod>2020-11-13</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html</loc>
+    <loc>https://blog.daliansky.net/Lenovo-Tianyi-510s-Mini-and-macOS-BigSur-Installation-Tutorial.html</loc>
     <lastmod>2020-11-13</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Lenovo-Tianyi-510s-Mini-and-macOS-BigSur-Installation-Tutorial.html</loc>
+    <loc>https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html</loc>
     <lastmod>2020-11-13</lastmod>
   </url>
   <url>
