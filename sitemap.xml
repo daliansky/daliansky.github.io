@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
+    
+    <lastmod>2020-12-02T03:45:42.845Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.daliansky.net/macOS-BigSur-11.0.1-20B29-Release-version-with-Clover-5126-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
     
     <lastmod>2020-12-02T01:13:23.625Z</lastmod>
@@ -103,13 +110,6 @@
     <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.1-(17B48)-official-version-and-Clover-4278-original-image.html</loc>
     
     <lastmod>2020-12-02T00:51:04.088Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
-    
-    <lastmod>2020-11-24T05:26:14.331Z</lastmod>
     
   </url>
   
