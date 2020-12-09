@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.daliansky.net/undefined.html</loc>
+    <lastmod>2020-12-09</lastmod>
+  </url>
+  <url>
     <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
     <lastmod>2020-12-02</lastmod>
   </url>
@@ -125,11 +129,11 @@
     <lastmod>2020-11-13</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Scan-code-support-QQ-group-upgrade.html</loc>
+    <loc>https://blog.daliansky.net/HP-HP-ENVY-Laptop-13-ad1xx-Notebook-PC-Mac-OS-Note-and-EFI-Share.html</loc>
     <lastmod>2020-11-13</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/HP-HP-ENVY-Laptop-13-ad1xx-Notebook-PC-Mac-OS-Note-and-EFI-Share.html</loc>
+    <loc>https://blog.daliansky.net/Scan-code-support-QQ-group-upgrade.html</loc>
     <lastmod>2020-11-13</lastmod>
   </url>
   <url>
@@ -145,11 +149,11 @@
     <lastmod>2020-11-13</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Clover-Patched-Desktop-AppleHDA-Realtek-ALC-Audio.html</loc>
+    <loc>https://blog.daliansky.net/Use-AppleALC-sound-card-to-drive-the-correct-posture-of-AppleHDA.html</loc>
     <lastmod>2020-11-13</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Use-AppleALC-sound-card-to-drive-the-correct-posture-of-AppleHDA.html</loc>
+    <loc>https://blog.daliansky.net/Clover-Patched-Desktop-AppleHDA-Realtek-ALC-Audio.html</loc>
     <lastmod>2020-11-13</lastmod>
   </url>
   <url>
