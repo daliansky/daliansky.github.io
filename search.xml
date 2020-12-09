@@ -242,10 +242,10 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>安装</tag>
-        <tag>常见问题</tag>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
+        <tag>安装</tag>
+        <tag>常见问题</tag>
         <tag>EDID</tag>
         <tag>屏蔽独显</tag>
         <tag>花屏</tag>
@@ -385,8 +385,8 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>安装</tag>
         <tag>High Sierra</tag>
+        <tag>安装</tag>
       </tags>
   </entry>
   <entry>
@@ -1481,12 +1481,12 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>常见问题</tag>
         <tag>Lilu</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
+        <tag>常见问题</tag>
         <tag>Plugins</tag>
         <tag>Clover</tag>
         <tag>platform-id</tag>
@@ -1640,8 +1640,8 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>安装</tag>
         <tag>Sierra</tag>
+        <tag>安装</tag>
         <tag>10.12.6</tag>
         <tag>镜像</tag>
         <tag>dmg</tag>
