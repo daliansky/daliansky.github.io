@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
-    <lastmod>2020-12-14</lastmod>
+    <loc>https://blog.daliansky.net/macOS-BigSur-11.1-20C69-Release-version-with-Clover-5127-and-OC-0.6.4-and-PE-original-image.html</loc>
+    <lastmod>2020-12-17</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-BigSur-11.1-20C69-Release-version-with-Clover-5127-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
+    <lastmod>2020-12-17</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/macOS-BigSur-11.0.1-20B29-Release-version-with-Clover-5126-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
+    <lastmod>2020-12-16</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
     <lastmod>2020-12-14</lastmod>
   </url>
   <url>
@@ -121,14 +129,6 @@
     <lastmod>2020-11-21</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-11.0.1-20B5012d-Installer-for-OpenCore-0.6.2-and-PE-dual-EFI-partition-original-image.html</loc>
-    <lastmod>2020-11-21</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/macOS-BigSur-11.0.1-20B29-Release-version-with-Clover-5126-and-OC-0.6.3-and-PE-original-image.html</loc>
-    <lastmod>2020-11-21</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/Clover-Configurator-Chinese-Version.html</loc>
     <lastmod>2020-11-13</lastmod>
   </url>
@@ -210,26 +210,6 @@
   </url>
   <url>
     <loc>https://blog.daliansky.net/WeChat_First-macOS-Catalina-10.15.4-19E2269-official-version-Clover-5116-original-image-reconstruction-version.html</loc>
-    <lastmod>2020-11-13</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-4-20A5343i-Installer-for-OpenCore-0.6.0-and-PE-dual-EFI-partition-original-image.html</loc>
-    <lastmod>2020-11-13</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-2-Installer-for-OpenCore-and-PE-dual-EFI-partition-original-image.html</loc>
-    <lastmod>2020-11-13</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-3-Installer-for-OpenCore-0.6.0-and-PE-dual-EFI-partition-original-image.html</loc>
-    <lastmod>2020-11-13</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-10-20A5395g-Installer-for-OpenCore-0.6.2-and-PE-dual-EFI-partition-original-image.html</loc>
-    <lastmod>2020-11-13</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Big-Sur-Beta-2-Installer-for-Clover-5119-and-PE-dual-EFI-partition-original-image.html</loc>
     <lastmod>2020-11-13</lastmod>
   </url>
   <url>
