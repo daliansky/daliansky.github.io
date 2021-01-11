@@ -1120,8 +1120,8 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>platform-id</tag>
         <tag>接口</tag>
+        <tag>platform-id</tag>
         <tag>显存</tag>
         <tag>显示器</tag>
       </tags>
@@ -1401,10 +1401,10 @@
       </categories>
       <tags>
         <tag>AppleALC</tag>
-        <tag>CC</tag>
-        <tag>CodecCommander</tag>
         <tag>codec</tag>
         <tag>hda-verb</tag>
+        <tag>CodecCommander</tag>
+        <tag>CC</tag>
         <tag>ALCPlugFix</tag>
       </tags>
   </entry>
@@ -1524,8 +1524,8 @@
       </categories>
       <tags>
         <tag>AppleALC</tag>
-        <tag>CC</tag>
         <tag>CodecCommander</tag>
+        <tag>CC</tag>
       </tags>
   </entry>
   <entry>

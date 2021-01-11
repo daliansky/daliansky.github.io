@@ -2134,9 +2134,9 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="platform-id" scheme="https://blog.daliansky.net/tags/platform-id/"/>
-    
       <category term="接口" scheme="https://blog.daliansky.net/tags/%E6%8E%A5%E5%8F%A3/"/>
+    
+      <category term="platform-id" scheme="https://blog.daliansky.net/tags/platform-id/"/>
     
       <category term="显存" scheme="https://blog.daliansky.net/tags/%E6%98%BE%E5%AD%98/"/>
     
@@ -2983,13 +2983,13 @@
     
       <category term="AppleALC" scheme="https://blog.daliansky.net/tags/AppleALC/"/>
     
-      <category term="CC" scheme="https://blog.daliansky.net/tags/CC/"/>
-    
-      <category term="CodecCommander" scheme="https://blog.daliansky.net/tags/CodecCommander/"/>
-    
       <category term="codec" scheme="https://blog.daliansky.net/tags/codec/"/>
     
       <category term="hda-verb" scheme="https://blog.daliansky.net/tags/hda-verb/"/>
+    
+      <category term="CodecCommander" scheme="https://blog.daliansky.net/tags/CodecCommander/"/>
+    
+      <category term="CC" scheme="https://blog.daliansky.net/tags/CC/"/>
     
       <category term="ALCPlugFix" scheme="https://blog.daliansky.net/tags/ALCPlugFix/"/>
     
@@ -3288,9 +3288,9 @@
     
       <category term="AppleALC" scheme="https://blog.daliansky.net/tags/AppleALC/"/>
     
-      <category term="CC" scheme="https://blog.daliansky.net/tags/CC/"/>
-    
       <category term="CodecCommander" scheme="https://blog.daliansky.net/tags/CodecCommander/"/>
+    
+      <category term="CC" scheme="https://blog.daliansky.net/tags/CC/"/>
     
   </entry>
   
