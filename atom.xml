@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.daliansky.net/"/>
-  <updated>2020-12-18T08:13:37.173Z</updated>
+  <updated>2021-01-14T08:43:12.000Z</updated>
   <id>https://blog.daliansky.net/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>BCM94360Z4 m.2 NGFF接口四天线笔记本/小主机专用黑苹果无线网卡驱动教程</title>
+    <link href="https://blog.daliansky.net/BCM94360Z4-m.2-NGFF-interface-four-antenna-notebook_small-host-dedicated-black-Apple-wireless-network-card-driver-tutorial.html"/>
+    <id>https://blog.daliansky.net/BCM94360Z4-m.2-NGFF-interface-four-antenna-notebook_small-host-dedicated-black-Apple-wireless-network-card-driver-tutorial.html</id>
+    <published>2021-01-14T00:11:09.000Z</published>
+    <updated>2021-01-14T08:43:12.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="黑果小兵bcm94360z4-m2-ngff-接口四天线笔记本小主机专用黑苹果无线网卡驱动教程"><a class="markdownIt-Anchor" href="#黑果小兵bcm94360z4-m2-ngff-接口四天线笔记本小主机专用黑苹果无线网卡驱动教程"></a> 【黑果小兵】BCM94360Z4 <code>m.2 NGFF</code> 接口四天线笔记本/小主机专用黑苹果无线网卡驱动教程</h1><h2 id="bcm94360z4-m2-ngff-四天线笔记本专用无线网卡"><a class="markdownIt-Anchor" href="#bcm94360z4-m2-ngff-四天线笔记本专用无线网卡"></a> <code>BCM94360Z4</code> <code>m.2 NGFF</code> 四天线笔记本专用无线网卡</h2><h3 id="broadcom-bcm94360z4-80211agnac-wlan-bluetooth-m2-ngff-dual-band-combination-card"><a class="markdownIt-Anchor" href="#broadcom-bcm94360z4-80211agnac-wlan-bluetooth-m2-ngff-dual-band-combination-card"></a> Broadcom <code>BCM94360Z4</code> 802.11a/g/n/ac WLAN + Bluetooth <code>m.2 NGFF</code> Dual Band Combination Card</h3><h4 id="item-specifics"><a class="markdownIt-Anchor" href="#item-specifics"></a> Item specifics：</h4><ul><li><p>BCM94360Z4</p></li><li><p>3x ant. + 1x ant. BT, MIMO 3x3</p></li><li><p>M.2 2630</p></li><li><p>802.11ac Dual Band 802.11AC</p></li><li><p>1300Mbps</p></li><li><p>BlueTooth 4.0</p></li><li><p>OS：Support <code>macOS</code> / <code>Windows</code> / <code>linux</code></p><h4 id="wlan-bcm4360-80211ac"><a class="markdownIt-Anchor" href="#wlan-bcm4360-80211ac"></a> WLAN: <code>BCM4360 802.11AC</code></h4><ul><li>Vendor: <code>0x14E4</code></li><li>Device: <code>0x43A0</code></li></ul><h4 id="bluetooth-bcm20702"><a class="markdownIt-Anchor" href="#bluetooth-bcm20702"></a> BlueTooth: <code>BCM20702</code></h4><ul><li>Vendor ID: <code>0x0A5C</code></li><li>Product ID: <code>0x22BE</code></li></ul></li></ul><h3 id="macos驱动方法"><a class="markdownIt-Anchor" href="#macos驱动方法"></a> macOS驱动方法</h3><ul><li><p>WIFI</p><ul><li><code>免驱</code></li></ul></li><li><p>蓝牙</p><ul><li><p><code>OpenCore</code>驱动方法：</p><ul><li><p><code>Kernel</code>-&gt;<code>Add</code>-&gt;<code>Browse</code>，将<code>/EFI/OC/Kexts</code>目录下的<code>BrcmBluetoothInjector.kext</code> 添加进列表中即可</p><p><img src="/images/loading.gif" data-original="https://7.daliansky.net/BCM94360Z4/bt1.png" alt="bt1"></p><p>源码如下：</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">key</span>&gt;</span>Arch<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span>Any<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">key</span>&gt;</span>BundlePath<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span>BrcmBluetoothInjector.kext<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">key</span>&gt;</span>Comment<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">key</span>&gt;</span>Enabled<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">true</span>/&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">key</span>&gt;</span>ExecutablePath<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">key</span>&gt;</span>MaxKernel<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">key</span>&gt;</span>MinKernel<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">key</span>&gt;</span>PlistPath<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span>Contents/Info.plist<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dict</span>&gt;</span></span><br></pre></td></tr></table></figure></li><li><p>驱动下载：<a href="https://github.com/acidanthera/BrcmPatchRAM/releases" target="_blank" rel="noopener">https://github.com/acidanthera/BrcmPatchRAM/releases</a></p></li></ul></li></ul></li></ul><h2 id="产品照片"><a class="markdownIt-Anchor" href="#产品照片"></a> 产品照片</h2><p><img src="/images/loading.gif" data-original="https://7.daliansky.net/BCM94360Z4/BCM94360Z4_4.png" alt="BCM94360Z4_4"></p><p><img src="/images/loading.gif" data-original="https://7.daliansky.net/BCM94360Z4/BCM94360Z4_1.png" alt="BCM94360Z4_1"></p><p><img src="/images/loading.gif" data-original="https://7.daliansky.net/BCM94360Z4/BCM94360Z4_5.jpg" alt="BCM94360Z4_2"></p><p><img src="/images/loading.gif" data-original="https://7.daliansky.net/BCM94360Z4/BT_Info.png" alt="BT_Info"></p><p><img src="/images/loading.gif" data-original="https://7.daliansky.net/BCM94360Z4/Hackintool_Misc.png" alt="Hackintool_Misc"></p><p><img src="/images/loading.gif" data-original="https://7.daliansky.net/BCM94360Z4/Hackintool_PCI-E.png" alt="Hackintool_PCI-E"></p><p><img src="/images/loading.gif" data-original="https://7.daliansky.net/BCM94360Z4/Sysinfo_BT.png" alt="Sysinfo_BT"></p><p><img src="/images/loading.gif" data-original="https://7.daliansky.net/BCM94360Z4/Sysinfo_WIFI.png" alt="Sysinfo_WIFI"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;黑果小兵bcm94360z4-m2-ngff-接口四天线笔记本小主机专用黑苹果无线网卡驱动教程&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#黑果小兵bcm94360z4-m2-ngff-接口四天线笔记本小主机专用黑苹果无线网卡驱动教程
+      
+    
+    </summary>
+    
+      <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="驱动" scheme="https://blog.daliansky.net/tags/%E9%A9%B1%E5%8A%A8/"/>
+    
+      <category term="BCM94360Z4" scheme="https://blog.daliansky.net/tags/BCM94360Z4/"/>
+    
+  </entry>
   
   <entry>
     <title>【黑果小兵】macOS BigSur 11.1 20C69 正式版 with Clover 5127原版镜像[双EFI版][UEFI and MBR]</title>
@@ -1060,9 +1087,9 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
-    
       <category term="Hackintosh" scheme="https://blog.daliansky.net/tags/Hackintosh/"/>
+    
+      <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
     
       <category term="EFI" scheme="https://blog.daliansky.net/tags/EFI/"/>
     
@@ -1466,6 +1493,8 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
+      <category term="USB" scheme="https://blog.daliansky.net/tags/USB/"/>
+    
       <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
     
       <category term="FB" scheme="https://blog.daliansky.net/tags/FB/"/>
@@ -1475,8 +1504,6 @@
       <category term="framebuffer" scheme="https://blog.daliansky.net/tags/framebuffer/"/>
     
       <category term="帧缓冲" scheme="https://blog.daliansky.net/tags/%E5%B8%A7%E7%BC%93%E5%86%B2/"/>
-    
-      <category term="USB" scheme="https://blog.daliansky.net/tags/USB/"/>
     
       <category term="audio" scheme="https://blog.daliansky.net/tags/audio/"/>
     
@@ -1866,9 +1893,9 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="AppleALC" scheme="https://blog.daliansky.net/tags/AppleALC/"/>
-    
       <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="AppleALC" scheme="https://blog.daliansky.net/tags/AppleALC/"/>
     
       <category term="AppleHDA" scheme="https://blog.daliansky.net/tags/AppleHDA/"/>
     
@@ -2134,9 +2161,9 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="接口" scheme="https://blog.daliansky.net/tags/%E6%8E%A5%E5%8F%A3/"/>
-    
       <category term="platform-id" scheme="https://blog.daliansky.net/tags/platform-id/"/>
+    
+      <category term="接口" scheme="https://blog.daliansky.net/tags/%E6%8E%A5%E5%8F%A3/"/>
     
       <category term="显存" scheme="https://blog.daliansky.net/tags/%E6%98%BE%E5%AD%98/"/>
     
@@ -2790,9 +2817,9 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
-    
       <category term="CPUFriend" scheme="https://blog.daliansky.net/tags/CPUFriend/"/>
+    
+      <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
     
       <category term="Plugins" scheme="https://blog.daliansky.net/tags/Plugins/"/>
     
@@ -2862,11 +2889,11 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
+      <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
+    
       <category term="AppleALC" scheme="https://blog.daliansky.net/tags/AppleALC/"/>
     
       <category term="Codec" scheme="https://blog.daliansky.net/tags/Codec/"/>
-    
-      <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
     
   </entry>
   
@@ -2934,8 +2961,6 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
-    
       <category term="常见问题" scheme="https://blog.daliansky.net/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
     
       <category term="10.12" scheme="https://blog.daliansky.net/tags/10-12/"/>
@@ -2945,6 +2970,8 @@
       <category term="Sierra" scheme="https://blog.daliansky.net/tags/Sierra/"/>
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
+    
+      <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
     
       <category term="Plugins" scheme="https://blog.daliansky.net/tags/Plugins/"/>
     
@@ -2983,13 +3010,13 @@
     
       <category term="AppleALC" scheme="https://blog.daliansky.net/tags/AppleALC/"/>
     
-      <category term="codec" scheme="https://blog.daliansky.net/tags/codec/"/>
-    
-      <category term="hda-verb" scheme="https://blog.daliansky.net/tags/hda-verb/"/>
+      <category term="CC" scheme="https://blog.daliansky.net/tags/CC/"/>
     
       <category term="CodecCommander" scheme="https://blog.daliansky.net/tags/CodecCommander/"/>
     
-      <category term="CC" scheme="https://blog.daliansky.net/tags/CC/"/>
+      <category term="codec" scheme="https://blog.daliansky.net/tags/codec/"/>
+    
+      <category term="hda-verb" scheme="https://blog.daliansky.net/tags/hda-verb/"/>
     
       <category term="ALCPlugFix" scheme="https://blog.daliansky.net/tags/ALCPlugFix/"/>
     
@@ -3166,11 +3193,11 @@
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
-    
       <category term="DB8" scheme="https://blog.daliansky.net/tags/DB8/"/>
     
       <category term="17A358a" scheme="https://blog.daliansky.net/tags/17A358a/"/>
+    
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
   </entry>
   
@@ -3230,9 +3257,9 @@
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="DB7" scheme="https://blog.daliansky.net/tags/DB7/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="DB7" scheme="https://blog.daliansky.net/tags/DB7/"/>
     
   </entry>
   
@@ -3288,9 +3315,9 @@
     
       <category term="AppleALC" scheme="https://blog.daliansky.net/tags/AppleALC/"/>
     
-      <category term="CodecCommander" scheme="https://blog.daliansky.net/tags/CodecCommander/"/>
-    
       <category term="CC" scheme="https://blog.daliansky.net/tags/CC/"/>
+    
+      <category term="CodecCommander" scheme="https://blog.daliansky.net/tags/CodecCommander/"/>
     
   </entry>
   

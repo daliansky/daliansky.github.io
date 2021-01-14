@@ -132,8 +132,8 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>教程</tag>
         <tag>Hackintosh</tag>
+        <tag>教程</tag>
         <tag>EFI</tag>
         <tag>向导</tag>
         <tag>guide</tag>
@@ -162,12 +162,12 @@
         <category>教程</category>
       </categories>
       <tags>
+        <tag>USB</tag>
         <tag>教程</tag>
         <tag>FB</tag>
         <tag>patcher</tag>
         <tag>framebuffer</tag>
         <tag>帧缓冲</tag>
-        <tag>USB</tag>
         <tag>audio</tag>
         <tag>VRAM</tag>
       </tags>
@@ -248,6 +248,18 @@
         <tag>屏蔽独显</tag>
         <tag>花屏</tag>
         <tag>黑屏</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>BCM94360Z4 m.2 NGFF接口四天线笔记本/小主机专用黑苹果无线网卡驱动教程</title>
+    <url>/BCM94360Z4-m.2-NGFF-interface-four-antenna-notebook_small-host-dedicated-black-Apple-wireless-network-card-driver-tutorial.html</url>
+    <content><![CDATA[<h1 id="黑果小兵bcm94360z4-m2-ngff-接口四天线笔记本小主机专用黑苹果无线网卡驱动教程"><a class="markdownIt-Anchor" href="#黑果小兵bcm94360z4-m2-ngff-接口四天线笔记本小主机专用黑苹果无线网卡驱动教程"></a> 【黑果小兵】BCM94360Z4 <code>m.2 NGFF</code> 接口四天线笔记本/小主机专用黑苹果无线网卡驱动教程</h1><h2 id="bcm94360z4-m2-ngff-四天线笔记本专用无线网卡"><a class="markdownIt-Anchor" href="#bcm94360z4-m2-ngff-四天线笔记本专用无线网卡"></a> <code>BCM94360Z4</code> <code>m.2 NGFF</code> 四天线笔记本专用无线网卡</h2><h3 id="broadcom-bcm94360z4-80211agnac-wlan-bluetooth-m2-ngff-dual-band-combination-card"><a class="markdownIt-Anchor" href="#broadcom-bcm94360z4-80211agnac-wlan-bluetooth-m2-ngff-dual-band-combination-card"></a> Broadcom <code>BCM94360Z4</code> 802.11a/g/n/ac WLAN + Bluetooth <code>m.2 NGFF</code> Dual Band Combination Card</h3><h4 id="item-specifics"><a class="markdownIt-Anchor" href="#item-specifics"></a> Item specifics：</h4><ul><li><p>BCM94360Z4</p></li><li><p>3x ant. + 1x ant. BT, MIMO 3x3</p></li><li><p>M.2 2630</p></li><li><p>802.11ac Dual Band 802.11AC</p></li><li><p>1300Mbps</p></li><li><p>BlueTooth 4.0</p></li><li><p>OS：Support <code>macOS</code> / <code>Windows</code> / <code>linux</code></p><h4 id="wlan-bcm4360-80211ac"><a class="markdownIt-Anchor" href="#wlan-bcm4360-80211ac"></a> WLAN: <code>BCM4360 802.11AC</code></h4><ul><li>Vendor: <code>0x14E4</code></li><li>Device: <code>0x43A0</code></li></ul><h4 id="bluetooth-bcm20702"><a class="markdownIt-Anchor" href="#bluetooth-bcm20702"></a> BlueTooth: <code>BCM20702</code></h4><ul><li>Vendor ID: <code>0x0A5C</code></li><li>Product ID: <code>0x22BE</code></li></ul></li></ul><h3 id="macos驱动方法"><a class="markdownIt-Anchor" href="#macos驱动方法"></a> macOS驱动方法</h3><ul><li><p>WIFI</p><ul><li><code>免驱</code></li></ul></li><li><p>蓝牙</p><ul><li><p><code>OpenCore</code>驱动方法：</p><ul><li><p><code>Kernel</code>-&gt;<code>Add</code>-&gt;<code>Browse</code>，将<code>/EFI/OC/Kexts</code>目录下的<code>BrcmBluetoothInjector.kext</code> 添加进列表中即可</p><p><img src="/images/loading.gif" data-original="https://7.daliansky.net/BCM94360Z4/bt1.png" alt="bt1"></p><p>源码如下：</p><figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>Arch<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span>Any<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>BundlePath<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span>BrcmBluetoothInjector.kext<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>Comment<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>Enabled<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">true</span>/&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>ExecutablePath<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>MaxKernel<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>MinKernel<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>PlistPath<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span>Contents/Info.plist<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dict</span>&gt;</span></span><br></pre></td></tr></table></figure></li><li><p>驱动下载：<a href="https://github.com/acidanthera/BrcmPatchRAM/releases" target="_blank" rel="noopener">https://github.com/acidanthera/BrcmPatchRAM/releases</a></p></li></ul></li></ul></li></ul><h2 id="产品照片"><a class="markdownIt-Anchor" href="#产品照片"></a> 产品照片</h2><p><img src="/images/loading.gif" data-original="https://7.daliansky.net/BCM94360Z4/BCM94360Z4_4.png" alt="BCM94360Z4_4"></p><p><img src="/images/loading.gif" data-original="https://7.daliansky.net/BCM94360Z4/BCM94360Z4_1.png" alt="BCM94360Z4_1"></p><p><img src="/images/loading.gif" data-original="https://7.daliansky.net/BCM94360Z4/BCM94360Z4_5.jpg" alt="BCM94360Z4_2"></p><p><img src="/images/loading.gif" data-original="https://7.daliansky.net/BCM94360Z4/BT_Info.png" alt="BT_Info"></p><p><img src="/images/loading.gif" data-original="https://7.daliansky.net/BCM94360Z4/Hackintool_Misc.png" alt="Hackintool_Misc"></p><p><img src="/images/loading.gif" data-original="https://7.daliansky.net/BCM94360Z4/Hackintool_PCI-E.png" alt="Hackintool_PCI-E"></p><p><img src="/images/loading.gif" data-original="https://7.daliansky.net/BCM94360Z4/Sysinfo_BT.png" alt="Sysinfo_BT"></p><p><img src="/images/loading.gif" data-original="https://7.daliansky.net/BCM94360Z4/Sysinfo_WIFI.png" alt="Sysinfo_WIFI"></p>]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>驱动</tag>
+        <tag>BCM94360Z4</tag>
       </tags>
   </entry>
   <entry>
@@ -1015,8 +1027,8 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>AppleALC</tag>
         <tag>教程</tag>
+        <tag>AppleALC</tag>
         <tag>AppleHDA</tag>
         <tag>HDMI</tag>
         <tag>Audio</tag>
@@ -1120,8 +1132,8 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>接口</tag>
         <tag>platform-id</tag>
+        <tag>接口</tag>
         <tag>显存</tag>
         <tag>显示器</tag>
       </tags>
@@ -1330,8 +1342,8 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>Lilu</tag>
         <tag>CPUFriend</tag>
+        <tag>Lilu</tag>
         <tag>Plugins</tag>
         <tag>CPU变频</tag>
         <tag>插件</tag>
@@ -1345,9 +1357,9 @@
         <category>教程</category>
       </categories>
       <tags>
+        <tag>Lilu</tag>
         <tag>AppleALC</tag>
         <tag>Codec</tag>
-        <tag>Lilu</tag>
       </tags>
   </entry>
   <entry>
@@ -1378,12 +1390,12 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>Lilu</tag>
         <tag>常见问题</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
+        <tag>Lilu</tag>
         <tag>Plugins</tag>
         <tag>Clover</tag>
         <tag>platform-id</tag>
@@ -1401,10 +1413,10 @@
       </categories>
       <tags>
         <tag>AppleALC</tag>
+        <tag>CC</tag>
+        <tag>CodecCommander</tag>
         <tag>codec</tag>
         <tag>hda-verb</tag>
-        <tag>CodecCommander</tag>
-        <tag>CC</tag>
         <tag>ALCPlugFix</tag>
       </tags>
   </entry>
@@ -1469,9 +1481,9 @@
       <tags>
         <tag>10.13</tag>
         <tag>下载</tag>
-        <tag>镜像</tag>
         <tag>DB8</tag>
         <tag>17A358a</tag>
+        <tag>镜像</tag>
       </tags>
   </entry>
   <entry>
@@ -1498,8 +1510,8 @@
       <tags>
         <tag>10.13</tag>
         <tag>下载</tag>
-        <tag>DB7</tag>
         <tag>镜像</tag>
+        <tag>DB7</tag>
       </tags>
   </entry>
   <entry>
@@ -1524,8 +1536,8 @@
       </categories>
       <tags>
         <tag>AppleALC</tag>
-        <tag>CodecCommander</tag>
         <tag>CC</tag>
+        <tag>CodecCommander</tag>
       </tags>
   </entry>
   <entry>
