@@ -133,8 +133,8 @@
       </categories>
       <tags>
         <tag>教程</tag>
-        <tag>Hackintosh</tag>
         <tag>EFI</tag>
+        <tag>Hackintosh</tag>
         <tag>向导</tag>
         <tag>guide</tag>
       </tags>
@@ -240,10 +240,10 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>安装</tag>
-        <tag>常见问题</tag>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
+        <tag>安装</tag>
+        <tag>常见问题</tag>
         <tag>EDID</tag>
         <tag>屏蔽独显</tag>
         <tag>花屏</tag>
@@ -395,8 +395,8 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>安装</tag>
         <tag>High Sierra</tag>
+        <tag>安装</tag>
       </tags>
   </entry>
   <entry>
@@ -1390,13 +1390,13 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>常见问题</tag>
+        <tag>Lilu</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
-        <tag>Lilu</tag>
         <tag>Plugins</tag>
+        <tag>常见问题</tag>
         <tag>Clover</tag>
         <tag>platform-id</tag>
         <tag>Patch</tag>
@@ -1481,9 +1481,9 @@
       <tags>
         <tag>10.13</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>DB8</tag>
         <tag>17A358a</tag>
-        <tag>镜像</tag>
       </tags>
   </entry>
   <entry>
@@ -1510,8 +1510,8 @@
       <tags>
         <tag>10.13</tag>
         <tag>下载</tag>
-        <tag>镜像</tag>
         <tag>DB7</tag>
+        <tag>镜像</tag>
       </tags>
   </entry>
   <entry>
@@ -1549,8 +1549,8 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>安装</tag>
         <tag>Sierra</tag>
+        <tag>安装</tag>
         <tag>10.12.6</tag>
         <tag>镜像</tag>
         <tag>dmg</tag>
