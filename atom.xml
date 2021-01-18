@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.daliansky.net/"/>
-  <updated>2021-01-15T01:12:22.551Z</updated>
+  <updated>2021-01-18T00:57:16.113Z</updated>
   <id>https://blog.daliansky.net/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://blog.daliansky.net/BCM94360Z4-m.2-NGFF-interface-four-antenna-notebook_small-host-dedicated-black-Apple-wireless-network-card-driver-tutorial.html"/>
     <id>https://blog.daliansky.net/BCM94360Z4-m.2-NGFF-interface-four-antenna-notebook_small-host-dedicated-black-Apple-wireless-network-card-driver-tutorial.html</id>
     <published>2021-01-14T00:11:09.000Z</published>
-    <updated>2021-01-15T01:12:22.551Z</updated>
+    <updated>2021-01-18T00:57:16.113Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="黑果小兵bcm94360z4-m2-ngff-接口四天线笔记本小主机专用黑苹果无线网卡驱动教程"><a class="markdownIt-Anchor" href="#黑果小兵bcm94360z4-m2-ngff-接口四天线笔记本小主机专用黑苹果无线网卡驱动教程"></a> 【黑果小兵】BCM94360Z4 <code>m.2 NGFF</code> 接口四天线笔记本/小主机专用黑苹果无线网卡驱动教程</h1><h2 id="bcm94360z4-m2-ngff-四天线笔记本专用无线网卡"><a class="markdownIt-Anchor" href="#bcm94360z4-m2-ngff-四天线笔记本专用无线网卡"></a> <code>BCM94360Z4</code> <code>m.2 NGFF</code> 四天线笔记本专用无线网卡</h2><h3 id="broadcom-bcm94360z4-80211agnac-wlan-bluetooth-m2-ngff-dual-band-combination-card"><a class="markdownIt-Anchor" href="#broadcom-bcm94360z4-80211agnac-wlan-bluetooth-m2-ngff-dual-band-combination-card"></a> Broadcom <code>BCM94360Z4</code> 802.11a/g/n/ac WLAN + Bluetooth <code>m.2 NGFF</code> Dual Band Combination Card</h3><h4 id="item-specifics"><a class="markdownIt-Anchor" href="#item-specifics"></a> Item specifics：</h4><ul><li><p>BCM94360Z4</p></li><li><p>3x ant. + 1x ant. BT, MIMO 3x3</p></li><li><p>M.2 2630</p></li><li><p>802.11ac Dual Band 802.11AC</p></li><li><p>1300Mbps</p></li><li><p>BlueTooth 4.0</p></li><li><p>OS：Support <code>macOS</code> / <code>Windows</code> / <code>linux</code></p><h4 id="wlan-bcm4360-80211ac"><a class="markdownIt-Anchor" href="#wlan-bcm4360-80211ac"></a> WLAN: <code>BCM4360 802.11AC</code></h4><ul><li>Vendor: <code>0x14E4</code></li><li>Device: <code>0x43A0</code></li></ul><h4 id="bluetooth-bcm20702"><a class="markdownIt-Anchor" href="#bluetooth-bcm20702"></a> BlueTooth: <code>BCM20702</code></h4><ul><li>Vendor ID: <code>0x0A5C</code></li><li>Product ID: <code>0x22BE</code></li></ul></li></ul><h3 id="macos驱动方法"><a class="markdownIt-Anchor" href="#macos驱动方法"></a> macOS驱动方法</h3><ul><li><p>WIFI</p><ul><li><code>免驱</code></li></ul></li><li><p>蓝牙</p><ul><li><p><code>OpenCore</code>驱动方法：</p><ul><li><p><code>Kernel</code>-&gt;<code>Add</code>-&gt;<code>Browse</code>，将<code>/EFI/OC/Kexts</code>目录下的<code>BrcmBluetoothInjector.kext</code> 添加进列表中即可</p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/bt1.png" alt="bt1"></p><p>源码如下：</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">key</span>&gt;</span>Arch<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span>Any<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">key</span>&gt;</span>BundlePath<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span>BrcmBluetoothInjector.kext<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">key</span>&gt;</span>Comment<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">key</span>&gt;</span>Enabled<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">true</span>/&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">key</span>&gt;</span>ExecutablePath<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">key</span>&gt;</span>MaxKernel<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">key</span>&gt;</span>MinKernel<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">key</span>&gt;</span>PlistPath<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span>Contents/Info.plist<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dict</span>&gt;</span></span><br></pre></td></tr></table></figure></li><li><p>驱动下载：<a href="https://github.com/acidanthera/BrcmPatchRAM/releases" target="_blank" rel="noopener">https://github.com/acidanthera/BrcmPatchRAM/releases</a></p></li></ul></li></ul></li></ul><h2 id="产品照片"><a class="markdownIt-Anchor" href="#产品照片"></a> 产品照片</h2><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BCM94360Z4_4.png" alt="BCM94360Z4_4"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BCM94360Z4_1.png" alt="BCM94360Z4_1"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BCM94360Z4_5.jpg" alt="BCM94360Z4_2"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BT_Info.png" alt="BT_Info"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/Hackintool_Misc.png" alt="Hackintool_Misc"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/Hackintool_PCI-E.png" alt="Hackintool_PCI-E"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/Sysinfo_BT.png" alt="Sysinfo_BT"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/Sysinfo_WIFI.png" alt="Sysinfo_WIFI"></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="黑果小兵bcm94360z4-m2-ngff-接口四天线笔记本小主机专用黑苹果无线网卡驱动教程"><a class="markdownIt-Anchor" href="#黑果小兵bcm94360z4-m2-ngff-接口四天线笔记本小主机专用黑苹果无线网卡驱动教程"></a> 【黑果小兵】BCM94360Z4 <code>m.2 NGFF</code> 接口四天线笔记本/小主机专用黑苹果无线网卡驱动教程</h1><h2 id="bcm94360z4-m2-ngff-四天线笔记本专用无线网卡"><a class="markdownIt-Anchor" href="#bcm94360z4-m2-ngff-四天线笔记本专用无线网卡"></a> <code>BCM94360Z4</code> <code>m.2 NGFF</code> 四天线笔记本专用无线网卡</h2><h3 id="broadcom-bcm94360z4-80211agnac-wlan-bluetooth-m2-ngff-dual-band-combination-card"><a class="markdownIt-Anchor" href="#broadcom-bcm94360z4-80211agnac-wlan-bluetooth-m2-ngff-dual-band-combination-card"></a> Broadcom <code>BCM94360Z4</code> 802.11a/g/n/ac WLAN + Bluetooth <code>m.2 NGFF</code> Dual Band Combination Card</h3><h4 id="item-specifics"><a class="markdownIt-Anchor" href="#item-specifics"></a> Item specifics：</h4><ul><li><p>BCM94360Z4</p></li><li><p>3x ant. + 1x ant. BT, MIMO 3x3</p></li><li><p>M.2 2630</p></li><li><p>802.11ac Dual Band 802.11AC</p></li><li><p>1300Mbps</p></li><li><p>BlueTooth 4.0</p></li><li><p>OS：Support <code>macOS</code> / <code>Windows</code> / <code>linux</code></p><h4 id="wlan-bcm4360-80211ac"><a class="markdownIt-Anchor" href="#wlan-bcm4360-80211ac"></a> WLAN: <code>BCM4360 802.11AC</code></h4><ul><li>Vendor: <code>0x14E4</code></li><li>Device: <code>0x43A0</code></li></ul><h4 id="bluetooth-bcm20702"><a class="markdownIt-Anchor" href="#bluetooth-bcm20702"></a> BlueTooth: <code>BCM20702</code></h4><ul><li>Vendor ID: <code>0x0A5C</code></li><li>Product ID: <code>0x22BE</code></li></ul></li></ul><h3 id="天线接法"><a class="markdownIt-Anchor" href="#天线接法"></a> 天线接法</h3><p>笔记本天线的接法：原来的两根建议接 <code>j0</code> / <code>j3</code>，附送的接 <code>j1</code> / <code>j2</code>，塑料后盖的可以将两根天线直接帖电池上</p><p>其中：</p><ul><li>WIFI: 接 <code>j0</code> / <code>j1</code> / <code>j2</code></li><li>蓝牙：接 <code>j3</code></li></ul><h3 id="macos驱动方法"><a class="markdownIt-Anchor" href="#macos驱动方法"></a> macOS驱动方法</h3><ul><li><p>WIFI</p><ul><li><code>免驱</code></li></ul></li><li><p>蓝牙</p><ul><li><p><code>OpenCore</code>驱动方法：</p><ul><li><p><code>Kernel</code>-&gt;<code>Add</code>-&gt;<code>Browse</code>，将<code>/EFI/OC/Kexts</code>目录下的<code>BrcmBluetoothInjector.kext</code> 添加进列表中即可</p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/bt1.png" alt="bt1"></p><p>源码如下：</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">key</span>&gt;</span>Arch<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span>Any<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">key</span>&gt;</span>BundlePath<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span>BrcmBluetoothInjector.kext<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">key</span>&gt;</span>Comment<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">key</span>&gt;</span>Enabled<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">true</span>/&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">key</span>&gt;</span>ExecutablePath<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">key</span>&gt;</span>MaxKernel<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">key</span>&gt;</span>MinKernel<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">key</span>&gt;</span>PlistPath<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span>Contents/Info.plist<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dict</span>&gt;</span></span><br></pre></td></tr></table></figure></li><li><p>驱动下载：<a href="https://github.com/acidanthera/BrcmPatchRAM/releases" target="_blank" rel="noopener">https://github.com/acidanthera/BrcmPatchRAM/releases</a></p></li></ul></li></ul></li></ul><h3 id="windows驱动"><a class="markdownIt-Anchor" href="#windows驱动"></a> Windows驱动</h3><p>驱动下载：<a href="BCM94360Z4/BCM94360Z4_Drivers_For_windows.zip">BCM94360Z4/BCM94360Z4_Drivers_For_windows.zip</a></p><h2 id="产品照片"><a class="markdownIt-Anchor" href="#产品照片"></a> 产品照片</h2><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BCM94360Z4_4.png" alt="BCM94360Z4_4"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BCM94360Z4_1.png" alt="BCM94360Z4_1"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BCM94360Z4_5.jpg" alt="BCM94360Z4_2"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/XiaoxinPro13.jpg" alt="联想小新xiaoxin pro 13安装截图"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BT_Info.png" alt="BT_Info"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/Hackintool_Misc.png" alt="Hackintool_Misc"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/Hackintool_PCI-E.png" alt="Hackintool_PCI-E"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/Sysinfo_BT.png" alt="Sysinfo_BT"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/Sysinfo_WIFI.png" alt="Sysinfo_WIFI"></p>]]></content>
     
     <summary type="html">
     
@@ -68,9 +68,9 @@
     
       <category term="BigSur" scheme="https://blog.daliansky.net/tags/BigSur/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -107,9 +107,9 @@
     
       <category term="BigSur" scheme="https://blog.daliansky.net/tags/BigSur/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -167,9 +167,9 @@
     
       <category term="BigSur" scheme="https://blog.daliansky.net/tags/BigSur/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -241,11 +241,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -282,11 +282,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -321,11 +321,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -416,11 +416,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -461,11 +461,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -504,11 +504,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -543,11 +543,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -582,11 +582,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -621,11 +621,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -690,11 +690,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -766,11 +766,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -803,11 +803,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -840,11 +840,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -877,13 +877,13 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
-    
-      <category term="10.15" scheme="https://blog.daliansky.net/tags/10-15/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Catalina" scheme="https://blog.daliansky.net/tags/Catalina/"/>
+    
+      <category term="10.15" scheme="https://blog.daliansky.net/tags/10-15/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -943,11 +943,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -1015,11 +1015,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -1052,11 +1052,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -1153,11 +1153,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -1314,11 +1314,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -1388,11 +1388,11 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -1458,13 +1458,13 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
-    
-      <category term="10.14" scheme="https://blog.daliansky.net/tags/10-14/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
+    
+      <category term="10.14" scheme="https://blog.daliansky.net/tags/10-14/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -1563,13 +1563,13 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
-    
-      <category term="10.14" scheme="https://blog.daliansky.net/tags/10-14/"/>
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+      <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
+    
+      <category term="10.14" scheme="https://blog.daliansky.net/tags/10-14/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -1699,9 +1699,9 @@
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -1736,9 +1736,9 @@
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -1773,9 +1773,9 @@
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -1930,9 +1930,9 @@
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -1998,9 +1998,9 @@
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -2128,9 +2128,9 @@
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -2386,9 +2386,9 @@
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -2648,9 +2648,9 @@
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -2716,13 +2716,13 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="10.13" scheme="https://blog.daliansky.net/tags/10-13/"/>
-    
-      <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
-    
       <category term="安装" scheme="https://blog.daliansky.net/tags/%E5%AE%89%E8%A3%85/"/>
     
       <category term="常见问题" scheme="https://blog.daliansky.net/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
+    
+      <category term="10.13" scheme="https://blog.daliansky.net/tags/10-13/"/>
+    
+      <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
     
       <category term="EDID" scheme="https://blog.daliansky.net/tags/EDID/"/>
     
@@ -2761,9 +2761,9 @@
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
@@ -2961,6 +2961,8 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
+      <category term="常见问题" scheme="https://blog.daliansky.net/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
+    
       <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
     
       <category term="10.12" scheme="https://blog.daliansky.net/tags/10-12/"/>
@@ -2970,8 +2972,6 @@
       <category term="Sierra" scheme="https://blog.daliansky.net/tags/Sierra/"/>
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
-    
-      <category term="常见问题" scheme="https://blog.daliansky.net/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
     
       <category term="Plugins" scheme="https://blog.daliansky.net/tags/Plugins/"/>
     
@@ -3049,9 +3049,9 @@
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="DB9" scheme="https://blog.daliansky.net/tags/DB9/"/>
     
@@ -3086,6 +3086,8 @@
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
     
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
+    
       <category term="10.12.6" scheme="https://blog.daliansky.net/tags/10-12-6/"/>
     
       <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
@@ -3097,8 +3099,6 @@
       <category term="10.15" scheme="https://blog.daliansky.net/tags/10-15/"/>
     
       <category term="Download" scheme="https://blog.daliansky.net/tags/Download/"/>
-    
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
   </entry>
   
@@ -3191,9 +3191,9 @@
     
       <category term="10.13" scheme="https://blog.daliansky.net/tags/10-13/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
       <category term="DB8" scheme="https://blog.daliansky.net/tags/DB8/"/>
     
@@ -3255,11 +3255,11 @@
     
       <category term="10.13" scheme="https://blog.daliansky.net/tags/10-13/"/>
     
-      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
-    
       <category term="DB7" scheme="https://blog.daliansky.net/tags/DB7/"/>
     
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
   </entry>
   
@@ -3378,9 +3378,9 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
-    
       <category term="安装" scheme="https://blog.daliansky.net/tags/%E5%AE%89%E8%A3%85/"/>
+    
+      <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
     
   </entry>
   
@@ -3404,13 +3404,13 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="Sierra" scheme="https://blog.daliansky.net/tags/Sierra/"/>
-    
       <category term="安装" scheme="https://blog.daliansky.net/tags/%E5%AE%89%E8%A3%85/"/>
     
-      <category term="10.12.6" scheme="https://blog.daliansky.net/tags/10-12-6/"/>
+      <category term="Sierra" scheme="https://blog.daliansky.net/tags/Sierra/"/>
     
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="10.12.6" scheme="https://blog.daliansky.net/tags/10-12-6/"/>
     
       <category term="dmg" scheme="https://blog.daliansky.net/tags/dmg/"/>
     
