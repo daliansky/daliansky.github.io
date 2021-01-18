@@ -10,8 +10,8 @@
       </categories>
       <tags>
         <tag>BigSur</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>11.1</tag>
@@ -27,9 +27,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.7</tag>
         <tag>19H2</tag>
@@ -46,8 +46,8 @@
       </categories>
       <tags>
         <tag>BigSur</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>11.1</tag>
@@ -195,9 +195,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.7</tag>
         <tag>19H2</tag>
@@ -253,7 +253,7 @@
   <entry>
     <title>BCM94360Z4 m.2 NGFF接口四天线笔记本/小主机专用黑苹果无线网卡驱动教程</title>
     <url>/BCM94360Z4-m.2-NGFF-interface-four-antenna-notebook_small-host-dedicated-black-Apple-wireless-network-card-driver-tutorial.html</url>
-    <content><![CDATA[<h1 id="黑果小兵bcm94360z4-m2-ngff-接口四天线笔记本小主机专用黑苹果无线网卡驱动教程"><a class="markdownIt-Anchor" href="#黑果小兵bcm94360z4-m2-ngff-接口四天线笔记本小主机专用黑苹果无线网卡驱动教程"></a> 【黑果小兵】BCM94360Z4 <code>m.2 NGFF</code> 接口四天线笔记本/小主机专用黑苹果无线网卡驱动教程</h1><h2 id="bcm94360z4-m2-ngff-四天线笔记本专用无线网卡"><a class="markdownIt-Anchor" href="#bcm94360z4-m2-ngff-四天线笔记本专用无线网卡"></a> <code>BCM94360Z4</code> <code>m.2 NGFF</code> 四天线笔记本专用无线网卡</h2><h3 id="broadcom-bcm94360z4-80211agnac-wlan-bluetooth-m2-ngff-dual-band-combination-card"><a class="markdownIt-Anchor" href="#broadcom-bcm94360z4-80211agnac-wlan-bluetooth-m2-ngff-dual-band-combination-card"></a> Broadcom <code>BCM94360Z4</code> 802.11a/g/n/ac WLAN + Bluetooth <code>m.2 NGFF</code> Dual Band Combination Card</h3><h4 id="item-specifics"><a class="markdownIt-Anchor" href="#item-specifics"></a> Item specifics：</h4><ul><li><p>BCM94360Z4</p></li><li><p>3x ant. + 1x ant. BT, MIMO 3x3</p></li><li><p>M.2 2630</p></li><li><p>802.11ac Dual Band 802.11AC</p></li><li><p>1300Mbps</p></li><li><p>BlueTooth 4.0</p></li><li><p>OS：Support <code>macOS</code> / <code>Windows</code> / <code>linux</code></p><h4 id="wlan-bcm4360-80211ac"><a class="markdownIt-Anchor" href="#wlan-bcm4360-80211ac"></a> WLAN: <code>BCM4360 802.11AC</code></h4><ul><li>Vendor: <code>0x14E4</code></li><li>Device: <code>0x43A0</code></li></ul><h4 id="bluetooth-bcm20702"><a class="markdownIt-Anchor" href="#bluetooth-bcm20702"></a> BlueTooth: <code>BCM20702</code></h4><ul><li>Vendor ID: <code>0x0A5C</code></li><li>Product ID: <code>0x22BE</code></li></ul></li></ul><h3 id="天线接法"><a class="markdownIt-Anchor" href="#天线接法"></a> 天线接法</h3><p>笔记本天线的接法：原来的两根建议接 <code>j0</code> / <code>j3</code>，附送的接 <code>j1</code> / <code>j2</code>，塑料后盖的可以将两根天线直接帖电池上</p><p>其中：</p><ul><li>WIFI: 接 <code>j0</code> / <code>j1</code> / <code>j2</code></li><li>蓝牙：接 <code>j3</code></li></ul><h3 id="macos驱动方法"><a class="markdownIt-Anchor" href="#macos驱动方法"></a> macOS驱动方法</h3><ul><li><p>WIFI</p><ul><li><code>免驱</code></li></ul></li><li><p>蓝牙</p><ul><li><p><code>OpenCore</code>驱动方法：</p><ul><li><p><code>Kernel</code>-&gt;<code>Add</code>-&gt;<code>Browse</code>，将<code>/EFI/OC/Kexts</code>目录下的<code>BrcmBluetoothInjector.kext</code> 添加进列表中即可</p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/bt1.png" alt="bt1"></p><p>源码如下：</p><figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>Arch<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span>Any<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>BundlePath<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span>BrcmBluetoothInjector.kext<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>Comment<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>Enabled<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">true</span>/&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>ExecutablePath<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>MaxKernel<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>MinKernel<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>PlistPath<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span>Contents/Info.plist<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dict</span>&gt;</span></span><br></pre></td></tr></table></figure></li><li><p>驱动下载：<a href="https://github.com/acidanthera/BrcmPatchRAM/releases" target="_blank" rel="noopener">https://github.com/acidanthera/BrcmPatchRAM/releases</a></p></li></ul></li></ul></li></ul><h3 id="windows驱动"><a class="markdownIt-Anchor" href="#windows驱动"></a> Windows驱动</h3><p>驱动下载：<a href="BCM94360Z4/BCM94360Z4_Drivers_For_windows.zip">BCM94360Z4/BCM94360Z4_Drivers_For_windows.zip</a></p><h2 id="产品照片"><a class="markdownIt-Anchor" href="#产品照片"></a> 产品照片</h2><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BCM94360Z4_4.png" alt="BCM94360Z4_4"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BCM94360Z4_1.png" alt="BCM94360Z4_1"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BCM94360Z4_5.jpg" alt="BCM94360Z4_2"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/XiaoxinPro13.jpg" alt="联想小新xiaoxin pro 13安装截图"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BT_Info.png" alt="BT_Info"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/Hackintool_Misc.png" alt="Hackintool_Misc"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/Hackintool_PCI-E.png" alt="Hackintool_PCI-E"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/Sysinfo_BT.png" alt="Sysinfo_BT"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/Sysinfo_WIFI.png" alt="Sysinfo_WIFI"></p>]]></content>
+    <content><![CDATA[<h1 id="黑果小兵bcm94360z4-m2-ngff-接口四天线笔记本小主机专用黑苹果无线网卡驱动教程"><a class="markdownIt-Anchor" href="#黑果小兵bcm94360z4-m2-ngff-接口四天线笔记本小主机专用黑苹果无线网卡驱动教程"></a> 【黑果小兵】BCM94360Z4 <code>m.2 NGFF</code> 接口四天线笔记本/小主机专用黑苹果无线网卡驱动教程</h1><h2 id="bcm94360z4-m2-ngff-四天线笔记本专用无线网卡"><a class="markdownIt-Anchor" href="#bcm94360z4-m2-ngff-四天线笔记本专用无线网卡"></a> <code>BCM94360Z4</code> <code>m.2 NGFF</code> 四天线笔记本专用无线网卡</h2><h3 id="broadcom-bcm94360z4-80211agnac-wlan-bluetooth-m2-ngff-dual-band-combination-card"><a class="markdownIt-Anchor" href="#broadcom-bcm94360z4-80211agnac-wlan-bluetooth-m2-ngff-dual-band-combination-card"></a> Broadcom <code>BCM94360Z4</code> 802.11a/g/n/ac WLAN + Bluetooth <code>m.2 NGFF</code> Dual Band Combination Card</h3><h4 id="item-specifics"><a class="markdownIt-Anchor" href="#item-specifics"></a> Item specifics：</h4><ul><li><p>BCM94360Z4</p></li><li><p>3x ant. + 1x ant. BT, MIMO 3x3</p></li><li><p>M.2 2630</p></li><li><p>802.11ac Dual Band 802.11AC</p></li><li><p>1300Mbps</p></li><li><p>BlueTooth 4.0</p></li><li><p>OS：Support <code>macOS</code> / <code>Windows</code> / <code>linux</code></p><h4 id="wlan-bcm4360-80211ac"><a class="markdownIt-Anchor" href="#wlan-bcm4360-80211ac"></a> WLAN: <code>BCM4360 802.11AC</code></h4><ul><li>Vendor: <code>0x14E4</code></li><li>Device: <code>0x43A0</code></li></ul><h4 id="bluetooth-bcm20702"><a class="markdownIt-Anchor" href="#bluetooth-bcm20702"></a> BlueTooth: <code>BCM20702</code></h4><ul><li>Vendor ID: <code>0x0A5C</code></li><li>Product ID: <code>0x22BE</code></li></ul></li></ul><h3 id="天线接法"><a class="markdownIt-Anchor" href="#天线接法"></a> 天线接法</h3><p>笔记本天线的接法：原来的两根建议接 <code>j0</code> / <code>j3</code>，附送的接 <code>j1</code> / <code>j2</code>，塑料后盖的可以将两根天线直接帖电池上</p><p>其中：</p><ul><li>WIFI: 接 <code>j0</code> / <code>j1</code> / <code>j2</code></li><li>蓝牙：接 <code>j3</code></li></ul><h3 id="macos驱动方法"><a class="markdownIt-Anchor" href="#macos驱动方法"></a> macOS驱动方法</h3><ul><li><p>WIFI</p><ul><li><code>免驱</code></li></ul></li><li><p>蓝牙</p><ul><li><p><code>OpenCore</code>驱动方法：</p><ul><li><p><code>Kernel</code>-&gt;<code>Add</code>-&gt;<code>Browse</code>，将<code>/EFI/OC/Kexts</code>目录下的<code>BrcmBluetoothInjector.kext</code> 添加进列表中即可</p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/bt1.png" alt="bt1"></p><p>源码如下：</p><figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>Arch<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span>Any<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>BundlePath<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span>BrcmBluetoothInjector.kext<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>Comment<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>Enabled<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">true</span>/&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>ExecutablePath<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>MaxKernel<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>MinKernel<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>PlistPath<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span>Contents/Info.plist<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dict</span>&gt;</span></span><br></pre></td></tr></table></figure></li><li><p>驱动下载：<a href="https://github.com/acidanthera/BrcmPatchRAM/releases" target="_blank" rel="noopener">https://github.com/acidanthera/BrcmPatchRAM/releases</a></p></li></ul></li></ul></li></ul><h3 id="windows驱动"><a class="markdownIt-Anchor" href="#windows驱动"></a> Windows驱动</h3><p>驱动下载：<a href="http://7.daliansky.net/BCM94360Z4/BCM94360Z4_Drivers_For_windows.zip" target="_blank" rel="noopener">BCM94360Z4/BCM94360Z4_Drivers_For_windows.zip</a></p><h2 id="产品照片"><a class="markdownIt-Anchor" href="#产品照片"></a> 产品照片</h2><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BCM94360Z4_4.png" alt="BCM94360Z4_4"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BCM94360Z4_1.png" alt="BCM94360Z4_1"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BCM94360Z4_5.jpg" alt="BCM94360Z4_2"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/XiaoxinPro13.jpg" alt="联想小新xiaoxin pro 13安装截图"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BT_Info.png" alt="BT_Info"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/Hackintool_Misc.png" alt="Hackintool_Misc"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/Hackintool_PCI-E.png" alt="Hackintool_PCI-E"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/Sysinfo_BT.png" alt="Sysinfo_BT"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/Sysinfo_WIFI.png" alt="Sysinfo_WIFI"></p>]]></content>
       <categories>
         <category>教程</category>
       </categories>
@@ -424,8 +424,8 @@
       </categories>
       <tags>
         <tag>BigSur</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>11.0.1</tag>
@@ -442,9 +442,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.4</tag>
         <tag>1.9e+267</tag>
@@ -461,9 +461,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.2</tag>
         <tag>19C57</tag>
@@ -479,8 +479,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.6</tag>
         <tag>17G2112</tag>
@@ -525,10 +525,10 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>17A389</tag>
       </tags>
@@ -543,8 +543,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.2</tag>
         <tag>17C88</tag>
@@ -559,9 +559,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.14.6</tag>
         <tag>18G84</tag>
@@ -578,9 +578,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.14.4</tag>
         <tag>1.8e+227</tag>
@@ -614,9 +614,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.7</tag>
         <tag>19H2</tag>
@@ -632,9 +632,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.6</tag>
         <tag>19G73</tag>
@@ -653,9 +653,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.6</tag>
         <tag>19G73</tag>
@@ -673,9 +673,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.5</tag>
         <tag>三EFI分区</tag>
@@ -691,9 +691,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.5</tag>
         <tag>19F101</tag>
@@ -709,9 +709,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.5</tag>
         <tag>19F96</tag>
@@ -727,9 +727,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.4</tag>
         <tag>Infinity</tag>
@@ -745,9 +745,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.3</tag>
         <tag>19D76</tag>
@@ -762,9 +762,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.1</tag>
         <tag>19B88</tag>
@@ -779,10 +779,10 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Catalina</tag>
         <tag>10.15</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>19A583</tag>
       </tags>
@@ -796,9 +796,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.14.5</tag>
         <tag>18F132</tag>
@@ -813,9 +813,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.14.3</tag>
         <tag>18D42</tag>
@@ -855,9 +855,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.14.2</tag>
         <tag>18C54</tag>
@@ -889,9 +889,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.14.1</tag>
         <tag>18B75</tag>
@@ -921,10 +921,10 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>镜像</tag>
-        <tag>下载</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
+        <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>18A391</tag>
       </tags>
@@ -968,8 +968,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.6</tag>
         <tag>17G65</tag>
@@ -985,8 +985,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.5</tag>
         <tag>17F77</tag>
@@ -1044,8 +1044,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.4</tag>
         <tag>1.7e+200</tag>
@@ -1117,8 +1117,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.2</tag>
         <tag>17C88</tag>
@@ -1204,8 +1204,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.13.1</tag>
         <tag>17B48</tag>
@@ -1295,8 +1295,8 @@
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>17A405</tag>
       </tags>
@@ -1329,8 +1329,8 @@
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
       </tags>
   </entry>
@@ -1392,11 +1392,11 @@
       <tags>
         <tag>常见问题</tag>
         <tag>Lilu</tag>
+        <tag>Plugins</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
-        <tag>Plugins</tag>
         <tag>Clover</tag>
         <tag>platform-id</tag>
         <tag>Patch</tag>
@@ -1431,8 +1431,8 @@
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>DB9</tag>
         <tag>17A360a</tag>
         <tag>dmg</tag>
@@ -1446,13 +1446,13 @@
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>10.12.6</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
         <tag>Catalina</tag>
         <tag>10.15</tag>
         <tag>Download</tag>
+        <tag>下载</tag>
       </tags>
   </entry>
   <entry>
@@ -1480,8 +1480,8 @@
       </categories>
       <tags>
         <tag>10.13</tag>
-        <tag>镜像</tag>
         <tag>下载</tag>
+        <tag>镜像</tag>
         <tag>DB8</tag>
         <tag>17A358a</tag>
       </tags>
@@ -1509,9 +1509,9 @@
       </categories>
       <tags>
         <tag>10.13</tag>
+        <tag>下载</tag>
         <tag>DB7</tag>
         <tag>镜像</tag>
-        <tag>下载</tag>
       </tags>
   </entry>
   <entry>
@@ -1551,8 +1551,8 @@
       <tags>
         <tag>安装</tag>
         <tag>Sierra</tag>
-        <tag>镜像</tag>
         <tag>10.12.6</tag>
+        <tag>镜像</tag>
         <tag>dmg</tag>
       </tags>
   </entry>
