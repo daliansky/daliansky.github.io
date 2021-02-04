@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.daliansky.net/macOS-BigSur-11.2-20D64-Release-version-with-OC-0.6.6-and-Clover-5129-and-PE-original-image.html</loc>
+    <lastmod>2021-02-04</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-BigSur-11.1-20C69-Release-version-with-Clover-5127-and-OC-0.6.4-and-PE-original-image.html</loc>
+    <lastmod>2021-02-02</lastmod>
+  </url>
+  <url>
     <loc>https://blog.daliansky.net/BCM94360Z4-m.2-NGFF-interface-four-antenna-notebook_small-host-dedicated-black-Apple-wireless-network-card-driver-tutorial.html</loc>
     <lastmod>2021-02-01</lastmod>
   </url>
@@ -37,11 +45,11 @@
     <lastmod>2021-01-15</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.2-19C57-Release-version-with-Clover-5100-original-image-Double-EFI-Version.html</loc>
+    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.5-19F96-Release-version-with-Clover-5118-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
     <lastmod>2021-01-15</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.5-19F96-Release-version-with-Clover-5118-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
+    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.2-19C57-Release-version-with-Clover-5100-original-image-Double-EFI-Version.html</loc>
     <lastmod>2021-01-15</lastmod>
   </url>
   <url>
@@ -65,11 +73,11 @@
     <lastmod>2021-01-15</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/undefined.html</loc>
+    <loc>https://blog.daliansky.net/Lenovo-Tianyi-510s-Mini-and-macOS-BigSur-Installation-Tutorial.html</loc>
     <lastmod>2021-01-15</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Add-the-CLOVER-boot-to-the-correct-posture-of-the-UEFI-Boot-Option-Menu.html</loc>
+    <loc>https://blog.daliansky.net/undefined.html</loc>
     <lastmod>2021-01-15</lastmod>
   </url>
   <url>
@@ -77,7 +85,7 @@
     <lastmod>2021-01-15</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Lenovo-Tianyi-510s-Mini-and-macOS-BigSur-Installation-Tutorial.html</loc>
+    <loc>https://blog.daliansky.net/Add-the-CLOVER-boot-to-the-correct-posture-of-the-UEFI-Boot-Option-Menu.html</loc>
     <lastmod>2021-01-15</lastmod>
   </url>
   <url>
@@ -153,6 +161,10 @@
     <lastmod>2021-01-15</lastmod>
   </url>
   <url>
+    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13-official-version-update-17A405-with-Clover-4238-original-mirror.html</loc>
+    <lastmod>2021-01-15</lastmod>
+  </url>
+  <url>
     <loc>https://blog.daliansky.net/macOS-Mojave-10.14-18A389-Release-with-Clover-4670-original-mirror.html</loc>
     <lastmod>2021-01-15</lastmod>
   </url>
@@ -169,7 +181,7 @@
     <lastmod>2021-01-15</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13-official-version-update-17A405-with-Clover-4238-original-mirror.html</loc>
+    <loc>https://blog.daliansky.net/Use-AppleALC-sound-card-to-drive-the-correct-posture-of-AppleHDA.html</loc>
     <lastmod>2021-01-15</lastmod>
   </url>
   <url>
@@ -182,10 +194,6 @@
   </url>
   <url>
     <loc>https://blog.daliansky.net/Display-interface-data-and-parameter-changes.html</loc>
-    <lastmod>2021-01-15</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Use-AppleALC-sound-card-to-drive-the-correct-posture-of-AppleHDA.html</loc>
     <lastmod>2021-01-15</lastmod>
   </url>
   <url>
@@ -214,10 +222,6 @@
   </url>
   <url>
     <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.4-17E199-Release-Version-and-Clover-4418-Original-Image.html</loc>
-    <lastmod>2021-01-15</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/macOS-BigSur-11.1-20C69-Release-version-with-Clover-5127-and-OC-0.6.4-and-PE-original-image.html</loc>
     <lastmod>2021-01-15</lastmod>
   </url>
   <url>
