@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.daliansky.net/macOS-BigSur-11.1-20C69-Release-version-with-Clover-5127-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
+    
+    <lastmod>2021-02-05T15:43:57.762Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.daliansky.net/macOS-BigSur-11.2-20D64-Release-version-with-OC-0.6.6-and-Clover-5129-and-PE-original-image.html</loc>
+    
+    <lastmod>2021-02-05T15:43:33.535Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.daliansky.net/BCM94360Z4-m.2-NGFF-interface-four-antenna-notebook_small-host-dedicated-black-Apple-wireless-network-card-driver-tutorial.html</loc>
     
     <lastmod>2021-02-04T16:10:08.115Z</lastmod>
@@ -184,13 +198,6 @@
   </url>
   
   <url>
-    <loc>https://blog.daliansky.net/macOS-BigSur-11.2-20D64-Release-version-with-OC-0.6.6-and-Clover-5129-and-PE-original-image.html</loc>
-    
-    <lastmod>2021-02-04T14:31:29.958Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.daliansky.net/macOS-BigSur-11.1-20C69-Release-version-with-Clover-5127-and-OC-0.6.4-and-PE-original-image.html</loc>
     
     <lastmod>2021-02-04T14:31:29.958Z</lastmod>
@@ -313,13 +320,6 @@
     <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.4-17E199-Release-Version-and-Clover-4418-Original-Image.html</loc>
     
     <lastmod>2021-02-04T14:31:29.954Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/macOS-BigSur-11.1-20C69-Release-version-with-Clover-5127-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
-    
-    <lastmod>2021-02-04T14:31:29.953Z</lastmod>
     
   </url>
   
@@ -541,14 +541,14 @@
   </url>
   
   <url>
-    <loc>https://blog.daliansky.net/about/index.html</loc>
+    <loc>https://blog.daliansky.net/categories/index.html</loc>
     
     <lastmod>2020-12-16T15:21:10.049Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.daliansky.net/categories/index.html</loc>
+    <loc>https://blog.daliansky.net/about/index.html</loc>
     
     <lastmod>2020-12-16T15:21:10.049Z</lastmod>
     
