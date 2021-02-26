@@ -59,13 +59,13 @@
   <entry>
     <title>【黑果小兵独家】BCM94360Z4 m.2 NGFF接口四天线笔记本/小主机专用黑苹果无线网卡驱动教程</title>
     <url>/BCM94360Z4-m.2-NGFF-interface-four-antenna-notebook_small-host-dedicated-black-Apple-wireless-network-card-driver-tutorial.html</url>
-    <content><![CDATA[<h1 id="黑果小兵bcm94360z4-m2-ngff-接口四天线笔记本小主机黑苹果无线网卡驱动教程"><a class="markdownIt-Anchor" href="#黑果小兵bcm94360z4-m2-ngff-接口四天线笔记本小主机黑苹果无线网卡驱动教程"></a> 【黑果小兵】BCM94360Z4 <code>m.2 NGFF</code> 接口四天线笔记本/小主机黑苹果无线网卡驱动教程</h1><h2 id="bcm94360z4-m2-ngff-四天线笔记本无线网卡"><a class="markdownIt-Anchor" href="#bcm94360z4-m2-ngff-四天线笔记本无线网卡"></a> <code>BCM94360Z4</code> <code>m.2 NGFF</code> 四天线笔记本无线网卡</h2><h3 id="broadcom-bcm94360z4-80211agnac-wlan-bluetooth-m2-ngff-dual-band-combination-card"><a class="markdownIt-Anchor" href="#broadcom-bcm94360z4-80211agnac-wlan-bluetooth-m2-ngff-dual-band-combination-card"></a> Broadcom <code>BCM94360Z4</code> 802.11a/g/n/ac WLAN + Bluetooth <code>m.2 NGFF</code> Dual Band Combination Card</h3><h4 id="item-specifics"><a class="markdownIt-Anchor" href="#item-specifics"></a> Item specifics：</h4><ul><li><p>BCM94360Z4</p></li><li><p>3x ant. + 1x ant. BT, MIMO 3x3</p></li><li><p>M.2 2630</p></li><li><p>802.11ac Dual Band 802.11AC</p></li><li><p>1300Mbps</p></li><li><p>BlueTooth 4.0</p></li><li><p>OS：Support <code>macOS</code> / <code>Windows</code> / <code>linux</code></p><h4 id="wlan-bcm4360-80211ac"><a class="markdownIt-Anchor" href="#wlan-bcm4360-80211ac"></a> WLAN: <code>BCM4360 802.11AC</code></h4><ul><li>Vendor: <code>0x14E4</code></li><li>Device: <code>0x43A0</code></li></ul><h4 id="bluetooth-bcm20702"><a class="markdownIt-Anchor" href="#bluetooth-bcm20702"></a> BlueTooth: <code>BCM20702</code></h4><ul><li>Vendor ID: <code>0x33BA</code></li><li>Product ID: <code>0x03E8</code></li></ul></li></ul><h3 id="天线接法"><a class="markdownIt-Anchor" href="#天线接法"></a> 天线接法</h3><p>笔记本天线的接法：</p><ul><li><p>建议1<br>如果wifi信号差(比如金属后壳)<br><code>j0</code> / <code>j1</code> 都接屏幕里的天线(自带的黑/白线)，<code>j2</code> / <code>j3</code>接加装的天线，但是会带来蓝牙信号不好</p></li><li><p>建议2<br>如果蓝牙信号差<br><code>j0</code> 接屏幕里的天线，<code>j3</code> 接屏幕里的天线，<code>j1</code> / <code>j2</code> 接加装的天线，理论上不会对蓝牙信号造成影响</p></li></ul><h3 id="macos驱动方法"><a class="markdownIt-Anchor" href="#macos驱动方法"></a> macOS驱动方法</h3><ul><li><p>WIFI</p><ul><li><code>免驱</code></li></ul></li><li><p>蓝牙</p><ul><li><p><code>OpenCore</code>驱动方法：</p><ul><li><p><code>Kernel</code>-&gt;<code>Add</code>-&gt;<code>Browse</code>，将<code>/EFI/OC/Kexts</code>目录下的<code>BrcmBluetoothInjector.kext</code> 添加进列表中即可</p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/bt1.png" alt="bt1"></p><p>源码如下：</p><figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>Arch<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span>Any<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>BundlePath<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span>BrcmBluetoothInjector.kext<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>Comment<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>Enabled<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">true</span>/&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>ExecutablePath<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>MaxKernel<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>MinKernel<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>PlistPath<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span>Contents/Info.plist<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dict</span>&gt;</span></span><br></pre></td></tr></table></figure></li><li><p>驱动下载：<a href="http://7.daliansky.net/BCM94360Z4/BrcmPatchRAM-2.5.7-RELEASE.zip" target="_blank" rel="noopener">BrcmPatchRAM-2.5.7-RELEASE.zip</a></p></li></ul></li></ul></li></ul><h3 id="windows驱动"><a class="markdownIt-Anchor" href="#windows驱动"></a> Windows驱动</h3><p>驱动下载：<a href>BCM94360Z4_Drivers_v1.0.0_For_Windows_x64.zip</a></p><h2 id="产品照片"><a class="markdownIt-Anchor" href="#产品照片"></a> 产品照片</h2><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BCM94360Z4.png" alt="BCM94360Z4_4"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/WeShop_QR.png" alt="WeShop"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BCM94360Z4_5.jpg" alt="BCM94360Z4_2"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/XiaoxinPro13.jpg" alt="联想小新xiaoxin pro 13安装截图"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/WIFI_for_BCM94360Z4.png" alt="WIFI for BCM94360Z4"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BT_for_BCM94360Z4.png" alt="BT_Info"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/Hackintool_Misc.png" alt="Hackintool_Misc"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/Hackintool_PCI-E.png" alt="Hackintool_PCI-E"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/Hackintool_USB_BRCM20702.png" alt="Hackintool USB BRCM20702"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BCM94360Z4_BT.png" alt="Sysinfo_BT"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BCM94360Z4_WIFI.png" alt="Sysinfo_WIFI"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/WIFI_for_Windows.png" alt="Wifi for Windows"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BT_for_Windows.png" alt="BT for Windows"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/WeShop_QR.png" alt="WeShop"></p>]]></content>
+    <content><![CDATA[<h1 id="黑果小兵bcm94360z4-m2-ngff-接口四天线笔记本小主机黑苹果无线网卡驱动教程"><a class="markdownIt-Anchor" href="#黑果小兵bcm94360z4-m2-ngff-接口四天线笔记本小主机黑苹果无线网卡驱动教程"></a> 【黑果小兵】BCM94360Z4 <code>m.2 NGFF</code> 接口四天线笔记本/小主机黑苹果无线网卡驱动教程</h1><h2 id="bcm94360z4-m2-ngff-四天线笔记本无线网卡"><a class="markdownIt-Anchor" href="#bcm94360z4-m2-ngff-四天线笔记本无线网卡"></a> <code>BCM94360Z4</code> <code>m.2 NGFF</code> 四天线笔记本无线网卡</h2><h3 id="broadcom-bcm94360z4-80211agnac-wlan-bluetooth-m2-ngff-dual-band-combination-card"><a class="markdownIt-Anchor" href="#broadcom-bcm94360z4-80211agnac-wlan-bluetooth-m2-ngff-dual-band-combination-card"></a> Broadcom <code>BCM94360Z4</code> 802.11a/g/n/ac WLAN + Bluetooth <code>m.2 NGFF</code> Dual Band Combination Card</h3><h4 id="item-specifics"><a class="markdownIt-Anchor" href="#item-specifics"></a> Item specifics：</h4><ul><li><p>BCM94360Z4</p></li><li><p>3x ant. + 1x ant. BT, MIMO 3x3</p></li><li><p>M.2 2630</p></li><li><p>802.11ac Dual Band 802.11AC</p></li><li><p>1300Mbps</p></li><li><p>BlueTooth 4.0</p></li><li><p>OS：Support <code>macOS</code> / <code>Windows</code> / <code>linux</code></p><h4 id="wlan-bcm4360-80211ac"><a class="markdownIt-Anchor" href="#wlan-bcm4360-80211ac"></a> WLAN: <code>BCM4360 802.11AC</code></h4><ul><li>Vendor: <code>0x14E4</code></li><li>Device: <code>0x43A0</code></li></ul><h4 id="bluetooth-bcm20702"><a class="markdownIt-Anchor" href="#bluetooth-bcm20702"></a> BlueTooth: <code>BCM20702</code></h4><ul><li>Vendor ID: <code>0x33BA</code></li><li>Product ID: <code>0x03E8</code></li></ul></li></ul><h3 id="天线接法"><a class="markdownIt-Anchor" href="#天线接法"></a> 天线接法</h3><p>笔记本天线的接法：</p><ul><li><p>建议1<br>如果wifi信号差(比如金属后壳)<br><code>j0</code> / <code>j1</code> 都接屏幕里的天线(自带的黑/白线)，<code>j2</code> / <code>j3</code>接加装的天线，但是会带来蓝牙信号不好</p></li><li><p>建议2<br>如果蓝牙信号差<br><code>j0</code> 接屏幕里的天线，<code>j3</code> 接屏幕里的天线，<code>j1</code> / <code>j2</code> 接加装的天线，理论上不会对蓝牙信号造成影响</p></li></ul><h3 id="macos驱动方法"><a class="markdownIt-Anchor" href="#macos驱动方法"></a> macOS驱动方法</h3><ul><li><p>WIFI</p><ul><li><code>免驱</code></li></ul></li><li><p>蓝牙</p><ul><li><p><code>OpenCore</code>驱动方法：</p><ul><li><p><code>Kernel</code>-&gt;<code>Add</code>-&gt;<code>Browse</code>，将<code>/EFI/OC/Kexts</code>目录下的<code>BrcmBluetoothInjector.kext</code> 添加进列表中即可</p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/bt1.png" alt="bt1"></p><p>源码如下：</p><figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>Arch<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span>Any<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>BundlePath<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span>BrcmBluetoothInjector.kext<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>Comment<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>Enabled<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">true</span>/&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>ExecutablePath<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>MaxKernel<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>MinKernel<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span><span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">key</span>&gt;</span>PlistPath<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">string</span>&gt;</span>Contents/Info.plist<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dict</span>&gt;</span></span><br></pre></td></tr></table></figure></li><li><p>驱动下载：<a href="http://7.daliansky.net/BCM94360Z4/BrcmPatchRAM-2.5.7-RELEASE.zip" target="_blank" rel="noopener">BrcmPatchRAM-2.5.7-RELEASE.zip</a></p></li></ul></li></ul></li></ul><h3 id="windows驱动"><a class="markdownIt-Anchor" href="#windows驱动"></a> Windows驱动</h3><p>驱动下载：<a href="BCM94360Z4/BCM94360Z4_and_BCM94360Z3_for_Windows10_x64_v1.0.0.3.zip">BCM94360Z4_Drivers_v1.0.0.3_For_Windows_x64.zip</a></p><h2 id="产品照片"><a class="markdownIt-Anchor" href="#产品照片"></a> 产品照片</h2><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BCM94360Z4.png" alt="BCM94360Z4_4"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/WeShop_QR.png" alt="WeShop"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BCM94360Z4_5.jpg" alt="BCM94360Z4_2"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/XiaoxinPro13.jpg" alt="联想小新xiaoxin pro 13安装截图"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/WIFI_for_BCM94360Z4.png" alt="WIFI for BCM94360Z4"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BT_for_BCM94360Z4.png" alt="BT_Info"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/Hackintool_Misc.png" alt="Hackintool_Misc"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/Hackintool_PCI-E.png" alt="Hackintool_PCI-E"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/Hackintool_USB_BRCM20702.png" alt="Hackintool USB BRCM20702"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BCM94360Z4_BT.png" alt="Sysinfo_BT"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BCM94360Z4_WIFI.png" alt="Sysinfo_WIFI"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/WIFI_for_Windows.png" alt="Wifi for Windows"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BT_for_Windows.png" alt="BT for Windows"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/BCM94360Z4_pin.png" alt="BCM94360Z4针脚屏蔽示意图"></p><p><img src="/images/loading.gif" data-original="http://7.daliansky.net/BCM94360Z4/WeShop_QR.png" alt="WeShop"></p><h2 id="感谢名单"><a class="markdownIt-Anchor" href="#感谢名单"></a> 感谢名单</h2><ul><li><a href="https://www.apple.com/" target="_blank" rel="noopener">Apple</a> 的 macOS</li><li><a href="https://github.com/rehabman" target="_blank" rel="noopener">RehabMan</a>维护的项目：<a href="https://github.com/RehabMan/OS-X-Clover-Laptop-Config" target="_blank" rel="noopener">OS-X-Clover-Laptop-Config</a> <a href="https://github.com/RehabMan/Laptop-DSDT-Patch" target="_blank" rel="noopener">Laptop-DSDT-Patch</a> <a href="https://github.com/RehabMan/OS-X-USB-Inject-All" target="_blank" rel="noopener">OS-X-USB-Inject-All</a>等</li><li><a href="https://github.com/acidanthera" target="_blank" rel="noopener">Acidanthera</a> 维护的项目：<a href="https://github.com/acidanthera/OpenCorePkg" target="_blank" rel="noopener">OpenCorePkg</a> <a href="https://github.com/acidanthera/Lilu" target="_blank" rel="noopener">lilu</a> <a href="https://github.com/acidanthera/AirportBrcmFixup" target="_blank" rel="noopener">AirportBrcmFixup</a> <a href="https://github.com/acidanthera/WhateverGreen" target="_blank" rel="noopener">WhateverGreen</a> <a href="https://github.com/acidanthera/VirtualSMC" target="_blank" rel="noopener">VirtualSMC</a> <a href="https://github.com/acidanthera/AppleALC" target="_blank" rel="noopener">AppleALC</a> <a href="https://github.com/acidanthera/BrcmPatchRAM" target="_blank" rel="noopener">BrcmPatchRAM</a> <a href="https://github.com/acidanthera/MaciASL" target="_blank" rel="noopener">MaciASL</a> 等</li><li><a href="https://www.insanelymac.com/forum/profile/1364628-headkaze/" target="_blank" rel="noopener">headkaze</a> 提供的工具：<a href="https://github.com/headkaze/Hackintool" target="_blank" rel="noopener">hackintool</a> <a href="https://github.com/headkaze/PinConfigurator" target="_blank" rel="noopener">PinConfigurator</a> <a href="https://www.insanelymac.com/forum/topic/339175-brcmpatchram2-for-1015-catalina-broadcom-bluetooth-firmware-upload/" target="_blank" rel="noopener">BrcmPatchRAM</a></li><li><a href="https://github.com/CloverHackyColor" target="_blank" rel="noopener">CloverHackyColor</a>维护的项目：<a href="https://github.com/CloverHackyColor/CloverBootloader" target="_blank" rel="noopener">CloverBootloader</a> <a href="https://github.com/CloverHackyColor/CloverThemes" target="_blank" rel="noopener">CloverThemes</a></li><li>宪武整理的：<a href="https://github.com/daliansky/P-little" target="_blank" rel="noopener">P-little</a> <a href="https://github.com/daliansky/OC-little" target="_blank" rel="noopener">OC-little</a></li><li><a href="https://github.com/chris1111" target="_blank" rel="noopener">chris1111</a>维护的项目：<a href="https://github.com/chris1111/VoodooHDA-2.9.2-Clover-V15" target="_blank" rel="noopener">VoodooHDA</a> <a href="https://github.com/chris1111/Wireless-USB-Adapter-Clover" target="_blank" rel="noopener">Wireless USB Adapter Clover</a></li><li><a href="https://github.com/zxystd" target="_blank" rel="noopener">zxystd</a>开发的<a href="https://github.com/zxystd/itlwm" target="_blank" rel="noopener">itlwm</a> <a href="https://github.com/zxystd/IntelBluetoothFirmware" target="_blank" rel="noopener">IntelBluetoothFirmware</a></li><li><a href="https://github.com/lihaoyun6" target="_blank" rel="noopener">lihaoyun6</a>提供的工具：<a href="https://github.com/lihaoyun6/CPU-S" target="_blank" rel="noopener">CPU-S</a> <a href="https://github.com/lihaoyun6/macOS-Displays-icon" target="_blank" rel="noopener">macOS-Displays-icon</a> <a href="https://github.com/lihaoyun6/SidecarPatcher" target="_blank" rel="noopener">SidecarPatcher</a></li><li><a href="https://github.com/SukkaW" target="_blank" rel="noopener">sukka</a>更新维护的<a href="https://blog.skk.moe/post/from-clover-to-opencore/" target="_blank" rel="noopener">从 Clover 到 OpenCore —— Clover 迁移 OpenCore 指南</a></li><li><a href="https://github.com/xzhih" target="_blank" rel="noopener">xzhih</a>提供的工具：<a href="https://github.com/xzhih/one-key-hidpi" target="_blank" rel="noopener">one-key-hidpi</a></li><li><a href="https://github.com/williambj1" target="_blank" rel="noopener">Bat.bat</a>更新维护的<a href="https://blog.daliansky.net/OpenCore-BootLoader.html">精解OpenCore</a></li><li><a href="https://github.com/shuiyunxc" target="_blank" rel="noopener">shuiyunxc</a> 更新维护的<a href="https://shuiyunxc.gitee.io/2020/04/06/Faults/index/" target="_blank" rel="noopener">OpenCore配置错误、故障与解决办法</a></li><li><a href="https://github.com/athlonreg" target="_blank" rel="noopener">athlonreg</a>更新维护的<a href="https://blog.cloudops.ml/ocbook/" target="_blank" rel="noopener">OpenCore 0.5+ 部件补丁</a> <a href="https://github.com/athlonreg/Common-patches-for-hackintosh" target="_blank" rel="noopener">Common-patches-for-hackintosh</a></li><li><a href="https://blog.daliansky.net/github.com">github.com</a></li><li><a href="https://blog.daliansky.net/gitee.io">码云 gitee.io</a></li><li><a href="https://blog.daliansky.net/coding.net">扣钉 coding.net</a></li></ul><h2 id="参考及引用"><a class="markdownIt-Anchor" href="#参考及引用"></a> 参考及引用：</h2><ul><li><a href="https://deviwiki.com/wiki/Dell" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell</a></li><li><a href="https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)" target="_blank" rel="noopener">https://deviwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)</a></li><li><a href="https://blog.daliansky.net/%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的Broadcom 4350:<a href="https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/12169-bcm4350-cards-registry-of-cardslaptops-interop/</a></li><li><a href="https://blog.daliansky.net/%5Bhttps://osxlatitude.com/profile/4953-herv%C3%A9/%5D(https://osxlatitude.com/profile/4953-herv%C3%A9/)">Hervé</a> 更新的DW1820A支持机型列表:<a href="https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11322-broadcom-bcm4350-cards-under-high-sierramojave/</a></li><li><a href="https://osxlatitude.com/profile/129953-nickhx/" target="_blank" rel="noopener">nickhx</a> 提供的蓝牙驱动：<a href="https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833" target="_blank" rel="noopener">https://osxlatitude.com/forums/topic/11540-dw1820a-for-7490-help/?do=findComment&amp;comment=92833</a></li><li><a href="https://blog.xjn819.com/" target="_blank" rel="noopener">xjn819</a>： <a href="https://blog.xjn819.com/?p=543" target="_blank" rel="noopener">使用OpenCore引导黑苹果</a> <a href="https://blog.xjn819.com/?p=317" target="_blank" rel="noopener">300系列主板正确使用AptioMemoryFix.efi的姿势(重写版）</a></li><li><a href="https://www.insanelymac.com/" target="_blank" rel="noopener">insanelymac.com</a></li><li><a href="https://www.tonymacx86.com/" target="_blank" rel="noopener">tonymacx86.com</a></li><li><a href="http://bbs.pcbeta.com/" target="_blank" rel="noopener">远景论坛</a></li><li><a href="https://applelife.ru/" target="_blank" rel="noopener">applelife.ru</a></li><li><a href="https://www.olarila.com/" target="_blank" rel="noopener">olarila.com</a></li></ul>]]></content>
       <categories>
         <category>教程</category>
       </categories>
       <tags>
-        <tag>BCM94360Z4</tag>
         <tag>驱动</tag>
+        <tag>BCM94360Z4</tag>
       </tags>
   </entry>
   <entry>
@@ -136,8 +136,8 @@
       </categories>
       <tags>
         <tag>教程</tag>
-        <tag>Hackintosh</tag>
         <tag>EFI</tag>
+        <tag>Hackintosh</tag>
         <tag>向导</tag>
         <tag>guide</tag>
       </tags>
@@ -165,12 +165,12 @@
         <category>教程</category>
       </categories>
       <tags>
+        <tag>USB</tag>
         <tag>教程</tag>
         <tag>FB</tag>
         <tag>patcher</tag>
         <tag>framebuffer</tag>
         <tag>帧缓冲</tag>
-        <tag>USB</tag>
         <tag>audio</tag>
         <tag>VRAM</tag>
       </tags>
@@ -243,10 +243,10 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>安装</tag>
-        <tag>常见问题</tag>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
+        <tag>安装</tag>
+        <tag>常见问题</tag>
         <tag>EDID</tag>
         <tag>屏蔽独显</tag>
         <tag>花屏</tag>
@@ -285,13 +285,13 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>驱动</tag>
         <tag>DW1560</tag>
         <tag>BCM94352z</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
+        <tag>驱动</tag>
         <tag>WIFI</tag>
       </tags>
   </entry>
@@ -397,8 +397,8 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>安装</tag>
         <tag>High Sierra</tag>
+        <tag>安装</tag>
       </tags>
   </entry>
   <entry>
@@ -716,8 +716,8 @@
         <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.5</tag>
-        <tag>三EFI分区</tag>
         <tag>19F2200</tag>
+        <tag>三EFI分区</tag>
       </tags>
   </entry>
   <entry>
@@ -1381,10 +1381,10 @@
       </categories>
       <tags>
         <tag>Lilu</tag>
-        <tag>Plugins</tag>
-        <tag>插件</tag>
         <tag>CPUFriend</tag>
+        <tag>Plugins</tag>
         <tag>CPU变频</tag>
+        <tag>插件</tag>
       </tags>
   </entry>
   <entry>
@@ -1408,13 +1408,13 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>驱动</tag>
         <tag>DW1560</tag>
         <tag>BCM94352z</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
+        <tag>驱动</tag>
         <tag>WIFI</tag>
         <tag>蓝牙</tag>
         <tag>BlueTooth</tag>
@@ -1429,11 +1429,11 @@
       </categories>
       <tags>
         <tag>Lilu</tag>
-        <tag>常见问题</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
+        <tag>常见问题</tag>
         <tag>Plugins</tag>
         <tag>Clover</tag>
         <tag>platform-id</tag>
@@ -1587,8 +1587,8 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>安装</tag>
         <tag>Sierra</tag>
+        <tag>安装</tag>
         <tag>10.12.6</tag>
         <tag>镜像</tag>
         <tag>dmg</tag>
