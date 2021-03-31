@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.daliansky.net/"/>
-  <updated>2021-03-08T23:49:29.967Z</updated>
+  <updated>2021-03-31T00:55:10.966Z</updated>
   <id>https://blog.daliansky.net/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【小兵推荐】ToDesk - 国人开发的另一款免费不限速远程控制软件</title>
+    <link href="https://blog.daliansky.net/ToDesk-another-free-unlimited-speed-remote-control-software-developed-by-Chinese.html"/>
+    <id>https://blog.daliansky.net/ToDesk-another-free-unlimited-speed-remote-control-software-developed-by-Chinese.html</id>
+    <published>2021-03-31T00:02:02.000Z</published>
+    <updated>2021-03-31T00:55:10.966Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="todesk-国人开发的另一款免费不限速远程控制软件"><a class="markdownIt-Anchor" href="#todesk-国人开发的另一款免费不限速远程控制软件"></a> <code>ToDesk</code> - 国人开发的另一款免费不限速远程控制软件</h2><blockquote><p>由于黑苹果需要经常通过远程控制帮一众小白解决某些<code>Hackintosh</code>等问题，之前经常使用的<code>TeamViewer</code> / <code>Zoom</code> / <code>anydesk</code> / <code>向日葵</code>等都存在某些问题。最近小兵受邀内测了国人全新开发的软件，它就是：<code>ToDesk</code>。</p></blockquote><p><img src="https://images.daliansky.net/d/YmBXVA8q/blog/Software/ToDesk/ToDesk_Top.jpg?download=1" alt="ToDesk_Top"></p><p>在疫情期间，<code>ToDesk</code>的开发者们 终于忍受不了 <code>TeamViewer</code> 以及当前远程控制软件产品的现状，决心自己动手开发一款新的远控工具，来解决这些让人不爽的痛点，于是便有了今天的主角：<code>ToDesk</code></p><p><img src="https://images.daliansky.net/d/YmBXVA8q/blog/Software/ToDesk/ToDesk.png?download=1" alt="ToDesk"></p><p>与 <code>TeamViewer</code> / <code>向日葵</code>等产品一样，只要输入正确的 ID 号和密码就能一键连接，完全不必考虑受控的机器是否位于内网、有无公网 IP、端口映射或者网络防火墙等网络环境去操心，基本能替代大多数同类的收费远程协助产品。</p><p><img src="https://images.daliansky.net/d/YmBXVA8q/blog/Software/ToDesk/5.png?download=1" alt="ToDesk"></p><p><code>ToDesk</code>功能上支持<code>远程关机</code>、<code>待机</code>，具有<code>全屏</code>、<code>文件传输</code>、<code>快捷按键</code>等等。</p><p>重要的是，<code>ToDesk</code> 真的很快很流畅，基本上就是“秒连接”，而且它针对<code>个人完全免费</code>，这点还真是挺香的。</p><p><code>ToDesk</code> 的公司原本一直就是做代理IP和游戏加速服务的，在全国多个地区布下了多个自家的机房，其线路和带宽资源足够丰富，因此在使用 <code>ToDesk</code> 的过程中几乎感受不到明显的延时，连接非常稳定，操作起来非常流畅，基本跟本地机器没什么区别，体验相当好。</p><p><code>ToDesk</code> 的使用体验与老牌的 <code>TeamViewer</code> 相差无几，不过鉴于 <code>TeamViewer</code> 最近一直出现的误报商用问题，以及目前针对中国用户的各种不方便（比如强制主控被控注册登录），使用体验非常繁琐。</p><p><code>ToDesk</code> 目前能做到即开即用，速度也很快，无需注册即可使用。支持设置密码后无人值守，是否显示远程壁纸，注册后可管理设备列表。</p><p>目前官网上线了<code>Windows</code>、<code>Android</code>、<code>Mac</code>版本，除此之外<code>Linux</code>版本也已经内测中加群即可使用，支持的系统平台非常丰富。</p><p>作为国产MAC软件的又一力作，还是希望能看到 <code>ToDesk</code> 早日成为一款成熟可靠的产品。希望他能越走越好，成为国货之光。</p><p><img src="https://images.daliansky.net/d/YmBXVA8q/blog/Software/ToDesk/1.jpg?download=1" alt="ToDesk"><br><img src="https://images.daliansky.net/d/YmBXVA8q/blog/Software/ToDesk/2.jpg?download=1" alt="ToDesk"><br><img src="https://images.daliansky.net/d/YmBXVA8q/blog/Software/ToDesk/3.jpg?download=1" alt="ToDesk"><br><img src="https://images.daliansky.net/d/YmBXVA8q/blog/Software/ToDesk/4.jpg?download=1" alt="ToDesk"><br><img src="https://images.daliansky.net/d/YmBXVA8q/blog/Software/ToDesk/9.png?download=1" alt="ToDesk"><br><img src="https://images.daliansky.net/d/YmBXVA8q/blog/Software/ToDesk/10.png?download=1" alt="ToDesk"><br><img src="https://images.daliansky.net/d/YmBXVA8q/blog/Software/ToDesk/Air13.png?download=1" alt="ToDesk"><br><img src="https://images.daliansky.net/d/YmBXVA8q/blog/Software/ToDesk/ToDesk2.png?download=1" alt="ToDesk"></p><p><img src="https://images.daliansky.net/d/YmBXVA8q/blog/WeChat/StayUpLate.png?download=1" alt="禁止熬夜"></p><p>软件下载：<code>www.todesk.com</code> <a href="https://www.todesk.com" target="_blank" rel="noopener">点击直达</a></p><p><img src="https://images.daliansky.net/d/YmBXVA8q/blog/Software/ToDesk/todesk_download.png?download=1" alt="ToDesk"></p><h2 id="好吧它开始收费了意料中的事情还是发生了"><a class="markdownIt-Anchor" href="#好吧它开始收费了意料中的事情还是发生了"></a> 好吧，它开始收费了，意料中的事情还是发生了</h2><p>鉴于小兵几乎每天都要使用<code>Todesk</code>帮助群友们解决些小问题，所以也就毫不犹豫地去交智商税了。</p><p>但有没有可能得到些许的优惠呢？答案是肯定的！小兵做为<code>Todesk</code>的VIP客户，跟他们的商务要到了优惠码，使用优惠码可以少交点钱不是？同时也算是为小兵的粉丝谋些福利了，如果你或者你所在的公司也想成为付费用户的话，那么请使用以下的优惠码：</p><ul><li>50元优惠码：<code>199T7B69RCCYH</code> 可用于<a href="https://user.todesk.com/index/buy" target="_blank" rel="noopener">购买</a>企业版</li><li>10元优惠码：<code>4BKHEHPBQ5NYH</code> 可用于<a href="https://user.todesk.com/index/buy" target="_blank" rel="noopener">购买</a>专业版</li></ul><p><img src="https://images.daliansky.net/d/YmBXVA8q/blog/Software/ToDesk/todesk_enterprise.png?download=1" alt="todesk enterprise"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;todesk-国人开发的另一款免费不限速远程控制软件&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#todesk-国人开发的另一款免费不限速远程控制软件&quot;&gt;&lt;/a&gt; &lt;code&gt;ToDesk&lt;/code&gt; - 国人开发的另一款免费不限速
+      
+    
+    </summary>
+    
+      <category term="软件" scheme="https://blog.daliansky.net/categories/%E8%BD%AF%E4%BB%B6/"/>
+    
+      <category term="远程" scheme="https://blog.daliansky.net/categories/%E8%BD%AF%E4%BB%B6/%E8%BF%9C%E7%A8%8B/"/>
+    
+    
+      <category term="todesk" scheme="https://blog.daliansky.net/tags/todesk/"/>
+    
+  </entry>
   
   <entry>
     <title></title>
