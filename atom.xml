@@ -2435,13 +2435,13 @@
     
       <category term="USB" scheme="https://blog.daliansky.net/tags/USB/"/>
     
+      <category term="diskutil" scheme="https://blog.daliansky.net/tags/diskutil/"/>
+    
       <category term="Ubuntu" scheme="https://blog.daliansky.net/tags/Ubuntu/"/>
     
       <category term="Linux" scheme="https://blog.daliansky.net/tags/Linux/"/>
     
       <category term="dd" scheme="https://blog.daliansky.net/tags/dd/"/>
-    
-      <category term="diskutil" scheme="https://blog.daliansky.net/tags/diskutil/"/>
     
   </entry>
   
@@ -2992,9 +2992,9 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="CPUFriend" scheme="https://blog.daliansky.net/tags/CPUFriend/"/>
-    
       <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
+    
+      <category term="CPUFriend" scheme="https://blog.daliansky.net/tags/CPUFriend/"/>
     
       <category term="Plugins" scheme="https://blog.daliansky.net/tags/Plugins/"/>
     
@@ -3064,11 +3064,11 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
-    
       <category term="AppleALC" scheme="https://blog.daliansky.net/tags/AppleALC/"/>
     
       <category term="Codec" scheme="https://blog.daliansky.net/tags/Codec/"/>
+    
+      <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
     
   </entry>
   
@@ -3138,6 +3138,8 @@
     
       <category term="常见问题" scheme="https://blog.daliansky.net/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
     
+      <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
+    
       <category term="10.12" scheme="https://blog.daliansky.net/tags/10-12/"/>
     
       <category term="10.13" scheme="https://blog.daliansky.net/tags/10-13/"/>
@@ -3145,8 +3147,6 @@
       <category term="Sierra" scheme="https://blog.daliansky.net/tags/Sierra/"/>
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
-    
-      <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
     
       <category term="Plugins" scheme="https://blog.daliansky.net/tags/Plugins/"/>
     
@@ -3514,11 +3514,11 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="diskutil" scheme="https://blog.daliansky.net/tags/diskutil/"/>
-    
       <category term="shell" scheme="https://blog.daliansky.net/tags/shell/"/>
     
       <category term="spctl" scheme="https://blog.daliansky.net/tags/spctl/"/>
+    
+      <category term="diskutil" scheme="https://blog.daliansky.net/tags/diskutil/"/>
     
       <category term="trimforce" scheme="https://blog.daliansky.net/tags/trimforce/"/>
     

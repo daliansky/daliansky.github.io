@@ -371,9 +371,9 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>diskutil</tag>
         <tag>shell</tag>
         <tag>spctl</tag>
+        <tag>diskutil</tag>
         <tag>trimforce</tag>
         <tag>ioreg</tag>
         <tag>EDID</tag>
@@ -1257,10 +1257,10 @@
       </categories>
       <tags>
         <tag>USB</tag>
+        <tag>diskutil</tag>
         <tag>Ubuntu</tag>
         <tag>Linux</tag>
         <tag>dd</tag>
-        <tag>diskutil</tag>
       </tags>
   </entry>
   <entry>
@@ -1422,8 +1422,8 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>CPUFriend</tag>
         <tag>Lilu</tag>
+        <tag>CPUFriend</tag>
         <tag>Plugins</tag>
         <tag>CPU变频</tag>
         <tag>插件</tag>
@@ -1437,9 +1437,9 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>Lilu</tag>
         <tag>AppleALC</tag>
         <tag>Codec</tag>
+        <tag>Lilu</tag>
       </tags>
   </entry>
   <entry>
@@ -1471,11 +1471,11 @@
       </categories>
       <tags>
         <tag>常见问题</tag>
+        <tag>Lilu</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
-        <tag>Lilu</tag>
         <tag>Plugins</tag>
         <tag>Clover</tag>
         <tag>platform-id</tag>
