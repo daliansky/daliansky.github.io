@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.daliansky.net/macOS-BigSur-11.3.1-20E241-Release-version-with-OC-0.6.9-and-Clover-5134-and-PE-original-image.html</loc>
+    <lastmod>2021-05-19</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-BigSur-11.3-20E232-Release-version-with-OC-0.6.8-and-Clover-5133-and-PE-original-image.html</loc>
+    <lastmod>2021-05-19</lastmod>
+  </url>
+  <url>
     <loc>https://blog.daliansky.net/macOS-BigSur-11.2.3-20D91-Release-version-with-OC-0.6.7-and-Clover-5131-and-PE-original-image.html</loc>
     <lastmod>2021-04-21</lastmod>
   </url>
@@ -29,11 +37,11 @@
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Lenovo-Xiaoxin-PRO-13-2019-and-macOS-Catalina-Installation-Tutorial.html</loc>
+    <loc>https://blog.daliansky.net/Clover-Configurator-Chinese-Version.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Clover-Configurator-Chinese-Version.html</loc>
+    <loc>https://blog.daliansky.net/Lenovo-Xiaoxin-PRO-13-2019-and-macOS-Catalina-Installation-Tutorial.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
@@ -53,11 +61,11 @@
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/HP-HP-ENVY-Laptop-13-ad1xx-Notebook-PC-Mac-OS-Note-and-EFI-Share.html</loc>
+    <loc>https://blog.daliansky.net/XiaoMiPro-notebook-Installation-10.13-readily-remember-and-share-EFI.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/XiaoMiPro-notebook-Installation-10.13-readily-remember-and-share-EFI.html</loc>
+    <loc>https://blog.daliansky.net/HP-HP-ENVY-Laptop-13-ad1xx-Notebook-PC-Mac-OS-Note-and-EFI-Share.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
@@ -77,19 +85,19 @@
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/With-VoodooHDA-comes-getdump-find-valid-nodes-and-paths.html</loc>
-    <lastmod>2021-03-08</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/undefined.html</loc>
-    <lastmod>2021-03-08</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/Use-HIDPI-to-solve-sleep-wake-up-black-screen,-Huaping-and-connect-the-external-monitor-the-correct-posture.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/Clover-Patched-Desktop-AppleHDA-Realtek-ALC-Audio.html</loc>
+    <lastmod>2021-03-08</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/With-VoodooHDA-comes-getdump-find-valid-nodes-and-paths.html</loc>
+    <lastmod>2021-03-08</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/undefined.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
@@ -105,7 +113,7 @@
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.7-19H2-official-version-Clover-5122-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
+    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.6-19G73-official-version-Clover-5119-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
@@ -113,7 +121,7 @@
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.6-19G73-official-version-Clover-5119-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
+    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.7-19H2-official-version-Clover-5122-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
@@ -165,11 +173,11 @@
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-Mojave-10.14-18A389-Release-with-Clover-4670-original-mirror.html</loc>
+    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.1-18B75-official-version-with-Clover-4726-original-image.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.1-18B75-official-version-with-Clover-4726-original-image.html</loc>
+    <loc>https://blog.daliansky.net/macOS-Mojave-10.14-18A389-Release-with-Clover-4670-original-mirror.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
@@ -177,11 +185,11 @@
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13-official-version-and-Clover-4221-original-image.html</loc>
+    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.6-17G2112-Release-Special-with-Clover-4606-original-mirror.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.6-17G2112-Release-Special-with-Clover-4606-original-mirror.html</loc>
+    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13-official-version-and-Clover-4221-original-image.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
@@ -193,15 +201,15 @@
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
+    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.2-(17C88)-official-version-and-Clover-4333-original-image.html</loc>
+    <lastmod>2021-03-08</lastmod>
+  </url>
+  <url>
     <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.3-(17D47)-official-version-and-Clover-4391-original-image.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.4-17E199-Release-Version-and-Clover-4418-Original-Image.html</loc>
-    <lastmod>2021-03-08</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.2-(17C88)-official-version-and-Clover-4333-original-image.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
@@ -237,11 +245,11 @@
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.2-19C57-Release-version-with-Clover-5100-original-image-Double-EFI-Version.html</loc>
+    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.1-19B88-Release-version-with-Clover-5098-original-image-Double-EFI-Version.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.1-19B88-Release-version-with-Clover-5098-original-image-Double-EFI-Version.html</loc>
+    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.2-19C57-Release-version-with-Clover-5100-original-image-Double-EFI-Version.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
@@ -285,11 +293,11 @@
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Mac-frequently-used-to-the-command---continuous-update.html</loc>
+    <loc>https://blog.daliansky.net/MacOS-use-the-dd-command-to-make-Ubuntu-install-USB-disk.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/MacOS-use-the-dd-command-to-make-Ubuntu-install-USB-disk.html</loc>
+    <loc>https://blog.daliansky.net/Mac-frequently-used-to-the-command---continuous-update.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
@@ -321,11 +329,11 @@
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html</loc>
+    <loc>https://blog.daliansky.net/Broadcom-WiFi-BlueTooth-BCM94352z-DW1560-the%20correct-drive-posture.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Broadcom-WiFi-BlueTooth-BCM94352z-DW1560-the%20correct-drive-posture.html</loc>
+    <loc>https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
