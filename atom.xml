@@ -2601,13 +2601,13 @@
     
       <category term="USB" scheme="https://blog.daliansky.net/tags/USB/"/>
     
-      <category term="diskutil" scheme="https://blog.daliansky.net/tags/diskutil/"/>
-    
       <category term="Ubuntu" scheme="https://blog.daliansky.net/tags/Ubuntu/"/>
     
       <category term="Linux" scheme="https://blog.daliansky.net/tags/Linux/"/>
     
       <category term="dd" scheme="https://blog.daliansky.net/tags/dd/"/>
+    
+      <category term="diskutil" scheme="https://blog.daliansky.net/tags/diskutil/"/>
     
   </entry>
   
@@ -3160,13 +3160,13 @@
     
       <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
     
-      <category term="Plugins" scheme="https://blog.daliansky.net/tags/Plugins/"/>
-    
-      <category term="插件" scheme="https://blog.daliansky.net/tags/%E6%8F%92%E4%BB%B6/"/>
-    
       <category term="CPUFriend" scheme="https://blog.daliansky.net/tags/CPUFriend/"/>
     
+      <category term="Plugins" scheme="https://blog.daliansky.net/tags/Plugins/"/>
+    
       <category term="CPU变频" scheme="https://blog.daliansky.net/tags/CPU%E5%8F%98%E9%A2%91/"/>
+    
+      <category term="插件" scheme="https://blog.daliansky.net/tags/%E6%8F%92%E4%BB%B6/"/>
     
   </entry>
   
@@ -3534,11 +3534,11 @@
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
-    
       <category term="DB8" scheme="https://blog.daliansky.net/tags/DB8/"/>
     
       <category term="17A358a" scheme="https://blog.daliansky.net/tags/17A358a/"/>
+    
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
   </entry>
   
@@ -3598,9 +3598,9 @@
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="DB7" scheme="https://blog.daliansky.net/tags/DB7/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="DB7" scheme="https://blog.daliansky.net/tags/DB7/"/>
     
   </entry>
   
@@ -3680,11 +3680,11 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
+      <category term="diskutil" scheme="https://blog.daliansky.net/tags/diskutil/"/>
+    
       <category term="shell" scheme="https://blog.daliansky.net/tags/shell/"/>
     
       <category term="spctl" scheme="https://blog.daliansky.net/tags/spctl/"/>
-    
-      <category term="diskutil" scheme="https://blog.daliansky.net/tags/diskutil/"/>
     
       <category term="trimforce" scheme="https://blog.daliansky.net/tags/trimforce/"/>
     

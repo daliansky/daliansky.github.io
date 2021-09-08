@@ -376,9 +376,9 @@
         <category>教程</category>
       </categories>
       <tags>
+        <tag>diskutil</tag>
         <tag>shell</tag>
         <tag>spctl</tag>
-        <tag>diskutil</tag>
         <tag>trimforce</tag>
         <tag>ioreg</tag>
         <tag>EDID</tag>
@@ -1334,10 +1334,10 @@
       </categories>
       <tags>
         <tag>USB</tag>
-        <tag>diskutil</tag>
         <tag>Ubuntu</tag>
         <tag>Linux</tag>
         <tag>dd</tag>
+        <tag>diskutil</tag>
       </tags>
   </entry>
   <entry>
@@ -1500,10 +1500,10 @@
       </categories>
       <tags>
         <tag>Lilu</tag>
-        <tag>Plugins</tag>
-        <tag>插件</tag>
         <tag>CPUFriend</tag>
+        <tag>Plugins</tag>
         <tag>CPU变频</tag>
+        <tag>插件</tag>
       </tags>
   </entry>
   <entry>
@@ -1638,9 +1638,9 @@
       <tags>
         <tag>10.13</tag>
         <tag>下载</tag>
-        <tag>镜像</tag>
         <tag>DB8</tag>
         <tag>17A358a</tag>
+        <tag>镜像</tag>
       </tags>
   </entry>
   <entry>
@@ -1667,8 +1667,8 @@
       <tags>
         <tag>10.13</tag>
         <tag>下载</tag>
-        <tag>DB7</tag>
         <tag>镜像</tag>
+        <tag>DB7</tag>
       </tags>
   </entry>
   <entry>
