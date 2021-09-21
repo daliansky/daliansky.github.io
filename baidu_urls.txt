@@ -1,3 +1,4 @@
+https://blog.daliansky.net/macOS-BigSur-11.6-20G165-Release-version-with-OC-0.7.3-and-Clover-5139-and-PE-original-image.html
 https://blog.daliansky.net/macOS-BigSur-11.5.2-20G95-Release-version-with-OC-0.7.1-and-Clover-5138-and-PE-original-image.html
 https://blog.daliansky.net/macOS-BigSur-11.4-20F71-Release-version-with-OC-0.6.9-and-Clover-5134-and-PE-original-image.html
 https://blog.daliansky.net/macOS-BigSur-11.3.1-20E241-Release-version-with-OC-0.6.8-and-Clover-5134-and-PE-original-image.html
@@ -17,4 +18,3 @@ https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.7-19H15-official-ve
 https://blog.daliansky.net/macOS-Catalina-10.15.7-19H2-Release-version-with-Clover-5122-original-image-Double-EFI-Version-UEFI-and-MBR.html
 https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.7-19H2-official-version-Clover-5122-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html
 https://blog.daliansky.net/Hackintosh-on-Lenovo-Tianyi-510s-Mini-PC.html
-https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-BigSur-11.0-installation.html
