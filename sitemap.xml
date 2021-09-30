@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
+    
+    <lastmod>2021-09-30T02:45:54.895Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.daliansky.net/macOS-Monterey-12.0-Beta7-21A5522h-Release-version-with-OC-0.7.4-and-WEPE-original-image.html</loc>
     
-    <lastmod>2021-09-23T05:54:44.000Z</lastmod>
+    <lastmod>2021-09-24T06:34:30.542Z</lastmod>
     
   </url>
   
@@ -26,13 +33,6 @@
     <loc>https://blog.daliansky.net/BCM94360Z4-m.2-NGFF-interface-four-antenna-notebook_small-host-dedicated-black-Apple-wireless-network-card-driver-tutorial.html</loc>
     
     <lastmod>2021-09-09T01:35:56.087Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
-    
-    <lastmod>2021-09-07T06:34:44.235Z</lastmod>
     
   </url>
   
