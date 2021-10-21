@@ -9,8 +9,8 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>Monterey</tag>
         <tag>12</tag>
@@ -27,8 +27,8 @@
       </categories>
       <tags>
         <tag>BigSur</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>11.6</tag>
@@ -56,9 +56,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.7</tag>
         <tag>19H2</tag>
@@ -86,9 +86,9 @@
         <category>教程</category>
       </categories>
       <tags>
+        <tag>教程</tag>
         <tag>BigSur</tag>
         <tag>安装</tag>
-        <tag>教程</tag>
         <tag>macOS</tag>
         <tag>天逸510s Mini</tag>
         <tag>联想</tag>
@@ -208,9 +208,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.7</tag>
         <tag>19H2</tag>
@@ -253,10 +253,10 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>安装</tag>
-        <tag>常见问题</tag>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
+        <tag>安装</tag>
+        <tag>常见问题</tag>
         <tag>EDID</tag>
         <tag>屏蔽独显</tag>
         <tag>花屏</tag>
@@ -313,8 +313,8 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>安装</tag>
         <tag>教程</tag>
+        <tag>安装</tag>
         <tag>macOS</tag>
         <tag>联想</tag>
         <tag>小新Pro</tag>
@@ -407,8 +407,8 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>安装</tag>
         <tag>High Sierra</tag>
+        <tag>安装</tag>
       </tags>
   </entry>
   <entry>
@@ -436,8 +436,8 @@
       </categories>
       <tags>
         <tag>BigSur</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>11.5.2</tag>
@@ -458,8 +458,8 @@
       </categories>
       <tags>
         <tag>BigSur</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>11.4</tag>
@@ -476,8 +476,8 @@
       </categories>
       <tags>
         <tag>BigSur</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>11.3.1</tag>
@@ -494,8 +494,8 @@
       </categories>
       <tags>
         <tag>BigSur</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>11.3</tag>
@@ -524,8 +524,8 @@
       </categories>
       <tags>
         <tag>BigSur</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>11.2.2</tag>
@@ -542,8 +542,8 @@
       </categories>
       <tags>
         <tag>BigSur</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>11.2.3</tag>
@@ -560,8 +560,8 @@
       </categories>
       <tags>
         <tag>BigSur</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>11.2</tag>
@@ -580,8 +580,8 @@
       </categories>
       <tags>
         <tag>BigSur</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>11.1</tag>
@@ -598,8 +598,8 @@
       </categories>
       <tags>
         <tag>BigSur</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>11.1</tag>
@@ -616,8 +616,8 @@
       </categories>
       <tags>
         <tag>BigSur</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>11.0.1</tag>
@@ -634,9 +634,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.4</tag>
         <tag>1.9e+267</tag>
@@ -653,9 +653,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.2</tag>
         <tag>19C57</tag>
@@ -671,8 +671,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.6</tag>
         <tag>17G2112</tag>
@@ -686,8 +686,8 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>安装</tag>
         <tag>教程</tag>
+        <tag>安装</tag>
         <tag>macOS</tag>
         <tag>联想</tag>
         <tag>小新air</tag>
@@ -717,10 +717,10 @@
         <category>镜像</category>
       </categories>
       <tags>
+        <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
-        <tag>下载</tag>
-        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>17A389</tag>
       </tags>
@@ -735,8 +735,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.2</tag>
         <tag>17C88</tag>
@@ -751,9 +751,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Mojave</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Mojave</tag>
         <tag>dmg</tag>
         <tag>10.14.6</tag>
         <tag>18G84</tag>
@@ -770,9 +770,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Mojave</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Mojave</tag>
         <tag>dmg</tag>
         <tag>10.14.4</tag>
         <tag>1.8e+227</tag>
@@ -806,9 +806,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.7</tag>
         <tag>19H2</tag>
@@ -824,9 +824,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.6</tag>
         <tag>19G73</tag>
@@ -845,9 +845,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.6</tag>
         <tag>19G73</tag>
@@ -865,13 +865,13 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.5</tag>
-        <tag>三EFI分区</tag>
         <tag>19F2200</tag>
+        <tag>三EFI分区</tag>
       </tags>
   </entry>
   <entry>
@@ -883,9 +883,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.5</tag>
         <tag>19F101</tag>
@@ -901,9 +901,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.5</tag>
         <tag>19F96</tag>
@@ -919,9 +919,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.4</tag>
         <tag>Infinity</tag>
@@ -937,9 +937,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.3</tag>
         <tag>19D76</tag>
@@ -954,9 +954,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.1</tag>
         <tag>19B88</tag>
@@ -971,10 +971,10 @@
         <category>镜像</category>
       </categories>
       <tags>
+        <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>Catalina</tag>
         <tag>10.15</tag>
-        <tag>下载</tag>
-        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>19A583</tag>
       </tags>
@@ -988,9 +988,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Mojave</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Mojave</tag>
         <tag>dmg</tag>
         <tag>10.14.5</tag>
         <tag>18F132</tag>
@@ -1005,9 +1005,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Mojave</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Mojave</tag>
         <tag>dmg</tag>
         <tag>10.14.3</tag>
         <tag>18D42</tag>
@@ -1047,9 +1047,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Mojave</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Mojave</tag>
         <tag>dmg</tag>
         <tag>10.14.2</tag>
         <tag>18C54</tag>
@@ -1081,9 +1081,9 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Mojave</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Mojave</tag>
         <tag>dmg</tag>
         <tag>10.14.1</tag>
         <tag>18B75</tag>
@@ -1113,10 +1113,10 @@
         <category>镜像</category>
       </categories>
       <tags>
+        <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
-        <tag>下载</tag>
-        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>18A391</tag>
       </tags>
@@ -1160,8 +1160,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.6</tag>
         <tag>17G65</tag>
@@ -1177,8 +1177,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.5</tag>
         <tag>17F77</tag>
@@ -1236,8 +1236,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.4</tag>
         <tag>1.7e+200</tag>
@@ -1309,8 +1309,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.2</tag>
         <tag>17C88</tag>
@@ -1338,8 +1338,8 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>安装</tag>
         <tag>教程</tag>
+        <tag>安装</tag>
         <tag>macOS</tag>
         <tag>小米Pro</tag>
         <tag>XiaoMi-Pro</tag>
@@ -1396,8 +1396,8 @@
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.1</tag>
         <tag>17B48</tag>
@@ -1487,8 +1487,8 @@
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>17A405</tag>
       </tags>
@@ -1521,8 +1521,8 @@
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
       </tags>
   </entry>
@@ -1583,12 +1583,12 @@
       </categories>
       <tags>
         <tag>Lilu</tag>
-        <tag>常见问题</tag>
+        <tag>Plugins</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
-        <tag>Plugins</tag>
+        <tag>常见问题</tag>
         <tag>Clover</tag>
         <tag>platform-id</tag>
         <tag>Patch</tag>
@@ -1623,8 +1623,8 @@
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>DB9</tag>
         <tag>17A360a</tag>
         <tag>dmg</tag>
@@ -1638,13 +1638,13 @@
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
+        <tag>下载</tag>
         <tag>10.12.6</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
         <tag>Catalina</tag>
         <tag>10.15</tag>
         <tag>Download</tag>
-        <tag>下载</tag>
       </tags>
   </entry>
   <entry>
@@ -1672,8 +1672,8 @@
       </categories>
       <tags>
         <tag>10.13</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>DB8</tag>
         <tag>17A358a</tag>
       </tags>
@@ -1701,9 +1701,9 @@
       </categories>
       <tags>
         <tag>10.13</tag>
-        <tag>下载</tag>
         <tag>DB7</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
       </tags>
   </entry>
   <entry>
@@ -1741,10 +1741,10 @@
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>安装</tag>
         <tag>Sierra</tag>
-        <tag>10.12.6</tag>
+        <tag>安装</tag>
         <tag>镜像</tag>
+        <tag>10.12.6</tag>
         <tag>dmg</tag>
       </tags>
   </entry>
