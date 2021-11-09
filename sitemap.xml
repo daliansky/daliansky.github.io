@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
+    
+    <lastmod>2021-11-09T07:11:27.349Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.daliansky.net/BCM94360Z4-m.2-NGFF-interface-four-antenna-notebook_small-host-dedicated-black-Apple-wireless-network-card-driver-tutorial.html</loc>
     
     <lastmod>2021-11-06T10:45:59.968Z</lastmod>
@@ -54,13 +61,6 @@
     <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-BigSur-11.0-installation.html</loc>
     
     <lastmod>2021-11-06T10:45:33.125Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
-    
-    <lastmod>2021-10-22T02:09:03.205Z</lastmod>
     
   </url>
   
