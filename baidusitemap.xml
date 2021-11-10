@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
-    <lastmod>2021-11-09</lastmod>
+    <loc>https://blog.daliansky.net/BCM94360Z4-m.2-NGFF-interface-four-antenna-notebook_small-host-dedicated-black-Apple-wireless-network-card-driver-tutorial.html</loc>
+    <lastmod>2021-11-10</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/BCM94360Z4-m.2-NGFF-interface-four-antenna-notebook_small-host-dedicated-black-Apple-wireless-network-card-driver-tutorial.html</loc>
-    <lastmod>2021-11-06</lastmod>
+    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
+    <lastmod>2021-11-09</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/macOS-Monterey-12.0.1-21A559-Release-version-with-OC-0.7.5-CLOVER-5141-and-PE-original-image.html</loc>
@@ -89,11 +89,11 @@
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Hackintosh-on-Lenovo-Tianyi-510s-Mini-PC.html</loc>
+    <loc>https://blog.daliansky.net/MAC-commonly-used-shortcut-keys-finishing.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/MAC-commonly-used-shortcut-keys-finishing.html</loc>
+    <loc>https://blog.daliansky.net/Hackintosh-on-Lenovo-Tianyi-510s-Mini-PC.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
@@ -101,11 +101,11 @@
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Slide-value-acquisition-and-calculation.html</loc>
+    <loc>https://blog.daliansky.net/Mac-frequently-used-to-the-command---continuous-update.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Mac-frequently-used-to-the-command---continuous-update.html</loc>
+    <loc>https://blog.daliansky.net/Slide-value-acquisition-and-calculation.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
@@ -121,19 +121,11 @@
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html</loc>
-    <lastmod>2021-03-08</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Mojave-10.14-installation.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/CLOVER-v2-4-r4438-Integrated-Millet-Notebook-PRO-EFI-Installation-Instructions.html</loc>
-    <lastmod>2021-03-08</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/CoffeeLake-UHD-630-black-screen-direct-bright-screen-and-correct-adjustment-of-brightness-adjustment.html</loc>
+    <loc>https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
@@ -141,7 +133,7 @@
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.1-19B88-Release-version-with-Clover-5098-original-image-Double-EFI-Version.html</loc>
+    <loc>https://blog.daliansky.net/CLOVER-v2-4-r4438-Integrated-Millet-Notebook-PRO-EFI-Installation-Instructions.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
@@ -149,11 +141,19 @@
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.3-19D76-Release-version-with-Clover-5103-original-image-Double-EFI-Version.html</loc>
+    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.1-19B88-Release-version-with-Clover-5098-original-image-Double-EFI-Version.html</loc>
+    <lastmod>2021-03-08</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/CoffeeLake-UHD-630-black-screen-direct-bright-screen-and-correct-adjustment-of-brightness-adjustment.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/macOS-Catalina-10.15.2-19C57-Release-version-with-Clover-5100-original-image-Double-EFI-Version.html</loc>
+    <lastmod>2021-03-08</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-Catalina-10.15.3-19D76-Release-version-with-Clover-5103-original-image-Double-EFI-Version.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
@@ -173,15 +173,15 @@
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.2-(17C88)-official-version-and-Clover-4333-original-image.html</loc>
-    <lastmod>2021-03-08</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/macOS-BigSur-11.0.1-20B29-Release-version-with-Clover-5126-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/macOS-BigSur-11.1-20C69-Release-version-with-Clover-5127-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
+    <lastmod>2021-03-08</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.2-(17C88)-official-version-and-Clover-4333-original-image.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
@@ -197,11 +197,11 @@
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.6-17G65-Release-Version-with-Clover-4596-original-mirror.html</loc>
+    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.6-17G2112-Release-Special-with-Clover-4606-original-mirror.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.6-17G2112-Release-Special-with-Clover-4606-original-mirror.html</loc>
+    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.6-17G65-Release-Version-with-Clover-4596-original-mirror.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
@@ -225,11 +225,11 @@
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.3-18D42-official-version-with-Clover-4859-original-image.html</loc>
+    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.2-18C54-official-version-with-Clover-4792-original-image.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.2-18C54-official-version-with-Clover-4792-original-image.html</loc>
+    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.3-18D42-official-version-with-Clover-4859-original-image.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
@@ -253,15 +253,15 @@
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
+    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.5-19F96-official-version-Clover-5118-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
+    <lastmod>2021-03-08</lastmod>
+  </url>
+  <url>
     <loc>https://blog.daliansky.net/WeChat_First-macOS-Catalina-10.15.4-19E2269-official-version-Clover-5116-original-image-reconstruction-version.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.5-19F101-official-version-Clover-5118-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
-    <lastmod>2021-03-08</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.5-19F96-official-version-Clover-5118-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
@@ -277,15 +277,11 @@
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.7-19H2-official-version-Clover-5122-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
-    <lastmod>2021-03-08</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/Add-CLOVER-boot-to-UEFI-without-any-tools.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Use-HIDPI-to-solve-sleep-wake-up-black-screen,-Huaping-and-connect-the-external-monitor-the-correct-posture.html</loc>
+    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.7-19H2-official-version-Clover-5122-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
@@ -293,11 +289,11 @@
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/With-VoodooHDA-comes-getdump-find-valid-nodes-and-paths.html</loc>
+    <loc>https://blog.daliansky.net/Use-HIDPI-to-solve-sleep-wake-up-black-screen,-Huaping-and-connect-the-external-monitor-the-correct-posture.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/undefined.html</loc>
+    <loc>https://blog.daliansky.net/With-VoodooHDA-comes-getdump-find-valid-nodes-and-paths.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
@@ -305,19 +301,15 @@
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
+    <loc>https://blog.daliansky.net/undefined.html</loc>
+    <lastmod>2021-03-08</lastmod>
+  </url>
+  <url>
     <loc>https://blog.daliansky.net/Add-the-CLOVER-boot-to-the-correct-posture-of-the-UEFI-Boot-Option-Menu.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/HP-HP-ENVY-Laptop-13-ad1xx-Notebook-PC-Mac-OS-Note-and-EFI-Share.html</loc>
-    <lastmod>2021-03-08</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/XiaoMiPro-notebook-Installation-10.13-readily-remember-and-share-EFI.html</loc>
-    <lastmod>2021-03-08</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Lenovo-Tianyi-510s-Mini-and-macOS-BigSur-Installation-Tutorial.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
@@ -329,15 +321,19 @@
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
+    <loc>https://blog.daliansky.net/HP-HP-ENVY-Laptop-13-ad1xx-Notebook-PC-Mac-OS-Note-and-EFI-Share.html</loc>
+    <lastmod>2021-03-08</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Lenovo-Tianyi-510s-Mini-and-macOS-BigSur-Installation-Tutorial.html</loc>
+    <lastmod>2021-03-08</lastmod>
+  </url>
+  <url>
     <loc>https://blog.daliansky.net/Display-interface-data-and-parameter-changes.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/translate-guide-intel-igpu-hdmi-dp-audio-sandy-ivy-haswell-broadwell-skylake-kabylake.html</loc>
-    <lastmod>2021-03-08</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Clover-Configurator-Chinese-Version.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
@@ -349,11 +345,15 @@
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Coffee-Lake-frame-buffer-patch-and-UHD630-Coffee-Lake-ig-platform-id-data-finishing.html</loc>
+    <loc>https://blog.daliansky.net/Clover-Configurator-Chinese-Version.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/Tutorial-Using-Hackintool-to-open-the-correct-pose-of-the-8th-generation-core-display-HDMI-or-DVI-output.html</loc>
+    <lastmod>2021-03-08</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Coffee-Lake-frame-buffer-patch-and-UHD630-Coffee-Lake-ig-platform-id-data-finishing.html</loc>
     <lastmod>2021-03-08</lastmod>
   </url>
   <url>
@@ -377,11 +377,11 @@
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Intel-core-display-platformID-finishing.html</loc>
+    <loc>https://blog.daliansky.net/MacOS-multi-system-Bluetooth-device-automatically-connected.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/MacOS-multi-system-Bluetooth-device-automatically-connected.html</loc>
+    <loc>https://blog.daliansky.net/Intel-core-display-platformID-finishing.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
@@ -393,11 +393,11 @@
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/an-nginx-405-not-allowed-error-solution.html</loc>
+    <loc>https://blog.daliansky.net/Webmin-Mysql-module-warns-of-the-lack-of-DBI-and-DBD-mysql-processing.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Webmin-Mysql-module-warns-of-the-lack-of-DBI-and-DBD-mysql-processing.html</loc>
+    <loc>https://blog.daliansky.net/an-nginx-405-not-allowed-error-solution.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
