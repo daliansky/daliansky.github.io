@@ -1,3 +1,4 @@
+https://blog.daliansky.net/macOS-Monterey-12.1-21C52-Release-version-with-OC-0.7.6-CLOVER-5143-and-FirPE-original-image.html
 https://blog.daliansky.net/undefined.html
 https://blog.daliansky.net/Morefine-S500-and-macOS-Monterey-Installation-Tutorial.html
 https://blog.daliansky.net/macOS-Monterey-12.0.1-21A559-Release-version-with-OC-0.7.5-CLOVER-5141-and-PE-original-image.html
@@ -17,4 +18,3 @@ https://blog.daliansky.net/BCM94360Z4-m.2-NGFF-interface-four-antenna-notebook_s
 https://blog.daliansky.net/macOS-BigSur-11.1-20C69-Release-version-with-Clover-5127-original-image-Double-EFI-Version-UEFI-and-MBR.html
 https://blog.daliansky.net/macOS-BigSur-11.1-20C69-Release-version-with-Clover-5127-and-OC-0.6.4-and-PE-original-image.html
 https://blog.daliansky.net/macOS-BigSur-11.0.1-20B29-Release-version-with-Clover-5126-original-image-Double-EFI-Version-UEFI-and-MBR.html
-https://blog.daliansky.net/Lenovo-Tianyi-510s-Mini-and-macOS-BigSur-Installation-Tutorial.html
