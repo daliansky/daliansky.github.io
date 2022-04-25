@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Monterey-12.0-installation.html</loc>
+    
+    <lastmod>2022-04-25T07:44:43.884Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
     
     <lastmod>2022-04-25T07:36:52.200Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>https://blog.daliansky.net/Morefine-S500-and-macOS-Monterey-Installation-Tutorial.html</loc>
     
     <lastmod>2022-04-25T07:36:52.198Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Monterey-12.0-installation.html</loc>
-    
-    <lastmod>2022-04-25T07:36:52.195Z</lastmod>
     
   </url>
   

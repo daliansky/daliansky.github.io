@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Monterey-12.0-installation.html</loc>
+    <lastmod>2022-04-25</lastmod>
+  </url>
+  <url>
     <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
     <lastmod>2022-04-25</lastmod>
   </url>
@@ -10,10 +14,6 @@
   </url>
   <url>
     <loc>https://blog.daliansky.net/Morefine-S500-and-macOS-Monterey-Installation-Tutorial.html</loc>
-    <lastmod>2022-04-25</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Monterey-12.0-installation.html</loc>
     <lastmod>2022-04-25</lastmod>
   </url>
   <url>
@@ -149,11 +149,11 @@
     <lastmod>2021-12-06</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-BigSur-11.5.2-20G95-Release-version-with-OC-0.7.1-and-Clover-5138-and-PE-original-image.html</loc>
+    <loc>https://blog.daliansky.net/macOS-BigSur-11.4-20F71-Release-version-with-OC-0.6.9-and-Clover-5134-and-PE-original-image.html</loc>
     <lastmod>2021-12-06</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-BigSur-11.4-20F71-Release-version-with-OC-0.6.9-and-Clover-5134-and-PE-original-image.html</loc>
+    <loc>https://blog.daliansky.net/macOS-BigSur-11.5.2-20G95-Release-version-with-OC-0.7.1-and-Clover-5138-and-PE-original-image.html</loc>
     <lastmod>2021-12-06</lastmod>
   </url>
   <url>
@@ -385,11 +385,11 @@
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Intel-core-display-platformID-finishing.html</loc>
+    <loc>https://blog.daliansky.net/MacOS-multi-system-Bluetooth-device-automatically-connected.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/MacOS-multi-system-Bluetooth-device-automatically-connected.html</loc>
+    <loc>https://blog.daliansky.net/Intel-core-display-platformID-finishing.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
