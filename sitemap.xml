@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
+    
+    <lastmod>2022-04-25T07:36:52.200Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.daliansky.net/BCM94360Z4-m.2-NGFF-interface-four-antenna-notebook_small-host-dedicated-black-Apple-wireless-network-card-driver-tutorial.html</loc>
+    
+    <lastmod>2022-04-25T07:36:52.199Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.daliansky.net/Morefine-S500-and-macOS-Monterey-Installation-Tutorial.html</loc>
     
-    <lastmod>2022-04-24T08:17:34.512Z</lastmod>
+    <lastmod>2022-04-25T07:36:52.198Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Monterey-12.0-installation.html</loc>
     
-    <lastmod>2022-04-24T08:17:23.008Z</lastmod>
+    <lastmod>2022-04-25T07:36:52.195Z</lastmod>
     
   </url>
   
@@ -33,20 +47,6 @@
     <loc>https://blog.daliansky.net/macOS-Monterey-12.0.1-21A559-Release-version-with-OC-0.7.5-CLOVER-5141-and-PE-original-image.html</loc>
     
     <lastmod>2022-01-12T06:10:13.434Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
-    
-    <lastmod>2022-01-12T02:07:03.334Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/BCM94360Z4-m.2-NGFF-interface-four-antenna-notebook_small-host-dedicated-black-Apple-wireless-network-card-driver-tutorial.html</loc>
-    
-    <lastmod>2022-01-04T03:21:29.366Z</lastmod>
     
   </url>
   

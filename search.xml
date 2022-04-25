@@ -142,12 +142,12 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>USB</tag>
         <tag>教程</tag>
         <tag>FB</tag>
         <tag>patcher</tag>
         <tag>framebuffer</tag>
         <tag>帧缓冲</tag>
+        <tag>USB</tag>
         <tag>audio</tag>
         <tag>VRAM</tag>
       </tags>
@@ -691,9 +691,9 @@
         <tag>安装</tag>
         <tag>教程</tag>
         <tag>macOS</tag>
+        <tag>联想</tag>
         <tag>小新air</tag>
         <tag>2018</tag>
-        <tag>联想</tag>
         <tag>Air 13 IWL</tag>
       </tags>
   </entry>
@@ -828,8 +828,8 @@
         <tag>安装</tag>
         <tag>教程</tag>
         <tag>macOS</tag>
-        <tag>联想</tag>
         <tag>天逸510s Mini</tag>
+        <tag>联想</tag>
       </tags>
   </entry>
   <entry>
@@ -1647,12 +1647,12 @@
       </categories>
       <tags>
         <tag>Lilu</tag>
-        <tag>Plugins</tag>
         <tag>常见问题</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
+        <tag>Plugins</tag>
         <tag>Clover</tag>
         <tag>platform-id</tag>
         <tag>Patch</tag>
