@@ -937,8 +937,8 @@
         <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>10.15.5</tag>
-        <tag>19F2200</tag>
         <tag>三EFI分区</tag>
+        <tag>19F2200</tag>
       </tags>
   </entry>
   <entry>
@@ -1664,8 +1664,8 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>常见问题</tag>
         <tag>Lilu</tag>
+        <tag>常见问题</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
