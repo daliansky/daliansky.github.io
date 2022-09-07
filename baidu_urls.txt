@@ -1,3 +1,4 @@
+https://blog.daliansky.net/macOS-Monterey-12.5.1-21G83-Release-version-with-OC-0.8.4-CLOVER-5148-and-FirPE-original-image.html
 https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Ventura-13.0-installation.html
 https://blog.daliansky.net/macOS-BigSur-11.6.6-20G624-Release-version-with-OC-0.8.0-and-Clover-5142-and-PE-original-image.html
 https://blog.daliansky.net/macOS-Monterey-12.1-21C52-Release-version-with-OC-0.7.6-CLOVER-5143-and-FirPE-original-image.html
@@ -17,4 +18,3 @@ https://blog.daliansky.net/macOS-BigSur-11.2.2-20D80-Release-version-with-OC-0.6
 https://blog.daliansky.net/macOS-BigSur-11.2.3-20D91-Release-version-with-OC-0.6.7-and-Clover-5131-and-PE-original-image.html
 https://blog.daliansky.net/macOS-BigSur-11.2.1-20D75-Release-version-with-OC-0.6.6-and-Clover-5129-and-PE-original-image.html
 https://blog.daliansky.net/BCM94360Z4-m.2-NGFF-interface-four-antenna-notebook_small-host-dedicated-black-Apple-wireless-network-card-driver-tutorial.html
-https://blog.daliansky.net/macOS-BigSur-11.1-20C69-Release-version-with-Clover-5127-original-image-Double-EFI-Version-UEFI-and-MBR.html
