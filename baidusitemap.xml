@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Ventura-13.0-installation.html</loc>
+    <lastmod>2022-10-11</lastmod>
+  </url>
+  <url>
     <loc>https://blog.daliansky.net/macOS-Monterey-12.1-21C52-Release-version-with-OC-0.7.6-CLOVER-5143-and-FirPE-original-image.html</loc>
     <lastmod>2022-09-07</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/macOS-Monterey-12.5.1-21G83-Release-version-with-OC-0.8.4-CLOVER-5148-and-FirPE-original-image.html</loc>
     <lastmod>2022-09-07</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Ventura-13.0-installation.html</loc>
-    <lastmod>2022-08-24</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/Morefine-S500-and-macOS-Monterey-Installation-Tutorial.html</loc>
@@ -109,11 +109,11 @@
     <lastmod>2021-12-06</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Clover-Patched-Desktop-AppleHDA-Realtek-ALC-Audio.html</loc>
+    <loc>https://blog.daliansky.net/Use-HIDPI-to-solve-sleep-wake-up-black-screen,-Huaping-and-connect-the-external-monitor-the-correct-posture.html</loc>
     <lastmod>2021-12-06</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Use-HIDPI-to-solve-sleep-wake-up-black-screen,-Huaping-and-connect-the-external-monitor-the-correct-posture.html</loc>
+    <loc>https://blog.daliansky.net/Clover-Patched-Desktop-AppleHDA-Realtek-ALC-Audio.html</loc>
     <lastmod>2021-12-06</lastmod>
   </url>
   <url>
@@ -125,11 +125,11 @@
     <lastmod>2021-12-06</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.7-19H2-official-version-Clover-5122-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
+    <loc>https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html</loc>
     <lastmod>2021-12-06</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html</loc>
+    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.7-19H2-official-version-Clover-5122-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
     <lastmod>2021-12-06</lastmod>
   </url>
   <url>
@@ -173,11 +173,11 @@
     <lastmod>2021-12-06</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-BigSur-11.3-20E232-Release-version-with-OC-0.6.8-and-Clover-5133-and-PE-original-image.html</loc>
+    <loc>https://blog.daliansky.net/macOS-BigSur-11.2.3-20D91-Release-version-with-OC-0.6.7-and-Clover-5131-and-PE-original-image.html</loc>
     <lastmod>2021-12-06</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-BigSur-11.2.3-20D91-Release-version-with-OC-0.6.7-and-Clover-5131-and-PE-original-image.html</loc>
+    <loc>https://blog.daliansky.net/macOS-BigSur-11.3-20E232-Release-version-with-OC-0.6.8-and-Clover-5133-and-PE-original-image.html</loc>
     <lastmod>2021-12-06</lastmod>
   </url>
   <url>
@@ -189,11 +189,11 @@
     <lastmod>2021-12-06</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.6-18G87-Release-version-with-Clover-5033-original-image.html</loc>
+    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.5-18F132-official-version-with-Clover-4928-original-image.html</loc>
     <lastmod>2021-12-06</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.5-18F132-official-version-with-Clover-4928-original-image.html</loc>
+    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.6-18G87-Release-version-with-Clover-5033-original-image.html</loc>
     <lastmod>2021-12-06</lastmod>
   </url>
   <url>
@@ -233,11 +233,11 @@
     <lastmod>2021-12-06</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.6-17G2112-Release-Special-with-Clover-4606-original-mirror.html</loc>
+    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.5-17F77-Release-Version-with-Clover-4512-original-mirror.html</loc>
     <lastmod>2021-12-06</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.5-17F77-Release-Version-with-Clover-4512-original-mirror.html</loc>
+    <loc>https://blog.daliansky.net/macOS-High-Sierra-10.13.6-17G2112-Release-Special-with-Clover-4606-original-mirror.html</loc>
     <lastmod>2021-12-06</lastmod>
   </url>
   <url>
@@ -297,11 +297,11 @@
     <lastmod>2021-12-06</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/CLOVER-v2-4-r4438-Integrated-Millet-Notebook-PRO-EFI-Installation-Instructions.html</loc>
+    <loc>https://blog.daliansky.net/CoffeeLake-UHD-630-black-screen-direct-bright-screen-and-correct-adjustment-of-brightness-adjustment.html</loc>
     <lastmod>2021-12-06</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/CoffeeLake-UHD-630-black-screen-direct-bright-screen-and-correct-adjustment-of-brightness-adjustment.html</loc>
+    <loc>https://blog.daliansky.net/CLOVER-v2-4-r4438-Integrated-Millet-Notebook-PRO-EFI-Installation-Instructions.html</loc>
     <lastmod>2021-12-06</lastmod>
   </url>
   <url>
@@ -397,7 +397,15 @@
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
+    <loc>https://blog.daliansky.net/Intel-core-display-platformID-finishing.html</loc>
+    <lastmod>2020-09-12</lastmod>
+  </url>
+  <url>
     <loc>https://blog.daliansky.net/MacOS-multi-system-Bluetooth-device-automatically-connected.html</loc>
+    <lastmod>2020-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Mojave-Hardware-Support-List.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
@@ -410,10 +418,6 @@
   </url>
   <url>
     <loc>https://blog.daliansky.net/an-nginx-405-not-allowed-error-solution.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Mojave-Hardware-Support-List.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
@@ -430,10 +434,6 @@
   </url>
   <url>
     <loc>https://blog.daliansky.net/Modify-DSDT-to-achieve-power-display-method.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Intel-core-display-platformID-finishing.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
