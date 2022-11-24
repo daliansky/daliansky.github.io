@@ -78,8 +78,8 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>Hackintosh</tag>
         <tag>教程</tag>
+        <tag>Hackintosh</tag>
         <tag>EFI</tag>
         <tag>向导</tag>
         <tag>guide</tag>
@@ -757,9 +757,9 @@
         <tag>安装</tag>
         <tag>教程</tag>
         <tag>macOS</tag>
+        <tag>联想</tag>
         <tag>小新air</tag>
         <tag>2018</tag>
-        <tag>联想</tag>
         <tag>Air 13 IWL</tag>
       </tags>
   </entry>
@@ -894,8 +894,8 @@
         <tag>安装</tag>
         <tag>教程</tag>
         <tag>macOS</tag>
-        <tag>联想</tag>
         <tag>天逸510s Mini</tag>
+        <tag>联想</tag>
       </tags>
   </entry>
   <entry>
@@ -1272,9 +1272,9 @@
         <category>教程</category>
       </categories>
       <tags>
+        <tag>framebuffer</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
-        <tag>framebuffer</tag>
         <tag>10.13.6</tag>
         <tag>17G2112</tag>
         <tag>patch</tag>

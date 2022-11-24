@@ -117,11 +117,11 @@
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-BigSur-11.1-20C69-Release-version-with-Clover-5127-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
+    <loc>https://blog.daliansky.net/macOS-BigSur-11.0.1-20B29-Release-version-with-Clover-5126-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-BigSur-11.0.1-20B29-Release-version-with-Clover-5126-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
+    <loc>https://blog.daliansky.net/macOS-BigSur-11.1-20C69-Release-version-with-Clover-5127-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
@@ -153,11 +153,11 @@
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html</loc>
+    <loc>https://blog.daliansky.net/From-Clover-To-OpenCore.html</loc>
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/From-Clover-To-OpenCore.html</loc>
+    <loc>https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html</loc>
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
@@ -177,11 +177,11 @@
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Display-interface-data-and-parameter-changes.html</loc>
+    <loc>https://blog.daliansky.net/Use-AppleALC-sound-card-to-drive-the-correct-posture-of-AppleHDA.html</loc>
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Use-AppleALC-sound-card-to-drive-the-correct-posture-of-AppleHDA.html</loc>
+    <loc>https://blog.daliansky.net/Display-interface-data-and-parameter-changes.html</loc>
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
@@ -197,11 +197,11 @@
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Recommended-by-Xiaobing-Benefits-included-Hackintosh-remote-%20desktop-first-choice-ToDesk.html</loc>
+    <loc>https://blog.daliansky.net/Morefine-S500-and-macOS-Monterey-Installation-Tutorial.html</loc>
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Morefine-S500-and-macOS-Monterey-Installation-Tutorial.html</loc>
+    <loc>https://blog.daliansky.net/Recommended-by-Xiaobing-Benefits-included-Hackintosh-remote-%20desktop-first-choice-ToDesk.html</loc>
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
@@ -409,6 +409,10 @@
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
+    <loc>https://blog.daliansky.net/Intel-core-display-platformID-finishing.html</loc>
+    <lastmod>2020-09-12</lastmod>
+  </url>
+  <url>
     <loc>https://blog.daliansky.net/Mojave-Hardware-Support-List.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
@@ -430,10 +434,6 @@
   </url>
   <url>
     <loc>https://blog.daliansky.net/hotpatch-detailed-solution.html</loc>
-    <lastmod>2020-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Intel-core-display-platformID-finishing.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
