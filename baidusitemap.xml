@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Ventura-13.0-installation.html</loc>
+    <lastmod>2023-02-16</lastmod>
+  </url>
+  <url>
     <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
     <lastmod>2022-11-21</lastmod>
   </url>
@@ -117,11 +121,11 @@
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-BigSur-11.0.1-20B29-Release-version-with-Clover-5126-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
+    <loc>https://blog.daliansky.net/macOS-BigSur-11.1-20C69-Release-version-with-Clover-5127-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-BigSur-11.1-20C69-Release-version-with-Clover-5127-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
+    <loc>https://blog.daliansky.net/macOS-BigSur-11.0.1-20B29-Release-version-with-Clover-5126-original-image-Double-EFI-Version-UEFI-and-MBR.html</loc>
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
@@ -197,11 +201,11 @@
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Morefine-S500-and-macOS-Monterey-Installation-Tutorial.html</loc>
+    <loc>https://blog.daliansky.net/Recommended-by-Xiaobing-Benefits-included-Hackintosh-remote-%20desktop-first-choice-ToDesk.html</loc>
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Recommended-by-Xiaobing-Benefits-included-Hackintosh-remote-%20desktop-first-choice-ToDesk.html</loc>
+    <loc>https://blog.daliansky.net/Morefine-S500-and-macOS-Monterey-Installation-Tutorial.html</loc>
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
@@ -282,10 +286,6 @@
   </url>
   <url>
     <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Monterey-12.0-installation.html</loc>
-    <lastmod>2022-11-21</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Ventura-13.0-installation.html</loc>
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
@@ -417,11 +417,11 @@
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Under-Windows-using-DISKPART-to-create-EFI-points.html</loc>
+    <loc>https://blog.daliansky.net/Webmin-Mysql-module-warns-of-the-lack-of-DBI-and-DBD-mysql-processing.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Webmin-Mysql-module-warns-of-the-lack-of-DBI-and-DBD-mysql-processing.html</loc>
+    <loc>https://blog.daliansky.net/Under-Windows-using-DISKPART-to-create-EFI-points.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
