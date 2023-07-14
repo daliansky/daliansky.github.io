@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.daliansky.net/Intel-NUC9-Hackintosh-and-macOS-Sonoma-Installation-Tutorial.html</loc>
+    <lastmod>2023-07-14</lastmod>
+  </url>
+  <url>
     <loc>https://blog.daliansky.net/minisforum-HX90G-and-HX99G-macOS-Ventura-Installation-Tutorial.html</loc>
-    <lastmod>2023-03-17</lastmod>
+    <lastmod>2023-07-14</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/macOS-BigSur-11.6-20G165-Release-version-with-OC-0.7.3-and-Clover-5139-and-PE-original-image.html</loc>
@@ -209,11 +213,11 @@
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Add-the-CLOVER-boot-to-the-correct-posture-of-the-UEFI-Boot-Option-Menu.html</loc>
+    <loc>https://blog.daliansky.net/Lenovo-Tianyi-510s-Mini-and-macOS-BigSur-Installation-Tutorial.html</loc>
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Lenovo-Tianyi-510s-Mini-and-macOS-BigSur-Installation-Tutorial.html</loc>
+    <loc>https://blog.daliansky.net/Add-the-CLOVER-boot-to-the-correct-posture-of-the-UEFI-Boot-Option-Menu.html</loc>
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
@@ -313,11 +317,11 @@
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-BigSur-11.0-installation.html</loc>
+    <loc>https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html</loc>
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html</loc>
+    <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-BigSur-11.0-installation.html</loc>
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
@@ -405,11 +409,11 @@
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Intel-core-display-platformID-finishing.html</loc>
+    <loc>https://blog.daliansky.net/MacOS-multi-system-Bluetooth-device-automatically-connected.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/MacOS-multi-system-Bluetooth-device-automatically-connected.html</loc>
+    <loc>https://blog.daliansky.net/Intel-core-display-platformID-finishing.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
@@ -429,11 +433,11 @@
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/hda-verb-parameter-detail-table.html</loc>
+    <loc>https://blog.daliansky.net/hotpatch-detailed-solution.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/hotpatch-detailed-solution.html</loc>
+    <loc>https://blog.daliansky.net/hda-verb-parameter-detail-table.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
