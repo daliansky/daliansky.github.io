@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.daliansky.net/RichVision-RV100-5K.html</loc>
+    <lastmod>2023-09-04</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/undefined.html</loc>
+    <lastmod>2023-08-25</lastmod>
+  </url>
+  <url>
     <loc>https://blog.daliansky.net/Intel-NUC9-Hackintosh-and-macOS-Sonoma-Installation-Tutorial.html</loc>
     <lastmod>2023-07-31</lastmod>
   </url>
@@ -333,11 +341,11 @@
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Fresh-installing-macOS-High-Sierra(10.13)-on-AMD-Ryzen-Hackintosh-Guide.html</loc>
+    <loc>https://blog.daliansky.net/CLOVER-v2-4-r4438-Integrated-Millet-Notebook-PRO-EFI-Installation-Instructions.html</loc>
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/CLOVER-v2-4-r4438-Integrated-Millet-Notebook-PRO-EFI-Installation-Instructions.html</loc>
+    <loc>https://blog.daliansky.net/Fresh-installing-macOS-High-Sierra(10.13)-on-AMD-Ryzen-Hackintosh-Guide.html</loc>
     <lastmod>2022-11-21</lastmod>
   </url>
   <url>
@@ -421,7 +429,7 @@
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/an-nginx-405-not-allowed-error-solution.html</loc>
+    <loc>https://blog.daliansky.net/Under-Windows-using-DISKPART-to-create-EFI-points.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
@@ -429,7 +437,7 @@
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Under-Windows-using-DISKPART-to-create-EFI-points.html</loc>
+    <loc>https://blog.daliansky.net/an-nginx-405-not-allowed-error-solution.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
