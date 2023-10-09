@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.daliansky.net/Intel-NUC9-Hackintosh-and-macOS-Sonoma-Installation-Tutorial.html</loc>
+    <lastmod>2023-10-09</lastmod>
+  </url>
+  <url>
     <loc>https://blog.daliansky.net/OCLP.html</loc>
     <lastmod>2023-09-22</lastmod>
   </url>
@@ -93,19 +97,19 @@
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-BigSur-11.5.2-20G95-Release-version-with-OC-0.7.1-and-Clover-5138-and-PE-original-image.html</loc>
-    <lastmod>2023-09-20</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/macOS-BigSur-11.6-20G165-Release-version-with-OC-0.7.3-and-Clover-5139-and-PE-original-image.html</loc>
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-Monterey-12.5.1-21G83-Release-version-with-OC-0.8.4-CLOVER-5148-and-FirPE-original-image.html</loc>
+    <loc>https://blog.daliansky.net/macOS-BigSur-11.5.2-20G95-Release-version-with-OC-0.7.1-and-Clover-5138-and-PE-original-image.html</loc>
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/macOS-Monterey-12.1-21C52-Release-version-with-OC-0.7.6-CLOVER-5143-and-FirPE-original-image.html</loc>
+    <lastmod>2023-09-20</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/macOS-Monterey-12.5.1-21G83-Release-version-with-OC-0.8.4-CLOVER-5148-and-FirPE-original-image.html</loc>
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
@@ -114,6 +118,14 @@
   </url>
   <url>
     <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.5-19F96-official-version-Clover-5118-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
+    <lastmod>2023-09-20</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html</loc>
+    <lastmod>2023-09-20</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Add-CLOVER-boot-to-UEFI-without-any-tools.html</loc>
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
@@ -129,11 +141,7 @@
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html</loc>
-    <lastmod>2023-09-20</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Add-CLOVER-boot-to-UEFI-without-any-tools.html</loc>
+    <loc>https://blog.daliansky.net/Use-HIDPI-to-solve-sleep-wake-up-black-screen,-Huaping-and-connect-the-external-monitor-the-correct-posture.html</loc>
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
@@ -141,7 +149,7 @@
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Use-HIDPI-to-solve-sleep-wake-up-black-screen,-Huaping-and-connect-the-external-monitor-the-correct-posture.html</loc>
+    <loc>https://blog.daliansky.net/Use-AppleALC-sound-card-to-drive-the-correct-posture-of-AppleHDA.html</loc>
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
@@ -157,15 +165,11 @@
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Scan-code-support-QQ-group-upgrade.html</loc>
-    <lastmod>2023-09-20</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Use-AppleALC-sound-card-to-drive-the-correct-posture-of-AppleHDA.html</loc>
-    <lastmod>2023-09-20</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/Lenovo-Tianyi-510s-Mini-and-macOS-BigSur-Installation-Tutorial.html</loc>
+    <lastmod>2023-09-20</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Scan-code-support-QQ-group-upgrade.html</loc>
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
@@ -185,10 +189,6 @@
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Intel-NUC9-Hackintosh-and-macOS-Sonoma-Installation-Tutorial.html</loc>
-    <lastmod>2023-09-20</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/Mac-frequently-used-to-the-command---continuous-update.html</loc>
     <lastmod>2023-09-20</lastmod>
   </url>
@@ -201,11 +201,11 @@
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Morefine-S500-and-macOS-Monterey-Installation-Tutorial.html</loc>
+    <loc>https://blog.daliansky.net/Recommended-by-Xiaobing-Benefits-included-Hackintosh-remote-%20desktop-first-choice-ToDesk.html</loc>
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Recommended-by-Xiaobing-Benefits-included-Hackintosh-remote-%20desktop-first-choice-ToDesk.html</loc>
+    <loc>https://blog.daliansky.net/Morefine-S500-and-macOS-Monterey-Installation-Tutorial.html</loc>
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
@@ -241,11 +241,11 @@
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-Monterey-12.0-Beta7-21A5522h-Release-version-with-OC-0.7.4-and-WEPE-original-image.html</loc>
+    <loc>https://blog.daliansky.net/macOS-BigSur-11.6.6-20G624-Release-version-with-OC-0.8.0-and-Clover-5142-and-PE-original-image.html</loc>
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-BigSur-11.6.6-20G624-Release-version-with-OC-0.8.0-and-Clover-5142-and-PE-original-image.html</loc>
+    <loc>https://blog.daliansky.net/macOS-Monterey-12.0-Beta7-21A5522h-Release-version-with-OC-0.7.4-and-WEPE-original-image.html</loc>
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
@@ -409,11 +409,11 @@
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/AppleALC-Supported-codecs.html</loc>
+    <loc>https://blog.daliansky.net/8-good-habit-chi-zha-in-the-workplace.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/8-good-habit-chi-zha-in-the-workplace.html</loc>
+    <loc>https://blog.daliansky.net/AppleALC-Supported-codecs.html</loc>
     <lastmod>2020-09-12</lastmod>
   </url>
   <url>
