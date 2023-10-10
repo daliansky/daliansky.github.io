@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
+    <lastmod>2023-10-10</lastmod>
+  </url>
+  <url>
     <loc>https://blog.daliansky.net/Intel-NUC9-Hackintosh-and-macOS-Sonoma-Installation-Tutorial.html</loc>
     <lastmod>2023-10-09</lastmod>
   </url>
@@ -81,7 +85,7 @@
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.4-18E226-official-version-with-Clover-4903-original-image.html</loc>
+    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.6-18G87-Release-version-with-Clover-5033-original-image.html</loc>
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
@@ -89,7 +93,7 @@
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.6-18G87-Release-version-with-Clover-5033-original-image.html</loc>
+    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.4-18E226-official-version-with-Clover-4903-original-image.html</loc>
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
@@ -97,15 +101,19 @@
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-BigSur-11.6-20G165-Release-version-with-OC-0.7.3-and-Clover-5139-and-PE-original-image.html</loc>
-    <lastmod>2023-09-20</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/macOS-BigSur-11.5.2-20G95-Release-version-with-OC-0.7.1-and-Clover-5138-and-PE-original-image.html</loc>
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
+    <loc>https://blog.daliansky.net/macOS-BigSur-11.6-20G165-Release-version-with-OC-0.7.3-and-Clover-5139-and-PE-original-image.html</loc>
+    <lastmod>2023-09-20</lastmod>
+  </url>
+  <url>
     <loc>https://blog.daliansky.net/macOS-Monterey-12.1-21C52-Release-version-with-OC-0.7.6-CLOVER-5143-and-FirPE-original-image.html</loc>
+    <lastmod>2023-09-20</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.5-19F96-official-version-Clover-5118-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
@@ -117,15 +125,7 @@
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.5-19F96-official-version-Clover-5118-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
-    <lastmod>2023-09-20</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html</loc>
-    <lastmod>2023-09-20</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Add-CLOVER-boot-to-UEFI-without-any-tools.html</loc>
+    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.7-19H15-official-version-Clover-5126-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
@@ -133,15 +133,11 @@
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.7-19H15-official-version-Clover-5126-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
-    <lastmod>2023-09-20</lastmod>
-  </url>
-  <url>
     <loc>https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.7-19H2-official-version-Clover-5122-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html</loc>
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Use-HIDPI-to-solve-sleep-wake-up-black-screen,-Huaping-and-connect-the-external-monitor-the-correct-posture.html</loc>
+    <loc>https://blog.daliansky.net/A-command-to-teach-you-how-to-confirm-their-own-models-and-how-to-open-the-HWP.html</loc>
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
@@ -149,7 +145,11 @@
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Use-AppleALC-sound-card-to-drive-the-correct-posture-of-AppleHDA.html</loc>
+    <loc>https://blog.daliansky.net/Add-CLOVER-boot-to-UEFI-without-any-tools.html</loc>
+    <lastmod>2023-09-20</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Use-HIDPI-to-solve-sleep-wake-up-black-screen,-Huaping-and-connect-the-external-monitor-the-correct-posture.html</loc>
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
@@ -165,11 +165,15 @@
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/Lenovo-Tianyi-510s-Mini-and-macOS-BigSur-Installation-Tutorial.html</loc>
+    <loc>https://blog.daliansky.net/Use-AppleALC-sound-card-to-drive-the-correct-posture-of-AppleHDA.html</loc>
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/Scan-code-support-QQ-group-upgrade.html</loc>
+    <lastmod>2023-09-20</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.daliansky.net/Lenovo-Tianyi-510s-Mini-and-macOS-BigSur-Installation-Tutorial.html</loc>
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
@@ -229,11 +233,11 @@
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-Mojave-10.14-18A391-official-version-with-Clover-4674-original-image.html</loc>
+    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.3-18D42-official-version-with-Clover-4859-original-image.html</loc>
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-Mojave-10.14.3-18D42-official-version-with-Clover-4859-original-image.html</loc>
+    <loc>https://blog.daliansky.net/macOS-Mojave-10.14-18A391-official-version-with-Clover-4674-original-image.html</loc>
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
@@ -349,11 +353,11 @@
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-BigSur-11.2.2-20D80-Release-version-with-OC-0.6.7-and-Clover-5131-and-PE-original-image.html</loc>
+    <loc>https://blog.daliansky.net/macOS-BigSur-11.3-20E232-Release-version-with-OC-0.6.8-and-Clover-5133-and-PE-original-image.html</loc>
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
-    <loc>https://blog.daliansky.net/macOS-BigSur-11.3-20E232-Release-version-with-OC-0.6.8-and-Clover-5133-and-PE-original-image.html</loc>
+    <loc>https://blog.daliansky.net/macOS-BigSur-11.2.2-20D80-Release-version-with-OC-0.6.7-and-Clover-5131-and-PE-original-image.html</loc>
     <lastmod>2023-09-20</lastmod>
   </url>
   <url>
@@ -383,10 +387,6 @@
   <url>
     <loc>https://blog.daliansky.net/RichVision-RV100-5K.html</loc>
     <lastmod>2023-09-20</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
-    <lastmod>2022-11-21</lastmod>
   </url>
   <url>
     <loc>https://blog.daliansky.net/macOS-Sierra-10-12-6-16G29-with-Clover-4133-original-mirror-with-multi-drive.html</loc>
