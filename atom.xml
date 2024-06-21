@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.daliansky.net/"/>
-  <updated>2023-09-22T14:11:02.000Z</updated>
+  <updated>2024-06-21T08:41:59.649Z</updated>
   <id>https://blog.daliansky.net/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>宝塔自签名证书无法导入到 macOS 的解决办法</title>
+    <link href="https://blog.daliansky.net/BT_SSL.html"/>
+    <id>https://blog.daliansky.net/BT_SSL.html</id>
+    <published>2024-06-21T08:27:00.000Z</published>
+    <updated>2024-06-21T08:41:59.649Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="宝塔自签名证书无法导入到-macos-的解决办法"><a class="markdownIt-Anchor" href="#宝塔自签名证书无法导入到-macos-的解决办法"></a> 宝塔自签名证书无法导入到 <code>macOS</code> 的解决办法</h2><blockquote><p>前提：将 <code>/www/server/panel/ssl</code> 目录下载到本地</p></blockquote><p>你可以使用 <code>openssl</code> 命令将自签名证书转换为 <code>.p12</code> 格式，以便在 macOS 上更方便地导入。以下是详细的步骤：</p><ol><li><p><strong>确保你有私钥和证书文件</strong>：在开始之前，确保你有私钥文件（<code>privateKey.pem</code>）和证书文件（<code>certificate.pem</code>）。</p></li><li><p><strong>使用 <code>openssl</code> 命令生成 <code>.p12</code> 文件</strong>：<br>打开终端并运行以下命令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">openssl pkcs12 -<span class="built_in">export</span> -out bt.p12 -inkey privateKey.pem -<span class="keyword">in</span> certificate.pem</span><br></pre></td></tr></table></figure><p>这个命令将会提示你输入一个导出密码。这个密码在你导入证书到 macOS 时需要使用。</p></li><li><p><strong>导入 <code>.p12</code> 文件到 macOS 钥匙串</strong>：</p><ul><li>打开 <strong>钥匙串访问</strong> 应用程序（在 <strong>应用程序</strong> &gt; <strong>实用工具</strong> 中）。</li><li>从菜单中选择 <strong>文件</strong> &gt; <strong>导入项目</strong>。</li><li>选择刚才生成的 <code>bt.p12</code> 文件，然后点击 <strong>打开</strong>。</li><li>系统会提示你输入在生成 <code>.p12</code> 文件时设置的密码。输入正确的密码后，证书应该成功导入到你的钥匙串中。</li></ul></li><li><p><strong>信任证书</strong>：</p><ul><li>导入证书后，在 <strong>钥匙串访问</strong> 中找到刚刚导入的证书。</li><li>右键点击证书，选择 <strong>获取信息</strong>。</li><li>在 <strong>信任</strong> 部分，将 <strong>使用此证书时</strong> 设置为 <strong>始终信任</strong>。</li></ul></li></ol><p>如果你在这些步骤中遇到问题，请确保以下几点：</p><ul><li>私钥文件（<code>privateKey.pem</code>）和证书文件（<code>certificate.pem</code>）的路径是正确的。</li><li>输入的密码是正确的，并且符合生成 <code>.p12</code> 文件时的要求。</li></ul><p>这样就能顺利登录宝塔后台，无须每次都需要跳过提示信息；希望这能帮助你解决自签名证书导入的问题。如果还有其他问题，请随时告知。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;宝塔自签名证书无法导入到-macos-的解决办法&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#宝塔自签名证书无法导入到-macos-的解决办法&quot;&gt;&lt;/a&gt; 宝塔自签名证书无法导入到 &lt;code&gt;macOS&lt;/code&gt; 的解决办法&lt;/
+      
+    
+    </summary>
+    
+      <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="BT" scheme="https://blog.daliansky.net/tags/BT/"/>
+    
+      <category term="宝塔" scheme="https://blog.daliansky.net/tags/%E5%AE%9D%E5%A1%94/"/>
+    
+      <category term="ssl" scheme="https://blog.daliansky.net/tags/ssl/"/>
+    
+      <category term="证书" scheme="https://blog.daliansky.net/tags/%E8%AF%81%E4%B9%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>使用OpenCore Legacy Patcher工具在macOS Sonoma中重新打开不被支持的博通Wi-Fi无线网卡的正确插入姿势</title>
@@ -66,11 +97,11 @@
     
       <category term="安装" scheme="https://blog.daliansky.net/tags/%E5%AE%89%E8%A3%85/"/>
     
-      <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
-    
       <category term="macOS" scheme="https://blog.daliansky.net/tags/macOS/"/>
     
       <category term="Sonoma" scheme="https://blog.daliansky.net/tags/Sonoma/"/>
+    
+      <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
     
       <category term="NUC" scheme="https://blog.daliansky.net/tags/NUC/"/>
     
@@ -101,11 +132,11 @@
     
       <category term="安装" scheme="https://blog.daliansky.net/tags/%E5%AE%89%E8%A3%85/"/>
     
-      <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
-    
       <category term="macOS" scheme="https://blog.daliansky.net/tags/macOS/"/>
     
       <category term="Sonoma" scheme="https://blog.daliansky.net/tags/Sonoma/"/>
+    
+      <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
     
       <category term="NUC" scheme="https://blog.daliansky.net/tags/NUC/"/>
     
@@ -136,9 +167,9 @@
     
       <category term="安装" scheme="https://blog.daliansky.net/tags/%E5%AE%89%E8%A3%85/"/>
     
-      <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
-    
       <category term="macOS" scheme="https://blog.daliansky.net/tags/macOS/"/>
+    
+      <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
     
       <category term="Ventura" scheme="https://blog.daliansky.net/tags/Ventura/"/>
     
@@ -340,9 +371,9 @@
     
       <category term="安装" scheme="https://blog.daliansky.net/tags/%E5%AE%89%E8%A3%85/"/>
     
-      <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
-    
       <category term="macOS" scheme="https://blog.daliansky.net/tags/macOS/"/>
+    
+      <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
     
       <category term="Monterey" scheme="https://blog.daliansky.net/tags/Monterey/"/>
     
@@ -1008,13 +1039,13 @@
     
       <category term="安装" scheme="https://blog.daliansky.net/tags/%E5%AE%89%E8%A3%85/"/>
     
-      <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
-    
       <category term="macOS" scheme="https://blog.daliansky.net/tags/macOS/"/>
     
-      <category term="天逸510s Mini" scheme="https://blog.daliansky.net/tags/%E5%A4%A9%E9%80%B8510s-Mini/"/>
+      <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
     
       <category term="联想" scheme="https://blog.daliansky.net/tags/%E8%81%94%E6%83%B3/"/>
+    
+      <category term="天逸510s Mini" scheme="https://blog.daliansky.net/tags/%E5%A4%A9%E9%80%B8510s-Mini/"/>
     
   </entry>
   
@@ -1314,9 +1345,9 @@
     
       <category term="10.15.5" scheme="https://blog.daliansky.net/tags/10-15-5/"/>
     
-      <category term="19F2200" scheme="https://blog.daliansky.net/tags/19F2200/"/>
-    
       <category term="三EFI分区" scheme="https://blog.daliansky.net/tags/%E4%B8%89EFI%E5%88%86%E5%8C%BA/"/>
+    
+      <category term="19F2200" scheme="https://blog.daliansky.net/tags/19F2200/"/>
     
   </entry>
   
@@ -1531,9 +1562,9 @@
     
       <category term="安装" scheme="https://blog.daliansky.net/tags/%E5%AE%89%E8%A3%85/"/>
     
-      <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
-    
       <category term="macOS" scheme="https://blog.daliansky.net/tags/macOS/"/>
+    
+      <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
     
       <category term="联想" scheme="https://blog.daliansky.net/tags/%E8%81%94%E6%83%B3/"/>
     
@@ -1887,9 +1918,9 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
-    
       <category term="Hackintosh" scheme="https://blog.daliansky.net/tags/Hackintosh/"/>
+    
+      <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
     
       <category term="EFI" scheme="https://blog.daliansky.net/tags/EFI/"/>
     
@@ -2046,15 +2077,15 @@
     
       <category term="安装" scheme="https://blog.daliansky.net/tags/%E5%AE%89%E8%A3%85/"/>
     
-      <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
-    
       <category term="macOS" scheme="https://blog.daliansky.net/tags/macOS/"/>
     
-      <category term="联想" scheme="https://blog.daliansky.net/tags/%E8%81%94%E6%83%B3/"/>
+      <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
     
       <category term="小新air" scheme="https://blog.daliansky.net/tags/%E5%B0%8F%E6%96%B0air/"/>
     
       <category term="2018" scheme="https://blog.daliansky.net/tags/2018/"/>
+    
+      <category term="联想" scheme="https://blog.daliansky.net/tags/%E8%81%94%E6%83%B3/"/>
     
       <category term="Air 13 IWL" scheme="https://blog.daliansky.net/tags/Air-13-IWL/"/>
     
@@ -2293,6 +2324,8 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
+      <category term="USB" scheme="https://blog.daliansky.net/tags/USB/"/>
+    
       <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
     
       <category term="FB" scheme="https://blog.daliansky.net/tags/FB/"/>
@@ -2302,8 +2335,6 @@
       <category term="framebuffer" scheme="https://blog.daliansky.net/tags/framebuffer/"/>
     
       <category term="帧缓冲" scheme="https://blog.daliansky.net/tags/%E5%B8%A7%E7%BC%93%E5%86%B2/"/>
-    
-      <category term="USB" scheme="https://blog.daliansky.net/tags/USB/"/>
     
       <category term="audio" scheme="https://blog.daliansky.net/tags/audio/"/>
     
@@ -2460,11 +2491,11 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="framebuffer" scheme="https://blog.daliansky.net/tags/framebuffer/"/>
-    
       <category term="Mojave" scheme="https://blog.daliansky.net/tags/Mojave/"/>
     
       <category term="10.14" scheme="https://blog.daliansky.net/tags/10-14/"/>
+    
+      <category term="framebuffer" scheme="https://blog.daliansky.net/tags/framebuffer/"/>
     
       <category term="10.13.6" scheme="https://blog.daliansky.net/tags/10-13-6/"/>
     
@@ -2961,9 +2992,9 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="platform-id" scheme="https://blog.daliansky.net/tags/platform-id/"/>
-    
       <category term="接口" scheme="https://blog.daliansky.net/tags/%E6%8E%A5%E5%8F%A3/"/>
+    
+      <category term="platform-id" scheme="https://blog.daliansky.net/tags/platform-id/"/>
     
       <category term="显存" scheme="https://blog.daliansky.net/tags/%E6%98%BE%E5%AD%98/"/>
     
@@ -2994,9 +3025,9 @@
     
       <category term="安装" scheme="https://blog.daliansky.net/tags/%E5%AE%89%E8%A3%85/"/>
     
-      <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
-    
       <category term="macOS" scheme="https://blog.daliansky.net/tags/macOS/"/>
+    
+      <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
     
       <category term="小米Pro" scheme="https://blog.daliansky.net/tags/%E5%B0%8F%E7%B1%B3Pro/"/>
     
@@ -3516,13 +3547,13 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="安装" scheme="https://blog.daliansky.net/tags/%E5%AE%89%E8%A3%85/"/>
-    
-      <category term="常见问题" scheme="https://blog.daliansky.net/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
-    
       <category term="10.13" scheme="https://blog.daliansky.net/tags/10-13/"/>
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
+    
+      <category term="安装" scheme="https://blog.daliansky.net/tags/%E5%AE%89%E8%A3%85/"/>
+    
+      <category term="常见问题" scheme="https://blog.daliansky.net/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
     
       <category term="EDID" scheme="https://blog.daliansky.net/tags/EDID/"/>
     
@@ -3761,8 +3792,6 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="常见问题" scheme="https://blog.daliansky.net/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
-    
       <category term="10.12" scheme="https://blog.daliansky.net/tags/10-12/"/>
     
       <category term="10.13" scheme="https://blog.daliansky.net/tags/10-13/"/>
@@ -3774,6 +3803,8 @@
       <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
     
       <category term="Plugins" scheme="https://blog.daliansky.net/tags/Plugins/"/>
+    
+      <category term="常见问题" scheme="https://blog.daliansky.net/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
     
       <category term="Clover" scheme="https://blog.daliansky.net/tags/Clover/"/>
     
@@ -4178,9 +4209,9 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="安装" scheme="https://blog.daliansky.net/tags/%E5%AE%89%E8%A3%85/"/>
-    
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
+    
+      <category term="安装" scheme="https://blog.daliansky.net/tags/%E5%AE%89%E8%A3%85/"/>
     
   </entry>
   
@@ -4204,9 +4235,9 @@
       <category term="镜像" scheme="https://blog.daliansky.net/categories/%E4%B8%8B%E8%BD%BD/%E9%95%9C%E5%83%8F/"/>
     
     
-      <category term="安装" scheme="https://blog.daliansky.net/tags/%E5%AE%89%E8%A3%85/"/>
-    
       <category term="Sierra" scheme="https://blog.daliansky.net/tags/Sierra/"/>
+    
+      <category term="安装" scheme="https://blog.daliansky.net/tags/%E5%AE%89%E8%A3%85/"/>
     
       <category term="10.12.6" scheme="https://blog.daliansky.net/tags/10-12-6/"/>
     

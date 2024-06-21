@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.daliansky.net/BT_SSL.html</loc>
+    
+    <lastmod>2024-06-21T08:41:59.649Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
     
     <lastmod>2023-10-10T02:03:02.619Z</lastmod>
@@ -723,14 +730,14 @@
   </url>
   
   <url>
-    <loc>https://blog.daliansky.net/categories/index.html</loc>
+    <loc>https://blog.daliansky.net/tags/index.html</loc>
     
     <lastmod>2020-09-12T05:53:15.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.daliansky.net/tags/index.html</loc>
+    <loc>https://blog.daliansky.net/categories/index.html</loc>
     
     <lastmod>2020-09-12T05:53:15.000Z</lastmod>
     
