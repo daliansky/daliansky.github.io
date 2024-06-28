@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.daliansky.net/Intel-NUC9-Hackintosh-and-macOS-Sonoma-Installation-Tutorial.html</loc>
+    
+    <lastmod>2024-06-28T08:58:21.178Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.daliansky.net/minisforum-HX90G-and-HX99G-macOS-Ventura-Installation-Tutorial.html</loc>
+    
+    <lastmod>2024-06-28T08:58:21.176Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.daliansky.net/BT_SSL.html</loc>
     
     <lastmod>2024-06-21T08:41:59.649Z</lastmod>
@@ -12,13 +26,6 @@
     <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
     
     <lastmod>2023-10-10T02:03:02.619Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.daliansky.net/Intel-NUC9-Hackintosh-and-macOS-Sonoma-Installation-Tutorial.html</loc>
-    
-    <lastmod>2023-10-09T01:26:51.285Z</lastmod>
     
   </url>
   
@@ -492,13 +499,6 @@
   </url>
   
   <url>
-    <loc>https://blog.daliansky.net/minisforum-HX90G-and-HX99G-macOS-Ventura-Installation-Tutorial.html</loc>
-    
-    <lastmod>2023-09-20T01:55:32.455Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html</loc>
     
     <lastmod>2023-09-20T01:55:32.455Z</lastmod>
@@ -723,7 +723,7 @@
   </url>
   
   <url>
-    <loc>https://blog.daliansky.net/about/index.html</loc>
+    <loc>https://blog.daliansky.net/categories/index.html</loc>
     
     <lastmod>2020-09-12T05:53:15.000Z</lastmod>
     
@@ -737,7 +737,7 @@
   </url>
   
   <url>
-    <loc>https://blog.daliansky.net/categories/index.html</loc>
+    <loc>https://blog.daliansky.net/about/index.html</loc>
     
     <lastmod>2020-09-12T05:53:15.000Z</lastmod>
     
