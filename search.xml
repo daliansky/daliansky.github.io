@@ -95,8 +95,8 @@
       </categories>
       <tags>
         <tag>教程</tag>
-        <tag>EFI</tag>
         <tag>Hackintosh</tag>
+        <tag>EFI</tag>
         <tag>向导</tag>
         <tag>guide</tag>
       </tags>
@@ -374,9 +374,9 @@
         <category>教程</category>
       </categories>
       <tags>
+        <tag>diskutil</tag>
         <tag>shell</tag>
         <tag>spctl</tag>
-        <tag>diskutil</tag>
         <tag>trimforce</tag>
         <tag>ioreg</tag>
         <tag>EDID</tag>
@@ -819,9 +819,9 @@
         <tag>安装</tag>
         <tag>macOS</tag>
         <tag>教程</tag>
+        <tag>联想</tag>
         <tag>小新air</tag>
         <tag>2018</tag>
-        <tag>联想</tag>
         <tag>Air 13 IWL</tag>
       </tags>
   </entry>
@@ -970,8 +970,8 @@
         <tag>安装</tag>
         <tag>macOS</tag>
         <tag>教程</tag>
-        <tag>联想</tag>
         <tag>天逸510s Mini</tag>
+        <tag>联想</tag>
       </tags>
   </entry>
   <entry>
@@ -1530,8 +1530,8 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>platform-id</tag>
         <tag>接口</tag>
+        <tag>platform-id</tag>
         <tag>显存</tag>
         <tag>显示器</tag>
       </tags>
@@ -1575,10 +1575,10 @@
       </categories>
       <tags>
         <tag>USB</tag>
-        <tag>diskutil</tag>
         <tag>Ubuntu</tag>
         <tag>Linux</tag>
         <tag>dd</tag>
+        <tag>diskutil</tag>
       </tags>
   </entry>
   <entry>
@@ -1788,8 +1788,8 @@
         <category>教程</category>
       </categories>
       <tags>
-        <tag>Lilu</tag>
         <tag>常见问题</tag>
+        <tag>Lilu</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
@@ -1811,10 +1811,10 @@
       </categories>
       <tags>
         <tag>AppleALC</tag>
+        <tag>CC</tag>
+        <tag>CodecCommander</tag>
         <tag>codec</tag>
         <tag>hda-verb</tag>
-        <tag>CodecCommander</tag>
-        <tag>CC</tag>
         <tag>ALCPlugFix</tag>
       </tags>
   </entry>
@@ -1934,8 +1934,8 @@
       </categories>
       <tags>
         <tag>AppleALC</tag>
-        <tag>CodecCommander</tag>
         <tag>CC</tag>
+        <tag>CodecCommander</tag>
       </tags>
   </entry>
   <entry>
