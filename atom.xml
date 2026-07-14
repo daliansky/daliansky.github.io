@@ -61,11 +61,11 @@
     
       <category term="安装" scheme="https://blog.daliansky.net/tags/%E5%AE%89%E8%A3%85/"/>
     
+      <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
+    
       <category term="macOS" scheme="https://blog.daliansky.net/tags/macOS/"/>
     
       <category term="Sequoia" scheme="https://blog.daliansky.net/tags/Sequoia/"/>
-    
-      <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
     
       <category term="FN60G" scheme="https://blog.daliansky.net/tags/FN60G/"/>
     
@@ -157,9 +157,9 @@
     
       <category term="安装" scheme="https://blog.daliansky.net/tags/%E5%AE%89%E8%A3%85/"/>
     
-      <category term="macOS" scheme="https://blog.daliansky.net/tags/macOS/"/>
-    
       <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="macOS" scheme="https://blog.daliansky.net/tags/macOS/"/>
     
       <category term="Sonoma" scheme="https://blog.daliansky.net/tags/Sonoma/"/>
     
@@ -193,9 +193,9 @@
     
       <category term="安装" scheme="https://blog.daliansky.net/tags/%E5%AE%89%E8%A3%85/"/>
     
-      <category term="macOS" scheme="https://blog.daliansky.net/tags/macOS/"/>
-    
       <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="macOS" scheme="https://blog.daliansky.net/tags/macOS/"/>
     
       <category term="Sonoma" scheme="https://blog.daliansky.net/tags/Sonoma/"/>
     
@@ -228,9 +228,9 @@
     
       <category term="安装" scheme="https://blog.daliansky.net/tags/%E5%AE%89%E8%A3%85/"/>
     
-      <category term="macOS" scheme="https://blog.daliansky.net/tags/macOS/"/>
-    
       <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="macOS" scheme="https://blog.daliansky.net/tags/macOS/"/>
     
       <category term="Ventura" scheme="https://blog.daliansky.net/tags/Ventura/"/>
     
@@ -414,9 +414,9 @@
     
       <category term="安装" scheme="https://blog.daliansky.net/tags/%E5%AE%89%E8%A3%85/"/>
     
-      <category term="macOS" scheme="https://blog.daliansky.net/tags/macOS/"/>
-    
       <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="macOS" scheme="https://blog.daliansky.net/tags/macOS/"/>
     
       <category term="Monterey" scheme="https://blog.daliansky.net/tags/Monterey/"/>
     
@@ -1087,9 +1087,9 @@
     
       <category term="安装" scheme="https://blog.daliansky.net/tags/%E5%AE%89%E8%A3%85/"/>
     
-      <category term="macOS" scheme="https://blog.daliansky.net/tags/macOS/"/>
-    
       <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="macOS" scheme="https://blog.daliansky.net/tags/macOS/"/>
     
       <category term="天逸510s Mini" scheme="https://blog.daliansky.net/tags/%E5%A4%A9%E9%80%B8510s-Mini/"/>
     
@@ -1616,9 +1616,9 @@
     
       <category term="安装" scheme="https://blog.daliansky.net/tags/%E5%AE%89%E8%A3%85/"/>
     
-      <category term="macOS" scheme="https://blog.daliansky.net/tags/macOS/"/>
-    
       <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="macOS" scheme="https://blog.daliansky.net/tags/macOS/"/>
     
       <category term="联想" scheme="https://blog.daliansky.net/tags/%E8%81%94%E6%83%B3/"/>
     
@@ -2147,9 +2147,9 @@
     
       <category term="安装" scheme="https://blog.daliansky.net/tags/%E5%AE%89%E8%A3%85/"/>
     
-      <category term="macOS" scheme="https://blog.daliansky.net/tags/macOS/"/>
-    
       <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="macOS" scheme="https://blog.daliansky.net/tags/macOS/"/>
     
       <category term="联想" scheme="https://blog.daliansky.net/tags/%E8%81%94%E6%83%B3/"/>
     
@@ -2404,8 +2404,6 @@
     
       <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
     
-      <category term="USB" scheme="https://blog.daliansky.net/tags/USB/"/>
-    
       <category term="FB" scheme="https://blog.daliansky.net/tags/FB/"/>
     
       <category term="patcher" scheme="https://blog.daliansky.net/tags/patcher/"/>
@@ -2413,6 +2411,8 @@
       <category term="framebuffer" scheme="https://blog.daliansky.net/tags/framebuffer/"/>
     
       <category term="帧缓冲" scheme="https://blog.daliansky.net/tags/%E5%B8%A7%E7%BC%93%E5%86%B2/"/>
+    
+      <category term="USB" scheme="https://blog.daliansky.net/tags/USB/"/>
     
       <category term="audio" scheme="https://blog.daliansky.net/tags/audio/"/>
     
@@ -3118,9 +3118,9 @@
     
       <category term="安装" scheme="https://blog.daliansky.net/tags/%E5%AE%89%E8%A3%85/"/>
     
-      <category term="macOS" scheme="https://blog.daliansky.net/tags/macOS/"/>
-    
       <category term="教程" scheme="https://blog.daliansky.net/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="macOS" scheme="https://blog.daliansky.net/tags/macOS/"/>
     
       <category term="小米Pro" scheme="https://blog.daliansky.net/tags/%E5%B0%8F%E7%B1%B3Pro/"/>
     
@@ -3761,9 +3761,9 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
-    
       <category term="CPUFriend" scheme="https://blog.daliansky.net/tags/CPUFriend/"/>
+    
+      <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
     
       <category term="Plugins" scheme="https://blog.daliansky.net/tags/Plugins/"/>
     
@@ -3834,11 +3834,11 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
+      <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
+    
       <category term="AppleALC" scheme="https://blog.daliansky.net/tags/AppleALC/"/>
     
       <category term="Codec" scheme="https://blog.daliansky.net/tags/Codec/"/>
-    
-      <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
     
   </entry>
   
@@ -3907,8 +3907,6 @@
       <category term="教程" scheme="https://blog.daliansky.net/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
-    
       <category term="常见问题" scheme="https://blog.daliansky.net/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
     
       <category term="10.12" scheme="https://blog.daliansky.net/tags/10-12/"/>
@@ -3918,6 +3916,8 @@
       <category term="Sierra" scheme="https://blog.daliansky.net/tags/Sierra/"/>
     
       <category term="High Sierra" scheme="https://blog.daliansky.net/tags/High-Sierra/"/>
+    
+      <category term="Lilu" scheme="https://blog.daliansky.net/tags/Lilu/"/>
     
       <category term="Plugins" scheme="https://blog.daliansky.net/tags/Plugins/"/>
     
@@ -4144,11 +4144,11 @@ hda-verb是li
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
-    
       <category term="DB8" scheme="https://blog.daliansky.net/tags/DB8/"/>
     
       <category term="17A358a" scheme="https://blog.daliansky.net/tags/17A358a/"/>
+    
+      <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
     
   </entry>
   
@@ -4209,9 +4209,9 @@ hda-verb是li
     
       <category term="下载" scheme="https://blog.daliansky.net/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-      <category term="DB7" scheme="https://blog.daliansky.net/tags/DB7/"/>
-    
       <category term="镜像" scheme="https://blog.daliansky.net/tags/%E9%95%9C%E5%83%8F/"/>
+    
+      <category term="DB7" scheme="https://blog.daliansky.net/tags/DB7/"/>
     
   </entry>
   
