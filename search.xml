@@ -165,9 +165,9 @@ MD5 (macOS Catalina 10.15.7(19H15) Installer <span class="keyword">for</span> Cl
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.7</tag>
         <tag>19H2</tag>
@@ -188,9 +188,9 @@ MD5 (macOS Catalina 10.15.7(19H2) Installer <span class="keyword">for</span> Clo
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.7</tag>
         <tag>19H2</tag>
@@ -368,9 +368,9 @@ MD5 (macOS Catalina 10.15.7(19H2) Installer <span class="keyword">for</span> Clo
         <category>教程</category>
       </categories>
       <tags>
+        <tag>diskutil</tag>
         <tag>shell</tag>
         <tag>spctl</tag>
-        <tag>diskutil</tag>
         <tag>trimforce</tag>
         <tag>ioreg</tag>
         <tag>EDID</tag>
@@ -444,8 +444,8 @@ MD5 (macOS Monterey 12.5.1 21G83 Installer <span class="keyword">for</span> Open
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>Monterey</tag>
         <tag>dmg</tag>
         <tag>12.5.1</tag>
@@ -462,8 +462,8 @@ MD5 (macOS Monterey 12.5.1 21G83 Installer <span class="keyword">for</span> Open
       </categories>
       <tags>
         <tag>BigSur</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>11.6.6</tag>
@@ -481,8 +481,8 @@ MD5 (macOS Monterey 12.1 21C52 Installer <span class="keyword">for</span> OpenCo
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>Monterey</tag>
         <tag>dmg</tag>
         <tag>12.1</tag>
@@ -516,8 +516,8 @@ MD5 (macOS Monterey 12.0.1 21A559 Installer <span class="keyword">for</span> Ope
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>Monterey</tag>
         <tag>dmg</tag>
         <tag>12.0.1</tag>
@@ -550,8 +550,8 @@ MD5 (macOS Big Sur 11.6 20G165 Installer <span class="keyword">for</span> CLOVER
       </categories>
       <tags>
         <tag>BigSur</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>11.6</tag>
@@ -570,8 +570,8 @@ MD5 (macOS Big Sur 11.5.2 20G95 Installer <span class="keyword">for</span> OpenC
       </categories>
       <tags>
         <tag>BigSur</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>11.5.2</tag>
@@ -594,8 +594,8 @@ MD5 (macOS Big Sur 11.4 20F71 Installer <span class="keyword">for</span> OpenCor
       </categories>
       <tags>
         <tag>BigSur</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>11.4</tag>
@@ -614,8 +614,8 @@ MD5 (macOS Big Sur 11.3.1 20E241 Installer <span class="keyword">for</span> Open
       </categories>
       <tags>
         <tag>BigSur</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>11.3.1</tag>
@@ -634,8 +634,8 @@ MD5 (macOS Big Sur 11.3 20E232 Installer <span class="keyword">for</span> OpenCo
       </categories>
       <tags>
         <tag>BigSur</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>11.3</tag>
@@ -666,8 +666,8 @@ MD5 (macOS Big Sur 11.2.2 20D80 Installer <span class="keyword">for</span> OpenC
       </categories>
       <tags>
         <tag>BigSur</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>11.2.2</tag>
@@ -686,8 +686,8 @@ MD5 (macOS Big Sur 11.2.3 20D91 Installer <span class="keyword">for</span> OpenC
       </categories>
       <tags>
         <tag>BigSur</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>11.2.3</tag>
@@ -706,8 +706,8 @@ MD5 (macOS Big Sur 11.2.1 20D75 Installer <span class="keyword">for</span> CLOVE
       </categories>
       <tags>
         <tag>BigSur</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>11.2</tag>
@@ -730,8 +730,8 @@ MD5 (macOS Big Sur 11.1 20C69 Installer <span class="keyword">for</span> CLOVER 
       </categories>
       <tags>
         <tag>BigSur</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>11.1</tag>
@@ -750,8 +750,8 @@ MD5 (macOS Big Sur 11.1 20C69 Installer <span class="keyword">for</span> CLOVER 
       </categories>
       <tags>
         <tag>BigSur</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>11.1</tag>
@@ -772,8 +772,8 @@ MD5 (macOS Big Sur 11.0.1 20B50 Installer <span class="keyword">for</span> CLOVE
       </categories>
       <tags>
         <tag>BigSur</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>Big Sur</tag>
         <tag>11.0.1</tag>
@@ -793,9 +793,9 @@ MD5 (macOS Catalina 10.15.4(19E287) Installer <span class="keyword">for</span> C
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.4</tag>
         <tag>1.9e+267</tag>
@@ -816,9 +816,9 @@ MD5 (macOS Catalina 10.15.2(19C57) Installer <span class="keyword">for</span> Cl
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.2</tag>
         <tag>19C57</tag>
@@ -837,8 +837,8 @@ MD5 (macOS Catalina 10.15.2(19C57) Installer <span class="keyword">for</span> Cl
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.6</tag>
         <tag>17G2112</tag>
@@ -883,10 +883,10 @@ MD5 (macOS Catalina 10.15.2(19C57) Installer <span class="keyword">for</span> Cl
         <category>镜像</category>
       </categories>
       <tags>
+        <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
-        <tag>下载</tag>
-        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>17A389</tag>
       </tags>
@@ -901,8 +901,8 @@ MD5 (macOS Catalina 10.15.2(19C57) Installer <span class="keyword">for</span> Cl
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.2</tag>
         <tag>17C88</tag>
@@ -920,9 +920,9 @@ MD5 (macOS Mojave 10.14.6(18G103) Installer <span class="keyword">for</span> Int
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Mojave</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Mojave</tag>
         <tag>dmg</tag>
         <tag>10.14.6</tag>
         <tag>18G84</tag>
@@ -943,9 +943,9 @@ MD5 (macOS Mojave 10.14.4(18E226) Installer with Clover 4903.dmg) = ee923768b291
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Mojave</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Mojave</tag>
         <tag>dmg</tag>
         <tag>10.14.4</tag>
         <tag>1.8e+227</tag>
@@ -1011,8 +1011,8 @@ MD5 (macOS Monterey 12.0 Beta7 20A5522h Installer <span class="keyword">for</spa
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>12</tag>
         <tag>Monterey</tag>
         <tag>dmg</tag>
@@ -1046,9 +1046,9 @@ MD5 (macOS Catalina 10.15.7(19H2) Installer <span class="keyword">for</span> Clo
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.7</tag>
         <tag>19H2</tag>
@@ -1080,9 +1080,9 @@ MD5 (macOS Catalina 10.15.6(19G2021) Installer <span class="keyword">for</span> 
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.6</tag>
         <tag>19G73</tag>
@@ -1105,9 +1105,9 @@ MD5 (macOS Catalina 10.15.6(19G2006) Installer <span class="keyword">for</span> 
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.6</tag>
         <tag>19G73</tag>
@@ -1127,9 +1127,9 @@ MD5 (macOS Catalina 10.15.5(19F2200) Installer <span class="keyword">for</span> 
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.5</tag>
         <tag>三EFI分区</tag>
@@ -1149,9 +1149,9 @@ MD5 (macOS Catalina 10.15.5(19F96) Installer <span class="keyword">for</span> Cl
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.5</tag>
         <tag>19F101</tag>
@@ -1169,9 +1169,9 @@ MD5 (macOS Catalina 10.15.5(19F96) Installer <span class="keyword">for</span> Cl
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.5</tag>
         <tag>19F96</tag>
@@ -1189,9 +1189,9 @@ MD5 (macOS Catalina 10.15.4(19E2269) Installer <span class="keyword">for</span> 
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.4</tag>
         <tag>Infinity</tag>
@@ -1226,9 +1226,9 @@ MD5 (macOS Catalina 10.15.3(19D76) Installer <span class="keyword">for</span> Cl
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.3</tag>
         <tag>19D76</tag>
@@ -1247,9 +1247,9 @@ MD5 (macOS Catalina 10.15.1(19B88) Installer <span class="keyword">for</span> Cl
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Catalina</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Catalina</tag>
         <tag>dmg</tag>
         <tag>10.15.1</tag>
         <tag>19B88</tag>
@@ -1268,10 +1268,10 @@ MD5 (macOS Catalina 10.15(19A583) Installer <span class="keyword">for</span> Clo
         <category>镜像</category>
       </categories>
       <tags>
+        <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>Catalina</tag>
         <tag>10.15</tag>
-        <tag>下载</tag>
-        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>19A583</tag>
       </tags>
@@ -1289,9 +1289,9 @@ MD5 (macOS Mojave 10.14.5(18F132) Installer with Clover 4928.dmg) = 371d9145484b
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Mojave</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Mojave</tag>
         <tag>dmg</tag>
         <tag>10.14.5</tag>
         <tag>18F132</tag>
@@ -1310,9 +1310,9 @@ MD5 (macOS Mojave 10.14.3(18D42) Installer with Clover 4859.dmg) = 450c55e5c5d3f
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Mojave</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Mojave</tag>
         <tag>dmg</tag>
         <tag>10.14.3</tag>
         <tag>18D42</tag>
@@ -1356,9 +1356,9 @@ MD5 (macOS Mojave 10.14.2(18C54) Installer with Clover 4792.dmg) = 12e20b7d4257e
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Mojave</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Mojave</tag>
         <tag>dmg</tag>
         <tag>10.14.2</tag>
         <tag>18C54</tag>
@@ -1394,9 +1394,9 @@ MD5 (macOS Mojave 10.14(18A391) Installer with Clover 4674.dmg) = 87928afc8f6d4d
         <category>镜像</category>
       </categories>
       <tags>
-        <tag>Mojave</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
+        <tag>Mojave</tag>
         <tag>dmg</tag>
         <tag>10.14.1</tag>
         <tag>18B75</tag>
@@ -1430,10 +1430,10 @@ MD5 (macOS Mojave 10.14(18A391) Installer with Clover 4674.dmg) = 87928afc8f6d4d
         <category>镜像</category>
       </categories>
       <tags>
+        <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
-        <tag>下载</tag>
-        <tag>镜像</tag>
         <tag>dmg</tag>
         <tag>18A391</tag>
       </tags>
@@ -1477,8 +1477,8 @@ MD5 (macOS Mojave 10.14(18A391) Installer with Clover 4674.dmg) = 87928afc8f6d4d
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.6</tag>
         <tag>17G65</tag>
@@ -1494,8 +1494,8 @@ MD5 (macOS Mojave 10.14(18A391) Installer with Clover 4674.dmg) = 87928afc8f6d4d
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.5</tag>
         <tag>17F77</tag>
@@ -1553,8 +1553,8 @@ MD5 (macOS Mojave 10.14(18A391) Installer with Clover 4674.dmg) = 87928afc8f6d4d
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.4</tag>
         <tag>1.7e+200</tag>
@@ -1626,8 +1626,8 @@ MD5 (macOS Mojave 10.14(18A391) Installer with Clover 4674.dmg) = 87928afc8f6d4d
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.2</tag>
         <tag>17C88</tag>
@@ -1641,8 +1641,8 @@ MD5 (macOS Mojave 10.14(18A391) Installer with Clover 4674.dmg) = 87928afc8f6d4d
         <category>教程</category>
       </categories>
       <tags>
-        <tag>platform-id</tag>
         <tag>接口</tag>
+        <tag>platform-id</tag>
         <tag>显存</tag>
         <tag>显示器</tag>
       </tags>
@@ -1686,10 +1686,10 @@ MD5 (macOS Mojave 10.14(18A391) Installer with Clover 4674.dmg) = 87928afc8f6d4d
       </categories>
       <tags>
         <tag>USB</tag>
-        <tag>diskutil</tag>
         <tag>Ubuntu</tag>
         <tag>Linux</tag>
         <tag>dd</tag>
+        <tag>diskutil</tag>
       </tags>
   </entry>
   <entry>
@@ -1713,8 +1713,8 @@ MD5 (macOS Mojave 10.14(18A391) Installer with Clover 4674.dmg) = 87928afc8f6d4d
       </categories>
       <tags>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>10.13.1</tag>
         <tag>17B48</tag>
@@ -1804,8 +1804,8 @@ MD5 (macOS Mojave 10.14(18A391) Installer with Clover 4674.dmg) = 87928afc8f6d4d
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
         <tag>17A405</tag>
       </tags>
@@ -1838,8 +1838,8 @@ MD5 (macOS Mojave 10.14(18A391) Installer with Clover 4674.dmg) = 87928afc8f6d4d
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>dmg</tag>
       </tags>
   </entry>
@@ -1899,8 +1899,8 @@ MD5 (macOS Mojave 10.14(18A391) Installer with Clover 4674.dmg) = 87928afc8f6d4d
         <category>教程</category>
       </categories>
       <tags>
-        <tag>常见问题</tag>
         <tag>Lilu</tag>
+        <tag>常见问题</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
@@ -1940,8 +1940,8 @@ MD5 (macOS Mojave 10.14(18A391) Installer with Clover 4674.dmg) = 87928afc8f6d4d
       <tags>
         <tag>10.13</tag>
         <tag>High Sierra</tag>
-        <tag>下载</tag>
         <tag>镜像</tag>
+        <tag>下载</tag>
         <tag>DB9</tag>
         <tag>17A360a</tag>
         <tag>dmg</tag>
@@ -1955,13 +1955,13 @@ MD5 (macOS Mojave 10.14(18A391) Installer with Clover 4674.dmg) = 87928afc8f6d4d
         <tag>10.13</tag>
         <tag>Sierra</tag>
         <tag>High Sierra</tag>
+        <tag>下载</tag>
         <tag>10.12.6</tag>
         <tag>Mojave</tag>
         <tag>10.14</tag>
         <tag>Catalina</tag>
         <tag>10.15</tag>
         <tag>Download</tag>
-        <tag>下载</tag>
       </tags>
   </entry>
   <entry>
@@ -1989,10 +1989,10 @@ MD5 (macOS Mojave 10.14(18A391) Installer with Clover 4674.dmg) = 87928afc8f6d4d
       </categories>
       <tags>
         <tag>10.13</tag>
+        <tag>镜像</tag>
         <tag>下载</tag>
         <tag>DB8</tag>
         <tag>17A358a</tag>
-        <tag>镜像</tag>
       </tags>
   </entry>
   <entry>
@@ -2018,9 +2018,9 @@ MD5 (macOS Mojave 10.14(18A391) Installer with Clover 4674.dmg) = 87928afc8f6d4d
       </categories>
       <tags>
         <tag>10.13</tag>
-        <tag>下载</tag>
-        <tag>镜像</tag>
         <tag>DB7</tag>
+        <tag>镜像</tag>
+        <tag>下载</tag>
       </tags>
   </entry>
   <entry>
@@ -2060,8 +2060,8 @@ MD5 (macOS Mojave 10.14(18A391) Installer with Clover 4674.dmg) = 87928afc8f6d4d
       <tags>
         <tag>安装</tag>
         <tag>Sierra</tag>
-        <tag>10.12.6</tag>
         <tag>镜像</tag>
+        <tag>10.12.6</tag>
         <tag>dmg</tag>
       </tags>
   </entry>
