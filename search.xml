@@ -9,9 +9,9 @@
       </categories>
       <tags>
         <tag>安装</tag>
-        <tag>教程</tag>
         <tag>macOS</tag>
         <tag>Sequoia</tag>
+        <tag>教程</tag>
         <tag>FN60G</tag>
         <tag>FA880</tag>
         <tag>FEVM</tag>
@@ -145,8 +145,8 @@
       </categories>
       <tags>
         <tag>安装</tag>
-        <tag>教程</tag>
         <tag>macOS</tag>
+        <tag>教程</tag>
         <tag>Ventura</tag>
         <tag>HX80G</tag>
         <tag>HX90G</tag>
@@ -293,8 +293,8 @@ MD5 (macOS Catalina 10.15.7(19H2) Installer <span class="keyword">for</span> Clo
       </categories>
       <tags>
         <tag>安装</tag>
-        <tag>教程</tag>
         <tag>macOS</tag>
+        <tag>教程</tag>
         <tag>联想</tag>
         <tag>小新Pro</tag>
         <tag>PRO 13 2019 IML</tag>
@@ -368,9 +368,9 @@ MD5 (macOS Catalina 10.15.7(19H2) Installer <span class="keyword">for</span> Clo
         <category>教程</category>
       </categories>
       <tags>
-        <tag>diskutil</tag>
         <tag>shell</tag>
         <tag>spctl</tag>
+        <tag>diskutil</tag>
         <tag>trimforce</tag>
         <tag>ioreg</tag>
         <tag>EDID</tag>
@@ -426,8 +426,8 @@ MD5 (macOS Catalina 10.15.7(19H2) Installer <span class="keyword">for</span> Clo
       </categories>
       <tags>
         <tag>安装</tag>
-        <tag>教程</tag>
         <tag>macOS</tag>
+        <tag>教程</tag>
         <tag>Sonoma</tag>
         <tag>NUC</tag>
         <tag>INTEL</tag>
@@ -498,8 +498,8 @@ MD5 (macOS Monterey 12.1 21C52 Installer <span class="keyword">for</span> OpenCo
       </categories>
       <tags>
         <tag>安装</tag>
-        <tag>教程</tag>
         <tag>macOS</tag>
+        <tag>教程</tag>
         <tag>Monterey</tag>
         <tag>S500</tag>
         <tag>morefine</tag>
@@ -853,8 +853,8 @@ MD5 (macOS Catalina 10.15.2(19C57) Installer <span class="keyword">for</span> Cl
       </categories>
       <tags>
         <tag>安装</tag>
-        <tag>教程</tag>
         <tag>macOS</tag>
+        <tag>教程</tag>
         <tag>联想</tag>
         <tag>小新air</tag>
         <tag>2018</tag>
@@ -993,8 +993,8 @@ MD5 (macOS Mojave 10.14.4(18E226) Installer with Clover 4903.dmg) = ee923768b291
       </categories>
       <tags>
         <tag>安装</tag>
-        <tag>教程</tag>
         <tag>macOS</tag>
+        <tag>教程</tag>
         <tag>Sonoma</tag>
         <tag>NUC</tag>
         <tag>INTEL</tag>
@@ -1029,8 +1029,8 @@ MD5 (macOS Monterey 12.0 Beta7 20A5522h Installer <span class="keyword">for</spa
       <tags>
         <tag>BigSur</tag>
         <tag>安装</tag>
-        <tag>教程</tag>
         <tag>macOS</tag>
+        <tag>教程</tag>
         <tag>天逸510s Mini</tag>
         <tag>联想</tag>
       </tags>
@@ -1656,8 +1656,8 @@ MD5 (macOS Mojave 10.14(18A391) Installer with Clover 4674.dmg) = 87928afc8f6d4d
       </categories>
       <tags>
         <tag>安装</tag>
-        <tag>教程</tag>
         <tag>macOS</tag>
+        <tag>教程</tag>
         <tag>小米Pro</tag>
         <tag>XiaoMi-Pro</tag>
         <tag>XiaoMiPro</tag>
@@ -1686,10 +1686,10 @@ MD5 (macOS Mojave 10.14(18A391) Installer with Clover 4674.dmg) = 87928afc8f6d4d
       </categories>
       <tags>
         <tag>USB</tag>
+        <tag>diskutil</tag>
         <tag>Ubuntu</tag>
         <tag>Linux</tag>
         <tag>dd</tag>
-        <tag>diskutil</tag>
       </tags>
   </entry>
   <entry>
@@ -1899,8 +1899,8 @@ MD5 (macOS Mojave 10.14(18A391) Installer with Clover 4674.dmg) = 87928afc8f6d4d
         <category>教程</category>
       </categories>
       <tags>
-        <tag>Lilu</tag>
         <tag>常见问题</tag>
+        <tag>Lilu</tag>
         <tag>10.12</tag>
         <tag>10.13</tag>
         <tag>Sierra</tag>
@@ -1990,9 +1990,9 @@ MD5 (macOS Mojave 10.14(18A391) Installer with Clover 4674.dmg) = 87928afc8f6d4d
       <tags>
         <tag>10.13</tag>
         <tag>下载</tag>
-        <tag>镜像</tag>
         <tag>DB8</tag>
         <tag>17A358a</tag>
+        <tag>镜像</tag>
       </tags>
   </entry>
   <entry>
@@ -2019,8 +2019,8 @@ MD5 (macOS Mojave 10.14(18A391) Installer with Clover 4674.dmg) = 87928afc8f6d4d
       <tags>
         <tag>10.13</tag>
         <tag>下载</tag>
-        <tag>DB7</tag>
         <tag>镜像</tag>
+        <tag>DB7</tag>
       </tags>
   </entry>
   <entry>
