@@ -1,0 +1,384 @@
+<!DOCTYPE html><html class="theme-next muse use-motion" lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2"><meta name="theme-color" content="#222"><script src="//fastly.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><link href="/lib/pace/pace-theme-corner-indicator.min.css?v=1.0.2" rel="stylesheet"><meta name="google-site-verification" content="sDeZZSmv4NPbU3sXi1IL5l8PiZt1wVqR5EKUsxOjruY"><link href="https://fastly.jsdelivr.net/npm/@fancyapps/fancybox@3.2.5/dist/jquery.fancybox.min.css" rel="stylesheet" type="text/css"><link href="//fonts.googleapis.com/css?family=Noto Serif SC:300,300italic,400,400italic,700,700italic|Noto Serif SC:300,300italic,400,400italic,700,700italic|Roboto Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css"><link href="//fastly.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"><link href="/css/main.css?v=6.6.0" rel="stylesheet" type="text/css"><link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.6.0"><link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png?v=6.6.0"><link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png?v=6.6.0"><link rel="mask-icon" href="/images/logo.svg?v=6.6.0" color="#222"><script id="hexo.configurations">var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '6.6.0',
+    sidebar: {"position":"left","display":"hide","offset":12,"b2t":false,"scrollpercent":true,"onmobile":true},
+    fancybox: true,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };</script><meta name="description" content="NullMoth 驱动安装全攻略：从零到 NVIDIA 卡 macOS 完整教程上一篇《NVIDIA 显卡终于等到这一天！》发布后，评论区被同一个问题刷屏了——&quot;装不上，怎么搞？&quot;别慌。这篇就是给你准备的。我会把安装分成两条路，你哪条适合，就看哪条。 先搞清楚两个概念在动手之前，先区分清楚两个东西，很多人就在这里迷路：1401 应用（GUI 工具）Windows 版：帮你从零"><meta property="og:type" content="article"><meta property="og:title" content="NullMoth 驱动安装全攻略：从零到 NVIDIA 卡 macOS 完整教程"><meta property="og:url" content="https://blog.daliansky.net/NullMoth-NVIDIA-Drivers-Installation-Tutorial.html"><meta property="og:site_name" content="黑果小兵的部落阁"><meta property="og:description" content="NullMoth 驱动安装全攻略：从零到 NVIDIA 卡 macOS 完整教程上一篇《NVIDIA 显卡终于等到这一天！》发布后，评论区被同一个问题刷屏了——&quot;装不上，怎么搞？&quot;别慌。这篇就是给你准备的。我会把安装分成两条路，你哪条适合，就看哪条。 先搞清楚两个概念在动手之前，先区分清楚两个东西，很多人就在这里迷路：1401 应用（GUI 工具）Windows 版：帮你从零"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="https://images.daliansky.net/DalianSky/blog/NVIDIA/assets/tutorial/Z890_Ultra_265K_RTX3060.png"><meta property="article:published_time" content="2024-09-18T07:00:00.000Z"><meta property="article:modified_time" content="2026-10-16T01:17:56.835Z"><meta property="article:author" content="黑果小兵"><meta property="article:tag" content="安装"><meta property="article:tag" content="macOS"><meta property="article:tag" content="Sequoia"><meta property="article:tag" content="教程"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://images.daliansky.net/DalianSky/blog/NVIDIA/assets/tutorial/Z890_Ultra_265K_RTX3060.png"><link rel="alternate" href="/atom.xml" title="黑果小兵的部落阁" type="application/atom+xml"><link rel="canonical" href="https://blog.daliansky.net/NullMoth-NVIDIA-Drivers-Installation-Tutorial.html"><script id="page.configurations">CONFIG.page = {
+    sidebar: "",
+  };</script><title>NullMoth 驱动安装全攻略：从零到 NVIDIA 卡 macOS 完整教程 | 黑果小兵的部落阁</title><noscript><style>.use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion .logo-line-before i { left: initial; }
+    .use-motion .logo-line-after i { right: initial; }</style></noscript><meta name="generator" content="Hexo 4.2.1"></head><body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN"><div class="container sidebar-position-left page-post-detail"><div class="headband"></div><header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="header-inner"><div class="site-brand-wrapper"><div class="site-meta"><div class="custom-logo-site-title"><a href="/" class="brand" rel="start"><span class="logo-line-before"><i></i></span> <span class="site-title">黑果小兵的部落阁</span> <span class="logo-line-after"><i></i></span></a></div><p class="site-subtitle">Hackintosh安装镜像、教程及经验分享</p></div><div class="site-nav-toggle"><button aria-label="切换导航栏"><span class="btn-bar"></span> <span class="btn-bar"></span> <span class="btn-bar"></span></button></div></div><nav class="site-nav"><ul id="menu" class="menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i><br>首页</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i><br>归档</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i><br>分类</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i><br>标签</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i><br>关于</a></li><li class="menu-item menu-item-search"><a href="javascript:;" class="popup-trigger"><i class="menu-item-icon fa fa-search fa-fw"></i><br>搜索</a></li></ul><div class="site-search"><div class="popup search-popup local-search-popup"><div class="local-search-header clearfix"><span class="search-icon"><i class="fa fa-search"></i> </span><span class="popup-btn-close"><i class="fa fa-times-circle"></i></span><div class="local-search-input-wrapper"><input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input"></div></div><div id="local-search-result"></div></div></div></nav></div></header><a href="https://github.com/daliansky" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" style="fill: #222; color: #fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><main id="main" class="main"><div class="main-inner"><div class="content-wrap"><div id="content" class="content"><div id="posts" class="posts-expand"><div class="reading-progress-bar"></div><article class="post post-type-normal" itemscope itemtype="http://schema.org/Article"><div class="post-block"><link itemprop="mainEntityOfPage" href="https://blog.daliansky.net/NullMoth-NVIDIA-Drivers-Installation-Tutorial.html"><span hidden itemprop="author" itemscope itemtype="http://schema.org/Person"><meta itemprop="name" content="黑果小兵"><meta itemprop="description" content="黑果小兵,daliansky,blog.daliansky.net,macOS,Hackintosh,黑苹果,linux"><meta itemprop="image" content="/images/avatar.png"></span><span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><meta itemprop="name" content="黑果小兵的部落阁"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">NullMoth 驱动安装全攻略：从零到 NVIDIA 卡 macOS 完整教程</h1><div class="post-meta"><span class="post-time"><span class="post-meta-item-icon"><i class="fa fa-calendar-o"></i> </span><time title="创建时间：2024-09-18 15:00:00" itemprop="dateCreated datePublished" datetime="2024-09-18T15:00:00+08:00">2024-09-18</time> <span class="post-meta-divider">|</span> <span class="post-meta-item-icon"><i class="fa fa-calendar-check-o"></i> </span><time title="修改时间：2026-10-16 09:17:56" itemprop="dateModified" datetime="2026-10-16T09:17:56+08:00">2026-10-16</time> </span><span class="post-category"><span class="post-meta-divider">|</span> <span class="post-meta-item-icon"><i class="fa fa-folder-o"></i> </span><span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/%E6%95%99%E7%A8%8B/" itemprop="url" rel="index"><span itemprop="name">教程</span></a></span> </span><span class="post-meta-divider">|</span> <span class="post-meta-item-icon" title="阅读次数"><i class="fa fa-eye"></i> <span class="busuanzi-value" id="busuanzi_value_page_pv"></span></span><div class="post-symbolscount"><span class="post-meta-item-icon"><i class="fa fa-file-word-o"></i> </span><span title="本文字数">6.4k</span> <span class="post-meta-divider">|</span> <span class="post-meta-item-icon"><i class="fa fa-clock-o"></i> </span><span title="阅读时长">12 分钟</span></div></div></header><div class="post-body" itemprop="articleBody"><div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery"><div class="post-gallery-row"><a class="post-gallery-img fancybox" href="https://images.daliansky.net/DalianSky/blog/NVIDIA/assets/tutorial/Z890_Ultra_265K_RTX3060.png" rel="gallery_cmvaakdz9001lii44bzrqdfv3" itemscope itemtype="http://schema.org/ImageObject" itemprop="url"><img src="https://images.daliansky.net/DalianSky/blog/NVIDIA/assets/tutorial/Z890_Ultra_265K_RTX3060.png" itemprop="contentUrl"></a></div></div><div><div><div class="post-gallery"></div></div></div><h1 id="nullmoth-驱动安装全攻略从零到-nvidia-卡-macos-完整教程"><a class="markdownIt-Anchor" href="#nullmoth-驱动安装全攻略从零到-nvidia-卡-macos-完整教程"></a> NullMoth 驱动安装全攻略：从零到 NVIDIA 卡 macOS 完整教程</h1><p><img src="https://images.daliansky.net/DalianSky/blog/NVIDIA/assets/tutorial/guide-homepage.png" alt="1401 安装指南封面"></p><p>上一篇《NVIDIA 显卡终于等到这一天！》发布后，评论区被同一个问题刷屏了——</p><blockquote><p><strong>&quot;装不上，怎么搞？&quot;</strong></p></blockquote><p>别慌。这篇就是给你准备的。我会把安装分成两条路，你哪条适合，就看哪条。</p><hr><h2 id="先搞清楚两个概念"><a class="markdownIt-Anchor" href="#先搞清楚两个概念"></a> 先搞清楚两个概念</h2><p>在动手之前，先区分清楚两个东西，很多人就在这里迷路：</p><p><strong>1401 应用（GUI 工具）</strong></p><ul><li>Windows 版：帮你从零制作 macOS 安装 U 盘 + 生成 EFI，一条龙</li><li>Mac 版：帮你安装驱动 + 管理 OpenCore 配置，点几下就完事</li><li>特点：<strong>可视化、有回退机制、出错会提示</strong>，推荐新手用</li></ul><p><strong>源码 / tar.gz 包（手动安装）</strong></p><ul><li>从 GitHub 下载 <code>nullmoth-nvidia-*.tar.gz</code>，解压后运行 <code>install.sh</code></li><li>特点：<strong>干净、可控、适合老手</strong>，但你需要自己处理 EFI 和 OpenCore 配置</li></ul><p>两者都能装好驱动，区别在于：</p><blockquote><p><strong>1401 帮你造轮子，源码让你自己拧螺丝。</strong></p></blockquote><hr><h2 id="安装前检查清单"><a class="markdownIt-Anchor" href="#安装前检查清单"></a> 安装前检查清单</h2><p>不管走哪条路，以下四样东西必须先准备好：</p><table><thead><tr><th>条件</th><th>说明</th></tr></thead><tbody><tr><td>🖥️ <strong>兼容显卡</strong></td><td>GTX 16 系列及以上（RTX 20/30/40/50 均可），<strong>GTX 10 及以下不支持</strong></td></tr><tr><td>🌐 <strong>有线网络</strong></td><td>必须有网线或兼容的 Wi-Fi 卡（Intel 网卡可硬编码 SSID/密码），仅靠无线且网卡不兼容会装不上</td></tr><tr><td>⏰ <strong>时间预留</strong></td><td>黑苹果+驱动安装，新手预留 2-4 小时，正常 30-60 分钟</td></tr><tr><td>💾 <strong>4GB+ U 盘</strong></td><td>用于制作安装盘，数据会全部清空</td></tr></tbody></table><blockquote><p>⚠️ <strong>笔记本注意</strong>：没有 MUX 独显直出的笔记本，内置屏幕大概率无法点亮，需外接显示器使用。</p></blockquote><hr><h2 id="路线一从零开始电脑上没有-macos"><a class="markdownIt-Anchor" href="#路线一从零开始电脑上没有-macos"></a> 路线一：从零开始——电脑上没有 macOS</h2><h3 id="第一步用-1401-windows-版制作安装-u-盘"><a class="markdownIt-Anchor" href="#第一步用-1401-windows-版制作安装-u-盘"></a> 第一步：用 1401 Windows 版制作安装 U 盘</h3><p>这是最省心的方式，<strong>1401 会自动为你生成适配你主板的 EFI</strong>。</p><p><strong>① 下载 1401 Windows 应用</strong></p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:<span class="regexp">//gi</span>thub.com<span class="regexp">/nullmoth/</span><span class="number">1401</span><span class="regexp">/releases/</span>download<span class="regexp">/v2.0.3/</span><span class="number">1401</span>-Windows-<span class="number">2.0</span>.<span class="number">3</span>.zip</span><br></pre></td></tr></table></figure><p>解压后<strong>保持文件夹完整</strong>，不要拆分文件。</p><p><strong>② 运行 1401.exe，点击&quot;Check this PC&quot;</strong></p><p>程序会扫描你的硬件，告诉你哪些设备兼容、哪些需要注意。重点关注：</p><ul><li><strong>网卡型号</strong>（Realtek 和 Intel Wi-Fi 有 kext 支持）</li><li><strong>主板芯片组</strong>（影响 EFI 配置）</li></ul><p><img src="https://images.daliansky.net/DalianSky/blog/NVIDIA/assets/tutorial/check-pc.png" alt="1401 扫描硬件结果"><br><em>1401 扫描你的电脑硬件，确认兼容性</em></p><p><strong>③ 确认无误后，点击&quot;Build&quot;</strong></p><p>程序会提示你插入 U 盘，然后自动写入 macOS 安装文件和生成的 EFI。<strong>此过程会清空 U 盘，请确认选对了设备。</strong></p><p><strong>④ BIOS 设置（重要！）</strong></p><p>Build 完成后，1401 会弹出你的主板需要的 BIOS 修改项，<strong>务必逐条照做</strong>，否则无法启动。常见设置包括：</p><ul><li>关闭 Secure Boot</li><li>开启 Above 4K Decoding</li><li>开启 Resizable BAR</li><li>关闭 CSM（台式机；部分笔记本需保持开启，否则屏幕花屏）</li><li>设置 iGPU 为次要显卡（如果有核显）</li></ul><p><strong>⑤ 从 U 盘启动，安装 macOS</strong></p><p>重启电脑，进入 BIOS 启动菜单（通常是 F11/F12/Esc），选择 U 盘的 UEFI 启动项。</p><p><img src="https://images.daliansky.net/DalianSky/blog/NVIDIA/assets/tutorial/boot.png" alt="UEFI 启动菜单"><br><em>按启动菜单键进入 UEFI 启动选择</em></p><p>进入 OpenCore 启动选择器后，选择 <code>1401 (external) (DMG)</code>，进入 macOS 恢复环境。</p><p><img src="https://images.daliansky.net/DalianSky/blog/NVIDIA/assets/tutorial/recovery.png" alt="macOS 恢复界面">/<br><em>OpenCore 启动选择器 → 进入 macOS 恢复环境</em></p><p><strong>安装流程：</strong></p><ol><li>打开<strong>磁盘工具</strong> → 查看顶部&quot;显示&quot;→ 选择&quot;显示所有设备&quot;→ 格式化目标盘为 <strong>APFS</strong></li><li>返回恢复主页，选择<strong>安装 macOS</strong></li><li>联网（务必确保网络畅通，可以 <code>ping 1.1.1.1</code> 测试）</li><li>等待安装完成，期间会重启多次，<strong>每次重启都要从 U 盘启动</strong>，选择你的硬盘继续安装</li></ol><p><img src="https://images.daliansky.net/DalianSky/blog/NVIDIA/assets/tutorial/installing.png" alt="macOS 安装进度"><br><em>macOS 安装过程（实际耗时约 20-30 分钟，估算时间仅供参考)</em></p><p>安装完成后，你会进入 macOS 的初始化设置界面（OOBE），一路点过去就行。此时屏幕可能比较卡顿、没有图形加速，这是正常的——<strong>驱动还没装</strong>。</p><h3 id="第二步安装-nullmoth-驱动"><a class="markdownIt-Anchor" href="#第二步安装-nullmoth-驱动"></a> 第二步：安装 NullMoth 驱动</h3><p>macOS 装好后，有两种方式安装驱动。</p><h4 id="方式-a用-1401-mac-应用安装推荐"><a class="markdownIt-Anchor" href="#方式-a用-1401-mac-应用安装推荐"></a> 方式 A：用 1401 Mac 应用安装（推荐）</h4><p><strong>① 下载 1401 Mac 应用</strong></p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:<span class="regexp">//gi</span>thub.com<span class="regexp">/nullmoth/</span>nvidia-macos-driver<span class="regexp">/releases/</span>download<span class="regexp">/v2.0.3/</span><span class="number">1401</span>-Mac-<span class="number">2.0</span>.<span class="number">3</span>.dmg</span><br></pre></td></tr></table></figure><p><strong>② 挂载 DMG，拖入&quot;应用程序&quot;文件夹</strong></p><p>macOS 可能会拦你一下，提示&quot;无法验证开发者&quot;。别怕：</p><blockquote><p>系统设置 → 隐私与安全性 → 滚到底部 → 点击&quot;仍要打开&quot;→ 输入密码确认</p></blockquote><p><strong>③ 打开 1401，点击&quot;Update&quot;</strong></p><p>应用会自动下载驱动、安装到系统、并配置 EFI。<strong>整个过程无需手动操作。</strong></p><p><img src="https://images.daliansky.net/DalianSky/blog/NVIDIA/assets/tutorial/1401-mac-app.png" alt="1401 Mac 应用界面"><br><em>1401 Mac 应用：点击 Update 自动完成驱动安装</em></p><p>如果 EFI 写入失败，可能需要手动挂载 EFI 分区：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">diskutil list</span><br><span class="line">sudo diskutil mount disk0s2   <span class="comment"># 替换为你的 EFI 分区编号</span></span><br></pre></td></tr></table></figure><p>然后从 U 盘的 <code>/Nullmoth</code> 文件夹里把 EFI 目录复制到内部 EFI 分区，再运行驱动安装。</p><p><strong>④ 安装完成后重启</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo shutdown -r now</span><br></pre></td></tr></table></figure><p>首次进入系统，屏幕可能会闪烁几分钟，等待即可。如果登录后仍然闪烁：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo killall WindowServer -9</span><br></pre></td></tr></table></figure><p>然后重新登录。</p><hr><h4 id="方式-b手动-targz-安装适合高级用户"><a class="markdownIt-Anchor" href="#方式-b手动-targz-安装适合高级用户"></a> 方式 B：手动 tar.gz 安装（适合高级用户）</h4><p>如果你不想用 1401 Mac 应用，或者应用安装失败，可以走手动路线。</p><p><strong>① 下载驱动包</strong></p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:<span class="regexp">//gi</span>thub.com<span class="regexp">/nullmoth/</span>nvidia-macos-driver<span class="regexp">/releases/</span>download<span class="regexp">/v2.0.3/</span>nullmoth-nvidia-<span class="number">2.0</span>.<span class="number">3</span>.tar.gz</span><br></pre></td></tr></table></figure><p><strong>② 解压并验证完整性</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">tar -xzf nullmoth-nvidia-2.0.3.tar.gz</span><br><span class="line"><span class="built_in">cd</span> pkgroot</span><br><span class="line">shasum -a 256 -c SHA256SUMS</span><br></pre></td></tr></table></figure><p>确保每行都显示 <code>OK</code>。如果校验失败，重新下载。</p><p><strong>③ 执行安装</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo ./install.sh</span><br></pre></td></tr></table></figure><p>安装过程会自动备份现有驱动、安装新驱动、重建内核集合。完成后会提示：</p><blockquote><p><code>Done. Reboot now: sudo shutdown -r now</code></p></blockquote><p><strong>④ 首次启动后的设置</strong></p><p>重启后，去 <strong>系统设置 → 隐私与安全性</strong>，找到&quot;允许从以下位置下载的应用&quot;，点击&quot;仍要打开&quot;，允许 NullMoth 扩展。</p><p>然后再次重启：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo shutdown -r now</span><br></pre></td></tr></table></figure><hr><h4 id="方式-c已有-opencore-efi手动调整配置"><a class="markdownIt-Anchor" href="#方式-c已有-opencore-efi手动调整配置"></a> 方式 C：已有 OpenCore EFI，手动调整配置</h4><p>如果你自己维护 EFI，需要先运行 <code>install.sh</code> 安装驱动本体，然后<strong>只配置 OpenCore 的参数</strong>。</p><p><strong>⚠️ 重要：不要把 4 个 kext 扔进 <code>EFI/OC/Kexts/</code>！</strong></p><p>官方明确说明：驱动文件通过 <code>install.sh</code> 安装到 <code>/Library/Extensions</code>，并由 Auxiliary Kernel Collection 加载。<strong>OpenCore 只管&quot;开门&quot;（设置参数），不管&quot;家私&quot;（不放 kext）。</strong> 把 kext 同时放进 EFI 注入反而会导致冲突。</p><p><strong>第一步：运行 <a href="http://install.sh" target="_blank" rel="noopener">install.sh</a> 安装驱动本体</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">tar -xzf nullmoth-nvidia-2.0.3.tar.gz &amp;&amp; <span class="built_in">cd</span> pkgroot</span><br><span class="line">shasum -a 256 -c SHA256SUMS   <span class="comment"># 确认每行都是 OK</span></span><br><span class="line">sudo ./install.sh              <span class="comment"># 复制 kext + Metal plugin + GPU固件，重建 Auxiliary KC</span></span><br><span class="line">sudo shutdown -r now</span><br></pre></td></tr></table></figure><p><strong>第二步：配置 OpenCore <code>config.plist</code></strong></p><p>只需在 <code>config.plist</code> 中设置以下几项，其余不动：</p><p><strong>NVRAM → Add → <code>7C436110-AB2A-4BBB-A880-FE41995C9F82</code></strong></p><table><thead><tr><th>键</th><th>值</th><th>作用</th></tr></thead><tbody><tr><td><code>boot-args</code></td><td><code>nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0</code></td><td>启用帧缓冲 + Metal 加速，允许 WindowServer 加载未签名 bundle</td></tr><tr><td><code>csr-active-config</code></td><td><code>&lt;430A0000&gt;</code> (类型：Data)</td><td>允许未签名 kext 加载</td></tr></tbody></table><p><strong>Misc → Security → SecureBootModel</strong><br>→ 设为 <code>Disabled</code>（Apple Secure Boot 会拒绝非 Apple 签名的 kext）</p><p><strong>Kernel → Block</strong><br>→ 添加 <code>com.apple.iokit.IONDRVSupport</code>，策略选 <code>Exclude</code>（防止固件帧缓冲抢走显示索引 0）</p><p><strong>Kernel → Add（确保已存在）</strong><br>→ <code>Lilu.kext</code> 和 <code>AMFIPass.kext</code> 必须启用（AMFIPass 绕过公证检查，让未签名 kext 能加载）</p><p><strong>UEFI → Quirks</strong><br>→ <code>ResizeAppleGpuBars</code> 保持原值（不要强制改 0，会让固件无法初始化显卡）<br>→ <code>ResizeGpuBars</code> 保持原值（推荐 <code>-1</code>，保留固件原始大小）</p><p><strong>第三步：验证</strong></p><p>重启后在终端运行：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 确认 4 个 kext 已加载</span></span><br><span class="line">kmutil showloaded --list-only | grep nullmoth</span><br><span class="line"><span class="comment"># 预期输出 4 行：com.nullmoth.NVRM / NVAccel / NVRMFB / NVRMAGDC</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 确认显卡被识别 + Metal 可用</span></span><br><span class="line">system_profiler SPDisplaysDataType | head -20</span><br><span class="line"><span class="comment"># 应该看到你的 GeForce 型号，且标注 Metal: supported</span></span><br></pre></td></tr></table></figure><hr><h2 id="路线二已有-macos只换-nvidia-显卡"><a class="markdownIt-Anchor" href="#路线二已有-macos只换-nvidia-显卡"></a> 路线二：已有 macOS，只换 NVIDIA 显卡</h2><p>这条路简单得多，你只需要<strong>安装驱动 + 调整 OpenCore 配置</strong>两步。</p><h3 id="第一步硬件更换"><a class="markdownIt-Anchor" href="#第一步硬件更换"></a> 第一步：硬件更换</h3><p>关机，拔掉旧显卡，装上 NVIDIA 显卡（GTX 16 系列及以上）。确保供电线接好。</p><h3 id="第二步安装驱动"><a class="markdownIt-Anchor" href="#第二步安装驱动"></a> 第二步：安装驱动</h3><p>两种方式，任选其一：</p><h4 id="方式-a1401-mac-应用最简单"><a class="markdownIt-Anchor" href="#方式-a1401-mac-应用最简单"></a> 方式 A：1401 Mac 应用（最简单）</h4><p>按照&quot;路线一·第二步·方式 A&quot;的操作，下载 1401 Mac 应用，打开后点击&quot;Update&quot;，它会自动完成驱动安装和 EFI 配置。</p><h4 id="方式-b手动-targz-安装"><a class="markdownIt-Anchor" href="#方式-b手动-targz-安装"></a> 方式 B：手动 tar.gz 安装</h4><p>按照&quot;路线一·第二步·方式 B&quot;的操作，下载 tar.gz，验证后执行 <code>sudo ./install.sh</code>。</p><h3 id="第三步检查-opencore-配置"><a class="markdownIt-Anchor" href="#第三步检查-opencore-配置"></a> 第三步：检查 OpenCore 配置</h3><p>如果你用的是自己维护的 EFI，需要确认以下配置正确（与&quot;方式 C&quot;一致）：</p><p><strong>1. NVRAM 参数</strong><br>在 <code>NVRAM → Add → 7C436110-AB2A-4BBB-A880-FE41995C9F82</code> 下设置：</p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">boot-args = <span class="attribute">nvfb</span>=1 <span class="attribute">nvaccel</span>=1 <span class="attribute">nvfbheads</span>=4 -nvkmsnosmooth <span class="attribute">amfi_get_out_of_my_way</span>=0x1 <span class="attribute">amfi</span>=0x80 <span class="attribute">ipc_control_port_options</span>=0</span><br><span class="line">csr-active-config = &lt;430A0000&gt;   (类型选 Data)</span><br></pre></td></tr></table></figure><p><strong>2. Security</strong></p><ul><li><code>Misc → Security → SecureBootModel</code> → <code>Disabled</code></li></ul><p><strong>3. Kernel → Block</strong><br>添加 <code>com.apple.iokit.IONDRVSupport</code>，策略选 <code>Exclude</code></p><p><strong>4. Kernel → Add</strong><br>确保 <code>Lilu.kext</code> 和 <code>AMFIPass.kext</code> 已启用</p><p><strong>5. AMD 主板额外设置</strong><br>如果你的主板是 AMD AM4/AM5，需要在 <code>PlatformInfo → Generic</code> 中添加：</p><figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">UpdateDataHub</span> = <span class="literal">true</span></span><br><span class="line"><span class="attr">UpdateNVRAM</span> = <span class="literal">true</span></span><br><span class="line"><span class="attr">UpdateSMBIOS</span> = <span class="literal">true</span></span><br><span class="line"><span class="attr">UpdateSMBIOSMode</span> = Create</span><br></pre></td></tr></table></figure><p>并在 <code>KernelAndKextPatches → KernelPatcher</code> 中设置 <code>DisableVariableWrite = true</code>。</p><p><strong>6. 网卡</strong><br>如果是 Intel 网卡，确保 <code>itlwm.kext</code> 在 EFI 的 <code>Kexts</code> 目录下并已加载。</p><h3 id="第四步重启验证"><a class="markdownIt-Anchor" href="#第四步重启验证"></a> 第四步：重启验证</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo shutdown -r now</span><br></pre></td></tr></table></figure><p>启动后，打开 <strong>关于本机 → 系统报告 → 图形/显示器</strong>，确认你的 NVIDIA 显卡已被识别。</p><p>也可以在终端运行：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">system_profiler SPDisplaysDataType</span><br></pre></td></tr></table></figure><p>看到你的 RTX 卡名，就说明驱动装成功了。</p><hr><h2 id="常见问题速查"><a class="markdownIt-Anchor" href="#常见问题速查"></a> 常见问题速查</h2><table><thead><tr><th>问题</th><th>解决方案</th></tr></thead><tbody><tr><td>安装完驱动后桌面闪烁</td><td>运行 <code>sudo killall WindowServer -9</code>，然后重新登录</td></tr><tr><td>系统提示&quot;无法验证开发者&quot;</td><td>系统设置 → 隐私与安全性 → 仍要打开</td></tr><tr><td>驱动安装后无法启动</td><td>从 OpenCore 启动选择器选择回退项，或检查 BIOS 设置</td></tr><tr><td>没有网络无法下载 macOS</td><td>用网线，或 Android 手机 USB 共享网络（HoRNDIS），或提前用 gibMacOS 下载离线安装包</td></tr><tr><td>笔记本内置屏幕不亮</td><td>外接显示器，或检查 BIOS 是否支持 MUX 切换</td></tr><tr><td>Geekbench/鲁大师跑分异常</td><td>部分benchmark软件不被支持，属正常现象</td></tr><tr><td>WebGL/Netflix 无法播放</td><td>当前驱动不支持 DRM 和 WebGL，属已知限制</td></tr><tr><td>想卸载驱动</td><td><code>sudo ./uninstall.sh /Library/NullMoth/backup-*</code>（路径随安装时的备份目录变化）</td></tr></tbody></table><hr><h2 id="已知限制一定要看"><a class="markdownIt-Anchor" href="#已知限制一定要看"></a> 已知限制（一定要看）</h2><p>驱动仍在快速迭代中，以下功能<strong>暂时不可用</strong>：</p><ul><li>❌ <strong>WebGL</strong> — 浏览器中的硬件加速渲染不受支持</li><li>❌ <strong>DRM 内容</strong> — Netflix、Discord GIF 等受保护的视频无法播放</li><li>❌ <strong>部分 Benchmark 软件</strong> — Geekbench 等可能输出异常分数</li><li>❌ <strong>OpenCL</strong> — 半功能性，不稳定</li><li>❌ <strong>Apple Silicon</strong> — 本项目仅支持 Intel x86_64 平台</li></ul><hr><h2 id="最后出问题怎么办"><a class="markdownIt-Anchor" href="#最后出问题怎么办"></a> 最后：出问题怎么办？</h2><p>别慌，按这个顺序来：</p><ol><li><strong>先看日志</strong> — 1401 应用安装失败时会自动生成日志，里面有具体原因</li><li><strong>去 Discord</strong> — <code>discord.gg/VmDyD83WdC</code>，响应最快，开发者本人也在</li><li><strong>发帖描述</strong> — 带上你的 CPU、主板、显卡型号，以及遇到了什么问题</li><li><strong>发 Probe 报告</strong> — 用 1401 的 Probe 扫描你的硬件，把报告发给开发者，能帮助更快定位问题</li></ol><hr><p><strong>💬 互动时间</strong></p><p>你已经装好了吗？用的是哪张卡？推理速度怎么样？</p><p>欢迎在评论区分享你的配置和体验，也欢迎遇到问题的同学在这里留言，大家互相帮忙！👇</p><h2 id="小兵自已机器的安装截图"><a class="markdownIt-Anchor" href="#小兵自已机器的安装截图"></a> 小兵自已机器的安装截图</h2><p><img src="https://images.daliansky.net/DalianSky/blog/NVIDIA/assets/tutorial/Z890_Ultra_265K_RTX3060.png" alt="Z890_Ultra_265K_RTX3060"></p></div><div><div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center"><a href="https://hackintosher.taobao.com" target="_blank" rel="noopener"><img id="wechat_subscriber_qcode" src="/uploads/WeChatandShop.png" alt="黑果小兵 wechat" style="max-width: 90%;"></a><div>微信扫一扫，订阅/直达【黑果小兵的部落阁】</div></div></div><div class="updated"><svg xmlns="http://www.w3.org/2000/svg" width="130" height="20"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path fill="#555" d="M0 0h55v20H0z"/><path fill="#97CA00" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-family="Menlo,monospace" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">更新日期</text><text x="285" y="140" textLength="450" transform="scale(.1)">更新日期</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2026-10-16</text><text x="915" y="140" textLength="650" transform="scale(.1)">2026-10-16</text></g></svg></div><div><div><div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-apple"></i>感谢您的阅读-------------</div></div></div><div><div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;"><button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}"><span>打赏</span></button><div>如果文章对您有帮助，就请站长喝杯咖啡吧 ´◡`</div><div id="QR" style="display: none;"><div id="wechat" style="display: inline-block"><img id="wechat_qr" src="/images/wechatpay.jpg" alt="黑果小兵 微信支付"><p>微信支付</p></div><div id="alipay" style="display: inline-block"><img id="alipay_qr" src="/images/alipay.jpg" alt="黑果小兵 支付宝"><p>支付宝</p></div></div></div></div><div><div><ul class="qq-qun"><div><p></p><h2>QQ群列表：</h2><p></p><p>630724380 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=JyGkfKK7U3Xq3TDtpqKOTq_gW7SBg4Uh&jump_from=webapi" target="_blank" rel="noopener">黑果小兵黑苹果技术群7</a> 2000人 新开群<br>713810838 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=e8E-1Ge2lCoBSTlj8Y4zMxX7l7-V63Iv&jump_from=webapi" target="_blank" rel="noopener">黑果小兵黑苹果技术群8</a> 2000人 新开群<br>688324116 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=Fp4HZ5e8A61oCu0GMS5YUqP6COc43-AO&jump_from=webapi" target="_blank" rel="noopener">一起黑苹果</a> 2000人<br>331686786 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=No8zvDfvDicT-GfSApw1RMBI-3MQ7zM3&jump_from=webapi" target="_blank" rel="noopener">一起吃苹果</a> 2000人<br>257995340 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=acztqL9efoqAOoptc_3moZ9b3Sgczu9_&jump_from=webapi" target="_blank" rel="noopener">一起啃苹果</a> 2000人群 远景报备群<br>875482673 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=aZNyoRum_er2mruqmnbX_93ncHNgsyak&jump_from=webapi" target="_blank" rel="noopener">黑果小兵黑苹果技术群</a> 2000人<br>1058822256 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=1sIT0BDaejgr9t1Hlw16cMnw_Z96zleV&jump_from=webapi" target="_blank" rel="noopener">黑果小兵黑苹果技术群2</a> 2000人<br>819662911 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=aJx9xO7vAmyslCuOdK0bRMmDLpvOCeRw&jump_from=webapi" target="_blank" rel="noopener">黑果小兵黑苹果技术群3</a> 2000人<br>954098809 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=iu042k0X5snr--dzAxOzcsvD9Zft9yx7&jump_from=webapi" target="_blank" rel="noopener">黑果小兵黑苹果技术群4</a> 2000人<br>1161377948 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=kBV9vCnz-NqtXXJiwnUhaLyJN1D7G0n6&jump_from=webapi" target="_blank" rel="noopener">黑果小兵黑苹果技术群5</a> 2000人<br>553283949 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=kr_hZc5pKK4TCDRaFPwRlfAiB4528InP&jump_from=webapi" target="_blank" rel="noopener">黑果小兵黑苹果技术群6</a> 2000人<br>701278330 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=x57TlUmxz88oXGDWjMOOsWokYi8klE11&jump_from=webapi" target="_blank" rel="noopener">黑苹果无线网卡交流群</a> 1000人群 DW1820A技术支持群<br>891434070 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=TUAxSUUtw_T1N62V0kF1sWvMcDr_eoxc&jump_from=webapi" target="_blank" rel="noopener">Catalina黑苹果交流群</a> 2000人群 远景报备群<br>939122730 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=g_rpf7m0LJllE6WHY9c0gVvCTBm1MtuN&jump_from=webapi" target="_blank" rel="noopener">Catalina黑苹果交流II群</a> 2000人群<br>891677227 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=xsuIOzF7RXYaRTTbJ5o_UjzohRDUx5UY&jump_from=webapi" target="_blank" rel="noopener">黑果小兵高级群</a> 2000人群<br>943307869 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=aoSvqrbysdjPo0Wa_XvvPuMG9NMEtOie&jump_from=webapi" target="_blank" rel="noopener">黑果小兵高级群II</a> 2000人群<br>419298796 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=4gWtT2-pOWZYIGwIpVaTNft2aOJP-5qs&jump_from=webapi" target="_blank" rel="noopener">零刻黑苹果技术交流群</a> 500人群 非专用机型请勿加入<br>275356796 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=H7hFwiVkZq71L7se6rz3hE9QcacqL-dV&jump_from=webapi" target="_blank" rel="noopener">morefine黑苹果技术交流群</a> 500人群 非专用机型请勿加入<br>869792897 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=MTDHb2QgLH3gkaymtdFCpk77J5ufWJpH&jump_from=webapi" target="_blank" rel="noopener">minisforum U820黑苹果技术群</a> 500人群 非专用机型请勿加入<br>942112153 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=N5cjw5ksrnmk-RMQ4fPCOo5D_Dxiu47B&jump_from=webapi" target="_blank" rel="noopener">天逸510s Mini黑苹果交流群</a> 1000人群 非专用机型请勿加入<br>673294583 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=GgcMJM5-98yB-fc6zyGcTI3OuesrSBRk&jump_from=webapi" target="_blank" rel="noopener">小新Pro黑苹果技术群</a> 2000人群 非专用机型请勿加入<br>946132482 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=r-m99xC-BPIRdVkEjU6duvqXMJ-1FOwA&jump_from=webapi" target="_blank" rel="noopener">小新Pro黑苹果</a> 500人群 非专用机型请勿加入<br>158976808 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=c9DeeyUg9x4dZlOpIVmj4R4g38p-YCZ1&jump_from=webapi" target="_blank" rel="noopener">DELL黑苹果交流群</a> 1000人群 非专用机型请勿加入<br>247451054 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=h7fvRnWmdaMK2D0qVQLzJsjCC9PwB5h3&jump_from=webapi" target="_blank" rel="noopener">小米Pro黑苹果高级群</a> 2000人群 非专用机型请勿加入<br>943181023 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=OGO_GSX9ZhtbQ_HNns57Vdxm5pR1wH6V&jump_from=webapi" target="_blank" rel="noopener">联想小新Air黑苹果交流群</a> 500人群 非专用机型请勿加入<br></p><p></p><h2>Telegram群：</h2><p></p><p>黑果小兵的部落阁 <a href="http://t.me/daliansky" target="_blank">http://t.me/daliansky</a><br>黑果小兵的部落阁 #安装问题讨论 <a href="https://t.me/Hackintosh_Installer" target="_blank">https://t.me/Hackintosh_Installer</a></p><p></p><h2>淘宝店铺：</h2><p></p><p>黑果小兵的部落阁 <a href="https://hackintosher.taobao.com" target="_blank">https://hackintosher.taobao.com</a></p></div></ul></div></div><div><ul class="post-copyright"><li class="post-copyright-author"><strong>本文作者： </strong>黑果小兵</li><li class="post-copyright-link"><strong>本文链接：</strong> <a href="https://blog.daliansky.net/NullMoth-NVIDIA-Drivers-Installation-Tutorial.html" title="NullMoth 驱动安装全攻略：从零到 NVIDIA 卡 macOS 完整教程">https://blog.daliansky.net/NullMoth-NVIDIA-Drivers-Installation-Tutorial.html</a></li><li class="post-copyright-license"><strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！</li></ul></div><footer class="post-footer"><div class="post-tags"><a href="/tags/%E5%AE%89%E8%A3%85/" rel="tag"><i class="fa fa-tag"></i> 安装</a> <a href="/tags/macOS/" rel="tag"><i class="fa fa-tag"></i> macOS</a> <a href="/tags/Sequoia/" rel="tag"><i class="fa fa-tag"></i> Sequoia</a> <a href="/tags/%E6%95%99%E7%A8%8B/" rel="tag"><i class="fa fa-tag"></i> 教程</a></div><div class="post-nav"><div class="post-nav-next post-nav-item"><a href="/BT_SSL.html" rel="next" title="宝塔自签名证书无法导入到 macOS 的解决办法"><i class="fa fa-chevron-left"></i> 宝塔自签名证书无法导入到 macOS 的解决办法</a></div><span class="post-nav-divider"></span><div class="post-nav-prev post-nav-item"><a href="/FEVM-FN60G-Hackintosh-and-Sequoia-Installation-Tutorial.html" rel="prev" title="FEVM FN60G黑苹果兼Sequoia安装教程">FEVM FN60G黑苹果兼Sequoia安装教程 <i class="fa fa-chevron-right"></i></a></div></div></footer></div></article></div></div><div id="gitalk-container"></div></div><div class="sidebar-toggle"><div class="sidebar-toggle-line-wrap"><span class="sidebar-toggle-line sidebar-toggle-line-first"></span> <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span> <span class="sidebar-toggle-line sidebar-toggle-line-last"></span></div></div><aside id="sidebar" class="sidebar"><div id="sidebar-dimmer"></div><div class="sidebar-inner"><ul class="sidebar-nav motion-element"><li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">文章目录</li><li class="sidebar-nav-overview" data-target="site-overview-wrap">站点概览</li></ul><div class="site-overview-wrap sidebar-panel"><div class="site-overview"><div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person"><a href="/"><img class="site-author-image" itemprop="image" src="/images/avatar.png" alt="黑果小兵"></a><p class="site-author-name" itemprop="name">黑果小兵</p><p class="site-description motion-element" itemprop="description">黑果小兵</p></div><nav class="site-state motion-element"><div class="site-state-item site-state-posts"><a href="/archives/"><span class="site-state-item-count">128</span> <span class="site-state-item-name">日志</span></a></div><div class="site-state-item site-state-categories"><a href="/categories/index.html"><span class="site-state-item-count">26</span> <span class="site-state-item-name">分类</span></a></div><div class="site-state-item site-state-tags"><a href="/tags/index.html"><span class="site-state-item-count">289</span> <span class="site-state-item-name">标签</span></a></div></nav><div class="feed-link motion-element"><a href="/atom.xml" rel="alternate"><i class="fa fa-rss"></i> RSS</a></div><div class="links-of-author motion-element"><span class="links-of-author-item"><a href="https://github.com/daliansky" title="GitHub &amp;rarr; https:&#x2F;&#x2F;github.com&#x2F;daliansky" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i></a> </span><span class="links-of-author-item"><a href="http://www.jianshu.com/u/df9143008845" title="简书 &amp;rarr; http:&#x2F;&#x2F;www.jianshu.com&#x2F;u&#x2F;df9143008845" rel="noopener" target="_blank"><i class="fa fa-fw fa-heartbeat"></i></a> </span><span class="links-of-author-item"><a href="http://shang.qq.com/wpa/qunwpa?idkey=db511a29e856f37cbb871108ffa77a6e79dde47e491b8f2c8d8fe4d3c310de91" title="QQ &amp;rarr; http:&#x2F;&#x2F;shang.qq.com&#x2F;wpa&#x2F;qunwpa?idkey&#x3D;db511a29e856f37cbb871108ffa77a6e79dde47e491b8f2c8d8fe4d3c310de91" rel="noopener" target="_blank"><i class="fa fa-fw fa-qq"></i></a></span></div><div class="links-of-blogroll motion-element links-of-blogroll-block"><div class="links-of-blogroll-title"><i class="fa fa-fw fa-link"></i> Links</div><ul class="links-of-blogroll-list"><li class="links-of-blogroll-item"><a href="https://blog.tlhub.cn/" title="https:&#x2F;&#x2F;blog.tlhub.cn" rel="noopener" target="_blank">Athlonreg</a></li><li class="links-of-blogroll-item"><a href="http://www.sqlsec.com/" title="http:&#x2F;&#x2F;www.sqlsec.com" rel="noopener" target="_blank">国光</a></li></ul></div></div></div><div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active"><div class="post-toc"><div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#nullmoth-驱动安装全攻略从零到-nvidia-卡-macos-完整教程"><span class="nav-number">1.</span> <span class="nav-text">NullMoth 驱动安装全攻略：从零到 NVIDIA 卡 macOS 完整教程</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#先搞清楚两个概念"><span class="nav-number">1.1.</span> <span class="nav-text">先搞清楚两个概念</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装前检查清单"><span class="nav-number">1.2.</span> <span class="nav-text">安装前检查清单</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#路线一从零开始电脑上没有-macos"><span class="nav-number">1.3.</span> <span class="nav-text">路线一：从零开始——电脑上没有 macOS</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#第一步用-1401-windows-版制作安装-u-盘"><span class="nav-number">1.3.1.</span> <span class="nav-text">第一步：用 1401 Windows 版制作安装 U 盘</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第二步安装-nullmoth-驱动"><span class="nav-number">1.3.2.</span> <span class="nav-text">第二步：安装 NullMoth 驱动</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#方式-a用-1401-mac-应用安装推荐"><span class="nav-number">1.3.2.1.</span> <span class="nav-text">方式 A：用 1401 Mac 应用安装（推荐）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#方式-b手动-targz-安装适合高级用户"><span class="nav-number">1.3.2.2.</span> <span class="nav-text">方式 B：手动 tar.gz 安装（适合高级用户）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#方式-c已有-opencore-efi手动调整配置"><span class="nav-number">1.3.2.3.</span> <span class="nav-text">方式 C：已有 OpenCore EFI，手动调整配置</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#路线二已有-macos只换-nvidia-显卡"><span class="nav-number">1.4.</span> <span class="nav-text">路线二：已有 macOS，只换 NVIDIA 显卡</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#第一步硬件更换"><span class="nav-number">1.4.1.</span> <span class="nav-text">第一步：硬件更换</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第二步安装驱动"><span class="nav-number">1.4.2.</span> <span class="nav-text">第二步：安装驱动</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#方式-a1401-mac-应用最简单"><span class="nav-number">1.4.2.1.</span> <span class="nav-text">方式 A：1401 Mac 应用（最简单）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#方式-b手动-targz-安装"><span class="nav-number">1.4.2.2.</span> <span class="nav-text">方式 B：手动 tar.gz 安装</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第三步检查-opencore-配置"><span class="nav-number">1.4.3.</span> <span class="nav-text">第三步：检查 OpenCore 配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第四步重启验证"><span class="nav-number">1.4.4.</span> <span class="nav-text">第四步：重启验证</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#常见问题速查"><span class="nav-number">1.5.</span> <span class="nav-text">常见问题速查</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#已知限制一定要看"><span class="nav-number">1.6.</span> <span class="nav-text">已知限制（一定要看）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#最后出问题怎么办"><span class="nav-number">1.7.</span> <span class="nav-text">最后：出问题怎么办？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#小兵自已机器的安装截图"><span class="nav-number">1.8.</span> <span class="nav-text">小兵自已机器的安装截图</span></a></li></ol></li></ol></div></div></div></div></aside></div></main><footer id="footer" class="footer"><div class="footer-inner"><div class="copyright"><a href="http://www.beian.miit.gov.cn/" rel="noopener" target="_blank">辽ICP备15000696号-3 </a>&copy; 2016 – <span itemprop="copyrightYear">2026</span> <span class="with-love" id="animate"><i class="fa fa-apple"></i> </span><span class="author" itemprop="copyrightHolder">黑果小兵</span> <span class="post-meta-divider">|</span> <span class="post-meta-item-icon"><i class="fa fa-area-chart"></i> </span><span title="站点总字数">893k</span> <span class="post-meta-divider">|</span> <span class="post-meta-item-icon"><i class="fa fa-coffee"></i> </span><span title="站点阅读时长">27:04</span></div><div class="busuanzi-count"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span class="site-uv" title="总访客量"><i class="fa fa-user"></i> <span class="busuanzi-value" id="busuanzi_value_site_uv"></span> </span><span class="site-pv" title="总访问量"><i class="fa fa-eye"></i> <span class="busuanzi-value" id="busuanzi_value_site_pv"></span></span></div></div></footer><div class="back-to-top"><i class="fa fa-arrow-up"></i> <span id="scrollpercent"><span>0</span>%</span></div></div><script>if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }</script><script src="/lib/jquery/index.js?v=2.1.3"></script><script src="/lib/velocity/velocity.min.js?v=1.2.1"></script><script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script><script src="https://fastly.jsdelivr.net/npm/@fancyapps/fancybox@3.2.5/dist/jquery.fancybox.min.js"></script><script src="//fastly.jsdelivr.net/gh/theme-next/theme-next-reading-progress@1.1/reading_progress.min.js"></script><script src="/js/src/utils.js?v=6.6.0"></script><script src="/js/src/motion.js?v=6.6.0"></script><script src="/js/src/scrollspy.js?v=6.6.0"></script><script src="/js/src/post-details.js?v=6.6.0"></script><script src="/js/src/bootstrap.js?v=6.6.0"></script><script src="//fastly.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.js"></script><link rel="stylesheet" href="//fastly.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.css"><script src="//fastly.jsdelivr.net/npm/js-md5@0.7.3/src/md5.min.js"></script><script>var gitalk = new Gitalk({
+          clientID: '0da3e792a21a77938da6',
+          clientSecret: '4d2869563000629ee6dbed48fbbf878aea151cb6',
+          repo: 'daliansky.github.io',
+          owner: 'daliansky',
+          admin: ['daliansky'],
+          id: md5(location.pathname),
+          distractionFreeMode: 'true',
+          proxy: 'https://gitalk.daliansky.workers.dev/?https://github.com/login/oauth/access_token'
+        })
+        gitalk.render('gitalk-container')</script><script>// Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });</script><script src="/js/src/js.cookie.js?v=6.6.0"></script><script src="/js/src/scroll-cookie.js?v=6.6.0"></script>
+<script>
+(function() {
+  var l = document.createElement('link');
+  l.rel = 'stylesheet';
+  l.href = 'https://fastly.jsdelivr.net/npm/live2d-widgets@1.0.1/dist/waifu.css';
+  document.head.appendChild(l);
+
+  var s = document.createElement('script');
+  s.type = 'module';
+  s.src = 'https://fastly.jsdelivr.net/npm/live2d-widgets@1.0.1/dist/waifu-tips.js';
+  s.onload = function() {
+    initWidget({"waifuPath":"/live2dw/waifu-tips.json","cubism2Path":"https://fastly.jsdelivr.net/npm/live2d-widgets@1.0.1/dist/live2d.min.js","logLevel":"warn","drag":false});
+  };
+  document.head.appendChild(s);
+})();
+</script></body></html>
