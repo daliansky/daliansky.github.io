@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
+    <lastmod>2026-11-17</lastmod>
+  </url>
+  <url>
     <loc>https://blog.daliansky.net/NullMoth-NVIDIA-Drivers-Installation-Tutorial.html</loc>
     <lastmod>2026-10-16</lastmod>
   </url>
@@ -86,10 +90,6 @@
   </url>
   <url>
     <loc>https://blog.daliansky.net/minisforum-HX90G-and-HX99G-macOS-Ventura-Installation-Tutorial.html</loc>
-    <lastmod>2026-07-10</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.daliansky.net/Hackintosh-long-term-maintenance-model-checklist.html</loc>
     <lastmod>2026-07-10</lastmod>
   </url>
   <url>
